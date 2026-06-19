@@ -1,0 +1,206 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body{
+    font-family: Arial, sans-serif;
+    background:#0d1117;
+    color:white;
+    margin:0;
+    min-height:100vh;
+}
+
+.wrap{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+h1{
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+/* =========================
+   TOP BAR
+========================= */
+
+.top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+    font-size:1.1rem;
+}
+
+#difficulty{
+    padding:8px 12px;
+    border-radius:8px;
+    border:none;
+    font-size:1rem;
+}
+
+/* =========================
+   QUIZ CARD
+========================= */
+
+.quiz-card{
+    background:#161b22;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    margin-bottom:30px;
+}
+
+/* =========================
+   FLAG
+========================= */
+
+#flag{
+    width:180px;
+    height:auto;
+    display:block;
+    margin:20px auto;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.4);
+}
+
+/* =========================
+   DOMAIN
+========================= */
+
+#domain{
+    font-size:5rem;
+    font-weight:bold;
+    margin:20px 0 40px;
+    color:#58a6ff;
+    letter-spacing:3px;
+}
+
+/* =========================
+   ANSWERS
+========================= */
+
+#answers{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+button{
+    padding:16px;
+    border-radius:12px;
+    border:none;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:bold;
+    transition:0.2s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.correct{
+    background:#2e7d32;
+    color:white;
+}
+
+.wrong{
+    background:#c62828;
+    color:white;
+}
+
+/* =========================
+   NEXT BUTTON
+========================= */
+
+#next{
+    background:#238636;
+    color:white;
+    padding:14px 30px;
+    font-size:1rem;
+    margin-top:10px;
+}
+
+#next:hover{
+    background:#2ea043;
+}
+
+/* =========================
+   LEADERBOARD
+========================= */
+
+h3{
+    margin-top:40px;
+    font-size:2rem;
+}
+
+#leaderboard{
+    max-width:400px;
+    margin:20px auto;
+    text-align:left;
+    background:#161b22;
+    padding:20px 30px;
+    border-radius:15px;
+}
+
+#leaderboard li{
+    margin:10px 0;
+    font-size:1.1rem;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    #domain{
+        font-size:3rem;
+    }
+
+    #flag{
+        font-size:5rem;
+    }
+
+    #answers{
+        grid-template-columns:1fr;
+    }
+
+    .top{
+        flex-direction:column;
+        gap:10px;
+    }
+}
+/* =========================
+   STAT BOXES
+========================= */
+
+.stat-box{
+    background:#161b22;
+    padding:15px 25px;
+    border-radius:15px;
+    min-width:120px;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.stat-box div{
+    margin-top:8px;
+    font-size:1.5rem;
+    color:#58a6ff;
+}

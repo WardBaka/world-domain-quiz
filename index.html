@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 World Domain Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+    <h1>🌍 World Domain Quiz</h1>
+
+    <!-- TOP STATS BAR -->
+    <div class="top">
+
+        <div class="stat-box">
+            Difficulty
+            <select id="difficulty">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+            
+            
+        </div>
+
+        <div class="stat-box">
+            Score
+            <div id="score">0</div>
+        </div>
+
+        <div class="stat-box">
+            Streak
+            <div id="streak">0</div>
+        </div>
+
+        <div class="stat-box">
+            Best
+            <div id="best">0</div>
+        </div>
+
+        <div class="stat-box">
+            Accuracy
+            <div id="accuracy">0%</div>
+        </div>
+
+    </div>
+
+    <!-- QUESTION INFO -->
+    <div class="question-info">
+
+        <div id="questionCounter">
+            Question 1 / 250
+        </div>
+
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+    </div>
+
+    <!-- MAIN QUIZ CARD -->
+    <div class="quiz-card">
+
+<img id="flag" src="" alt="Country Flag">
+
+        <h2 id="domain"></h2>
+
+        <div id="answers"></div>
+
+        <button id="next">Next Question</button>
+
+    </div>
+
+    <!-- DOMAIN INFO -->
+    <div class="info-card">
+
+        <h2>📖 Domain Information</h2>
+
+        <div id="domainInfo">
+
+            Answer a question to learn more about the domain.
+
+        </div>
+
+    </div>
+
+    <!-- MASTERY TRACKER -->
+    <div class="mastery-card">
+
+        <h2>🌎 Mastery Progress</h2>
+
+        <div class="mastery-grid">
+
+            <div class="mastery-item">
+                Europe
+                <span id="europeMastery">0 / 0</span>
+            </div>
+
+            <div class="mastery-item">
+                Asia
+                <span id="asiaMastery">0 / 0</span>
+            </div>
+
+            <div class="mastery-item">
+                Africa
+                <span id="africaMastery">0 / 0</span>
+            </div>
+
+            <div class="mastery-item">
+                North America
+                <span id="northAmericaMastery">0 / 0</span>
+            </div>
+
+            <div class="mastery-item">
+                South America
+                <span id="southAmericaMastery">0 / 0</span>
+            </div>
+
+            <div class="mastery-item">
+                Oceania
+                <span id="oceaniaMastery">0 / 0</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="achievement-card">
+
+        <h2>🏆 Achievements</h2>
+
+        <ul id="achievements">
+
+            <li>🎯 First Correct Answer</li>
+            <li>🔥 10 Answer Streak</li>
+            <li>⚡ 50 Correct Answers</li>
+            <li>🌍 Learn 100 Domains</li>
+
+        </ul>
+
+    </div>
+
+    <!-- LEADERBOARD -->
+    <div class="leaderboard-card">
+
+        <h2>🏆 Leaderboard</h2>
+
+        <ol id="leaderboard"></ol>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
