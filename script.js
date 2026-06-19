@@ -4,6 +4,12 @@
 
 let data = [];
 let current = null;
+let filteredData = [];
+let currentMode = "";
+let correctAnswer = "";
+let gameActive = true;
+let timeLeft = 60;
+let timerInterval = null;
 
 let score = 0;
 let streak = 0;
@@ -45,72 +51,301 @@ fetch("domains.json")
 // NEXT QUESTION
 // ======================
 
+function startTimedMode() {
+
+    clearInterval(timerInterval);
+
+    timeLeft = 60;
+
+    document.getElementById("timer").textContent =
+        timeLeft;
+
+    timerInterval = setInterval(() => {
+
+        timeLeft--;
+
+        document.getElementById("timer").textContent =
+            timeLeft;
+
+        if (timeLeft <= 0) {
+
+            clearInterval(timerInterval);
+
+            gameActive = false;
+
+            alert(
+                `⏰ Time's Up!\n\nScore: ${score}`
+            );
+
+        }
+
+    }, 1000);
+
+}
+
+function getFilteredData() {
+    const region = document.getElementById("region").value;
+
+    if (region === "All") {
+        return data;
+    }
+
+    return data.filter(
+        item => item.continent === region
+    );
+}
+
 function nextQuestion() {
 
-    if (data.length === 0) return;
+    filteredData = getFilteredData();
+
+    if (!gameActive) return;
+
+    if (filteredData.length === 0) return;
 
     questionNumber++;
 
-    document.getElementById("questionCounter").textContent =
-        `Question ${questionNumber} / ${data.length}`;
-
-    const progress =
-        (questionNumber / data.length) * 100;
-
-    document.getElementById("progressBar").style.width =
-        progress + "%";
+    document.getElementById(
+        "questionCounter"
+    ).textContent =
+        `Question ${questionNumber}`;
 
     current =
-        data[Math.floor(Math.random() * data.length)];
+        filteredData[
+            Math.floor(
+                Math.random() * filteredData.length
+            )
+        ];
 
-    document.getElementById("domain").textContent =
-        current.domain;
+    let mode =
+        document.getElementById("quizMode").value;
 
-    const flag = document.getElementById("flag");
+    if (mode === "mixed") {
 
-if (
-    document.getElementById("difficulty").value === "Easy"
-) {
-    flag.src = current.flag;
-    flag.style.display = "block";
-}
-else {
+        const modes = [
+            "domain-country",
+            "country-domain",
+            "flag-country",
+            "flag-domain"
+        ];
+
+        mode =
+            modes[
+                Math.floor(
+                    Math.random() * modes.length
+                )
+            ];
+
+    }
+
+    currentMode = mode;
+
+    const flag =
+        document.getElementById("flag");
+
+    const question =
+        document.getElementById("domain");
+
     flag.style.display = "none";
-}
 
     let answerCount =
-        document.getElementById("difficulty").value === "Hard"
+        document.getElementById(
+            "difficulty"
+        ).value === "Hard"
             ? 6
             : 4;
 
-    let options = [current.country];
+    let options = [];
 
-    while (options.length < answerCount) {
+    // DOMAIN -> COUNTRY
+    if (mode === "domain-country") {
 
-        let country =
-            data[Math.floor(Math.random() * data.length)]
-                .country;
+        question.textContent =
+            current.domain;
 
-        if (!options.includes(country)) {
-            options.push(country);
+        if (
+            document.getElementById(
+                "difficulty"
+            ).value === "Easy"
+        ) {
+            flag.src = current.flag;
+            flag.style.display = "block";
+        }
+
+        correctAnswer =
+            current.country;
+
+        options.push(
+            current.country
+        );
+
+        while (
+            options.length <
+            answerCount
+        ) {
+
+            let random =
+                filteredData[
+                    Math.floor(
+                        Math.random() *
+                        filteredData.length
+                    )
+                ].country;
+
+            if (
+                !options.includes(random)
+            ) {
+                options.push(random);
+            }
+
         }
 
     }
 
-    options.sort(() => Math.random() - 0.5);
+    // COUNTRY -> DOMAIN
+    else if (
+        mode === "country-domain"
+    ) {
 
-    const box = document.getElementById("answers");
+        question.textContent =
+            current.country;
+
+        correctAnswer =
+            current.domain;
+
+        options.push(
+            current.domain
+        );
+
+        while (
+            options.length <
+            answerCount
+        ) {
+
+            let random =
+                filteredData[
+                    Math.floor(
+                        Math.random() *
+                        filteredData.length
+                    )
+                ].domain;
+
+            if (
+                !options.includes(random)
+            ) {
+                options.push(random);
+            }
+
+        }
+
+    }
+
+    // FLAG -> COUNTRY
+    else if (
+        mode === "flag-country"
+    ) {
+
+        flag.src = current.flag;
+        flag.style.display = "block";
+
+        question.textContent = "";
+
+        correctAnswer =
+            current.country;
+
+        options.push(
+            current.country
+        );
+
+        while (
+            options.length <
+            answerCount
+        ) {
+
+            let random =
+                filteredData[
+                    Math.floor(
+                        Math.random() *
+                        filteredData.length
+                    )
+                ].country;
+
+            if (
+                !options.includes(random)
+            ) {
+                options.push(random);
+            }
+
+        }
+
+    }
+
+    // FLAG -> DOMAIN
+    else if (
+        mode === "flag-domain"
+    ) {
+
+        flag.src = current.flag;
+        flag.style.display = "block";
+
+        question.textContent = "";
+
+        correctAnswer =
+            current.domain;
+
+        options.push(
+            current.domain
+        );
+
+        while (
+            options.length <
+            answerCount
+        ) {
+
+            let random =
+                filteredData[
+                    Math.floor(
+                        Math.random() *
+                        filteredData.length
+                    )
+                ].domain;
+
+            if (
+                !options.includes(random)
+            ) {
+                options.push(random);
+            }
+
+        }
+
+    }
+
+    options.sort(
+        () => Math.random() - 0.5
+    );
+
+    const box =
+        document.getElementById(
+            "answers"
+        );
 
     box.innerHTML = "";
 
     options.forEach(option => {
 
-        const button = document.createElement("button");
+        const button =
+            document.createElement(
+                "button"
+            );
 
-        button.textContent = option;
+        button.textContent =
+            option;
 
         button.onclick = () =>
-            answer(button, option === current.country);
+            answer(
+                button,
+                option === correctAnswer
+            );
 
         box.appendChild(button);
 
@@ -156,13 +391,15 @@ function answer(button, correct) {
             .querySelectorAll("#answers button")
             .forEach(btn => {
 
-                if (btn.textContent === current.country) {
+                if (btn.textContent === correctAnswer) {
                     btn.classList.add("correct");
                 }
 
             });
 
     }
+
+
 
     best = Math.max(best, streak);
 
@@ -213,12 +450,9 @@ function updateDomainInfo() {
 
     document.getElementById("domainInfo").innerHTML = `
         <strong>${current.domain}</strong><br><br>
-
         <b>Country:</b> ${current.country}<br>
-
         <b>Continent:</b>
         ${current.continent || "Unknown"}<br><br>
-
         ${current.info || "No information available."}
     `;
 
@@ -447,3 +681,38 @@ document
         "click",
         nextQuestion
     );
+
+    document
+    .getElementById("region")
+    .addEventListener(
+        "change",
+        nextQuestion
+    );
+
+document
+    .getElementById("quizMode")
+    .addEventListener(
+        "change",
+        nextQuestion
+    );
+
+    document
+.getElementById("gameMode")
+.addEventListener("change", () => {
+
+    gameActive = true;
+
+    if (
+        document.getElementById("gameMode").value ===
+        "timed"
+    ) {
+        startTimedMode();
+    }
+    else {
+        clearInterval(timerInterval);
+
+        document.getElementById("timer").textContent =
+            "-";
+    }
+
+});

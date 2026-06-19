@@ -12,7 +12,7 @@
 
     <h1>🌍 World Domain Quiz</h1>
 
-    <!-- TOP STATS BAR -->
+    <!-- TOP BAR -->
     <div class="top">
 
         <div class="stat-box">
@@ -22,9 +22,45 @@
                 <option>Medium</option>
                 <option>Hard</option>
             </select>
-            
-            
         </div>
+
+        <div class="stat-box">
+            Region
+            <select id="region">
+                <option value="All">🌍 All Regions</option>
+                <option value="Europe">🇪🇺 Europe</option>
+                <option value="Asia">🌏 Asia</option>
+                <option value="Africa">🌍 Africa</option>
+                <option value="North America">🌎 North America</option>
+                <option value="South America">🌎 South America</option>
+                <option value="Oceania">🏝️ Oceania</option>
+            </select>
+        </div>
+
+        <div class="stat-box">
+            Quiz Mode
+            <select id="quizMode">
+                <option value="domain-country">Domain → Country</option>
+                <option value="country-domain">Country → Domain</option>
+                <option value="flag-country">Flag → Country</option>
+                <option value="flag-domain">Flag → Domain</option>
+                <option value="mixed">🎲 Mixed Mode</option>
+            </select>
+        </div>
+
+        <div class="stat-box">
+    Mode
+    <select id="gameMode">
+        <option value="normal">Normal</option>
+        <option value="timed">60 Second Challenge</option>
+        <option value="suddendeath">Sudden Death</option>
+    </select>
+</div>
+
+<div class="stat-box">
+    Time
+    <div id="timer">60</div>
+</div>
 
         <div class="stat-box">
             Score
@@ -61,16 +97,30 @@
 
     </div>
 
-    <!-- MAIN QUIZ CARD -->
+    <!-- QUIZ CARD -->
     <div class="quiz-card">
 
-<img id="flag" src="" alt="Country Flag">
+        <img
+            id="flag"
+            src=""
+            alt="Country Flag"
+            style="
+                display:none;
+                width:180px;
+                max-width:90%;
+                margin:0 auto 20px;
+                border-radius:12px;
+                box-shadow:0 0 20px rgba(0,0,0,.3);
+            "
+        >
 
         <h2 id="domain"></h2>
 
         <div id="answers"></div>
 
-        <button id="next">Next Question</button>
+        <button id="next">
+            Next Question →
+        </button>
 
     </div>
 
@@ -80,14 +130,12 @@
         <h2>📖 Domain Information</h2>
 
         <div id="domainInfo">
-
             Answer a question to learn more about the domain.
-
         </div>
 
     </div>
 
-    <!-- MASTERY TRACKER -->
+    <!-- MASTERY -->
     <div class="mastery-card">
 
         <h2>🌎 Mastery Progress</h2>
@@ -133,14 +181,7 @@
 
         <h2>🏆 Achievements</h2>
 
-        <ul id="achievements">
-
-            <li>🎯 First Correct Answer</li>
-            <li>🔥 10 Answer Streak</li>
-            <li>⚡ 50 Correct Answers</li>
-            <li>🌍 Learn 100 Domains</li>
-
-        </ul>
+        <ul id="achievements"></ul>
 
     </div>
 
