@@ -10,6 +10,7 @@ let correctAnswer = "";
 let gameActive = true;
 let timeLeft = 60;
 let timerInterval = null;
+let remainingQuestions = [];
 
 let score = 0;
 let streak = 0;
@@ -38,6 +39,7 @@ fetch("domains.json")
     .then(d => {
 
         data = d;
+remainingQuestions = [...data];
 
         loadBoard();
         loadAchievements();
@@ -84,22 +86,42 @@ function startTimedMode() {
 }
 
 function getFilteredData() {
-    const region = document.getElementById("region").value;
+
+    const region =
+        document.getElementById("region").value;
+
+    let source =
+        remainingQuestions.length > 0
+            ? remainingQuestions
+            : data;
 
     if (region === "All") {
-        return data;
+        return source;
     }
 
-    return data.filter(
+    return source.filter(
         item => item.continent === region
     );
+
 }
 
 function nextQuestion() {
 
+    
+
     filteredData = getFilteredData();
 
     if (!gameActive) return;
+
+    if (filteredData.length === 0) {
+
+    alert(
+        "🎉 You completed all domains in this region!"
+    );
+
+    return;
+
+}
 
     if (filteredData.length === 0) return;
 
@@ -365,6 +387,11 @@ function answer(button, correct) {
     totalAnswered++;
 
     if (correct) {
+        remainingQuestions =
+    remainingQuestions.filter(
+        item =>
+            item.domain !== current.domain
+    );
 
         score++;
         streak++;

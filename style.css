@@ -42,7 +42,28 @@ h1{
 }
 
 #difficulty{
-    padding:8px 12px;
+    padding:4px 6px;
+    border-radius:8px;
+    border:none;
+    font-size:1rem;
+}
+
+#region{
+    padding:4px 6px;
+    border-radius:8px;
+    border:none;
+    font-size:1rem;
+}
+
+#quizMode{
+    padding:4px 6px;
+    border-radius:8px;
+    border:none;
+    font-size:1rem;
+}
+
+#gameMode{
+    padding:4px 6px;
     border-radius:8px;
     border:none;
     font-size:1rem;
