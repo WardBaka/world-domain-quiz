@@ -3,209 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌍 GuessrQuiz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L862YGB1L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <title>GuessrQuiz</title>
+    <link rel="icon" type="image/png" href="homeImg/guessrQuizLogo.png">
 
-  gtag('config', 'G-4L862YGB1L');
-</script>
+    <link rel="stylesheet" href="home.css">
+</head>
 <body>
 
-<div class="wrap">
+<header>
 
-    <h1>🌍 GuessrQuiz</h1>
+    <h1 class="logo-title">
+    <img src="homeImg/guessrQuizLogo.png" alt="GuessrQuiz Logo">
+    GuessrQuiz
+</h1>
 
-    <!-- TOP BAR -->
-    <div class="top">
+    <p>
+        Test your geography knowledge with multiple quiz modes.
+    </p>
 
-        <div class="stat-box">
-            Difficulty
-            <select id="difficulty">
-                <option>Easy</option>
-                <option>Medium</option>
-                <option>Hard</option>
-            </select>
-        </div>
+</header>
 
-        <div class="stat-box">
-            Region
-            <select id="region">
-                <option value="All">All Regions</option>
-                <option value="Europe">Europe</option>
-                <option value="Asia">Asia</option>
-                <option value="Africa">Africa</option>
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Oceania">Oceania</option>
-            </select>
-        </div>
+<main>
 
-        <div class="stat-box">
-            Quiz Mode
-            <select id="quizMode">
-                <option value="domain-country">Domain → Country</option>
-                <option value="country-domain">Country → Domain</option>
-                <option value="flag-country">Flag → Country</option>
-                <option value="flag-domain">Flag → Domain</option>
-                <option value="mixed">Mixed Mode</option>
-            </select>
-        </div>
+    <div class="game-grid">
 
-        <div class="stat-box">
-    Mode
-    <select id="gameMode">
-        <option value="normal">Normal</option>
-        <option value="timed">60 Second Challenge</option>
-        <option value="suddendeath">Sudden Death</option>
-    </select>
-</div>
+        <!-- Domains -->
 
-<div class="stat-box">
-    Time
-    <div id="timer">60</div>
-</div>
+        <a href="domains/" class="game-card">
 
-        <div class="stat-box">
-            Score
-            <div id="score">0</div>
-        </div>
+            <img src="homeImg/DomainsQuiz.png" alt="Domains Quiz">
 
-        <div class="stat-box">
-            Streak
-            <div id="streak">0</div>
-        </div>
-
-        <div class="stat-box">
-            Best
-            <div id="best">0</div>
-        </div>
-
-        <div class="stat-box">
-            Accuracy
-            <div id="accuracy">0%</div>
-        </div>
-
-    </div>
-
-    <!-- QUESTION INFO -->
-    <div class="question-info">
-
-        <div id="questionCounter">
-            Question 1 / 250
-        </div>
-
-        <div class="progress-container">
-            <div id="progressBar"></div>
-        </div>
-
-    </div>
-
-    <!-- QUIZ CARD -->
-    <div class="quiz-card">
-
-        <img
-            id="flag"
-            src=""
-            alt="Country Flag"
-            style="
-                display:none;
-                width:180px;
-                max-width:90%;
-                margin:0 auto 20px;
-                border-radius:12px;
-                box-shadow:0 0 20px rgba(0,0,0,.3);
-            "
-        >
-
-        <h2 id="domain"></h2>
-
-        <div id="answers"></div>
-
-        <button id="next">
-            Next Question →
-        </button>
-
-    </div>
-
-    <!-- DOMAIN INFO -->
-    <div class="info-card">
-
-        <h2>📖 Domain Information</h2>
-
-        <div id="domainInfo">
-            Answer a question to learn more about the domain.
-        </div>
-
-    </div>
-
-    <!-- MASTERY -->
-    <div class="mastery-card">
-
-        <h2>🌎 Mastery Progress</h2>
-
-        <div class="mastery-grid">
-
-            <div class="mastery-item">
-                Europe
-                <span id="europeMastery">0 / 0</span>
+            <div class="overlay">
+                <h2>Domain Quiz</h2>
+                <p>Guess the country from its internet domain.</p>
             </div>
 
-            <div class="mastery-item">
-                Asia
-                <span id="asiaMastery">0 / 0</span>
+        </a>
+
+        <!-- Flags -->
+
+        <a href="flags/" class="game-card">
+
+            <img src="homeImg/flagsQuiz.png" alt="Flags Quiz">
+
+            <div class="overlay">
+                <h2>Coming Soon: Flags Quiz</h2>
+                <p>Identify countries from their flags.</p>
             </div>
 
-            <div class="mastery-item">
-                Africa
-                <span id="africaMastery">0 / 0</span>
+        </a>
+
+        <!-- Languages -->
+
+        <a href="#" class="game-card">
+
+            <img src="homeImg/languagesQuiz.png" alt="Languages Quiz">
+
+            <div class="overlay">
+                <h2>Languages Quiz</h2>
+                <p>Match native languages to countries.</p>
             </div>
 
-            <div class="mastery-item">
-                North America
-                <span id="northAmericaMastery">0 / 0</span>
+        </a>
+
+        <!-- Phone Codes -->
+
+        <a href="#" class="game-card">
+
+            <img src="homeImg/phoneNumbers.png" alt="Phone Quiz">
+
+            <div class="overlay">
+                <h2>Coming Soon: Phone Codes Quiz</h2>
+                <p>Guess countries from calling codes.</p>
             </div>
 
-            <div class="mastery-item">
-                South America
-                <span id="southAmericaMastery">0 / 0</span>
+        </a>
+
+        <!-- Coming Soon -->
+
+        <a href="#" class="game-card">
+
+            <img src="homeImg/comingSoon.png" alt="Coming Soon">
+
+            <div class="overlay">
+                <h2>More Quizzes Coming Soon</h2>
             </div>
 
-            <div class="mastery-item">
-                Oceania
-                <span id="oceaniaMastery">0 / 0</span>
-            </div>
-
-        </div>
+        </a>
 
     </div>
 
-    <!-- ACHIEVEMENTS -->
-    <div class="achievement-card">
+</main>
 
-        <h2>🏆 Achievements</h2>
+<footer>
 
-        <ul id="achievements"></ul>
+    © 2026 GuessrQuiz
 
-    </div>
-
-    <!-- LEADERBOARD -->
-    <div class="leaderboard-card">
-
-        <h2>🏆 Leaderboard</h2>
-
-        <ol id="leaderboard"></ol>
-
-    </div>
-
-</div>
-
-<script src="script.js"></script>
+</footer>
 
 </body>
 </html>
