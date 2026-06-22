@@ -8,7 +8,54 @@
 
     <link rel="stylesheet" href="home.css">
 </head>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("welcomePopup");
+    const closePopup = document.getElementById("closePopup");
+    const startPopup = document.getElementById("startPopup");
+
+    if (!popup || !closePopup || !startPopup) return;
+
+    if (localStorage.getItem("guessrQuizWelcomeSeen") === "true") {
+        popup.style.display = "none";
+        return;
+    }
+
+    function hidePopup() {
+        popup.classList.add("popup-hide");
+
+        localStorage.setItem("guessrQuizWelcomeSeen", "true");
+
+        setTimeout(() => {
+            popup.style.display = "none";
+        }, 300);
+    }
+
+    closePopup.addEventListener("click", hidePopup);
+    startPopup.addEventListener("click", hidePopup);
+});
+</script>
 <body>
+    <div id="welcomePopup" class="popup-overlay">
+    <div class="popup-box">
+        <button id="closePopup" class="popup-close">×</button>
+
+        <h2>Welcome to GuessrQuiz!</h2>
+
+        <p>
+            GuessrQuiz is a geography quiz site where you can test your knowledge
+            of countries through domains, flags, phone codes, and more.
+        </p>
+
+        <p>
+            Choose a quiz, pick a region, and see how many you can get right! Enjoy!
+        </p>
+
+        <button id="startPopup" class="popup-button">
+            Start Exploring
+        </button>
+    </div>
+</div>
 
 <header>
 
@@ -29,7 +76,7 @@
 
         <!-- Domains -->
 
-        <a href="domains.html" class="game-card">
+        <a href="domains/domains.html" class="game-card">
 
             <img src="homeImg/DomainsQuiz.png" alt="Domains Quiz">
 
@@ -42,13 +89,28 @@
 
         <!-- Flags -->
 
-        <a href="flags/" class="game-card">
+        <a href="quizFlags/index.html" class="game-card">
 
             <img src="homeImg/flagsQuiz.png" alt="Flags Quiz">
 
             <div class="overlay">
-                <h2>Coming Soon: Flags Quiz</h2>
+                <h2>Flags Quiz</h2>
                 <p>Identify countries from their flags.</p>
+            </div>
+
+        </a>
+
+        
+
+        <!-- Phone Codes -->
+
+        <a href="quizPhones/index.html" class="game-card">
+
+            <img src="homeImg/phoneNumbers.png" alt="Phone Quiz">
+
+            <div class="overlay">
+                <h2>Phone Codes Quiz</h2>
+                <p>Guess countries from calling codes.</p>
             </div>
 
         </a>
@@ -60,21 +122,8 @@
             <img src="homeImg/languagesQuiz.png" alt="Languages Quiz">
 
             <div class="overlay">
-                <h2>Languages Quiz</h2>
+                <h2>Coming Soon: Languages Quiz</h2>
                 <p>Match native languages to countries.</p>
-            </div>
-
-        </a>
-
-        <!-- Phone Codes -->
-
-        <a href="#" class="game-card">
-
-            <img src="homeImg/phoneNumbers.png" alt="Phone Quiz">
-
-            <div class="overlay">
-                <h2>Coming Soon: Phone Codes Quiz</h2>
-                <p>Guess countries from calling codes.</p>
             </div>
 
         </a>

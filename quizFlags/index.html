@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>GuessrQuiz - Flag Quiz</title>
+ <link rel="icon" type="image/png" href="../homeImg/guessrQuizLogo.png">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+<h1>Flag Quiz</h1>
+
+<div class="top">
+
+<div class="stat-box">
+Difficulty
+<select id="difficulty">
+<option>Easy</option>
+<option>Hard</option>
+</select>
+</div>
+
+<div class="stat-box">
+Region
+<select id="region">
+
+<option value="All">
+All Regions
+</option>
+
+<option value="Europe">
+Europe
+</option>
+
+<option value="Asia">
+Asia
+</option>
+
+<option value="Africa">
+Africa
+</option>
+
+<option value="North America">
+North America
+</option>
+
+<option value="South America">
+South America
+</option>
+
+<option value="Oceania">
+Oceania
+</option>
+
+</select>
+</div>
+
+<div class="stat-box">
+Mode
+<select id="quizMode">
+
+<option value="flag-country">
+Flag → Country
+</option>
+
+<option value="country-flag">
+Country → Flag
+</option>
+
+<option value="mixed">
+Mixed
+</option>
+
+</select>
+</div>
+
+<div class="stat-box">
+Score
+<div id="score">0</div>
+</div>
+
+<div class="stat-box">
+Streak
+<div id="streak">0</div>
+</div>
+
+</div>
+
+<div class="quiz-card">
+
+<img id="flag"
+     src=""
+     alt="Flag"
+     style="
+     width:320px;
+     max-width:150;
+     margin-bottom:30px;
+     ">
+
+<h2 id="question"></h2>
+
+<div id="answers"></div>
+
+<button id="next">
+Next Question →
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

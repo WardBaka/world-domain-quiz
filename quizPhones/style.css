@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#0d1117;
+    color:white;
+    min-height:100vh;
+}
+
+.wrap{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+}
+
+.back-link{
+    display:inline-block;
+    margin-bottom:20px;
+    color:#58a6ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#c9d1d9;
+    margin-bottom:30px;
+}
+
+.top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.stat-box{
+    background:#161b22;
+    padding:15px 22px;
+    border-radius:15px;
+    min-width:130px;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.stat-box div{
+    margin-top:8px;
+    font-size:1.5rem;
+    color:#58a6ff;
+}
+
+select{
+    margin-top:8px;
+    padding:8px;
+    border-radius:8px;
+    border:none;
+    font-size:1rem;
+}
+
+.quiz-card,
+.info-card{
+    background:#161b22;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+    margin-bottom:30px;
+}
+
+#phoneCode{
+    font-size:5rem;
+    font-weight:bold;
+    color:#58a6ff;
+    margin-bottom:35px;
+    letter-spacing:3px;
+}
+
+#answers{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+button{
+    padding:16px;
+    border-radius:12px;
+    border:none;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:bold;
+    transition:.2s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+#answers button{
+    background:#21262d;
+    color:white;
+}
+
+#answers button:hover{
+    background:#30363d;
+}
+
+.correct{
+    background:#2e7d32 !important;
+    color:white !important;
+}
+
+.wrong{
+    background:#c62828 !important;
+    color:white !important;
+}
+
+#next{
+    background:#238636;
+    color:white;
+    margin:10px;
+}
+
+#restart{
+    background:#30363d;
+    color:white;
+    margin:10px;
+}
+
+.info-card{
+    text-align:left;
+}
+
+.info-card h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#codeInfo{
+    line-height:1.6;
+    text-align:center;
+}
+
+@media(max-width:700px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    #phoneCode{
+        font-size:3.5rem;
+    }
+
+    #answers{
+        grid-template-columns:1fr;
+    }
+}

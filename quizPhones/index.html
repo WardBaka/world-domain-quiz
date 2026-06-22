@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessrQuiz - Phone Code Quiz</title>
+    <link rel="icon" type="image/png" href="../homeImg/guessrQuizLogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+    <a class="back-link" href="../index.html">← Back to Home</a>
+
+    <h1>Phone Code Quiz</h1>
+    <p class="subtitle">Guess the country from its international calling code.</p>
+
+    <div class="top">
+
+        <div class="stat-box">
+            Difficulty
+            <select id="difficulty">
+                <option>Easy</option>
+                <option>Hard</option>
+            </select>
+        </div>
+
+        <div class="stat-box">
+            Region
+            <select id="region">
+                <option value="All">All Regions</option>
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+
+        <div class="stat-box">
+            Score
+            <div id="score">0</div>
+        </div>
+
+        <div class="stat-box">
+            Streak
+            <div id="streak">0</div>
+        </div>
+
+        <div class="stat-box">
+            Accuracy
+            <div id="accuracy">0%</div>
+        </div>
+
+    </div>
+
+    <div class="quiz-card">
+
+        <div id="phoneCode">+00</div>
+
+        <div id="answers"></div>
+
+        <button id="next">Next Question →</button>
+        <button id="restart">Restart Quiz</button>
+
+    </div>
+
+    <div class="info-card">
+        <h2>📖 Code Information</h2>
+        <div id="codeInfo">
+            Answer a question to learn more.
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
