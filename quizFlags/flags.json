@@ -101,7 +101,7 @@
   },
   {
     "country": "British Indian Ocean Territory",
-    "flag": "🏝️",
+    "flag": "flags/io.png",
     "continent": "Asia"
   },
   {
@@ -552,7 +552,7 @@
 },
 {
   "country": "Cape Verde",
-  "flag": "flags/cp.png",
+  "flag": "flags/cv.png",
   "continent": "Africa"
 },
 {

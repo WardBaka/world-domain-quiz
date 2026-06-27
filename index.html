@@ -52,18 +52,69 @@ document.addEventListener("DOMContentLoaded", () => {
         return Number(localStorage.getItem("guessrXP") || 0);
     }
 
-    function getLevel(xp){
-        return Math.floor(xp / 100) + 1;
+    const levelXPTable = [
+    0, 100, 250, 450, 700,
+    1000, 1400, 1900, 2500, 3200,
+    4000, 5000, 6200, 7600, 9200,
+    11000, 13000, 15200, 17600, 20200,
+    23000, 26000, 29200, 32600, 36200,
+    40000, 44000, 48200, 52600, 57200
+];
+
+function getLevelProgress(xp){
+    let level = 1;
+
+    for (let i = 0; i < levelXPTable.length; i++) {
+        if (xp >= levelXPTable[i]) {
+            level = i + 1;
+        }
     }
+
+    const currentLevelXP = levelXPTable[level - 1];
+    const nextLevelXP = levelXPTable[level] || levelXPTable[levelXPTable.length - 1];
+
+    const xpIntoLevel = xp - currentLevelXP;
+    const xpNeededForNext = nextLevelXP - currentLevelXP;
+
+    const percent =
+        level >= levelXPTable.length
+            ? 100
+            : Math.floor((xpIntoLevel / xpNeededForNext) * 100);
+
+    return {
+        level,
+        currentXP: xpIntoLevel,
+        neededXP: xpNeededForNext,
+        percent
+    };
+}
+
+function getTitle(level){
+    if (level >= 30) return "Guessr Legend";
+    if (level >= 20) return "Cartographer";
+    if (level >= 15) return "Traveler";
+    if (level >= 10) return "Adventurer";
+    if (level >= 5) return "Explorer";
+    return "New Explorer";
+}
 
     function updateProfile(){
         const xp = getXP();
-        const level = getLevel(xp);
+        const progress = getLevelProgress(xp);
+const title = getTitle(progress.level);
         const name = localStorage.getItem("guessrUsername") || "Guest";
 
         document.getElementById("profileName").textContent = "👤 " + name;
-        document.getElementById("profileLevel").textContent = "Level " + level;
-        document.getElementById("profileXP").textContent = xp + " XP";
+        document.getElementById("profileTitle").textContent = title;
+
+document.getElementById("profileLevel").textContent =
+    "Level " + progress.level;
+
+document.getElementById("profileXP").textContent =
+    progress.currentXP + " / " + progress.neededXP + " XP";
+
+document.getElementById("miniXpFill").style.width =
+    progress.percent + "%";
     }
 
     saveUsername.addEventListener("click", () => {
@@ -105,7 +156,13 @@ document.addEventListener("DOMContentLoaded", () => {
 <a href="profile.html" class="profile-card">
 
     <div id="profileName">👤 Guest</div>
+    <div id="profileTitle">New Explorer</div>
     <div id="profileLevel">Level 1</div>
+
+    <div class="mini-xp-bar">
+        <div id="miniXpFill"></div>
+    </div>
+
     <div id="profileXP">0 XP</div>
 
 </a>

@@ -52,15 +52,33 @@
 
     </div>
 
-    <div class="achievement-card">
-        <h2>🏆 Achievements</h2>
+    <div class="progress-card">
+    <h2>📊 Quiz Progress</h2>
 
-        <ul id="achievements">
-            <li>🎯 First Correct Answer</li>
-            <li>🔥 10 Answer Streak</li>
-            <li>🌍 World Explorer</li>
-        </ul>
+    <div class="progress-item">
+        <span>🌐 Domains</span>
+        <p id="domainProgressText">0 / 0</p>
+        <div class="progress-bar"><div id="domainProgressFill"></div></div>
     </div>
+
+    <div class="progress-item">
+        <span>🏳️ Flags</span>
+        <p id="flagProgressText">0 / 0</p>
+        <div class="progress-bar"><div id="flagProgressFill"></div></div>
+    </div>
+
+    <div class="progress-item">
+        <span>📞 Phone Codes</span>
+        <p id="phoneProgressText">0 / 0</p>
+        <div class="progress-bar"><div id="phoneProgressFill"></div></div>
+    </div>
+</div>
+
+<div class="achievement-card">
+    <h2>🏆 Achievements</h2>
+    <p id="achievementCounter">0 Achievements Unlocked</p>
+    <ul id="achievements"></ul>
+</div>
 
 </div>
 

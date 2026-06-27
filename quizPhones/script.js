@@ -164,6 +164,13 @@ function answer(button, correct) {
         streak++;
         totalCorrect++;
 
+        let phoneCorrect =
+    Number(localStorage.getItem("guessrPhoneCorrect") || 0);
+
+phoneCorrect++;
+
+localStorage.setItem("guessrPhoneCorrect", phoneCorrect);
+
         let xp = Number(localStorage.getItem("guessrXP") || 0);
 xp += 10;
 localStorage.setItem("guessrXP", xp);

@@ -164,6 +164,13 @@ function answer(button, correct, mode) {
         streak++;
         totalCorrect++;
 
+        let flagCorrect =
+    Number(localStorage.getItem("guessrFlagCorrect") || 0);
+
+flagCorrect++;
+
+localStorage.setItem("guessrFlagCorrect", flagCorrect);
+
         if (streak > bestStreak) {
             bestStreak = streak;
         }

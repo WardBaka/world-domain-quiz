@@ -200,6 +200,28 @@ header p{
     transition:.25s;
 }
 
+#profileTitle{
+    color:#facc15;
+    font-size:.85rem;
+    margin-top:3px;
+}
+
+.mini-xp-bar{
+    width:100%;
+    height:8px;
+    background:#334155;
+    border-radius:999px;
+    overflow:hidden;
+    margin:8px 0;
+}
+
+#miniXpFill{
+    height:100%;
+    width:0%;
+    background:#22c55e;
+    transition:.4s;
+}
+
 .profile-card:hover{
     transform:translateY(-3px);
     box-shadow:0 15px 40px rgba(0,0,0,.5);
