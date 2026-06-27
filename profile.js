@@ -112,9 +112,14 @@ const flagsLearned =
 const phonesLearned =
     Number(localStorage.getItem("guessrPhoneCorrect") || 0);
 
-updateProgressBar("domainProgressText", "domainProgressFill", domainsLearned, 249);
-updateProgressBar("flagProgressText", "flagProgressFill", flagsLearned, 224);
-updateProgressBar("phoneProgressText", "phoneProgressFill", phonesLearned, 224);
+const domainPercent =
+    updateProgressBar("domainProgressText", "domainProgressFill", domainsLearned, 249);
+
+const flagPercent =
+    updateProgressBar("flagProgressText", "flagProgressFill", flagsLearned, 224);
+
+const phonePercent =
+    updateProgressBar("phoneProgressText", "phoneProgressFill", phonesLearned, 224);
 
 const overall =
     Math.round((domainPercent + flagPercent + phonePercent) / 3);
