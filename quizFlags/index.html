@@ -13,6 +13,10 @@
 <body>
 
 <div class="wrap">
+      <a href="../index.html" class="home-button">
+    <img src="../homeImg/guessrQuizLogo.png" alt="Home">
+    Home
+</a>
 
 <h1>Flag Quiz</h1>
 
@@ -116,6 +120,62 @@ Next Question →
 </div>
 
 <script src="script.js"></script>
+
+<div id="completionScreen" class="completion-overlay">
+
+    <div class="completion-card">
+
+        <h1>🎉 Quiz Complete!</h1>
+
+        <h2 id="completionTitle">
+            Excellent Work!
+        </h2>
+
+        <div class="completion-stats">
+
+            <p>
+                ⭐ Score:
+                <span id="completeScore"></span>
+            </p>
+
+            <p>
+                🎯 Accuracy:
+                <span id="completeAccuracy"></span>
+            </p>
+
+            <p>
+                🔥 Best Streak:
+                <span id="completeBest"></span>
+            </p>
+
+            <p>
+                💎 XP Earned:
+                <span id="completeXP"></span>
+            </p>
+
+        </div>
+
+        <div id="completionAchievement"></div>
+
+        <div class="completion-buttons">
+
+            <button id="playAgain">
+                🔄 Play Again
+            </button>
+
+            <button onclick="window.location='../index.html'">
+                🏠 Home
+            </button>
+
+            <button id="nextQuiz">
+                ➡ Next Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>

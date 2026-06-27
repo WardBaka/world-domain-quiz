@@ -35,6 +35,52 @@ document.addEventListener("DOMContentLoaded", () => {
     startPopup.addEventListener("click", hidePopup);
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const usernamePopup = document.getElementById("usernamePopup");
+    const usernameInput = document.getElementById("usernameInput");
+    const saveUsername = document.getElementById("saveUsername");
+
+    let username = localStorage.getItem("guessrUsername");
+
+    if (username) {
+        usernamePopup.style.display = "none";
+    }
+
+    function getXP(){
+        return Number(localStorage.getItem("guessrXP") || 0);
+    }
+
+    function getLevel(xp){
+        return Math.floor(xp / 100) + 1;
+    }
+
+    function updateProfile(){
+        const xp = getXP();
+        const level = getLevel(xp);
+        const name = localStorage.getItem("guessrUsername") || "Guest";
+
+        document.getElementById("profileName").textContent = "👤 " + name;
+        document.getElementById("profileLevel").textContent = "Level " + level;
+        document.getElementById("profileXP").textContent = xp + " XP";
+    }
+
+    saveUsername.addEventListener("click", () => {
+        const name = usernameInput.value.trim();
+
+        if (!name) return;
+
+        localStorage.setItem("guessrUsername", name);
+        localStorage.setItem("guessrXP", localStorage.getItem("guessrXP") || 0);
+
+        usernamePopup.style.display = "none";
+        updateProfile();
+    });
+
+    updateProfile();
+});
+</script>
 <body>
     <div id="welcomePopup" class="popup-overlay">
     <div class="popup-box">
@@ -53,6 +99,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <button id="startPopup" class="popup-button">
             Start Exploring
+        </button>
+    </div>
+</div>
+<a href="profile.html" class="profile-card">
+
+    <div id="profileName">👤 Guest</div>
+    <div id="profileLevel">Level 1</div>
+    <div id="profileXP">0 XP</div>
+
+</a>
+
+
+
+<div id="usernamePopup" class="popup-overlay">
+    <div class="popup-box">
+        <h2>Create Your GuessrQuiz Profile</h2>
+        <p>Choose a username to track your progress, XP, and levels.</p>
+
+        <input id="usernameInput" type="text" placeholder="Enter username">
+
+        <button id="saveUsername" class="popup-button">
+            Continue
         </button>
     </div>
 </div>

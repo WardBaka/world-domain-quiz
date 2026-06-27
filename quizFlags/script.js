@@ -5,6 +5,13 @@ let correctAnswer = "";
 
 let score = 0;
 let streak = 0;
+let bestStreak = 0;
+let totalAnswered = 0;
+let totalCorrect = 0;
+let xpEarnedThisQuiz = 0;
+
+let unlockedAchievements =
+    JSON.parse(localStorage.flagAchievements || "[]");
 
 fetch("flags.json")
     .then(r => r.json())
@@ -38,6 +45,23 @@ function getOptionsPool() {
     );
 }
 
+function updateGlobalStats(correct) {
+    let globalAnswered =
+        Number(localStorage.getItem("guessrTotalAnswered") || 0);
+
+    let globalCorrect =
+        Number(localStorage.getItem("guessrTotalCorrect") || 0);
+
+    globalAnswered++;
+
+    if (correct) {
+        globalCorrect++;
+    }
+
+    localStorage.setItem("guessrTotalAnswered", globalAnswered);
+    localStorage.setItem("guessrTotalCorrect", globalCorrect);
+}
+
 function nextQuestion() {
     const filtered = getFilteredData();
 
@@ -48,8 +72,7 @@ function nextQuestion() {
     answers.innerHTML = "";
 
     if (filtered.length === 0) {
-        flag.style.display = "none";
-        question.textContent = "🎉 Region completed!";
+        showCompletionScreen();
         return;
     }
 
@@ -132,9 +155,40 @@ function answer(button, correct, mode) {
     document.querySelectorAll("#answers button")
         .forEach(btn => btn.disabled = true);
 
+    updateGlobalStats(correct);
+
+    totalAnswered++;
+
     if (correct) {
         score++;
         streak++;
+        totalCorrect++;
+
+        if (streak > bestStreak) {
+            bestStreak = streak;
+        }
+
+        let xp =
+            Number(localStorage.getItem("guessrXP") || 0);
+
+        xp += 10;
+        xpEarnedThisQuiz += 10;
+
+        localStorage.setItem("guessrXP", xp);
+
+        unlockAchievement("First Flag Correct");
+
+        if (streak >= 10) {
+            unlockAchievement("10 Flag Streak");
+        }
+
+        if (score >= 25) {
+            unlockAchievement("25 Flags Correct");
+        }
+
+        if (score >= 50) {
+            unlockAchievement("Flag Expert");
+        }
 
         button.classList.add("correct");
 
@@ -166,14 +220,77 @@ function answer(button, correct, mode) {
     document.getElementById("streak").textContent = streak;
 }
 
+function showCompletionScreen() {
+    const accuracy =
+        totalAnswered > 0
+            ? Math.round((totalCorrect / totalAnswered) * 100)
+            : 0;
+
+    document.getElementById("completionScreen").style.display = "flex";
+
+    document.getElementById("completeScore").textContent =
+        `${score} / ${totalAnswered}`;
+
+    document.getElementById("completeAccuracy").textContent =
+        accuracy + "%";
+
+    document.getElementById("completeBest").textContent =
+        bestStreak;
+
+    document.getElementById("completeXP").textContent =
+        "+" + xpEarnedThisQuiz + " XP";
+
+    document.getElementById("completionAchievement").textContent =
+        "🏳️ Flag Quiz Completed!";
+}
+
+function showAchievementToast(name) {
+    const toast = document.createElement("div");
+
+    toast.className = "achievement-toast";
+
+    toast.innerHTML = `
+        <h3>🏆 Achievement Unlocked</h3>
+        <p>${name}</p>
+    `;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.remove();
+    }, 5000);
+}
+
+function unlockAchievement(name) {
+    if (unlockedAchievements.includes(name)) return;
+
+    unlockedAchievements.push(name);
+
+    localStorage.flagAchievements =
+        JSON.stringify(unlockedAchievements);
+
+    showAchievementToast(name);
+}
+
 function restartQuiz() {
     remainingQuestions = [...data];
 
     score = 0;
     streak = 0;
+    bestStreak = 0;
+    totalAnswered = 0;
+    totalCorrect = 0;
+    xpEarnedThisQuiz = 0;
 
     document.getElementById("score").textContent = score;
     document.getElementById("streak").textContent = streak;
+
+    const completionScreen =
+        document.getElementById("completionScreen");
+
+    if (completionScreen) {
+        completionScreen.style.display = "none";
+    }
 
     nextQuestion();
 }
@@ -189,3 +306,11 @@ document.getElementById("quizMode")
 
 document.getElementById("difficulty")
     .addEventListener("change", nextQuestion);
+
+document.getElementById("playAgain")
+    .addEventListener("click", restartQuiz);
+
+document.getElementById("nextQuiz")
+    .addEventListener("click", () => {
+        window.location.href = "../quizPhones/index.html";
+    });

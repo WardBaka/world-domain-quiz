@@ -100,31 +100,59 @@ function getFilteredData() {
 
 }
 
+function updateGlobalStats(correct) {
+    let totalAnswered =
+        Number(localStorage.getItem("guessrTotalAnswered") || 0);
+
+    let totalCorrect =
+        Number(localStorage.getItem("guessrTotalCorrect") || 0);
+
+    totalAnswered++;
+
+    if (correct) {
+        totalCorrect++;
+    }
+
+    localStorage.setItem("guessrTotalAnswered", totalAnswered);
+    localStorage.setItem("guessrTotalCorrect", totalCorrect);
+}
+
+function showCompletionScreen(){
+    const accuracy =
+        totalAnswered > 0
+            ? Math.round((totalCorrect / totalAnswered) * 100)
+            : 0;
+
+    document.getElementById("completionScreen").style.display = "flex";
+
+    document.getElementById("completeScore").textContent =
+        `${score} / ${totalAnswered}`;
+
+    document.getElementById("completeAccuracy").textContent =
+        accuracy + "%";
+
+    document.getElementById("completeBest").textContent =
+        best;
+
+    document.getElementById("completeXP").textContent =
+        "+" + (score * 10) + " XP";
+
+    document.getElementById("completionAchievement").textContent =
+        "🌐 Domain Quiz Completed!";
+}
+
 function nextQuestion() {
 
     if (!gameActive) return;
 
     filteredData = getFilteredData();
 
-    if (filteredData.length === 0) {
+if (filteredData.length === 0) {
+    showCompletionScreen();
+    return;
+}
 
-        alert(
-            "🎉 You completed all domains in this region!"
-        );
-
-        gameActive = false;
-
-        document.getElementById("answers").innerHTML = "";
-        document.getElementById("domain").textContent =
-            "Region Complete!";
-
-        document.getElementById("flag").style.display =
-            "none";
-
-        return;
-    }
-
-    questionNumber++;
+questionNumber++;
 
     document.getElementById(
         "questionCounter"
@@ -145,9 +173,7 @@ function nextQuestion() {
 
         const modes = [
             "domain-country",
-            "country-domain",
-            "flag-country",
-            "flag-domain"
+            "country-domain"
         ];
 
         mode =
@@ -386,6 +412,8 @@ function answer(button, correct) {
     document.querySelectorAll("#answers button")
         .forEach(btn => btn.disabled = true);
 
+        updateGlobalStats(correct);
+
     totalAnswered++;
 
     if (correct) {
@@ -398,6 +426,10 @@ function answer(button, correct) {
         score++;
         streak++;
         totalCorrect++;
+
+        let xp = Number(localStorage.getItem("guessrXP") || 0);
+xp += 10;
+localStorage.setItem("guessrXP", xp);
 
         button.classList.add("correct");
 
@@ -471,6 +503,27 @@ function updateAccuracy() {
 
 }
 
+function showAchievementToast(name) {
+
+    const toast =
+        document.createElement("div");
+
+    toast.className =
+        "achievement-toast";
+
+    toast.innerHTML = `
+        <h3>🏆 Achievement Unlocked</h3>
+        <p>${name}</p>
+    `;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.remove();
+    }, 5000);
+
+}
+
 // ======================
 // DOMAIN INFO
 // ======================
@@ -501,14 +554,16 @@ function unlockAchievement(name) {
     localStorage.achievements =
         JSON.stringify(unlockedAchievements);
 
-    const li = document.createElement("li");
+    const achievementList =
+        document.getElementById("achievements");
 
-    li.textContent = "✅ " + name;
+    if (achievementList) {
+        const li = document.createElement("li");
+        li.textContent = "✅ " + name;
+        achievementList.appendChild(li);
+    }
 
-    document
-        .getElementById("achievements")
-        .appendChild(li);
-
+    showAchievementToast(name);
 }
 
 function updateAchievements() {
@@ -767,3 +822,28 @@ document
     nextQuestion();
 
 });
+
+document.getElementById("playAgain")
+    .addEventListener("click", () => {
+        document.getElementById("completionScreen").style.display = "none";
+
+        remainingQuestions = [...data];
+
+        score = 0;
+        streak = 0;
+        totalAnswered = 0;
+        totalCorrect = 0;
+        questionNumber = 0;
+        gameActive = true;
+
+        document.getElementById("score").textContent = 0;
+        document.getElementById("streak").textContent = 0;
+        document.getElementById("accuracy").textContent = "0%";
+
+        nextQuestion();
+    });
+
+document.getElementById("nextQuiz")
+    .addEventListener("click", () => {
+        window.location.href = "../quizFlags/index.html";
+    });

@@ -183,6 +183,53 @@ header p{
     transform:translateY(-8px);
 }
 
+.profile-card{
+    position:fixed;
+    top:20px;
+    right:20px;
+    background:#1e293b;
+    color:white;
+    padding:15px 20px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+    z-index:1000;
+    text-align:right;
+
+    text-decoration:none;
+
+    transition:.25s;
+}
+
+.profile-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 40px rgba(0,0,0,.5);
+    background:#334155;
+}
+
+.profile-card:visited{
+    color:white;
+}
+
+#profileName{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+
+#profileLevel,
+#profileXP{
+    color:#cbd5e1;
+    font-size:.9rem;
+}
+
+#usernameInput{
+    width:100%;
+    padding:14px;
+    margin:20px 0;
+    border-radius:10px;
+    border:none;
+    font-size:1rem;
+}
+
 .overlay{
 
     position:absolute;

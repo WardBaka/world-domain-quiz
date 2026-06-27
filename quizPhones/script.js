@@ -5,6 +5,8 @@ let correctAnswer = "";
 
 let score = 0;
 let streak = 0;
+let unlockedAchievements =
+    JSON.parse(localStorage.phoneAchievements || "[]");
 let totalAnswered = 0;
 let totalCorrect = 0;
 
@@ -47,16 +49,30 @@ function getAllOptionsPool() {
     return data.filter(item => item.continent === region);
 }
 
+function updateGlobalStats(correct) {
+    let totalAnswered =
+        Number(localStorage.getItem("guessrTotalAnswered") || 0);
+
+    let totalCorrect =
+        Number(localStorage.getItem("guessrTotalCorrect") || 0);
+
+    totalAnswered++;
+
+    if (correct) {
+        totalCorrect++;
+    }
+
+    localStorage.setItem("guessrTotalAnswered", totalAnswered);
+    localStorage.setItem("guessrTotalCorrect", totalCorrect);
+}
+
 function nextQuestion() {
     const filteredData = getFilteredData();
 
     if (filteredData.length === 0) {
-        document.getElementById("phoneCode").textContent = "Complete!";
-        document.getElementById("answers").innerHTML = "";
-        document.getElementById("codeInfo").innerHTML =
-            "🎉 You completed this quiz set. Press Restart Quiz to play again.";
-        return;
-    }
+    showCompletionScreen();
+    return;
+}
 
     current =
         filteredData[Math.floor(Math.random() * filteredData.length)];
@@ -103,9 +119,43 @@ function nextQuestion() {
     });
 }
 
+function showAchievementToast(name) {
+
+    const toast =
+        document.createElement("div");
+
+    toast.className =
+        "achievement-toast";
+
+    toast.innerHTML = `
+        <h3>🏆 Achievement Unlocked</h3>
+        <p>${name}</p>
+    `;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.remove();
+    }, 5000);
+
+}
+
+function unlockAchievement(name) {
+    if (unlockedAchievements.includes(name)) return;
+
+    unlockedAchievements.push(name);
+
+    localStorage.phoneAchievements =
+        JSON.stringify(unlockedAchievements);
+
+    showAchievementToast(name);
+}
+
 function answer(button, correct) {
     document.querySelectorAll("#answers button")
         .forEach(btn => btn.disabled = true);
+
+        updateGlobalStats(correct);
 
     totalAnswered++;
 
@@ -113,6 +163,24 @@ function answer(button, correct) {
         score++;
         streak++;
         totalCorrect++;
+
+        let xp = Number(localStorage.getItem("guessrXP") || 0);
+xp += 10;
+localStorage.setItem("guessrXP", xp);
+
+unlockAchievement("First Phone Code Correct");
+
+if (streak >= 10) {
+    unlockAchievement("10 Phone Code Streak");
+}
+
+if (score >= 25) {
+    unlockAchievement("25 Phone Codes Correct");
+}
+
+if (score >= 50) {
+    unlockAchievement("Phone Code Expert");
+}
 
         button.classList.add("correct");
 
@@ -159,6 +227,30 @@ function updateCodeInfo() {
     `;
 }
 
+function showCompletionScreen() {
+    const accuracy =
+        totalAnswered > 0
+            ? Math.round((totalCorrect / totalAnswered) * 100)
+            : 0;
+
+    document.getElementById("completionScreen").style.display = "flex";
+
+    document.getElementById("completeScore").textContent =
+        `${score} / ${totalAnswered}`;
+
+    document.getElementById("completeAccuracy").textContent =
+        accuracy + "%";
+
+    document.getElementById("completeBest").textContent =
+        streak;
+
+    document.getElementById("completeXP").textContent =
+        "+" + (score * 10) + " XP";
+
+    document.getElementById("completionAchievement").textContent =
+        "📞 Phone Code Quiz Completed!";
+}
+
 function restartQuiz() {
     remainingQuestions = [...data];
 
@@ -166,6 +258,8 @@ function restartQuiz() {
     streak = 0;
     totalAnswered = 0;
     totalCorrect = 0;
+
+    document.getElementById("completionScreen").style.display = "none";
 
     updateStats();
     nextQuestion();
@@ -185,4 +279,12 @@ document.getElementById("region")
 document.getElementById("difficulty")
     .addEventListener("change", () => {
         nextQuestion();
+    });
+
+    document.getElementById("playAgain")
+    .addEventListener("click", restartQuiz);
+
+document.getElementById("nextQuiz")
+    .addEventListener("click", () => {
+        window.location.href = "../domains/index.html";
     });

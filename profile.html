@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GuessrQuiz - Profile</title>
+<link rel="icon" type="image/png" href="homeImg/guessrQuizLogo.png">
+<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+<div class="profile-wrap">
+
+    <a href="../index.html" class="back">← Back to Home</a>
+
+    <div class="profile-card">
+        <h1>👤 <span id="username">Guest</span></h1>
+
+        <div class="level-box">
+            <h2 id="level">Level 1</h2>
+            <p id="xp">0 XP</p>
+
+            <div class="xp-bar">
+                <div id="xpFill"></div>
+            </div>
+
+            <p id="nextLevel">0 / 100 XP to next level</p>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat">
+            <h3>Total Correct</h3>
+            <p id="totalCorrect">0</p>
+        </div>
+
+        <div class="stat">
+            <h3>Total Answered</h3>
+            <p id="totalAnswered">0</p>
+        </div>
+
+        <div class="stat">
+            <h3>Accuracy</h3>
+            <p id="accuracy">0%</p>
+        </div>
+
+        <div class="stat">
+            <h3>Best Streak</h3>
+            <p id="bestStreak">0</p>
+        </div>
+
+    </div>
+
+    <div class="achievement-card">
+        <h2>🏆 Achievements</h2>
+
+        <ul id="achievements">
+            <li>🎯 First Correct Answer</li>
+            <li>🔥 10 Answer Streak</li>
+            <li>🌍 World Explorer</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="profile.js"></script>
+
+
+</body>
+</html>
