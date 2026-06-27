@@ -42,9 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const usernameInput = document.getElementById("usernameInput");
     const saveUsername = document.getElementById("saveUsername");
 
+    const levelXPTable = [
+        0, 100, 250, 450, 700,
+        1000, 1400, 1900, 2500, 3200,
+        4000, 5000, 6200, 7600, 9200,
+        11000, 13000, 15200, 17600, 20200,
+        23000, 26000, 29200, 32600, 36200,
+        40000, 44000, 48200, 52600, 57200
+    ];
+
     let username = localStorage.getItem("guessrUsername");
 
-    if (username) {
+    if (username && usernamePopup) {
         usernamePopup.style.display = "none";
     }
 
@@ -52,69 +61,265 @@ document.addEventListener("DOMContentLoaded", () => {
         return Number(localStorage.getItem("guessrXP") || 0);
     }
 
-    const levelXPTable = [
-    0, 100, 250, 450, 700,
-    1000, 1400, 1900, 2500, 3200,
-    4000, 5000, 6200, 7600, 9200,
-    11000, 13000, 15200, 17600, 20200,
-    23000, 26000, 29200, 32600, 36200,
-    40000, 44000, 48200, 52600, 57200
-];
+    function getLevelProgress(xp){
+        let level = 1;
 
-function getLevelProgress(xp){
-    let level = 1;
+        for (let i = 0; i < levelXPTable.length; i++) {
+            if (xp >= levelXPTable[i]) {
+                level = i + 1;
+            }
+        }
 
-    for (let i = 0; i < levelXPTable.length; i++) {
-        if (xp >= levelXPTable[i]) {
-            level = i + 1;
+        const currentLevelXP = levelXPTable[level - 1];
+        const nextLevelXP =
+            levelXPTable[level] || levelXPTable[levelXPTable.length - 1];
+
+        const xpIntoLevel = xp - currentLevelXP;
+        const xpNeededForNext = nextLevelXP - currentLevelXP;
+
+        const percent =
+            level >= levelXPTable.length
+                ? 100
+                : Math.floor((xpIntoLevel / xpNeededForNext) * 100);
+
+        return {
+            level,
+            currentXP: xpIntoLevel,
+            neededXP: xpNeededForNext,
+            percent
+        };
+    }
+
+    function getTitle(level){
+        if (level >= 30) return "Guessr Legend";
+        if (level >= 25) return "Atlas Master";
+        if (level >= 20) return "Cartographer";
+        if (level >= 15) return "Traveler";
+        if (level >= 10) return "Adventurer";
+        if (level >= 5) return "Explorer";
+        return "New Explorer";
+    }
+
+    function getLatestAchievement(){
+        const allAchievements = [
+            ...JSON.parse(localStorage.achievements || "[]"),
+            ...JSON.parse(localStorage.flagAchievements || "[]"),
+            ...JSON.parse(localStorage.phoneAchievements || "[]")
+        ];
+
+        if (allAchievements.length === 0) {
+            return "No achievements yet";
+        }
+
+        return "🏆 " + allAchievements[allAchievements.length - 1];
+    }
+
+function getTodayKey(){
+    return new Date().toDateString();
+}
+
+
+function getDailyResetText(){
+    const now = new Date();
+
+    const tomorrow = new Date();
+    tomorrow.setHours(24, 0, 0, 0);
+
+    const diff = tomorrow - now;
+
+    const hours =
+        Math.floor(diff / 1000 / 60 / 60);
+
+    const minutes =
+        Math.floor((diff / 1000 / 60) % 60);
+
+    return "Resets in " + hours + "h " + minutes + "m";
+}
+
+function getDailyChallenge(){
+    const challenges = [
+        {
+            type:"domains",
+            title:"🌐 Domain Master",
+            description:"Answer 20 domain questions correctly.",
+            goal:20,
+            reward:250
+        },
+        {
+            type:"flags",
+            title:"🏳️ Flag Frenzy",
+            description:"Answer 25 flag questions correctly.",
+            goal:25,
+            reward:250
+        },
+        {
+            type:"phones",
+            title:"📞 Phone Code Sprint",
+            description:"Answer 15 phone code questions correctly.",
+            goal:15,
+            reward:250
+        }
+    ];
+
+    const dayNumber =
+        Math.floor(Date.now() / 86400000);
+
+    return challenges[
+        dayNumber % challenges.length
+    ];
+}
+
+function getDailyProgress(){
+    const today = getTodayKey();
+
+    const saved =
+        JSON.parse(localStorage.getItem("guessrDailyChallenge") || "{}");
+
+    if (saved.date !== today) {
+        return {
+            date: today,
+            progress: 0,
+            completed: false,
+            rewarded: false
+        };
+    }
+
+    return saved;
+}
+
+function saveDailyProgress(data){
+    localStorage.setItem(
+        "guessrDailyChallenge",
+        JSON.stringify(data)
+    );
+}
+
+function updateDailyChallengeCard(){
+    const challenge = getDailyChallenge();
+    const daily = getDailyProgress();
+
+    const percent =
+        Math.min(
+            Math.round((daily.progress / challenge.goal) * 100),
+            100
+        );
+
+    document.getElementById("dailyTitle").textContent =
+        challenge.title;
+
+    document.getElementById("dailyDescription").textContent =
+        daily.completed
+            ? "✅ Daily Challenge Complete! Come back tomorrow."
+            : challenge.description;
+
+    document.getElementById("dailyProgressFill").style.width =
+        percent + "%";
+
+    document.getElementById("dailyProgressText").textContent =
+        Math.min(daily.progress, challenge.goal) +
+        " / " +
+        challenge.goal;
+
+    document.getElementById("dailyReward").textContent =
+        daily.completed
+            ? "Reward claimed: +" + challenge.reward + " XP"
+            : "Reward: +" + challenge.reward + " XP";
+
+    if (daily.completed) {
+        document
+            .getElementById("dailyProgressText")
+            .classList.add("daily-complete");
+    }
+
+    document.getElementById("dailyReset").textContent =
+    getDailyResetText();
+}
+
+function animateNumber(element, start, end, duration = 600){
+    let startTime = null;
+
+    function animation(currentTime){
+        if (!startTime) startTime = currentTime;
+
+        const progress =
+            Math.min((currentTime - startTime) / duration, 1);
+
+        const value =
+            Math.floor(start + (end - start) * progress);
+
+        element.textContent = value;
+
+        if (progress < 1) {
+            requestAnimationFrame(animation);
         }
     }
 
-    const currentLevelXP = levelXPTable[level - 1];
-    const nextLevelXP = levelXPTable[level] || levelXPTable[levelXPTable.length - 1];
-
-    const xpIntoLevel = xp - currentLevelXP;
-    const xpNeededForNext = nextLevelXP - currentLevelXP;
-
-    const percent =
-        level >= levelXPTable.length
-            ? 100
-            : Math.floor((xpIntoLevel / xpNeededForNext) * 100);
-
-    return {
-        level,
-        currentXP: xpIntoLevel,
-        neededXP: xpNeededForNext,
-        percent
-    };
-}
-
-function getTitle(level){
-    if (level >= 30) return "Guessr Legend";
-    if (level >= 20) return "Cartographer";
-    if (level >= 15) return "Traveler";
-    if (level >= 10) return "Adventurer";
-    if (level >= 5) return "Explorer";
-    return "New Explorer";
+    requestAnimationFrame(animation);
 }
 
     function updateProfile(){
         const xp = getXP();
         const progress = getLevelProgress(xp);
-const title = getTitle(progress.level);
+        const title = getTitle(progress.level);
         const name = localStorage.getItem("guessrUsername") || "Guest";
 
         document.getElementById("profileName").textContent = "👤 " + name;
         document.getElementById("profileTitle").textContent = title;
-
-document.getElementById("profileLevel").textContent =
-    "Level " + progress.level;
-
-document.getElementById("profileXP").textContent =
+        document.getElementById("profileLevel").textContent =
+            "Level " + progress.level;
+        document.getElementById("profileXP").textContent =
     progress.currentXP + " / " + progress.neededXP + " XP";
+        document.getElementById("miniXpFill").style.width =
+            progress.percent + "%";
 
-document.getElementById("miniXpFill").style.width =
-    progress.percent + "%";
+        document.getElementById("welcomeName").textContent =
+            "Welcome back, " + name;
+        document.getElementById("welcomeTitle").textContent =
+            "Level " + progress.level + " — " + title;
+        document.getElementById("dashboardXpFill").style.width =
+            progress.percent + "%";
+        document.getElementById("dashboardXpText").textContent =
+            progress.currentXP + " / " + progress.neededXP + " XP to next level";
+
+        const domainsLearned =
+            JSON.parse(localStorage.masteredDomains || "[]").length;
+        const flagsLearned =
+            Number(localStorage.getItem("guessrFlagCorrect") || 0);
+        const phonesLearned =
+            Number(localStorage.getItem("guessrPhoneCorrect") || 0);
+
+        document.getElementById("homeDomainProgress").textContent =
+            "🌐 Domains: " + Math.round((domainsLearned / 249) * 100) + "%";
+        document.getElementById("homeFlagProgress").textContent =
+            "🏳️ Flags: " + Math.round((flagsLearned / 224) * 100) + "%";
+        document.getElementById("homePhoneProgress").textContent =
+            "📞 Phones: " + Math.round((phonesLearned / 224) * 100) + "%";
+
+        document.getElementById("latestAchievement").textContent =
+            getLatestAchievement();
+
+            const savedLevel =
+    Number(localStorage.getItem("guessrLastSeenLevel") || progress.level);
+
+if (progress.level > savedLevel) {
+    const profileCard =
+        document.querySelector(".profile-card");
+
+    if (profileCard) {
+        profileCard.classList.add("level-glow");
+
+        setTimeout(() => {
+            profileCard.classList.remove("level-glow");
+        }, 1200);
+    }
+
+    localStorage.setItem("guessrLastSeenLevel", progress.level);
+}
+else {
+    localStorage.setItem("guessrLastSeenLevel", progress.level);
+}
+
+            updateDailyChallengeCard();
     }
 
     saveUsername.addEventListener("click", () => {
@@ -194,6 +399,63 @@ document.getElementById("miniXpFill").style.width =
     </p>
 
 </header>
+
+<section class="dashboard">
+
+    <div class="welcome-panel">
+        <h2 id="welcomeName">Welcome back, Guest</h2>
+        <p id="welcomeTitle">Level 1 — New Explorer</p>
+
+        <div class="dashboard-xp-bar">
+            <div id="dashboardXpFill"></div>
+        </div>
+
+        <p id="dashboardXpText">0 / 100 XP to next level</p>
+    </div>
+
+    <div class="daily-panel">
+    <div class="daily-header">
+        <span>⭐ DAILY CHALLENGE</span>
+        <small id="dailyReset">Resets soon</small>
+    </div>
+
+    <h2 id="dailyTitle">Loading...</h2>
+    <p id="dailyDescription">Loading challenge...</p>
+
+    <div class="daily-progress-bar">
+        <div id="dailyProgressFill"></div>
+    </div>
+
+    <div class="daily-bottom">
+        <p id="dailyProgressText">0 / 0</p>
+        <p id="dailyReward">+250 XP</p>
+    </div>
+</div>
+
+    <div class="quick-panel">
+        <h3>Continue Playing</h3>
+
+        <div class="quick-buttons">
+            <a href="domains/domains.html">🌐 Domains</a>
+            <a href="quizFlags/index.html">🏳️ Flags</a>
+            <a href="quizPhones/index.html">📞 Phones</a>
+        </div>
+    </div>
+
+    <div class="progress-panel">
+        <h3>Your Progress</h3>
+
+        <p id="homeDomainProgress">🌐 Domains: 0%</p>
+        <p id="homeFlagProgress">🏳️ Flags: 0%</p>
+        <p id="homePhoneProgress">📞 Phones: 0%</p>
+    </div>
+
+    <div class="achievement-panel">
+        <h3>Latest Achievement</h3>
+        <p id="latestAchievement">No achievements yet</p>
+    </div>
+
+</section>
 
 <main>
 
