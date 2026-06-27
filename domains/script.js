@@ -85,6 +85,19 @@ function startTimedMode() {
 
 }
 
+function getOptionsPool() {
+    const region =
+        document.getElementById("region").value;
+
+    if (region === "All") {
+        return data;
+    }
+
+    return data.filter(
+        item => item.continent === region
+    );
+}
+
 function getFilteredData() {
 
     const region =
@@ -147,16 +160,16 @@ function nextQuestion() {
 
     filteredData = getFilteredData();
 
-if (filteredData.length === 0) {
-    showCompletionScreen();
-    return;
-}
+    if (filteredData.length === 0) {
+        showCompletionScreen();
+        return;
+    }
 
-questionNumber++;
+    const optionsPool = getOptionsPool();
 
-    document.getElementById(
-        "questionCounter"
-    ).textContent =
+    questionNumber++;
+
+    document.getElementById("questionCounter").textContent =
         `Question ${questionNumber}`;
 
     current =
@@ -170,7 +183,6 @@ questionNumber++;
         document.getElementById("quizMode").value;
 
     if (mode === "mixed") {
-
         const modes = [
             "domain-country",
             "country-domain"
@@ -182,7 +194,6 @@ questionNumber++;
                     Math.random() * modes.length
                 )
             ];
-
     }
 
     currentMode = mode;
@@ -196,200 +207,78 @@ questionNumber++;
     flag.style.display = "none";
 
     let answerCount =
-    document.getElementById("difficulty").value === "Hard"
-        ? 6
-        : 4;
+        document.getElementById("difficulty").value === "Hard"
+            ? 6
+            : 4;
 
-answerCount = Math.min(
-    answerCount,
-    Math.max(filteredData.length, 2)
-);
+    answerCount =
+        Math.min(answerCount, optionsPool.length);
 
     let options = [];
 
-    // DOMAIN -> COUNTRY
     if (mode === "domain-country") {
 
-        question.textContent =
-            current.domain;
+        question.textContent = current.domain;
 
         if (
-            document.getElementById(
-                "difficulty"
-            ).value === "Easy"
+            document.getElementById("difficulty").value === "Easy"
         ) {
             flag.src = current.flag;
             flag.style.display = "block";
         }
 
-        correctAnswer =
-            current.country;
+        correctAnswer = current.country;
+        options.push(correctAnswer);
 
-        options.push(
-            current.country
-        );
-
-        while (
-            options.length <
-            answerCount
-        ) {
-
+        while (options.length < answerCount) {
             let random =
-                filteredData[
+                optionsPool[
                     Math.floor(
-                        Math.random() *
-                        filteredData.length
+                        Math.random() * optionsPool.length
                     )
                 ].country;
 
-            if (
-                !options.includes(random)
-            ) {
+            if (!options.includes(random)) {
                 options.push(random);
             }
-
         }
 
     }
 
-    // COUNTRY -> DOMAIN
-    else if (
-        mode === "country-domain"
-    ) {
+    else if (mode === "country-domain") {
 
-        question.textContent =
-            current.country;
+        question.textContent = current.country;
 
-        correctAnswer =
-            current.domain;
+        correctAnswer = current.domain;
+        options.push(correctAnswer);
 
-        options.push(
-            current.domain
-        );
-
-        while (
-            options.length <
-            answerCount
-        ) {
-
+        while (options.length < answerCount) {
             let random =
-                filteredData[
+                optionsPool[
                     Math.floor(
-                        Math.random() *
-                        filteredData.length
+                        Math.random() * optionsPool.length
                     )
                 ].domain;
 
-            if (
-                !options.includes(random)
-            ) {
+            if (!options.includes(random)) {
                 options.push(random);
             }
-
         }
 
     }
 
-    // FLAG -> COUNTRY
-    else if (
-        mode === "flag-country"
-    ) {
-
-        flag.src = current.flag;
-        flag.style.display = "block";
-
-        question.textContent = "";
-
-        correctAnswer =
-            current.country;
-
-        options.push(
-            current.country
-        );
-
-        while (
-            options.length <
-            answerCount
-        ) {
-
-            let random =
-                filteredData[
-                    Math.floor(
-                        Math.random() *
-                        filteredData.length
-                    )
-                ].country;
-
-            if (
-                !options.includes(random)
-            ) {
-                options.push(random);
-            }
-
-        }
-
-    }
-
-    // FLAG -> DOMAIN
-    else if (
-        mode === "flag-domain"
-    ) {
-
-        flag.src = current.flag;
-        flag.style.display = "block";
-
-        question.textContent = "";
-
-        correctAnswer =
-            current.domain;
-
-        options.push(
-            current.domain
-        );
-
-        while (
-            options.length <
-            answerCount
-        ) {
-
-            let random =
-                filteredData[
-                    Math.floor(
-                        Math.random() *
-                        filteredData.length
-                    )
-                ].domain;
-
-            if (
-                !options.includes(random)
-            ) {
-                options.push(random);
-            }
-
-        }
-
-    }
-
-    options.sort(
-        () => Math.random() - 0.5
-    );
+    options.sort(() => Math.random() - 0.5);
 
     const box =
-        document.getElementById(
-            "answers"
-        );
+        document.getElementById("answers");
 
     box.innerHTML = "";
 
     options.forEach(option => {
-
         const button =
-            document.createElement(
-                "button"
-            );
+            document.createElement("button");
 
-        button.textContent =
-            option;
+        button.textContent = option;
 
         button.onclick = () =>
             answer(
@@ -398,9 +287,7 @@ answerCount = Math.min(
             );
 
         box.appendChild(button);
-
     });
-
 }
 
 // ======================
@@ -823,8 +710,10 @@ document
 
 });
 
-document.getElementById("playAgain")
-    .addEventListener("click", () => {
+const playAgainButton = document.getElementById("playAgain");
+
+if (playAgainButton) {
+    playAgainButton.addEventListener("click", () => {
         document.getElementById("completionScreen").style.display = "none";
 
         remainingQuestions = [...data];
@@ -842,8 +731,12 @@ document.getElementById("playAgain")
 
         nextQuestion();
     });
+}
 
-document.getElementById("nextQuiz")
-    .addEventListener("click", () => {
+const nextQuizButton = document.getElementById("nextQuiz");
+
+if (nextQuizButton) {
+    nextQuizButton.addEventListener("click", () => {
         window.location.href = "../quizFlags/index.html";
     });
+}

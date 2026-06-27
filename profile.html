@@ -11,14 +11,16 @@
 
 <div class="profile-wrap">
 
-    <a href="../index.html" class="back">← Back to Home</a>
+    <a href="index.html" class="home-button">Home</a>
 
-    <div class="profile-card">
-        <h1>👤 <span id="username">Guest</span></h1>
+    <section class="profile-hero">
+        <div class="avatar">👤</div>
 
-        <div class="level-box">
+        <div>
+            <h1 id="username">Guest</h1>
+            <p id="playerTitle">New Explorer</p>
             <h2 id="level">Level 1</h2>
-            <p id="xp">0 XP</p>
+            <p id="xp">0 Total XP</p>
 
             <div class="xp-bar">
                 <div id="xpFill"></div>
@@ -26,7 +28,7 @@
 
             <p id="nextLevel">0 / 100 XP to next level</p>
         </div>
-    </div>
+    </section>
 
     <div class="stats-grid">
 
@@ -50,40 +52,50 @@
             <p id="bestStreak">0</p>
         </div>
 
+        <div class="stat">
+            <h3>Achievements</h3>
+            <p id="achievementNumber">0</p>
+        </div>
+
+        <div class="stat">
+            <h3>Overall Progress</h3>
+            <p id="overallProgress">0%</p>
+        </div>
+
     </div>
 
-    <div class="progress-card">
-    <h2>📊 Quiz Progress</h2>
+    <section class="progress-card">
+        <h2>📊 Quiz Progress</h2>
 
-    <div class="progress-item">
-        <span>🌐 Domains</span>
-        <p id="domainProgressText">0 / 0</p>
-        <div class="progress-bar"><div id="domainProgressFill"></div></div>
-    </div>
+        <div class="progress-item">
+            <span>🌐 Domains</span>
+            <p id="domainProgressText">0 / 0</p>
+            <div class="progress-bar"><div id="domainProgressFill"></div></div>
+        </div>
 
-    <div class="progress-item">
-        <span>🏳️ Flags</span>
-        <p id="flagProgressText">0 / 0</p>
-        <div class="progress-bar"><div id="flagProgressFill"></div></div>
-    </div>
+        <div class="progress-item">
+            <span>🏳️ Flags</span>
+            <p id="flagProgressText">0 / 0</p>
+            <div class="progress-bar"><div id="flagProgressFill"></div></div>
+        </div>
 
-    <div class="progress-item">
-        <span>📞 Phone Codes</span>
-        <p id="phoneProgressText">0 / 0</p>
-        <div class="progress-bar"><div id="phoneProgressFill"></div></div>
-    </div>
-</div>
+        <div class="progress-item">
+            <span>📞 Phone Codes</span>
+            <p id="phoneProgressText">0 / 0</p>
+            <div class="progress-bar"><div id="phoneProgressFill"></div></div>
+        </div>
+    </section>
 
-<div class="achievement-card">
-    <h2>🏆 Achievements</h2>
-    <p id="achievementCounter">0 Achievements Unlocked</p>
-    <ul id="achievements"></ul>
-</div>
+    <section class="achievement-card">
+        <h2>🏆 Achievement Gallery</h2>
+        <p id="achievementCounter">0 / 0 Achievements Unlocked</p>
+
+        <div id="achievementGrid" class="achievement-grid"></div>
+    </section>
 
 </div>
 
 <script src="profile.js"></script>
-
 
 </body>
 </html>
