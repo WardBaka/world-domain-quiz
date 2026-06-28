@@ -1,0 +1,1575 @@
+
+[
+  {
+    "language": "Waar kom je vandaan?",
+    "country": "Netherlands",
+    "flag": "flags/nl.png",
+    "continent": "Europe",
+    "info": "This means 'Where are you from' in Dutch, the official language of the Netherlands."
+  },
+  {
+    "language": "Es freut mich, Sie kennenzulernen.",
+    "country": "Germany",
+    "flag": "flags/de.png",
+    "continent": "Europe",
+    "info": "This means 'It's nice to meet you' in German, the official language of Germany."
+  },
+  {
+    "language": "Parlez-vous français ?",
+    "country": "France",
+    "flag": "flags/fr.png",
+    "continent": "Europe",
+    "info": "This means 'Do you speak French?' in French, the official language of France."
+  },
+  {
+    "language": "België staat bekend om zijn wafels",
+    "country": "Belgium",
+    "flag": "flags/be.png",
+    "continent": "Europe",
+    "info": "Belgium has 3 official languages: Dutch (Flemish), French, and German, but the most spoken language is Dutch. This phrase means 'Belgium is known for its waffles' in Dutch."
+  },
+  {
+    "language": "The capital of the United Kingdom is London.",
+    "country": "United Kingdom",
+    "flag": "flags/uk.png",
+    "continent": "Europe",
+    "info": "English is the most widely spoken language in the United Kingdom."
+  },
+  {
+    "language": ".us",
+    "country": "United States",
+    "flag": "flags/us.png",
+    "continent": "North America",
+    "info": "Official country code top-level language for the United States."
+  },
+  {
+    "language": ".ca",
+    "country": "Canada",
+    "flag": "flags/ca.png",
+    "continent": "North America",
+    "info": "Canada's official country code top-level language."
+  },
+  {
+    "language": ".jp",
+    "country": "Japan",
+    "flag": "flags/jp.png",
+    "continent": "Asia",
+    "info": "Japan's official country code top-level language."
+  },
+  {
+    "language": ".cn",
+    "country": "China",
+    "flag": "flags/cn.png",
+    "continent": "Asia",
+    "info": "China's official country code top-level language."
+  },
+  {
+    "language": ".au",
+    "country": "Australia",
+    "flag": "flags/au.png",
+    "continent": "Oceania",
+    "info": "Australia's official country code top-level language."
+  },
+  {
+    "language": ".nz",
+    "country": "New Zealand",
+    "flag": "flags/nz.png",
+    "continent": "Oceania",
+    "info": "New Zealand's official country code top-level language."
+  },
+  {
+    "language": ".br",
+    "country": "Brazil",
+    "flag": "flags/br.png",
+    "continent": "South America",
+    "info": "Brazil's official country code top-level language."
+  },
+  {
+    "language": ".za",
+    "country": "South Africa",
+    "flag": "flags/za.png",
+    "continent": "Africa",
+    "info": "South Africa's official country code top-level language."
+  },
+  {
+    "language": ".in",
+    "country": "India",
+    "flag": "flags/in.png",
+    "continent": "Asia",
+    "info": "India's official country code top-level language."
+  },
+  {
+    "language": ".mx",
+    "country": "Mexico",
+    "flag": "flags/mx.png",
+    "continent": "North America",
+    "info": "Mexico's official country code top-level language."
+  },
+  {
+    "language": "Buongiorno, come stai?",
+    "country": "Italy",
+    "flag": "flags/it.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?' in Italian, the official language of Italy."
+  },
+  {
+    "language": "¡Buenos días!",
+    "country": "Spain",
+    "flag": "flags/es.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?' in Spanish, the official language of Spain."
+  },
+  {
+    "language": "Não sei.",
+    "country": "Portugal",
+    "flag": "flags/pt.png",
+    "continent": "Europe",
+    "info": "This means 'I don't know' in Portuguese, the official language of Portugal."
+  },
+  {
+    "language": "Ba mhaith liom beoir.",
+    "country": "Ireland",
+    "flag": "flags/ie.png",
+    "continent": "Europe",
+    "info": "This means 'I would like a beer' in Irish, the official language of Ireland."
+  },
+  {
+    "language": "Pierogi to znane danie w Polsce.",
+    "country": "Poland",
+    "flag": "flags/pl.png",
+    "continent": "Europe",
+    "info": "This means 'Pierogi are a well-known dish in Poland' in Polish, the official language of Poland."
+  },
+  {
+    "language": ".io",
+    "country": "British Indian Ocean Territory",
+    "flag": "🏝️",
+    "continent": "Asia",
+    "info": "Popular with technology companies despite belonging to the British Indian Ocean Territory."
+  },
+  {
+    "language": ".tv",
+    "country": "Tuvalu",
+    "flag": "flags/tv.png",
+    "continent": "Oceania",
+    "info": "Highly popular for television and streaming websites."
+  },
+  {
+    "language": ".fm",
+    "country": "Micronesia",
+    "flag": "flags/fm.png",
+    "continent": "Oceania",
+    "info": "Frequently used by radio stations and music-related websites."
+  },
+  {
+    "language": "Guernsey is the second largest of the Channel Islands.",
+    "country": "Guernsey",
+    "flag": "flags/gg.png",
+    "continent": "Europe",
+    "info": "English is the primary language spoken in Guernsey, but Guernésiais is also widely used."
+  },
+  {
+    "language": "Jersey is the largest of the Channel Islands.",
+    "country": "Jersey",
+    "flag": "flags/je.png",
+    "continent": "Europe",
+    "info": "English is the primary language spoken in Jersey, but Jèrriais is also widely used."
+  },
+  {
+    "language": "Mirë se vini në Tiranë.",
+    "country": "Albania",
+    "flag": "flags/al.png",
+    "continent": "Europe",
+    "info": "This means 'Welcome to Tirana' in Albanian, the official language of Albania."
+  },
+  {
+    "language": "Moltes gràcies.",
+    "country": "Andorra",
+    "flag": "flags/ad.png",
+    "continent": "Europe",
+    "info": "This means 'Thank you very much' in Catalan, the official language of Andorra, although Spanish, French, and Portuguese are also widely spoken."
+  },
+  {
+    "language": "Grüß Gott",
+    "country": "Austria",
+    "flag": "flags/at.png",
+    "continent": "Europe",
+    "info": "This is a greeting in German, the official language of Austria."
+  },
+  {
+    "language": "Možete li mi pomoći?",
+    "country": "Bosnia and Herzegovina",
+    "flag": "flags/ba.png",
+    "continent": "Europe",
+    "info": "Bosnia and Herzegovina has three national languages: Bosnian, Croatian, and Serbian. This phrase means 'Can you help me?' in Bosnian."
+  },
+  {
+    "language": "Най-дългата река в България е Дунав.",
+    "country": "Bulgaria",
+    "flag": "flags/bg.png",
+    "continent": "Europe",
+    "info": "This means 'The longest river in Bulgaria is the Danube' in Bulgarian, the official language of Bulgaria."
+  },
+  {
+    "language": "Як вы сёння?",
+    "country": "Belarus",
+    "flag": "flags/by.png",
+    "continent": "Europe",
+    "info": "Belarus has two official languages: Belarusian and Russian. This phrase means 'How are you today?' in Belarusian."
+  },
+  {
+    "language": "Hrvatska ima više od tisuću otoka.",
+    "country": "Croatia",
+    "flag": "flags/hr.png",
+    "continent": "Europe",
+    "info": "This means 'Croatia has more than a thousand islands' in Croatian, the official language of Croatia."
+  },
+  {
+    "language": "Μπορείς να με βοηθήσεις να βρω το κατάστημα;",
+    "country": "Cyprus",
+    "flag": "flags/cy.png",
+    "continent": "Europe",
+    "info": "Cyprus has two official languages: Greek and Turkish. This phrase means 'Can you help me find the store?' in Greek."
+  },
+  {
+    "language": "Dobré ráno, kde je ten vlak?",
+    "country": "Czech Republic",
+    "flag": "flags/cz.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, where is the train?' in Czech, the official language of the Czech Republic."
+  },
+  {
+    "language": "Hvornår kører bussen?",
+    "country": "Denmark",
+    "flag": "flags/dk.png",
+    "continent": "Europe",
+    "info": "This phrase means 'When does the bus leave?' in Danish, Denmark's official language. "
+  },
+  {
+    "language": "Tere hommikust, kuidas läheb?",
+    "country": "Estonia",
+    "flag": "flags/ee.png",
+    "continent": "Europe",
+    "info": "This phrase means 'Good morning, how are you?' in Estonian, the official language of Estonia."
+  },
+  {
+    "language": "Hyvää päivää!",
+    "country": "Finland",
+    "flag": "flags/fi.png",
+    "continent": "Europe",
+    "info": "Finland has two official languages: Finnish and Swedish. This means 'Have a good day!' in Finnish."
+  },
+  {
+    "language": "Παρακαλώ.",
+    "country": "Greece",
+    "flag": "flags/gr.png",
+    "continent": "Europe",
+    "info": "This means 'You're welcome' in Greek."
+  },
+  {
+    "language": "Jó reggelt, hogy vagy?",
+    "country": "Hungary",
+    "flag": "flags/hu.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?', which is a common greeting in Hungarian."
+  },
+  {
+    "language": ".is",
+    "country": "Iceland",
+    "flag": "flags/is.png",
+    "continent": "Europe",
+    "info": "Iceland's official country code top-level language."
+  },
+  {
+    "language": ".lv",
+    "country": "Latvia",
+    "flag": "flags/lv.png",
+    "continent": "Europe",
+    "info": "Latvia's official country code top-level language."
+  },
+  {
+    "language": ".li",
+    "country": "Liechtenstein",
+    "flag": "flags/li.png",
+    "continent": "Europe",
+    "info": "Liechtenstein's official country code top-level language."
+  },
+  {
+    "language": ".lt",
+    "country": "Lithuania",
+    "flag": "flags/lt.png",
+    "continent": "Europe",
+    "info": "Lithuania's official country code top-level language."
+  },
+  {
+    "language": ".lu",
+    "country": "Luxembourg",
+    "flag": "flags/lu.png",
+    "continent": "Europe",
+    "info": "Luxembourg's official country code top-level language."
+  },
+  {
+    "language": ".mc",
+    "country": "Monaco",
+    "flag": "flags/mc.png",
+    "continent": "Europe",
+    "info": "Monaco's official country code top-level language."
+  },
+  {
+    "language": ".md",
+    "country": "Moldova",
+    "flag": "flags/md.png",
+    "continent": "Europe",
+    "info": "Moldova's official country code top-level language."
+  },
+  {
+    "language": ".me",
+    "country": "Montenegro",
+    "flag": "flags/me.png",
+    "continent": "Europe",
+    "info": "Montenegro's official country code top-level language."
+  },
+  {
+    "language": ".no",
+    "country": "Norway",
+    "flag": "flags/no.png",
+    "continent": "Europe",
+    "info": "Norway's official country code top-level language."
+  },
+  {
+    "language": ".ro",
+    "country": "Romania",
+    "flag": "flags/ro.png",
+    "continent": "Europe",
+    "info": "Romania's official country code top-level language."
+  },
+  {
+    "language": ".ru",
+    "country": "Russia",
+    "flag": "flags/ru.png",
+    "continent": "Europe",
+    "info": "Russia's official country code top-level language."
+  },
+  {
+    "language": ".rs",
+    "country": "Serbia",
+    "flag": "flags/rs.png",
+    "continent": "Europe",
+    "info": "Serbia's official country code top-level language."
+  },
+  {
+    "language": ".sk",
+    "country": "Slovakia",
+    "flag": "flags/sk.png",
+    "continent": "Europe",
+    "info": "Slovakia's official country code top-level language."
+  },
+  {
+    "language": ".si",
+    "country": "Slovenia",
+    "flag": "flags/si.png",
+    "continent": "Europe",
+    "info": "Slovenia's official country code top-level language."
+  },
+  {
+    "language": ".se",
+    "country": "Sweden",
+    "flag": "flags/se.png",
+    "continent": "Europe",
+    "info": "Sweden's official country code top-level language."
+  },
+  {
+    "language": ".ch",
+    "country": "Switzerland",
+    "flag": "flags/ch.png",
+    "continent": "Europe",
+    "info": "Switzerland's official country code top-level language."
+  },
+  {
+    "language": ".ua",
+    "country": "Ukraine",
+    "flag": "flags/ua.png",
+    "continent": "Europe",
+    "info": "Ukraine's official country code top-level language."
+  },
+  {
+    "language": ".va",
+    "country": "Vatican City",
+    "flag": "flags/va.png",
+    "continent": "Europe",
+    "info": "Vatican City's official country code top-level language."
+  },
+  {
+    "language": ".af",
+    "country": "Afghanistan",
+    "flag": "flags/af.png",
+    "continent": "Asia",
+    "info": "Afghanistan's official country code top-level language."
+  },
+  {
+    "language": ".am",
+    "country": "Armenia",
+    "flag": "flags/am.png",
+    "continent": "Asia",
+    "info": "Armenia's official country code top-level language."
+  },
+  {
+    "language": ".az",
+    "country": "Azerbaijan",
+    "flag": "flags/az.png",
+    "continent": "Asia",
+    "info": "Azerbaijan's official country code top-level language."
+  },
+  {
+    "language": ".bh",
+    "country": "Bahrain",
+    "flag": "flags/bh.png",
+    "continent": "Asia",
+    "info": "Bahrain's official country code top-level language."
+  },
+  {
+    "language": ".bd",
+    "country": "Bangladesh",
+    "flag": "flags/bd.png",
+    "continent": "Asia",
+    "info": "Bangladesh's official country code top-level language."
+  },
+  {
+    "language": ".bt",
+    "country": "Bhutan",
+    "flag": "flags/bt.png",
+    "continent": "Asia",
+    "info": "Bhutan's official country code top-level language."
+  },
+  {
+    "language": ".bn",
+    "country": "Brunei",
+    "flag": "flags/bn.png",
+    "continent": "Asia",
+    "info": "Brunei's official country code top-level language."
+  },
+  {
+    "language": ".kh",
+    "country": "Cambodia",
+    "flag": "flags/kh.png",
+    "continent": "Asia",
+    "info": "Cambodia's official country code top-level language."
+  },
+  {
+    "language": ".ge",
+    "country": "Georgia",
+    "flag": "flags/ge.png",
+    "continent": "Asia",
+    "info": "Georgia's official country code top-level language."
+  },
+  {
+    "language": ".hk",
+    "country": "Hong Kong",
+    "flag": "flags/hk.png",
+    "continent": "Asia",
+    "info": "Hong Kong's official country code top-level language."
+  },
+  {
+    "language": ".id",
+    "country": "Indonesia",
+    "flag": "flags/id.png",
+    "continent": "Asia",
+    "info": "Indonesia's official country code top-level language."
+  },
+  {
+    "language": ".ir",
+    "country": "Iran",
+    "flag": "flags/ir.png",
+    "continent": "Asia",
+    "info": "Iran's official country code top-level language."
+  },
+  {
+    "language": ".iq",
+    "country": "Iraq",
+    "flag": "flags/iq.png",
+    "continent": "Asia",
+    "info": "Iraq's official country code top-level language."
+  },
+  {
+    "language": ".il",
+    "country": "Israel",
+    "flag": "flags/il.png",
+    "continent": "Asia",
+    "info": "Israel's official country code top-level language."
+  },
+  {
+    "language": ".jo",
+    "country": "Jordan",
+    "flag": "flags/jo.png",
+    "continent": "Asia",
+    "info": "Jordan's official country code top-level language."
+  },
+  {
+    "language": ".kz",
+    "country": "Kazakhstan",
+    "flag": "flags/kz.png",
+    "continent": "Asia",
+    "info": "Kazakhstan's official country code top-level language."
+  },
+  {
+    "language": ".kw",
+    "country": "Kuwait",
+    "flag": "flags/kw.png",
+    "continent": "Asia",
+    "info": "Kuwait's official country code top-level language."
+  },
+  {
+    "language": ".kg",
+    "country": "Kyrgyzstan",
+    "flag": "flags/kg.png",
+    "continent": "Asia",
+    "info": "Kyrgyzstan's official country code top-level language."
+  },
+  {
+    "language": ".la",
+    "country": "Laos",
+    "flag": "flags/la.png",
+    "continent": "Asia",
+    "info": "Laos' official country code top-level language."
+  },
+  {
+    "language": ".lb",
+    "country": "Lebanon",
+    "flag": "flags/lb.png",
+    "continent": "Asia",
+    "info": "Lebanon's official country code top-level language."
+  },
+  {
+    "language": ".mo",
+    "country": "Macau",
+    "flag": "flags/mo.png",
+    "continent": "Asia",
+    "info": "Macau's official country code top-level language."
+  },
+  {
+    "language": ".my",
+    "country": "Malaysia",
+    "flag": "flags/my.png",
+    "continent": "Asia",
+    "info": "Malaysia's official country code top-level language."
+  },
+  {
+    "language": ".mv",
+    "country": "Maldives",
+    "flag": "flags/mv.png",
+    "continent": "Asia",
+    "info": "Maldives' official country code top-level language."
+  },
+  {
+    "language": ".mn",
+    "country": "Mongolia",
+    "flag": "flags/mn.png",
+    "continent": "Asia",
+    "info": "Mongolia's official country code top-level language."
+  },
+  {
+    "language": ".mm",
+    "country": "Myanmar",
+    "flag": "flags/mm.png",
+    "continent": "Asia",
+    "info": "Myanmar's official country code top-level language."
+  },
+  {
+    "language": ".np",
+    "country": "Nepal",
+    "flag": "flags/np.png",
+    "continent": "Asia",
+    "info": "Nepal's official country code top-level language."
+  },
+  {
+    "language": ".kp",
+    "country": "North Korea",
+    "flag": "flags/kp.png",
+    "continent": "Asia",
+    "info": "North Korea's official country code top-level language."
+  },
+  {
+    "language": ".om",
+    "country": "Oman",
+    "flag": "flags/om.png",
+    "continent": "Asia",
+    "info": "Oman's official country code top-level language."
+  },
+  {
+    "language": ".pk",
+    "country": "Pakistan",
+    "flag": "flags/pk.png",
+    "continent": "Asia",
+    "info": "Pakistan's official country code top-level language."
+  },
+  {
+    "language": ".ps",
+    "country": "Palestine",
+    "flag": "flags/ps.png",
+    "continent": "Asia",
+    "info": "Palestine's official country code top-level language."
+  },
+  {
+    "language": ".ph",
+    "country": "Philippines",
+    "flag": "flags/ph.png",
+    "continent": "Asia",
+    "info": "Philippines' official country code top-level language."
+  },
+  {
+    "language": ".qa",
+    "country": "Qatar",
+    "flag": "flags/qa.png",
+    "continent": "Asia",
+    "info": "Qatar's official country code top-level language."
+  },
+  {
+    "language": ".sa",
+    "country": "Saudi Arabia",
+    "flag": "flags/sa.png",
+    "continent": "Asia",
+    "info": "Saudi Arabia's official country code top-level language."
+  },
+  {
+    "language": ".sg",
+    "country": "Singapore",
+    "flag": "flags/sg.png",
+    "continent": "Asia",
+    "info": "Singapore's official country code top-level language."
+  },
+  {
+    "language": ".kr",
+    "country": "South Korea",
+    "flag": "flags/kr.png",
+    "continent": "Asia",
+    "info": "South Korea's official country code top-level language."
+  },
+  {
+    "language": ".lk",
+    "country": "Sri Lanka",
+    "flag": "flags/lk.png",
+    "continent": "Asia",
+    "info": "Sri Lanka's official country code top-level language."
+  },
+  {
+    "language": ".sy",
+    "country": "Syria",
+    "flag": "flags/sy.png",
+    "continent": "Asia",
+    "info": "Syria's official country code top-level language."
+  },
+  {
+    "language": ".tw",
+    "country": "Taiwan",
+    "flag": "flags/tw.png",
+    "continent": "Asia",
+    "info": "Taiwan's official country code top-level language."
+  },
+  {
+    "language": ".tj",
+    "country": "Tajikistan",
+    "flag": "flags/tj.png",
+    "continent": "Asia",
+    "info": "Tajikistan's official country code top-level language."
+  },
+  {
+    "language": ".th",
+    "country": "Thailand",
+    "flag": "flags/th.png",
+    "continent": "Asia",
+    "info": "Thailand's official country code top-level language."
+  },
+  {
+    "language": ".tl",
+    "country": "Timor-Leste",
+    "flag": "flags/tl.png",
+    "continent": "Asia",
+    "info": "Timor-Leste's official country code top-level language."
+  },
+  {
+    "language": ".tm",
+    "country": "Turkmenistan",
+    "flag": "flags/tm.png",
+    "continent": "Asia",
+    "info": "Turkmenistan's official country code top-level language."
+  },
+  {
+    "language": ".ae",
+    "country": "United Arab Emirates",
+    "flag": "flags/ae.png",
+    "continent": "Asia",
+    "info": "United Arab Emirates' official country code top-level language."
+  },
+  {
+    "language": ".uz",
+    "country": "Uzbekistan",
+    "flag": "flags/uz.png",
+    "continent": "Asia",
+    "info": "Uzbekistan's official country code top-level language."
+  },
+  {
+    "language": ".vn",
+    "country": "Vietnam",
+    "flag": "flags/vn.png",
+    "continent": "Asia",
+    "info": "Vietnam's official country code top-level language."
+  },
+  {
+    "language": ".ye",
+    "country": "Yemen",
+    "flag": "flags/ye.png",
+    "continent": "Asia",
+    "info": "Yemen's official country code top-level language."
+  },
+
+  {
+  "language": ".dz",
+  "country": "Algeria",
+  "flag": "flags/dz.png",
+  "continent": "Africa",
+  "info": "Algeria's official country code top-level language."
+},
+{
+  "language": ".ao",
+  "country": "Angola",
+  "flag": "flags/ao.png",
+  "continent": "Africa",
+  "info": "Angola's official country code top-level language."
+},
+{
+  "language": ".bj",
+  "country": "Benin",
+  "flag": "flags/bj.png",
+  "continent": "Africa",
+  "info": "Benin's official country code top-level language."
+},
+{
+  "language": ".bw",
+  "country": "Botswana",
+  "flag": "flags/bw.png",
+  "continent": "Africa",
+  "info": "Botswana's official country code top-level language."
+},
+{
+  "language": ".bf",
+  "country": "Burkina Faso",
+  "flag": "flags/bf.png",
+  "continent": "Africa",
+  "info": "Burkina Faso's official country code top-level language."
+},
+{
+  "language": ".bi",
+  "country": "Burundi",
+  "flag": "flags/bi.png",
+  "continent": "Africa",
+  "info": "Burundi's official country code top-level language."
+},
+{
+  "language": ".cm",
+  "country": "Cameroon",
+  "flag": "flags/cm.png",
+  "continent": "Africa",
+  "info": "Cameroon's official country code top-level language."
+},
+{
+  "language": ".cv",
+  "country": "Cape Verde",
+  "flag": "flags/cp.png",
+  "continent": "Africa",
+  "info": "Cape Verde's official country code top-level language."
+},
+{
+  "language": ".cf",
+  "country": "Central African Republic",
+  "flag": "flags/cf.png",
+  "continent": "Africa",
+  "info": "Central African Republic's official country code top-level language."
+},
+{
+  "language": ".td",
+  "country": "Chad",
+  "flag": "flags/td.png",
+  "continent": "Africa",
+  "info": "Chad's official country code top-level language."
+},
+{
+  "language": ".km",
+  "country": "Comoros",
+  "flag": "flags/km.png",
+  "continent": "Africa",
+  "info": "Comoros' official country code top-level language."
+},
+{
+  "language": ".cg",
+  "country": "Republic of the Congo",
+  "flag": "flags/cg.png",
+  "continent": "Africa",
+  "info": "Republic of the Congo's official country code top-level language."
+},
+{
+  "language": ".cd",
+  "country": "Democratic Republic of the Congo",
+  "flag": "flags/cd.png",
+  "continent": "Africa",
+  "info": "DR Congo's official country code top-level language."
+},
+{
+  "language": ".dj",
+  "country": "Djibouti",
+  "flag": "flags/dj.png",
+  "continent": "Africa",
+  "info": "Djibouti's official country code top-level language."
+},
+{
+  "language": ".eg",
+  "country": "Egypt",
+  "flag": "flags/eg.png",
+  "continent": "Africa",
+  "info": "Egypt's official country code top-level language."
+},
+{
+  "language": ".gq",
+  "country": "Equatorial Guinea",
+  "flag": "flags/gq.png",
+  "continent": "Africa",
+  "info": "Equatorial Guinea's official country code top-level language."
+},
+{
+  "language": ".er",
+  "country": "Eritrea",
+  "flag": "flags/er.png",
+  "continent": "Africa",
+  "info": "Eritrea's official country code top-level language."
+},
+{
+  "language": ".sz",
+  "country": "Eswatini",
+  "flag": "flags/sz.png",
+  "continent": "Africa",
+  "info": "Eswatini's official country code top-level language."
+},
+{
+  "language": ".et",
+  "country": "Ethiopia",
+  "flag": "flags/et.png",
+  "continent": "Africa",
+  "info": "Ethiopia's official country code top-level language."
+},
+{
+  "language": ".ga",
+  "country": "Gabon",
+  "flag": "flags/ga.png",
+  "continent": "Africa",
+  "info": "Gabon's official country code top-level language."
+},
+{
+  "language": ".gm",
+  "country": "Gambia",
+  "flag": "flags/gm.png",
+  "continent": "Africa",
+  "info": "Gambia's official country code top-level language."
+},
+{
+  "language": ".gh",
+  "country": "Ghana",
+  "flag": "flags/gh.png",
+  "continent": "Africa",
+  "info": "Ghana's official country code top-level language."
+},
+{
+  "language": ".gn",
+  "country": "Guinea",
+  "flag": "flags/gn.png",
+  "continent": "Africa",
+  "info": "Guinea's official country code top-level language."
+},
+{
+  "language": ".gw",
+  "country": "Guinea-Bissau",
+  "flag": "flags/gw.png",
+  "continent": "Africa",
+  "info": "Guinea-Bissau's official country code top-level language."
+},
+{
+  "language": ".ci",
+  "country": "Ivory Coast",
+  "flag": "flags/ci.png",
+  "continent": "Africa",
+  "info": "Ivory Coast's official country code top-level language."
+},
+{
+  "language": ".ke",
+  "country": "Kenya",
+  "flag": "flags/ke.png",
+  "continent": "Africa",
+  "info": "Kenya's official country code top-level language."
+},
+{
+  "language": ".ls",
+  "country": "Lesotho",
+  "flag": "flags/ls.png",
+  "continent": "Africa",
+  "info": "Lesotho's official country code top-level language."
+},
+{
+  "language": ".lr",
+  "country": "Liberia",
+  "flag": "flags/lr.png",
+  "continent": "Africa",
+  "info": "Liberia's official country code top-level language."
+},
+{
+  "language": ".ly",
+  "country": "Libya",
+  "flag": "flags/ly.png",
+  "continent": "Africa",
+  "info": "Libya's official country code top-level language."
+},
+{
+  "language": ".mg",
+  "country": "Madagascar",
+  "flag": "flags/mg.png",
+  "continent": "Africa",
+  "info": "Madagascar's official country code top-level language."
+},
+{
+  "language": ".mw",
+  "country": "Malawi",
+  "flag": "flags/mw.png",
+  "continent": "Africa",
+  "info": "Malawi's official country code top-level language."
+},
+{
+  "language": ".ml",
+  "country": "Mali",
+  "flag": "flags/ml.png",
+  "continent": "Africa",
+  "info": "Mali's official country code top-level language."
+},
+{
+  "language": ".mr",
+  "country": "Mauritania",
+  "flag": "flags/mr.png",
+  "continent": "Africa",
+  "info": "Mauritania's official country code top-level language."
+},
+{
+  "language": ".mu",
+  "country": "Mauritius",
+  "flag": "flags/mu.png",
+  "continent": "Africa",
+  "info": "Mauritius' official country code top-level language."
+},
+{
+  "language": ".ma",
+  "country": "Morocco",
+  "flag": "flags/ma.png",
+  "continent": "Africa",
+  "info": "Morocco's official country code top-level language."
+},
+{
+  "language": ".mz",
+  "country": "Mozambique",
+  "flag": "flags/mz.png",
+  "continent": "Africa",
+  "info": "Mozambique's official country code top-level language."
+},
+{
+  "language": ".na",
+  "country": "Namibia",
+  "flag": "flags/na.png",
+  "continent": "Africa",
+  "info": "Namibia's official country code top-level language."
+},
+{
+  "language": ".ne",
+  "country": "Niger",
+  "flag": "flags/ne.png",
+  "continent": "Africa",
+  "info": "Niger's official country code top-level language."
+},
+{
+  "language": ".ng",
+  "country": "Nigeria",
+  "flag": "flags/ng.png",
+  "continent": "Africa",
+  "info": "Nigeria's official country code top-level language."
+},
+{
+  "language": ".rw",
+  "country": "Rwanda",
+  "flag": "flags/rw.png",
+  "continent": "Africa",
+  "info": "Rwanda's official country code top-level language."
+},
+{
+  "language": ".sn",
+  "country": "Senegal",
+  "flag": "flags/sn.png",
+  "continent": "Africa",
+  "info": "Senegal's official country code top-level language."
+},
+{
+  "language": ".sc",
+  "country": "Seychelles",
+  "flag": "flags/sc.png",
+  "continent": "Africa",
+  "info": "Seychelles' official country code top-level language."
+},
+{
+  "language": ".sl",
+  "country": "Sierra Leone",
+  "flag": "flags/sl.png",
+  "continent": "Africa",
+  "info": "Sierra Leone's official country code top-level language."
+},
+{
+  "language": ".so",
+  "country": "Somalia",
+  "flag": "flags/so.png",
+  "continent": "Africa",
+  "info": "Somalia's official country code top-level language."
+},
+{
+  "language": ".ss",
+  "country": "South Sudan",
+  "flag": "flags/ss.png",
+  "continent": "Africa",
+  "info": "South Sudan's official country code top-level language."
+},
+{
+  "language": ".sd",
+  "country": "Sudan",
+  "flag": "flags/sd.png",
+  "continent": "Africa",
+  "info": "Sudan's official country code top-level language."
+},
+{
+  "language": ".tz",
+  "country": "Tanzania",
+  "flag": "flags/tz.png",
+  "continent": "Africa",
+  "info": "Tanzania's official country code top-level language."
+},
+{
+  "language": ".tg",
+  "country": "Togo",
+  "flag": "flags/tg.png",
+  "continent": "Africa",
+  "info": "Togo's official country code top-level language."
+},
+{
+  "language": ".tn",
+  "country": "Tunisia",
+  "flag": "flags/tn.png",
+  "continent": "Africa",
+  "info": "Tunisia's official country code top-level language."
+},
+{
+  "language": ".ug",
+  "country": "Uganda",
+  "flag": "flags/ug.png",
+  "continent": "Africa",
+  "info": "Uganda's official country code top-level language."
+},
+{
+  "language": ".zm",
+  "country": "Zambia",
+  "flag": "flags/zm.png",
+  "continent": "Africa",
+  "info": "Zambia's official country code top-level language."
+},
+{
+  "language": ".zw",
+  "country": "Zimbabwe",
+  "flag": "flags/zw.png",
+  "continent": "Africa",
+  "info": "Zimbabwe's official country code top-level language."
+},
+{
+  "language": ".ag",
+  "country": "Antigua and Barbuda",
+  "flag": "flags/ag.png",
+  "continent": "North America",
+  "info": "Antigua and Barbuda's official country code top-level language."
+},
+{
+  "language": ".bs",
+  "country": "Bahamas",
+  "flag": "flags/bs.png",
+  "continent": "North America",
+  "info": "Bahamas' official country code top-level language."
+},
+{
+  "language": ".bb",
+  "country": "Barbados",
+  "flag": "flags/bb.png",
+  "continent": "North America",
+  "info": "Barbados' official country code top-level language."
+},
+{
+  "language": ".bz",
+  "country": "Belize",
+  "flag": "flags/bz.png",
+  "continent": "North America",
+  "info": "Belize's official country code top-level language."
+},
+{
+  "language": ".cr",
+  "country": "Costa Rica",
+  "flag": "flags/cr.png",
+  "continent": "North America",
+  "info": "Costa Rica's official country code top-level language."
+},
+{
+  "language": ".cu",
+  "country": "Cuba",
+  "flag": "flags/cu.png",
+  "continent": "North America",
+  "info": "Cuba's official country code top-level language."
+},
+{
+  "language": ".dm",
+  "country": "Dominica",
+  "flag": "flags/dm.png",
+  "continent": "North America",
+  "info": "Dominica's official country code top-level language."
+},
+{
+  "language": ".do",
+  "country": "Dominican Republic",
+  "flag": "flags/do.png",
+  "continent": "North America",
+  "info": "Dominican Republic's official country code top-level language."
+},
+{
+  "language": ".sv",
+  "country": "El Salvador",
+  "flag": "flags/sv.png",
+  "continent": "North America",
+  "info": "El Salvador's official country code top-level language."
+},
+{
+  "language": ".gd",
+  "country": "Grenada",
+  "flag": "flags/gd.png",
+  "continent": "North America",
+  "info": "Grenada's official country code top-level language."
+},
+{
+  "language": ".gt",
+  "country": "Guatemala",
+  "flag": "flags/gt.png",
+  "continent": "North America",
+  "info": "Guatemala's official country code top-level language."
+},
+{
+  "language": ".ht",
+  "country": "Haiti",
+  "flag": "flags/ht.png",
+  "continent": "North America",
+  "info": "Haiti's official country code top-level language."
+},
+{
+  "language": ".hn",
+  "country": "Honduras",
+  "flag": "flags/hn.png",
+  "continent": "North America",
+  "info": "Honduras' official country code top-level language."
+},
+{
+  "language": ".jm",
+  "country": "Jamaica",
+  "flag": "flags/jm.png",
+  "continent": "North America",
+  "info": "Jamaica's official country code top-level language."
+},
+{
+  "language": ".ni",
+  "country": "Nicaragua",
+  "flag": "flags/ni.png",
+  "continent": "North America",
+  "info": "Nicaragua's official country code top-level language."
+},
+{
+  "language": ".pa",
+  "country": "Panama",
+  "flag": "flags/pa.png",
+  "continent": "North America",
+  "info": "Panama's official country code top-level language."
+},
+{
+  "language": ".kn",
+  "country": "Saint Kitts and Nevis",
+  "flag": "flags/kn.png",
+  "continent": "North America",
+  "info": "Saint Kitts and Nevis' official country code top-level language."
+},
+{
+  "language": ".lc",
+  "country": "Saint Lucia",
+  "flag": "flags/lc.png",
+  "continent": "North America",
+  "info": "Saint Lucia's official country code top-level language."
+},
+{
+  "language": ".vc",
+  "country": "Saint Vincent and the Grenadines",
+  "flag": "flags/vc.png",
+  "continent": "North America",
+  "info": "Saint Vincent and the Grenadines' official country code top-level language."
+},
+{
+  "language": ".tt",
+  "country": "Trinidad and Tobago",
+  "flag": "flags/tt.png",
+  "continent": "North America",
+  "info": "Trinidad and Tobago's official country code top-level language."
+},
+{
+  "language": ".ai",
+  "country": "Anguilla",
+  "flag": "flags/ai.png",
+  "continent": "North America",
+  "info": "Anguilla's official country code top-level language."
+},
+{
+  "language": ".aw",
+  "country": "Aruba",
+  "flag": "flags/aw.png",
+  "continent": "North America",
+  "info": "Aruba's official country code top-level language."
+},
+{
+  "language": ".bm",
+  "country": "Bermuda",
+  "flag": "flags/bm.png",
+  "continent": "North America",
+  "info": "Bermuda's official country code top-level language."
+},
+{
+  "language": ".ky",
+  "country": "Cayman Islands",
+  "flag": "flags/ky.png",
+  "continent": "North America",
+  "info": "Cayman Islands' official country code top-level language."
+},
+{
+  "language": ".cw",
+  "country": "Curaçao",
+  "flag": "flags/cw.png",
+  "continent": "North America",
+  "info": "Curaçao's official country code top-level language."
+},
+{
+  "language": ".gl",
+  "country": "Greenland",
+  "flag": "flags/gl.png",
+  "continent": "North America",
+  "info": "Greenland's official country code top-level language."
+},
+{
+  "language": ".gp",
+  "country": "Guadeloupe",
+  "flag": "flags/gp.png",
+  "continent": "North America",
+  "info": "Guadeloupe's official country code top-level language."
+},
+{
+  "language": ".mq",
+  "country": "Martinique",
+  "flag": "flags/mq.png",
+  "continent": "North America",
+  "info": "Martinique's official country code top-level language."
+},
+{
+  "language": ".ms",
+  "country": "Montserrat",
+  "flag": "flags/ms.png",
+  "continent": "North America",
+  "info": "Montserrat's official country code top-level language."
+},
+{
+  "language": ".pr",
+  "country": "Puerto Rico",
+  "flag": "flags/pr.png",
+  "continent": "North America",
+  "info": "Puerto Rico's official country code top-level language."
+},
+{
+  "language": ".sx",
+  "country": "Sint Maarten",
+  "flag": "flags/sx.png",
+  "continent": "North America",
+  "info": "Sint Maarten's official country code top-level language."
+},
+{
+  "language": ".tc",
+  "country": "Turks and Caicos Islands",
+  "flag": "flags/tc.png",
+  "continent": "North America",
+  "info": "Turks and Caicos Islands' official country code top-level language."
+},
+{
+  "language": ".vg",
+  "country": "British Virgin Islands",
+  "flag": "flags/vg.png",
+  "continent": "North America",
+  "info": "British Virgin Islands' official country code top-level language."
+},
+{
+  "language": ".vi",
+  "country": "U.S. Virgin Islands",
+  "flag": "flags/vi.png",
+  "continent": "North America",
+  "info": "U.S. Virgin Islands' official country code top-level language."
+},
+{
+  "language": ".ar",
+  "country": "Argentina",
+  "flag": "flags/ar.png",
+  "continent": "South America",
+  "info": "Argentina's official country code top-level language."
+},
+{
+  "language": ".bo",
+  "country": "Bolivia",
+  "flag": "flags/bo.png",
+  "continent": "South America",
+  "info": "Bolivia's official country code top-level language."
+},
+{
+  "language": ".cl",
+  "country": "Chile",
+  "flag": "flags/cl.png",
+  "continent": "South America",
+  "info": "Chile's official country code top-level language."
+},
+{
+  "language": ".co",
+  "country": "Colombia",
+  "flag": "flags/co.png",
+  "continent": "South America",
+  "info": "Colombia's official country code top-level language."
+},
+{
+  "language": ".ec",
+  "country": "Ecuador",
+  "flag": "flags/ec.png",
+  "continent": "South America",
+  "info": "Ecuador's official country code top-level language."
+},
+{
+  "language": ".fk",
+  "country": "Falkland Islands",
+  "flag": "flags/fk.png",
+  "continent": "South America",
+  "info": "Falkland Islands' official country code top-level language."
+},
+{
+  "language": ".gf",
+  "country": "French Guiana",
+  "flag": "flags/gf.png",
+  "continent": "South America",
+  "info": "French Guiana's official country code top-level language."
+},
+{
+  "language": ".gy",
+  "country": "Guyana",
+  "flag": "flags/gy.png",
+  "continent": "South America",
+  "info": "Guyana's official country code top-level language."
+},
+{
+  "language": ".py",
+  "country": "Paraguay",
+  "flag": "flags/py.png",
+  "continent": "South America",
+  "info": "Paraguay's official country code top-level language."
+},
+{
+  "language": ".pe",
+  "country": "Peru",
+  "flag": "flags/pe.png",
+  "continent": "South America",
+  "info": "Peru's official country code top-level language."
+},
+{
+  "language": ".sr",
+  "country": "Suriname",
+  "flag": "flags/sr.png",
+  "continent": "South America",
+  "info": "Suriname's official country code top-level language."
+},
+{
+  "language": ".uy",
+  "country": "Uruguay",
+  "flag": "flags/uy.png",
+  "continent": "South America",
+  "info": "Uruguay's official country code top-level language."
+},
+{
+  "language": ".ve",
+  "country": "Venezuela",
+  "flag": "flags/ve.png",
+  "continent": "South America",
+  "info": "Venezuela's official country code top-level language."
+},
+
+{
+  "language": ".as",
+  "country": "American Samoa",
+  "flag": "flags/as.png",
+  "continent": "Oceania",
+  "info": "American Samoa's official country code top-level language."
+},
+{
+  "language": ".ck",
+  "country": "Cook Islands",
+  "flag": "flags/ck.png",
+  "continent": "Oceania",
+  "info": "Cook Islands' official country code top-level language."
+},
+{
+  "language": ".fj",
+  "country": "Fiji",
+  "flag": "flags/fj.png",
+  "continent": "Oceania",
+  "info": "Fiji's official country code top-level language."
+},
+{
+  "language": ".gu",
+  "country": "Guam",
+  "flag": "flags/gu.png",
+  "continent": "Oceania",
+  "info": "Guam's official country code top-level language."
+},
+{
+  "language": ".ki",
+  "country": "Kiribati",
+  "flag": "flags/ki.png",
+  "continent": "Oceania",
+  "info": "Kiribati's official country code top-level language."
+},
+{
+  "language": ".mh",
+  "country": "Marshall Islands",
+  "flag": "flags/mh.png",
+  "continent": "Oceania",
+  "info": "Marshall Islands' official country code top-level language."
+},
+{
+  "language": ".mp",
+  "country": "Northern Mariana Islands",
+  "flag": "flags/mp.png",
+  "continent": "Oceania",
+  "info": "Northern Mariana Islands' official country code top-level language."
+},
+{
+  "language": ".nr",
+  "country": "Nauru",
+  "flag": "flags/nr.png",
+  "continent": "Oceania",
+  "info": "Nauru's official country code top-level language."
+},
+{
+  "language": ".nf",
+  "country": "Norfolk Island",
+  "flag": "flags/nf.png",
+  "continent": "Oceania",
+  "info": "Norfolk Island's official country code top-level language."
+},
+{
+  "language": ".nc",
+  "country": "New Caledonia",
+  "flag": "flags/nc.png",
+  "continent": "Oceania",
+  "info": "New Caledonia's official country code top-level language."
+},
+{
+  "language": ".nu",
+  "country": "Niue",
+  "flag": "flags/nu.png",
+  "continent": "Oceania",
+  "info": "Niue's official country code top-level language."
+},
+{
+  "language": ".pf",
+  "country": "French Polynesia",
+  "flag": "flags/pf.png",
+  "continent": "Oceania",
+  "info": "French Polynesia's official country code top-level language."
+},
+{
+  "language": ".pg",
+  "country": "Papua New Guinea",
+  "flag": "flags/pg.png",
+  "continent": "Oceania",
+  "info": "Papua New Guinea's official country code top-level language."
+},
+{
+  "language": ".pn",
+  "country": "Pitcairn Islands",
+  "flag": "flags/pn.png",
+  "continent": "Oceania",
+  "info": "Pitcairn Islands' official country code top-level language."
+},
+{
+  "language": ".pw",
+  "country": "Palau",
+  "flag": "flags/pw.png",
+  "continent": "Oceania",
+  "info": "Palau's official country code top-level language."
+},
+{
+  "language": ".sb",
+  "country": "Solomon Islands",
+  "flag": "flags/sb.png",
+  "continent": "Oceania",
+  "info": "Solomon Islands' official country code top-level language."
+},
+{
+  "language": ".tk",
+  "country": "Tokelau",
+  "flag": "flags/tk.png",
+  "continent": "Oceania",
+  "info": "Tokelau's official country code top-level language."
+},
+{
+  "language": ".to",
+  "country": "Tonga",
+  "flag": "flags/to.png",
+  "continent": "Oceania",
+  "info": "Tonga's official country code top-level language."
+},
+{
+  "language": ".tv",
+  "country": "Tuvalu",
+  "flag": "flags/tv.png",
+  "continent": "Oceania",
+  "info": "Tuvalu's official country code top-level language."
+},
+{
+  "language": ".vu",
+  "country": "Vanuatu",
+  "flag": "flags/vu.png",
+  "continent": "Oceania",
+  "info": "Vanuatu's official country code top-level language."
+},
+{
+  "language": ".wf",
+  "country": "Wallis and Futuna",
+  "flag": "flags/wf.png",
+  "continent": "Oceania",
+  "info": "Wallis and Futuna's official country code top-level language."
+},
+{
+  "language": ".ws",
+  "country": "Samoa",
+  "flag": "flags/ws.png",
+  "continent": "Oceania",
+  "info": "Samoa's official country code top-level language."
+}
+]
+
+
