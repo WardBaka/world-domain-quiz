@@ -101,18 +101,60 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function getLatestAchievement(){
-        const allAchievements = [
-            ...JSON.parse(localStorage.achievements || "[]"),
-            ...JSON.parse(localStorage.flagAchievements || "[]"),
-            ...JSON.parse(localStorage.phoneAchievements || "[]")
-        ];
+    const achievement =
+        localStorage.getItem("guessrLatestAchievement");
 
-        if (allAchievements.length === 0) {
-            return "No achievements yet";
-        }
+    const achievementDate =
+        localStorage.getItem("guessrLatestAchievementDate");
 
-        return "🏆 " + allAchievements[allAchievements.length - 1];
+    if (!achievement) {
+        return {
+            name: "No achievements yet",
+            time: "Complete a quiz to unlock your first achievement."
+        };
     }
+
+    return {
+        name: "🏆 " + achievement,
+        time: getTimeAgo(achievementDate)
+    };
+}
+
+function getTimeAgo(dateString){
+    if (!dateString) return "Unlocked recently";
+
+    const unlockedDate = new Date(dateString);
+    const now = new Date();
+
+    const difference =
+        Math.floor((now - unlockedDate) / 1000);
+
+    if (difference < 60) {
+        return "Unlocked just now";
+    }
+
+    const minutes =
+        Math.floor(difference / 60);
+
+    if (minutes < 60) {
+        return "Unlocked " + minutes + " minute" +
+            (minutes === 1 ? "" : "s") + " ago";
+    }
+
+    const hours =
+        Math.floor(minutes / 60);
+
+    if (hours < 24) {
+        return "Unlocked " + hours + " hour" +
+            (hours === 1 ? "" : "s") + " ago";
+    }
+
+    const days =
+        Math.floor(hours / 24);
+
+    return "Unlocked " + days + " day" +
+        (days === 1 ? "" : "s") + " ago";
+}
 
 function getTodayKey(){
     return new Date().toDateString();
@@ -295,8 +337,14 @@ function animateNumber(element, start, end, duration = 600){
         document.getElementById("homePhoneProgress").textContent =
             "📞 Phones: " + Math.round((phonesLearned / 224) * 100) + "%";
 
-        document.getElementById("latestAchievement").textContent =
-            getLatestAchievement();
+        const latestAchievement =
+    getLatestAchievement();
+
+document.getElementById("latestAchievement").textContent =
+    latestAchievement.name;
+
+document.getElementById("latestAchievementTime").textContent =
+    latestAchievement.time;
 
             const savedLevel =
     Number(localStorage.getItem("guessrLastSeenLevel") || progress.level);
@@ -451,9 +499,16 @@ else {
     </div>
 
     <div class="achievement-panel">
-        <h3>Latest Achievement</h3>
-        <p id="latestAchievement">No achievements yet</p>
-    </div>
+    <h3>🏆 Latest Achievement</h3>
+
+    <p id="latestAchievement">
+        No achievements yet
+    </p>
+
+    <small id="latestAchievementTime">
+        Complete a quiz to unlock your first achievement.
+    </small>
+</div>
 
 </section>
 
@@ -504,12 +559,12 @@ else {
 
         <!-- Languages -->
 
-        <a href="#" class="game-card">
+        <a href="quizLanguages/index.html" class="game-card">
 
             <img src="homeImg/languagesQuiz.png" alt="Languages Quiz">
 
             <div class="overlay">
-                <h2>Coming Soon: Languages Quiz</h2>
+                <h2>Languages Quiz</h2>
                 <p>Match native languages to countries.</p>
             </div>
 

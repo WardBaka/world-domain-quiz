@@ -231,6 +231,13 @@ function unlockAchievement(name) {
     localStorage.phoneAchievements =
         JSON.stringify(unlockedAchievements);
 
+        localStorage.setItem("guessrLatestAchievement", name);
+
+localStorage.setItem(
+    "guessrLatestAchievementDate",
+    new Date().toISOString()
+);
+
     showToast(
     "Achievement Unlocked",
     name,

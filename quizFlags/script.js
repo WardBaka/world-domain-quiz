@@ -429,6 +429,13 @@ function unlockAchievement(name) {
     localStorage.flagAchievements =
         JSON.stringify(unlockedAchievements);
 
+        localStorage.setItem("guessrLatestAchievement", name);
+
+localStorage.setItem(
+    "guessrLatestAchievementDate",
+    new Date().toISOString()
+);
+
     showToast(
     "Achievement Unlocked",
     name,

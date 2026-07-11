@@ -37,18 +37,17 @@ document.getElementById("best").textContent = best;
 fetch("domains.json")
     .then(r => r.json())
     .then(d => {
-
         data = d;
-remainingQuestions = [...data];
-
-        loadBoard();
-        loadAchievements();
-        updateMastery();
+        remainingQuestions = [...data];
 
         nextQuestion();
+    })
+    .catch(error => {
+        console.error("Could not load domains.json:", error);
 
+        document.getElementById("domain").textContent =
+            "Could not load the domain data.";
     });
-
 // ======================
 // NEXT QUESTION
 // ======================
@@ -431,9 +430,8 @@ function answer(button, correct) {
         best;
 
     updateAccuracy();
-    updateDomainInfo();
-    updateAchievements();
-    updateMastery();
+updateDomainInfo();
+updateAchievements();
 
 }
 
@@ -525,7 +523,7 @@ function addXP(amount, button){
         showToast(
             "Level Up!",
             "Level " + oldLevel + " → Level " + newLevel,
-            "⬆️"
+            "level"
         );
     }
 }
@@ -586,29 +584,32 @@ function updateDomainInfo() {
 // ======================
 
 function unlockAchievement(name) {
-
-    if (unlockedAchievements.includes(name))
+    if (unlockedAchievements.includes(name)) {
         return;
+    }
 
     unlockedAchievements.push(name);
 
-    localStorage.achievements =
-        JSON.stringify(unlockedAchievements);
+    localStorage.setItem(
+        "achievements",
+        JSON.stringify(unlockedAchievements)
+    );
 
-    const achievementList =
-        document.getElementById("achievements");
+    localStorage.setItem(
+        "guessrLatestAchievement",
+        name
+    );
 
-    if (achievementList) {
-        const li = document.createElement("li");
-        li.textContent = "✅ " + name;
-        achievementList.appendChild(li);
-    }
+    localStorage.setItem(
+        "guessrLatestAchievementDate",
+        new Date().toISOString()
+    );
 
     showToast(
-    "Achievement Unlocked",
-    name,
-    "achievement"
-);
+        "Achievement Unlocked",
+        name,
+        "achievement"
+    );
 }
 
 function updateAchievements() {
@@ -635,170 +636,6 @@ function updateAchievements() {
 
 }
 
-function loadAchievements() {
-
-    unlockedAchievements.forEach(a => {
-
-        const li =
-            document.createElement("li");
-
-        li.textContent = "✅ " + a;
-
-        document
-            .getElementById("achievements")
-            .appendChild(li);
-
-    });
-
-}
-
-// ======================
-// MASTERY
-// ======================
-
-function updateMastery() {
-
-    const continents = {
-        Europe: {
-            learned: 0,
-            total: 0
-        },
-        Asia: {
-            learned: 0,
-            total: 0
-        },
-        Africa: {
-            learned: 0,
-            total: 0
-        },
-        "North America": {
-            learned: 0,
-            total: 0
-        },
-        "South America": {
-            learned: 0,
-            total: 0
-        },
-        Oceania: {
-            learned: 0,
-            total: 0
-        }
-    };
-
-    // Count total domains per continent
-    data.forEach(domain => {
-
-        if (continents[domain.continent]) {
-            continents[domain.continent].total++;
-        }
-
-    });
-
-    // Count mastered domains per continent
-    masteredDomains.forEach(mastered => {
-
-        const domainData =
-            data.find(d => d.domain === mastered);
-
-        if (
-            domainData &&
-            continents[domainData.continent]
-        ) {
-            continents[domainData.continent]
-                .learned++;
-        }
-
-    });
-
-    document.getElementById(
-        "europeMastery"
-    ).textContent =
-        `${continents.Europe.learned} / ${continents.Europe.total}`;
-
-    document.getElementById(
-        "asiaMastery"
-    ).textContent =
-        `${continents.Asia.learned} / ${continents.Asia.total}`;
-
-    document.getElementById(
-        "africaMastery"
-    ).textContent =
-        `${continents.Africa.learned} / ${continents.Africa.total}`;
-
-    document.getElementById(
-        "northAmericaMastery"
-    ).textContent =
-        `${continents["North America"].learned} / ${continents["North America"].total}`;
-
-    document.getElementById(
-        "southAmericaMastery"
-    ).textContent =
-        `${continents["South America"].learned} / ${continents["South America"].total}`;
-
-    document.getElementById(
-        "oceaniaMastery"
-    ).textContent =
-        `${continents.Oceania.learned} / ${continents.Oceania.total}`;
-
-}
-
-// ======================
-// LEADERBOARD
-// ======================
-
-function loadBoard() {
-
-    let board = JSON.parse(
-        localStorage.leaderboard || "[]"
-    );
-
-    let ol =
-        document.getElementById("leaderboard");
-
-    ol.innerHTML = "";
-
-    board.forEach(entry => {
-
-        let li =
-            document.createElement("li");
-
-        li.textContent =
-            `${entry.name} - ${entry.score}`;
-
-        ol.appendChild(li);
-
-    });
-
-}
-
-window.addEventListener("beforeunload", () => {
-
-    let name =
-        localStorage.playerName ||
-        prompt("Enter your name:") ||
-        "Player";
-
-    localStorage.playerName = name;
-
-    let board = JSON.parse(
-        localStorage.leaderboard || "[]"
-    );
-
-    board.push({
-        name: name,
-        score: score
-    });
-
-    board.sort(
-        (a, b) => b.score - a.score
-    );
-
-    board = board.slice(0, 10);
-
-    localStorage.leaderboard =
-        JSON.stringify(board);
-
-});
 
 // ======================
 // NEXT BUTTON
