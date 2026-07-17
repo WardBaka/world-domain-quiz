@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessrQuiz - Settings</title>
+    <link rel="icon" type="image/png" href="homeImg/guessrQuizLogo.png">
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+<div class="settings-wrap">
+    <a href="index.html" class="home-button">Home</a>
+    <header>
+    <h1>Settings</h1>
+    <p>Here you can customize your GuessrQuiz experience. Adjust the settings below to suit your preferences.</p>
+    </header>
+    <section class="settings-card">
+        <h2>Audio</h2>
+        <div class="setting-row">
+            <div>
+                <h3>Sound Effects</h3>
+                <p>Toggle sound effects on or off.</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="soundToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+    </section>
+
+
+    <section class="settings-card">
+        <h2>Animations</h2>
+        <div class="setting-row">
+            <div>
+                <h3>Animations</h3>
+                <p>Toggle animations on or off.</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="soundToggle">
+                    <span class="slider"></span>
+                </label>
+        </div>
+    </section>
+
+
+    <section class="settings-card Reset">
+        <h2>Progress Data</h2>
+        <p>Reset your progress data if you want to start over. This will erase all your saved progress and cannot be undone.</p>
+        <button id="resetProgress">Reset Progress</button>
+    </section>
+    
+</div>
+
+<script src="settings.js"></script>
+</body>
+</html>
