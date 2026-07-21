@@ -466,295 +466,295 @@
     "country": "Czech Republic",
     "capital": "Prague",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Prague", 
+      "Brno", 
+      "Ostrava", 
+      "Plzeň", 
+      "Liberec", 
+      "Olomouc"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Prague is the capital and largest city of the Czech Republic and its metro area population is an estimated 2.3 million people."
   },
   {
     "country": "Denmark",
     "capital": "Copenhagen",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Copenhagen", 
+      "Aarhus", 
+      "Odense", 
+      "Aalborg", 
+      "Esbjerg", 
+      "Randers"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Copenhagen is the capital and largest city of Denmark and its metropolitian population is 1.4 million people."
   },
   {
     "country": "Estonia",
-    "capital": "Tallin",
+    "capital": "Tallinn",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Tallinn", 
+      "Tartu", 
+      "Narva", 
+      "Pärnu", 
+      "Kohtla-Järve", 
+      "Viljandi"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Tallinn is the capital and largest city of Estonia and its' metropolitian area population is approximately 460,000 residents."
   },
   {
     "country": "Finland",
     "capital": "Helsinki",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Helsinki", 
+      "Espoo", 
+      "Tampere", 
+      "Vantaa", 
+      "Oulu", 
+      "Turku"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Helsinki is the capital and largest city of Finland with an estimated metropolitian area population of 1.5 million people."
   },
   {
     "country": "Greece",
     "capital": "Athens",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Athens", 
+      "Thessaloniki", 
+      "Patras", 
+      "Heraklion", 
+      "Larissa", 
+      "Chania"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Athens is the capital and largest city of Greece with an estimated metro area population of 3.15 million people."
   },
   {
     "country": "Hungary",
     "capital": "Budapest",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Budapest", 
+      "Debrecen", 
+      "Szeged", 
+      "Miskolc", 
+      "Pécs", 
+      "Győr"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Budapest is the capital and the largest city of Hungary with an estimated metro area population of 2.6 million people."
   },
   {
     "country": "Iceland",
     "capital": "Reykjavík",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Reykjavík", 
+      "Kópavogur", 
+      "Hafnarfjörður", 
+      "Akureyri", 
+      "Reykjanesbær", 
+      "Garðabær"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Reykjavík is the capital and largest city of Iceland and boasts an estimated metropolitian area of 252,000 people."
   },
   {
     "country": "Latvia",
     "capital": "Riga",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Riga", 
+      "Daugavpils", 
+      "Liepāja", 
+      "Jelgava", 
+      "Jūrmala", 
+      "Ventspils"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Riga is the capital and largest city of Latvia and has a approximately 850,000 residents in its metropolitian area."
   },
   {
     "country": "Liechtenstein",
     "capital": "Vaduz",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Schaan", 
+      "Vaduz", 
+      "Triesen", 
+      "Balzers", 
+      "Eschen", 
+      "Mauren"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Vaduz is the capital of Liechtenstein and it has an estimated population of 6,100."
   },
   {
     "country": "Lithuania",
     "capital": "Vilnius",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Vilnius", 
+      "Kaunas", 
+      "Klaipėda", 
+      "Šiauliai", 
+      "Panevėžys", 
+      "Alytus"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Vilnius is the capital and largest city of Lithuania and has an estimated metropolitian area population of 767,907."
   },
   {
     "country": "Luxembourg",
-    "capital": "Luxembourg",
+    "capital": "Luxembourg City",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Luxembourg City", 
+      "Esch-sur-Alzette", 
+      "Differdange", 
+      "Dudelange", 
+      "Ettelbruck", 
+      "Diekirch"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Luxembourg City is the capital and largest city of Luxembourg with an estimated population of roughly 137,000."
   },
   {
     "country": "Monaco",
     "capital": "Monaco",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Monte-Carlo", 
+      "Monaco-Ville", 
+      "La Condamine", 
+      "Fontvieille", 
+      "Larvotto", 
+      "La Rousse"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "N/A."
   },
   {
     "country": "Moldova",
     "capital": "Chișinău",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Chișinău", 
+      "Tiraspol", 
+      "Bălți", 
+      "Bender", 
+      "Cahul", 
+      "Soroca"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Chișinău is the capital and largest city of Moldova and its metropolitian area population is an estimated 720,000."
   },
   {
     "country": "Montenegro",
     "capital": "Podgorica",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Podgorica", 
+      "Budva", 
+      "Kotor", 
+      "Nikšić", 
+      "Herceg Novi", 
+      "Cetinje"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Podgorica is the capital and largest city in Montenegro and has a metropolitian population of approximately 179,000."
   },
   {
     "country": "Norway",
     "capital": "Oslo",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Oslo", 
+      "Bergen", 
+      "Stavanger/Sandnes", 
+      "Trondheim", 
+      "Drammen", 
+      "Fredrikstad/Sarpsborg"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Oslo is the capital and largest city of Norway and has a metropolitian area population of around 1.58 million people."
   },
   {
     "country": "Romania",
     "capital": "Bucharest",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Bucharest", 
+      "Cluj-Napoca", 
+      "Timișoara", 
+      "Iași", 
+      "Constanța", 
+      "Brașov"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Bucharest is the capital and largest city of Romania and has an estimated metropolitian area population of 2.3 million people."
   },
   {
     "country": "Russia",
     "capital": "Moscow",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Moscow", 
+      "Saint Petersburg", 
+      "Novosibirsk", 
+      "Yekaterinburg", 
+      "Kazan", 
+      "Nizhny Novgorod"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Moscow is the capital and largest city of Russia and its metropolitian area population is 21.5 million people."
   },
   {
     "country": "Serbia",
     "capital": "Belgrade",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Belgrade", 
+      "Novi Sad", 
+      "Niš", 
+      "Kragujevac", 
+      "Subotica", 
+      "Novi Pazar"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Belgrade is the capital and largest city of Serbia and its metropolitian area population is 1.68 million people."
   },
   {
     "country": "Slovakia",
     "capital": "Bratislava",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Bratislava", 
+      "Košice", 
+      "Prešov", 
+      "Žilina", 
+      "Banská Bystrica", 
+      "Trnava"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Bratislava is the capital and largest city of Slovakia and boasts a metropolitian area population of approximately 1.3 million people."
   },
   {
     "country": "Slovenia",
     "capital": "Ljubljana",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Ljubljana", 
+      "Maribor", 
+      "Celje", 
+      "Kranj", 
+      "Koper", 
+      "Velenje"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Ljubljana is the capital and largest city of Slovenia and has a metropolitian area population of approximately 290,000 people."
   },
   {
     "country": "Sweden",
     "capital": "Stockholm",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Stockholm", 
+      "Gothenburg", 
+      "Malmö", 
+      "Uppsala", 
+      "Linköping", 
+      "Västerås"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Stockholm is the capital and largest city of Sweden and has a metropolitian area population of approximately 2.48 million people."
   },
   {
     "country": "Switzerland",
@@ -774,15 +774,15 @@
     "country": "Ukraine",
     "capital": "Kyiv",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Kyiv", 
+      "Kharkiv", 
+      "Odesa", 
+      "Dnipro", 
+      "Lviv", 
+      "Donetsk"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Kyiv is the capital and largest city of Ukraine and has a metropolitian area population of approximately 3.47 million people."
   },
   {
     "country": "Vatican City",
@@ -796,133 +796,133 @@
       " "
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "N/A."
   },
   {
     "country": "Afghanistan",
     "capital": "Kabul",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Kabul", 
+      "Herat", 
+      "Kandahar", 
+      "Mazar-i-Sharif", 
+      "Jalalabad", 
+      "Kunduz"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Kabul is the capital and largest city of Afghanistan and has a metropolitian area population of approximately 5.3 million people."
   },
   {
     "country": "Armenia",
     "capital": "Yerevan",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Yerevan", 
+      "Gyumri", 
+      "Vanadzor", 
+      "Vagharshapat", 
+      "Dilijan", 
+      "Goris"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Yerevan is the capital and largest city of Armenia and has a metropolitian area population of approximately 1.1 million people."
   },
   {
     "country": "Azerbaijan",
     "capital": "Baku",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Baku", 
+      "Ganja", 
+      "Sheki", 
+      "Gabala", 
+      "Lankaran", 
+      "Guba"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Baku is the capital and largest city of Azerbaijan and has a metropolitian area population of approximately 2.53 million people."
   },
   {
     "country": "Bahrain",
     "capital": "Manama",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Manama", 
+      "Hamad Town", 
+      "A'ali", 
+      "Muharraq", 
+      "Riffa", 
+      "Isa Town"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Manama is the capital and largest city of Bahrain and has a metropolitian area population of approximately 750,000 people."
   },
   {
     "country": "Bangladesh",
     "capital": "Dhaka",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Dhaka", 
+      "Chattogram", 
+      "Khulna", 
+      "Sylhet", 
+      "Rajshahi", 
+      "Cox's Bazar"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Dhaka is the capital and largest city of Bangladesh and has a metropolitian area population of approximately 36.6 million people."
   },
   {
     "country": "Bhutan",
     "capital": "Thimphu",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Thimphu", 
+      "Paro", 
+      "Punakha", 
+      "Phuentsholing", 
+      "Jakar", 
+      "Wangdue Phodrang"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Thimphu is the capital and largest city of Bhutan and has a population of approximately 141,000 people."
   },
   {
     "country": "Brunei",
     "capital": "Bandar Seri Begawan",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Bandar Seri Begawan", 
+      "Bangar", 
+      "Sengkurong", 
+      "Kuala Belait", 
+      "Seria", 
+      "Tutong"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Bandar Seri Begawan is the capital and largest city of Brunei and has a metropolitian population of approximately 318,000 people."
   },
   {
     "country": "Cambodia",
     "capital": "Phnom Penh",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Phnom Penh", 
+      "Kampot", 
+      "Kep", 
+      "Sihanoukville", 
+      "Siem Reap", 
+      "Battambang"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Phnom Penh is the capital and largest city of Cambodia and has a metropolitian population of approximately 2.54 million people."
   },
   {
     "country": "Georgia",
     "capital": "Tbilisi",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Tbilisi", 
+      "Mtskheta", 
+      "Sighnaghi", 
+      "Kutaisi", 
+      "Batumi", 
+      "Rustavi"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Tbilisi is the capital and largest city of Georgia and has a population of approximately 1.37 million people."
   },
   {
     "country": "Hong Kong",
@@ -942,43 +942,43 @@
     "country": "Indonesia",
     "capital": "Jakarta",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Jakarta", 
+      "Bali", 
+      "Yogyakarta", 
+      "Surabaya", 
+      "Bandung", 
+      "Medan"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Jakarta is the capital and largest city of Indonesia and has a metropolitian population of approximately 41.9 million people."
   },
   {
     "country": "Iran",
     "capital": "Tehran",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Tehran", 
+      "Isfahan", 
+      "Shiraz", 
+      "Yazd", 
+      "Tabriz", 
+      "Kashan"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Tehran is the capital and largest city of Iran and has a metropolitian population of approximately 14.5 million people."
   },
   {
     "country": "Iraq",
     "capital": "Baghdad",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Baghdad", 
+      "Basra", 
+      "Mosul", 
+      "Erbil", 
+      "Najaf", 
+      "Karbala"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Baghdad is the capital and largest city of Iraq and has a metropolitian population of approximately 10.1 million people."
   },
   {
     "country": "Israel",
@@ -998,85 +998,85 @@
     "country": "Jordan",
     "capital": "Amman",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Amman", 
+      "Zarqa", 
+      "Rusayfah", 
+      "Irbid", 
+      "Aqaba", 
+      "Madaba"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Amman is the capital and largest city of Jordan and has a population of approximately 3.14 million people."
   },
   {
     "country": "Kazakhstan",
     "capital": "Astana",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Astana", 
+      "Almaty", 
+      "Shymkent", 
+      "Aktobe", 
+      "Karaganda", 
+      "Aktau"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Astana is the capital of Kazakhstan and has a metropolitian population of approximately 1.38 million people."
   },
   {
     "country": "Kuwait",
     "capital": "Kuwait City",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Kuwait City", 
+      "Salmiya", 
+      "Hawally", 
+      "Al Jahra", 
+      "Al Ahmadi", 
+      "Farwaniyah"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Kuwait City is the capital and largest city of Kuwait and has a population of approximately 3.4 million people."
   },
   {
     "country": "Kyrgyzstan",
     "capital": "Bishkek",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Bishkek", 
+      "Cholpon-Ata", 
+      "Naryn", 
+      "Osh", 
+      "Jalal-Abad", 
+      "Karakol"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Bishkek is the capital and largest city of Kyrgyzstan and has a population of approximately 1.3 million people."
   },
   {
     "country": "Laos",
     "capital": "Vientiane",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Vientiane", 
+      "Pakse", 
+      "Phonsavan", 
+      "Vang Vieng", 
+      "Luang Prabang", 
+      "Thakhek"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Vientiane is the capital and largest city of Laos and has a metropolitan area population of approximately 775,000 people."
   },
   {
     "country": "Lebanon",
     "capital": "Beirut",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Tripoli", 
+      "Tyre", 
+      "Jounieh", 
+      "Beirut", 
+      "Byblos", 
+      "Sidon"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Beirut is the capital and largest city of Lebanon and has a metropolitan area population of approximately 2.36 million people."
   },
   {
     "country": "Macau",
@@ -1096,113 +1096,113 @@
     "country": "Malaysia",
     "capital": "Kuala Lumpur",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Kuala Lumpur", 
+      "George Town", 
+      "Malacca", 
+      "Kota Kinabalu", 
+      "Ipoh", 
+      "Johor Bahru"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Kuala Lumpur is the capital and largest city of Malaysia and has a metropolitan area population of approximately 8.4 million people."
   },
   {
     "country": "Maldives",
     "capital": "Malé",
     "cities": [
-      " ", 
-      " ", 
-      "The Hague", 
-      " ", 
-      " ", 
-      " "
+      "Malé", 
+      "Hulhumale", 
+      "Maafushi", 
+      "Fuvahmulah", 
+      "Naifaru", 
+      "Dhidhdhoo"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Malé is the capital and largest city of the Maldives and has a population of approximately 250,000 people."
   },
   {
     "country": "Mongolia",
     "capital": "Ulaanbaatar",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Ulaanbaatar", 
+      "Darkhan", 
+      "Erdenet", 
+      "Murun", 
+      "Khovd", 
+      "Ölgii"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Ulaanbaatar is the capital and largest city of Mongolia and has a metropolitan population of approximately 1.74 million people."
   },
   {
     "country": "Myanmar",
     "capital": "Naypyidaw",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Naypyidaw", 
+      "Yangon", 
+      "Mandalay", 
+      "Bagan", 
+      "Inle Lake", 
+      "Kalaw"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Naypyidaw is the capital of Myanmar and has a population of approximately 1.2 million people."
   },
   {
     "country": "Nepal",
     "capital": "Kathmandu",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Kathmandu", 
+      "Pokhara", 
+      "Lalitpur", 
+      "Bhaktapur", 
+      "Lumbini", 
+      "Bharatpur"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Kathmandu is the capital and largest city of Nepal and has a metropolitan population of approximately 1.72 million people."
   },
   {
     "country": "North Korea",
     "capital": "Pyongyang",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Pyongyang", 
+      "Hamhung", 
+      "Chongjin", 
+      "Wonsan", 
+      "Kaesong", 
+      "Sinuiju"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Pyongyang is the capital and largest city of North Korea and has a metropolitan area population of approximately 3.4 million people."
   },
   {
     "country": "Oman",
     "capital": "Muscat",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Muscat", 
+      "Nizwa", 
+      "Sur", 
+      "Khasab", 
+      "Salalah", 
+      "Sohar"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Muscat is the capital and largest city of Oman and has a metropolitan population of approximately 1.54 million people."
   },
   {
     "country": "Pakistan",
     "capital": "Islamabad",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Islamabad", 
+      "Rawalpindi", 
+      "Multan", 
+      "Karachi", 
+      "Lahore", 
+      "Faisalabad"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Islamabad is the capital and largest city of Pakistan and has a metropolitan population of approximately 1.23 million people."
   },
   {
     "country": "Palestine",
@@ -1216,35 +1216,35 @@
       " "
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "N/A."
   },
   {
     "country": "Philippines",
     "capital": "Manila",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Manila", 
+      "Davao City", 
+      "Quezon City", 
+      "Cebu City", 
+      "Makati City", 
+      "Puerto Princesa"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Manila is the capital and largest city of the Philippines and has a metropolitan population of approximately 15.5 million people."
   },
   {
     "country": "Qatar",
     "capital": "Doha",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Doha", 
+      "Ar-Rayyan", 
+      "Umm Salal Mohammed", 
+      "Al Wakrah", 
+      "Dukhan", 
+      "Al Khor"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Doha is the capital of Qatar and has a population of approximately 2.83 million people."
   },
   {
     "country": "Saudi Arabia",

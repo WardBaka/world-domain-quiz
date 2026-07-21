@@ -28,10 +28,13 @@ soundToggle.addEventListener("change", () => {
 });
 
 resetProgressButton.addEventListener("click", () => {
+    console.log("resetProgressButton has been pressed")
     const confirmReset =
         confirm("Are you sure? This will reset your GuessrQuiz progress.");
 
     if (!confirmReset) return;
+
+    console.log("confirmReset: %s", confirmReset);
 
     const keepUsername =
         localStorage.getItem("guessrUsername");
