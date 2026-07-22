@@ -1237,28 +1237,28 @@
     "capital": "Doha",
     "cities": [
       "Doha", 
-      "Ar-Rayyan", 
-      "Umm Salal Mohammed", 
+      "Lusail", 
       "Al Wakrah", 
-      "Dukhan", 
-      "Al Khor"
+      "Al Rayyan", 
+      "Al Khor", 
+      "The Pearl-Qatar"
     ],
     "continent": "Asia",
-    "info": "Doha is the capital of Qatar and has a population of approximately 2.83 million people."
+    "info": "Doha is the capital and largest city of Qatar and has a metropolitian area population of approximately 1.17 million people."
   },
   {
     "country": "Saudi Arabia",
     "capital": "Riyadh",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Riyadh", 
+      "Jeddah", 
+      "Mecca", 
+      "Medina", 
+      "Dammam", 
+      "AlUla"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Riyadh is the capital and largest city of Saudi Arabia and has a metropolitian area population of approximately 8.5 million people."
   },
   {
     "country": "Singapore",
