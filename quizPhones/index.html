@@ -2,140 +2,239 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>GuessrQuiz - Phone Code Quiz</title>
-    <link rel="icon" type="image/png" href="../homeImg/guessrQuizLogo.png">
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../homeImg/guessrQuizLogo.png"
+    >
+
+    <link rel="stylesheet" href="../quiz-common.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="wrap">
+<div class="quiz-wrap">
 
     <a href="../index.html" class="home-button">
-    <img src="../homeImg/guessrQuizLogo.png" alt="Home">
-    Home
-</a>
+        <img
+            src="../homeImg/guessrQuizLogo.png"
+            alt=""
+        >
 
-    <h1>Phone Code Quiz</h1>
-    <p class="subtitle">Guess the country from its international calling code.</p>
+        Home
+    </a>
 
-    <div class="top">
+    <header class="quiz-header">
 
-        <div class="stat-box">
+        <h1>📞 Phone Code Quiz</h1>
+
+        <p>
+            Guess the country from its international calling code.
+        </p>
+
+    </header>
+
+    <!-- QUIZ SETTINGS -->
+
+    <section class="controls phone-controls">
+
+        <label>
             Difficulty
+
             <select id="difficulty">
-                <option>Easy</option>
-                <option>Hard</option>
-            </select>
-        </div>
+                <option value="Easy">
+                    Easy
+                </option>
 
-        <div class="stat-box">
+                <option value="Hard">
+                    Hard
+                </option>
+            </select>
+        </label>
+
+        <label>
             Region
+
             <select id="region">
-                <option value="All">All Regions</option>
-                <option value="Europe">Europe</option>
-                <option value="Asia">Asia</option>
-                <option value="Africa">Africa</option>
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Oceania">Oceania</option>
+                <option value="All">
+                    All Regions
+                </option>
+
+                <option value="Europe">
+                    Europe
+                </option>
+
+                <option value="Asia">
+                    Asia
+                </option>
+
+                <option value="Africa">
+                    Africa
+                </option>
+
+                <option value="North America">
+                    North America
+                </option>
+
+                <option value="South America">
+                    South America
+                </option>
+
+                <option value="Oceania">
+                    Oceania
+                </option>
             </select>
+        </label>
+
+    </section>
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div>
+            <span>Score</span>
+            <strong id="score">0</strong>
         </div>
 
-        <div class="stat-box">
-            Score
-            <div id="score">0</div>
+        <div>
+            <span>Streak</span>
+            <strong id="streak">0</strong>
         </div>
 
-        <div class="stat-box">
-            Streak
-            <div id="streak">0</div>
+        <div>
+            <span>Accuracy</span>
+            <strong id="accuracy">0%</strong>
         </div>
 
-        <div class="stat-box">
-            Accuracy
-            <div id="accuracy">0%</div>
+    </section>
+
+    <!-- MAIN QUIZ CARD -->
+
+    <main class="quiz-card">
+
+        <p class="question-label">
+            Which country uses this calling code?
+        </p>
+
+        <div id="phoneCode" class="phone-question">
+            +00
         </div>
 
-    </div>
+        <div id="answers" class="answers"></div>
 
-    <div class="quiz-card">
+        <div class="quiz-actions">
 
-        <div id="phoneCode">+00</div>
+            <button id="next" class="next-button">
+                Next Question
+            </button>
 
-        <div id="answers"></div>
+            <button
+                id="restart"
+                class="restart-button"
+            >
+                Restart Quiz
+            </button>
 
-        <button id="next">Next Question →</button>
-        <button id="restart">Restart Quiz</button>
+        </div>
 
-    </div>
+    </main>
 
-    <div class="info-card">
+    <!-- CODE INFORMATION -->
+
+    <section class="info-card">
+
         <h2>📖 Code Information</h2>
+
         <div id="codeInfo">
             Answer a question to learn more.
         </div>
+
+    </section>
+
+</div>
+
+<!-- COMPLETION SCREEN -->
+
+<div id="completionScreen" class="completion-screen">
+
+    <div class="completion-card">
+
+        <h2>🎉 Phone Code Quiz Complete!</h2>
+
+        <p id="completionTitle">
+            Excellent Work!
+        </p>
+
+        <div class="completion-stats">
+
+            <div>
+                <span>Score</span>
+                <strong id="completeScore">
+                    0 / 0
+                </strong>
+            </div>
+
+            <div>
+                <span>Accuracy</span>
+                <strong id="completeAccuracy">
+                    0%
+                </strong>
+            </div>
+
+            <div>
+                <span>Best Streak</span>
+                <strong id="completeBest">
+                    0
+                </strong>
+            </div>
+
+            <div>
+                <span>XP Earned</span>
+                <strong id="completeXP">
+                    +0 XP
+                </strong>
+            </div>
+
+        </div>
+
+        <p id="completionAchievement">
+            📞 Phone Code Quiz Completed!
+        </p>
+
+        <div class="completion-buttons">
+
+            <button id="playAgain">
+                Play Again
+            </button>
+
+            <button
+                type="button"
+                onclick="window.location.href='../index.html'"
+            >
+                Home
+            </button>
+
+            <button id="nextQuiz">
+                Next Quiz
+            </button>
+
+        </div>
+
     </div>
 
 </div>
 
 <script src="script.js"></script>
-
-<div id="completionScreen" class="completion-overlay">
-
-    <div class="completion-card">
-
-        <h1>🎉 Quiz Complete!</h1>
-
-        <h2 id="completionTitle">
-            Excellent Work!
-        </h2>
-
-        <div class="completion-stats">
-
-            <p>
-                ⭐ Score:
-                <span id="completeScore"></span>
-            </p>
-
-            <p>
-                🎯 Accuracy:
-                <span id="completeAccuracy"></span>
-            </p>
-
-            <p>
-                🔥 Best Streak:
-                <span id="completeBest"></span>
-            </p>
-
-            <p>
-                💎 XP Earned:
-                <span id="completeXP"></span>
-            </p>
-
-        </div>
-
-        <div id="completionAchievement"></div>
-
-        <div class="completion-buttons">
-
-            <button id="playAgain">
-                🔄 Play Again
-            </button>
-
-            <button onclick="window.location='../index.html'">
-                🏠 Home
-            </button>
-
-            <button id="nextQuiz">
-                ➡ Next Quiz
-            </button>
-
-        </div>
-
-    </div>
-
-</div>
 
 </body>
 </html>

@@ -29,21 +29,21 @@
     "info": "Belgium has 3 official languages: Dutch (Flemish), French, and German, but the most spoken language is Dutch. This phrase means 'Belgium is known for its waffles' in Dutch."
   },
   {
-    "language": "The capital of the United Kingdom is London.",
+    "language": "This English speaking country capital is London.",
     "country": "United Kingdom",
     "flag": "flags/uk.png",
     "continent": "Europe",
     "info": "English is the most widely spoken language in the United Kingdom."
   },
   {
-    "language": "The United States is celebrating its 250th anniversary of independence in 2026.",
+    "language": "This English speaking country is celebrating its 250th anniversary of independence in 2026.",
     "country": "United States",
     "flag": "flags/us.png",
     "continent": "North America",
     "info": "The official language of the United States is English."
   },
   {
-    "language": "The capital of Canada is Ottawa and its largest city is Toronto.",
+    "language": "This English speaking country's capital is Ottawa and its largest city is Toronto.",
     "country": "Canada",
     "flag": "flags/ca.png",
     "continent": "North America",
@@ -57,21 +57,21 @@
     "info": "Japan does not have an official language but Japanese is the national language. Pronounced 'konnichiwa', this phrase means 'Hello' in Japanese."
   },
   {
-    "language": "	你好吗？",
+    "language": "你好吗",
     "country": "China",
     "flag": "flags/cn.png",
     "continent": "Asia",
     "info": "China's official language is Standard Chinese (Mandarin). Pronounced 'nǐ hǎo ma?', this phrase means 'How are you?' in Mandarin."
   },
   {
-    "language": "The capital of Australia is Canberra.",
+    "language": "This English speaking country's capital is Canberra.",
     "country": "Australia",
     "flag": "flags/au.png",
     "continent": "Oceania",
     "info": "Australia's official language is English."
   },
   {
-    "language": "The capital of New Zealand is Wellington and its' largest city is Auckland.",
+    "language": "This English speaking country's capital is Wellington and its largest city is Auckland.",
     "country": "New Zealand",
     "flag": "flags/nz.png",
     "continent": "Oceania",
@@ -143,7 +143,7 @@
   {
     "language": "Diego Garcia island is the largest island in this territory and it's among over 1,000 other islands.",
     "country": "British Indian Ocean Territory",
-    "flag": "🏝️",
+    "flag": "flags/io.png",
     "continent": "Asia",
     "info": "The British Indian Ocean Territory's official language is English."
   },
@@ -155,21 +155,21 @@
     "info": "Tuvalu has two official languages: Tuvaluan and English. This phrase means 'What is your name?' in Tuvaluan."
   },
   {
-    "language": "Guam is the largest island in Micronesia.",
+    "language": "Guam is the largest island on this english speaking territory.",
     "country": "Micronesia",
     "flag": "flags/fm.png",
     "continent": "Oceania",
     "info": "Micronesia's official language is English."
   },
   {
-    "language": "Guernsey is the second largest of the Channel Islands.",
+    "language": "This english speaking island is the second largest of the Channel Islands.",
     "country": "Guernsey",
     "flag": "flags/gg.png",
     "continent": "Europe",
     "info": "English is the primary language spoken in Guernsey, but Guernésiais is also widely used."
   },
   {
-    "language": "Jersey is the largest of the Channel Islands.",
+    "language": "This english speaking island is the largest of the Channel Islands.",
     "country": "Jersey",
     "flag": "flags/je.png",
     "continent": "Europe",
@@ -491,11 +491,11 @@
     "info": "Iraq has two official languages: Arabic and Kurdish. Pronounced 'ahlan, kayfa haluka alyawm?', this phrase means 'Hello, how are you today?' in Arabic."
   },
   {
-    "language": ".il",
+    "language": "מה שלומך?",
     "country": "Israel",
     "flag": "flags/il.png",
     "continent": "Asia",
-    "info": "Israel's official country code top-level language."
+    "info": "Israel's official language is Hebrew. This phrase means 'How are you doing?' in Hebrew."
   },
   {
     "language": "السلام عليكم",
@@ -774,7 +774,7 @@
 {
   "language": "Bom dia!",
   "country": "Cape Verde",
-  "flag": "flags/cp.png",
+  "flag": "flags/cv.png",
   "continent": "Africa",
   "info": "Cape Verde's official language is Portuguese with Cape Verdean and Creole being national languages. This translates to 'Good morning!' in Portuguese."
 },
@@ -863,14 +863,14 @@
   "info": "Gabon's official language is French."
 },
 {
-  "language": "Gambia is the smallest country in mainland Africa.",
+  "language": "This English country is the smallest country in mainland Africa.",
   "country": "Gambia",
   "flag": "flags/gm.png",
   "continent": "Africa",
   "info": "The Gambia's official language is English although there are many national languages."
 },
 {
-  "language": "Ghana is the world's second largest producer of cocoa.",
+  "language": "This English speaking country is the world's second largest producer of cocoa.",
   "country": "Ghana",
   "flag": "flags/gh.png",
   "continent": "Africa",
@@ -912,7 +912,7 @@
   "info": "Lesotho's official languages are Sesotho and English. This translates to 'It's a beautiful day.' in Sesotho."
 },
 {
-  "language": "Liberia is Africa's oldest republic.",
+  "language": "This English country is Africa's oldest republic.",
   "country": "Liberia",
   "flag": "flags/lr.png",
   "continent": "Africa",
@@ -933,7 +933,7 @@
   "info": "Madagascar's official languages are Malagasy and French. This translates to 'The weather is nice today.' in Malagasy."
 },
 {
-  "language": "Malawi's national bird is the African fish eagle.",
+  "language": "This English countries national bird is the African fish eagle.",
   "country": "Malawi",
   "flag": "flags/mw.png",
   "continent": "Africa",
@@ -954,7 +954,7 @@
   "info": "Mauritania's official language is Arabic. Pronounced 'afwan', this phrase means 'You're welcome' in Arabic."
 },
 {
-  "language": "Mauritius was created by volcanic activity and is home to the extinct dodo bird.",
+  "language": "This English speaking country was created by volcanic activity and is home to the extinct dodo bird.",
   "country": "Mauritius",
   "flag": "flags/mu.png",
   "continent": "Africa",
@@ -1017,7 +1017,7 @@
   "info": "Seychelles has three official languages: Creole, English, and French. This translates to 'How are you?' in Seychellois Creole."
 },
 {
-  "language": "Freetown is the capital and largest city of Sierra Leone.",
+  "language": "This English speaking country's capital and largest city is Freetown.",
   "country": "Sierra Leone",
   "flag": "flags/sl.png",
   "continent": "Africa",
@@ -1031,7 +1031,7 @@
   "info": "Somalia's official languages are Somali and Arabic. This translates to 'I'm good, thank you' in Somali."
 },
 {
-  "language": "The largest ethnic group in South Sudan is the Dinka.",
+  "language": "This English speaking country's largest ethnic group is the Dinka.",
   "country": "South Sudan",
   "flag": "flags/ss.png",
   "continent": "Africa",
@@ -1066,14 +1066,14 @@
   "info": "Tunisia's official language is Arabic. Pronounced 'Kayfa haluk?', this phrase means 'How are you?' in Arabic."
 },
 {
-  "language": "Uganda is one of the top bird watching destinations in Africa. Its' national bird is the Grey Crowned Crane, which is also featured on the country's flag.",
+  "language": "This English speaking country is one of the top bird watching destinations in Africa. Its national bird is the Grey Crowned Crane, which is also featured on the country's flag.",
   "country": "Uganda",
   "flag": "flags/ug.png",
   "continent": "Africa",
   "info": "Uganda's official languages are English and Swahili."
 },
 {
-  "language": "Zambia is home to Victoria Falls, one of the world's largest waterfalls and one of the Seven Natural Wonders of the World.",
+  "language": "This English speaking country is home to Victoria Falls, one of the world's largest waterfalls and one of the Seven Natural Wonders of the World.",
   "country": "Zambia",
   "flag": "flags/zm.png",
   "continent": "Africa",
@@ -1087,28 +1087,28 @@
   "info": "Zimbabwe has 16 official languages including Chewa (Chichewa), Shona, Khoisan, etc. This translates to 'Good morning' in Chichewa."
 },
 {
-  "language": "Antigua has 365 beaches, one for every day of the year.",
+  "language": "This English speaking country has 365 beaches, one for every day of the year.",
   "country": "Antigua and Barbuda",
   "flag": "flags/ag.png",
   "continent": "North America",
   "info": "Antigua and Barbuda's official languages are English and Spanish."
 },
 {
-  "language": "The Bahamas consists of 700 islands and more than 2,500 cays.",
+  "language": "This English speaking country consists of 700 islands and more than 2,500 cays.",
   "country": "Bahamas",
   "flag": "flags/bs.png",
   "continent": "North America",
   "info": "The official language of the Bahamas is English."
 },
 {
-  "language": "Barbados is the birthplace of rum and home to the world's oldest running rum distillery, Mount Gay.",
+  "language": "This English speaking country is the birthplace of rum and home to the world's oldest running rum distillery, Mount Gay.",
   "country": "Barbados",
   "flag": "flags/bb.png",
   "continent": "North America",
   "info": "Barbados' official language is English although, Bajan Creole is also widely spoken."
 },
 {
-  "language": "Belize, the capital of the ancient Mayan Empire, has over 900 Mayan ruins and 400 cayes (islands).",
+  "language": "This English speaking country is the capital of the ancient Mayan Empire, has over 900 Mayan ruins and 400 cayes (islands).",
   "country": "Belize",
   "flag": "flags/bz.png",
   "continent": "North America",
@@ -1129,14 +1129,14 @@
   "info": "Cuba's official language is Spanish. These phrases translate to 'Please / Thank you' in Spanish."
 },
 {
-  "language": "Dominica has the world's highest concentration of active volcanoes and the world's second largest hot spring, Boiling Lake.",
+  "language": "This English speaking country has the world's highest concentration of active volcanoes and the world's second largest hot spring, Boiling Lake.",
   "country": "Dominica",
   "flag": "flags/dm.png",
   "continent": "North America",
   "info": "Dominica's official language is English."
 },
 {
-  "language": "The Dominican Republic has the largest economy in the Caribbean.",
+  "language": "Es un lugar encantador hoy.",
   "country": "Dominican Republic",
   "flag": "flags/do.png",
   "continent": "North America",
@@ -1150,7 +1150,7 @@
   "info": "El Salvador's official language is Spanish. This translates to 'Where are you?' in Spanish."
 },
 {
-  "language": "Grenada is known as the Island of Spice.",
+  "language": "This English speaking country is known as the Island of Spice.",
   "country": "Grenada",
   "flag": "flags/gd.png",
   "continent": "North America",
@@ -1178,7 +1178,7 @@
   "info": "Honduras' official language is Spanish. This translates to 'How funny!' in Spanish."
 },
 {
-  "language": "The country of Jamaica sits on top of a large underwater mountain called Jamaica Ridge.",
+  "language": "This English speaking country sits on top of a large underwater mountain called Jamaica Ridge.",
   "country": "Jamaica",
   "flag": "flags/jm.png",
   "continent": "North America",
@@ -1199,35 +1199,35 @@
   "info": "Panama's official language is Spanish. This translates to 'See you later' in Spanish."
 },
 {
-  "language": "Saint Kitts and Nevis is the smallest country in the Americas.",
+  "language": "This English speaking country is the smallest in the Americas.",
   "country": "Saint Kitts and Nevis",
   "flag": "flags/kn.png",
   "continent": "North America",
   "info": "Saint Kitts and Nevis' official language is English."
 },
 {
-  "language": "Saint Lucia was the first country in the world to be named after a woman.",
+  "language": "This English speaking country was the first in the world to be named after a woman.",
   "country": "Saint Lucia",
   "flag": "flags/lc.png",
   "continent": "North America",
   "info": "Saint Lucia's official language is English."
 },
 {
-  "language": "Saint Vincent and the Grenadines is home to the Western Hemisphere's oldest botanical garden.",
+  "language": "This English speaking country is home to the Western Hemisphere's oldest botanical garden.",
   "country": "Saint Vincent and the Grenadines",
   "flag": "flags/vc.png",
   "continent": "North America",
   "info": "Saint Vincent and the Grenadines' official language is English."
 },
 {
-  "language": "The colors of the Trinidad and Tobago flag symbolize fire, earth and water.",
+  "language": "This English speaking country's flag colors symbolize fire, earth and water.",
   "country": "Trinidad and Tobago",
   "flag": "flags/tt.png",
   "continent": "North America",
   "info": "Trinidad and Tobago's official language is English."
 },
 {
-  "language": "There are no chain restaurants or fast food franchises in Anguilla",
+  "language": "This English speaking country has no chain restaurants or fast food franchises.",
   "country": "Anguilla",
   "flag": "flags/ai.png",
   "continent": "North America",
@@ -1241,14 +1241,14 @@
   "info": "Aruba's official languages are Papiamento and Dutch. This translates to 'Welcome!' in Papiamento."
 },
 {
-  "language": "Bermuda is known for its pink sand beaches and crystal clear waters.",
+  "language": "This English speaking country is known for its pink sand beaches and crystal clear waters.",
   "country": "Bermuda",
   "flag": "flags/bm.png",
   "continent": "North America",
   "info": "Bermuda's official language is English."
 },
 {
-  "language": "The Cayman Islands are made up of three islands: Grand Cayman, Cayman Brac and Little Cayman.",
+  "language": "This English speaking country is made up of three islands: Grand Cayman, Cayman Brac and Little Cayman.",
   "country": "Cayman Islands",
   "flag": "flags/ky.png",
   "continent": "North America",
@@ -1283,7 +1283,7 @@
   "info": "Martinique's official language is French. This translates to 'Yes / No' in French."
 },
 {
-  "language": "Montserrat is nicknamed 'The Emerald Isle of the Caribbean' because of its lush green landscape, close in resemblance to Ireland.",
+  "language": "This English speaking country is nicknamed 'The Emerald Isle of the Caribbean' because of its lush green landscape, close in resemblance to Ireland.",
   "country": "Montserrat",
   "flag": "flags/ms.png",
   "continent": "North America",
@@ -1304,21 +1304,21 @@
   "info": "Sint Maarten's official languages are English and Dutch. This translates to 'Where is the bus stop?' in Dutch."
 },
 {
-  "language": "Turks and Caicos has dozens of underwater cave systems.",
+  "language": "This English speaking country has dozens of underwater cave systems.",
   "country": "Turks and Caicos Islands",
   "flag": "flags/tc.png",
   "continent": "North America",
   "info": "Turks and Caicos Islands' official language is English."
 },
 {
-  "language": "The British Virgin Islands are made up of over 60 islands, but only 16 are inhabited.",
+  "language": "This English speaking country is made up of over 60 islands, but only 16 are inhabited.",
   "country": "British Virgin Islands",
   "flag": "flags/vg.png",
   "continent": "North America",
   "info": "The British Virgin Islands' official language is English."
 },
 {
-  "language": "The U.S. Virgin Islands consist of three main islands: Saint Croix, Saint John, and Saint Thomas and there are 50 other surrounding minor islands and cays.",
+  "language": "This English speaking country consist of three main islands: Saint Croix, Saint John, and Saint Thomas and there are 50 other surrounding minor islands and cays.",
   "country": "U.S. Virgin Islands",
   "flag": "flags/vi.png",
   "continent": "North America",
@@ -1360,7 +1360,7 @@
   "info": "Ecuador's official language is Spanish. This translates to 'Where are we going?' in Spanish."
 },
 {
-  "language": "The Falkland Islands is a British Overseas Territory and an amazing destination for wildlife enthusiasts, with a variety of species including penguins, seals, and albatrosses.",
+  "language": "This English speaking country is a British Overseas Territory and an amazing destination for wildlife enthusiasts, with a variety of species including penguins, seals, and albatrosses.",
   "country": "Falkland Islands",
   "flag": "flags/fk.png",
   "continent": "South America",
@@ -1374,7 +1374,7 @@
   "info": "French Guiana's official language is French. This translates to 'Hi, how are you?' in French."
 },
 {
-  "language": "Guyana is the only country in South America where English is the official language.",
+  "language": "This English speaking country is the only country in South America where English is the official language.",
   "country": "Guyana",
   "flag": "flags/gy.png",
   "continent": "South America",
@@ -1424,21 +1424,21 @@
   "info": "American Samoa has two official languages: Samoan and English. This is the Samoan greeting, meaning 'Goodbye!'"
 },
 {
-  "language": "Rarotonga, the largest of the Cook Islands, only has one main road.",
+  "language": "This English speaking country, Rarotonga, its largest island, only has one main road.",
   "country": "Cook Islands",
   "flag": "flags/ck.png",
   "continent": "Oceania",
   "info": "The Cook Islands have three official languages: English, Cook Islands Maori, and Pukapukan."
 },
 {
-  "language": "Fiji has over 300 islands, but only about 100 are inhabited.",
+  "language": "This English speaking country, has over 300 islands, but only about 100 are inhabited.",
   "country": "Fiji",
   "flag": "flags/fj.png",
   "continent": "Oceania",
   "info": "Fiji has three official languages: English, Fijian, and Fiji Hindi."
 },
 {
-  "language": "Guam is a United States territory and its' capital is Hagåtña.",
+  "language": "This English speaking country, is a United States territory and its' capital is Hagåtña.",
   "country": "Guam",
   "flag": "flags/gu.png",
   "continent": "Oceania",
@@ -1459,21 +1459,21 @@
   "info": "The Marshall Islands have two official languages: English and Marshallese. This phrase translates to 'How are you?' in Marshallese."
 },
 {
-  "language": "The Northern Mariana Islands are a United States territory and its' capital and largest city is Saipan.",
+  "language": "This English speaking country, are a United States territory and its' capital and largest city is Saipan.",
   "country": "Northern Mariana Islands",
   "flag": "flags/mp.png",
   "continent": "Oceania",
   "info": "The Northern Mariana Islands have three official languages: English, Carolinian, and Chamorro. Tagalog is also spoken."
 },
 {
-  "language": "Nauru is the third smallest country in the world by land area, after Vatican City and Monaco.",
+  "language": "This English speaking country, is the third smallest country in the world by land area, after Vatican City and Monaco.",
   "country": "Nauru",
   "flag": "flags/nr.png",
   "continent": "Oceania",
   "info": "Nauru has two official languages: English and Nauruan."
 },
 {
-  "language": "Norfolk Island is an Australian territory.",
+  "language": "This English speaking country, is an Australian territory.",
   "country": "Norfolk Island",
   "flag": "flags/nf.png",
   "continent": "Oceania",
@@ -1501,28 +1501,28 @@
   "info": "French Polynesia has two official languages: French and Tahitian. This phrase means 'Goodbye!' in French."
 },
 {
-  "language": "Papaua New Guinea shares a land border with Indonesia.",
+  "language": "This English speaking country, shares a land border with Indonesia.",
   "country": "Papua New Guinea",
   "flag": "flags/pg.png",
   "continent": "Oceania",
   "info": "Papua New Guinea has four official languages: English, Tok Pisin, Hiri Motu, PNG Sign Language and many indigenous languages."
 },
 {
-  "language": "The Pitcairn Islands are a group of 4 volcanic islands in the southern Pacific Ocean that form the last British Overseas Territory in the Pacific.",
+  "language": "This English speaking country, are a group of 4 volcanic islands in the southern Pacific Ocean that form the last British Overseas Territory in the Pacific.",
   "country": "Pitcairn Islands",
   "flag": "flags/pn.png",
   "continent": "Oceania",
   "info": "The Pitcairn Islands have two official languages: English and Pitkern."
 },
 {
-  "language": "The population of Palau is about 20,000 and most of its' people live on Koror island.",
+  "language": "This English speaking country, has a population of about 20,000 and most of its' people live on Koror island.",
   "country": "Palau",
   "flag": "flags/pw.png",
   "continent": "Oceania",
   "info": "Palau's official languages are English and Palauan but Sonsorolese, Tobian and Japanese are also recognized."
 },
 {
-  "language": "The Solomon Islands are made up of over over 1,000 islands.",
+  "language": "This English speaking country, are made up of over over 1,000 islands.",
   "country": "Solomon Islands",
   "flag": "flags/sb.png",
   "continent": "Oceania",
@@ -1557,7 +1557,7 @@
   "info": "Vanuatu has three official languages: Bislama, English and French. This translates to 'Nice to meet you' in Bislama."
 },
 {
-  "language": "The currency in Wallis and Futuna is the CFP franc.",
+  "language": "This English speaking country, has the CFP franc as its currency.",
   "country": "Wallis and Futuna",
   "flag": "flags/wf.png",
   "continent": "Oceania",

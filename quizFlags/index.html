@@ -1,174 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<title>GuessrQuiz - Flag Quiz</title>
- <link rel="icon" type="image/png" href="../homeImg/guessrQuizLogo.png">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<link rel="stylesheet" href="style.css">
+    <title>GuessrQuiz - Flag Quiz</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../homeImg/guessrQuizLogo.png"
+    >
+
+    <link rel="stylesheet" href="../quiz-common.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="wrap">
-      <a href="../index.html" class="home-button">
-    <img src="../homeImg/guessrQuizLogo.png" alt="Home">
-    Home
-</a>
+<div class="quiz-wrap">
 
-<h1>Flag Quiz</h1>
+    <a href="../index.html" class="home-button">
+        <img
+            src="../homeImg/guessrQuizLogo.png"
+            alt=""
+        >
 
-<div class="top">
+        Home
+    </a>
 
-<div class="stat-box">
-Difficulty
-<select id="difficulty">
-<option>Easy</option>
-<option>Hard</option>
-</select>
+    <header class="quiz-header">
+
+        <h1>🏳️ Flag Quiz</h1>
+
+        <p>
+            Match countries with their national flags.
+        </p>
+
+    </header>
+
+    <!-- QUIZ SETTINGS -->
+
+    <section class="controls flag-controls">
+
+        <label>
+            Difficulty
+
+            <select id="difficulty">
+                <option value="Easy">
+                    Easy
+                </option>
+
+                <option value="Hard">
+                    Hard
+                </option>
+            </select>
+        </label>
+
+        <label>
+            Region
+
+            <select id="region">
+                <option value="All">
+                    All Regions
+                </option>
+
+                <option value="Europe">
+                    Europe
+                </option>
+
+                <option value="Asia">
+                    Asia
+                </option>
+
+                <option value="Africa">
+                    Africa
+                </option>
+
+                <option value="North America">
+                    North America
+                </option>
+
+                <option value="South America">
+                    South America
+                </option>
+
+                <option value="Oceania">
+                    Oceania
+                </option>
+            </select>
+        </label>
+
+        <label>
+            Quiz Mode
+
+            <select id="quizMode">
+                <option value="flag-country">
+                    Flag → Country
+                </option>
+
+                <option value="country-flag">
+                    Country → Flag
+                </option>
+
+                <option value="mixed">
+                    Mixed
+                </option>
+            </select>
+        </label>
+
+    </section>
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div>
+            <span>Score</span>
+            <strong id="score">0</strong>
+        </div>
+
+        <div>
+            <span>Streak</span>
+            <strong id="streak">0</strong>
+        </div>
+
+    </section>
+
+    <!-- MAIN QUIZ CARD -->
+
+    <main class="quiz-card">
+
+        <p class="question-label">
+            Choose the correct answer.
+        </p>
+
+        <img
+            id="flag"
+            src=""
+            alt="Country flag"
+        >
+
+        <div id="question" class="flag-question">
+            Loading...
+        </div>
+
+        <div id="answers" class="answers"></div>
+
+        <div class="quiz-actions">
+
+    <button id="next">
+        Next Question
+    </button>
+
+</div>
+    </main>
+
 </div>
 
-<div class="stat-box">
-Region
-<select id="region">
+<!-- COMPLETION SCREEN -->
 
-<option value="All">
-All Regions
-</option>
-
-<option value="Europe">
-Europe
-</option>
-
-<option value="Asia">
-Asia
-</option>
-
-<option value="Africa">
-Africa
-</option>
-
-<option value="North America">
-North America
-</option>
-
-<option value="South America">
-South America
-</option>
-
-<option value="Oceania">
-Oceania
-</option>
-
-</select>
-</div>
-
-<div class="stat-box">
-Mode
-<select id="quizMode">
-
-<option value="flag-country">
-Flag → Country
-</option>
-
-<option value="country-flag">
-Country → Flag
-</option>
-
-<option value="mixed">
-Mixed
-</option>
-
-</select>
-</div>
-
-<div class="stat-box">
-Score
-<div id="score">0</div>
-</div>
-
-<div class="stat-box">
-Streak
-<div id="streak">0</div>
-</div>
-
-</div>
-
-<div class="quiz-card">
-
-<img id="flag"
-     src=""
-     alt="Flag"
-     style="
-     width:320px;
-     max-width:150;
-     margin-bottom:30px;
-     ">
-
-<h2 id="question"></h2>
-
-<div id="answers"></div>
-
-<button id="next">
-Next Question →
-</button>
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
-
-<div id="completionScreen" class="completion-overlay">
+<div id="completionScreen" class="completion-screen">
 
     <div class="completion-card">
 
-        <h1>🎉 Quiz Complete!</h1>
+        <h2>🎉 Flag Quiz Complete!</h2>
 
-        <h2 id="completionTitle">
+        <p id="completionTitle">
             Excellent Work!
-        </h2>
+        </p>
 
         <div class="completion-stats">
 
-            <p>
-                ⭐ Score:
-                <span id="completeScore"></span>
-            </p>
+            <div>
+                <span>Score</span>
+                <strong id="completeScore">
+                    0 / 0
+                </strong>
+            </div>
 
-            <p>
-                🎯 Accuracy:
-                <span id="completeAccuracy"></span>
-            </p>
+            <div>
+                <span>Accuracy</span>
+                <strong id="completeAccuracy">
+                    0%
+                </strong>
+            </div>
 
-            <p>
-                🔥 Best Streak:
-                <span id="completeBest"></span>
-            </p>
+            <div>
+                <span>Best Streak</span>
+                <strong id="completeBest">
+                    0
+                </strong>
+            </div>
 
-            <p>
-                💎 XP Earned:
-                <span id="completeXP"></span>
-            </p>
+            <div>
+                <span>XP Earned</span>
+                <strong id="completeXP">
+                    +0 XP
+                </strong>
+            </div>
 
         </div>
 
-        <div id="completionAchievement"></div>
+        <p id="completionAchievement">
+            🏳️ Flag Quiz Completed!
+        </p>
 
         <div class="completion-buttons">
 
             <button id="playAgain">
-                🔄 Play Again
+                Play Again
             </button>
 
-            <button onclick="window.location='../index.html'">
-                🏠 Home
+            <button
+                type="button"
+                onclick="window.location.href='../index.html'"
+            >
+                Home
             </button>
 
             <button id="nextQuiz">
-                ➡ Next Quiz
+                Next Quiz
             </button>
 
         </div>
@@ -176,6 +232,8 @@ Next Question →
     </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

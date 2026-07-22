@@ -2,148 +2,256 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuessrQuiz - Domain Quiz</title>
-     <link rel="icon" type="image/png" href="../homeImg/guessrQuizLogo.png">
-    <link rel="stylesheet" href="style.css">
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L862YGB1L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4L862YGB1L');
-</script>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>GuessrQuiz - Domain Quiz</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../homeImg/guessrQuizLogo.png"
+    >
+
+    <link rel="stylesheet" href="../quiz-common.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-4L862YGB1L"
+    ></script>
+
+    <script>
+        window.dataLayer =
+            window.dataLayer || [];
+
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+
+        gtag(
+            "config",
+            "G-4L862YGB1L"
+        );
+    </script>
+</head>
+
 <body>
 
-<div class="wrap">
+<div class="quiz-wrap">
 
     <a href="../index.html" class="home-button">
-    <img src="../homeImg/guessrQuizLogo.png" alt="Home">
-    Home
-</a>
+        <img
+            src="../homeImg/guessrQuizLogo.png"
+            alt=""
+        >
 
-    <h1> Domains Quiz</h1>
+        Home
+    </a>
 
-    <!-- TOP BAR -->
-    <div class="top">
+    <header class="quiz-header">
 
-        <div class="stat-box">
+        <h1>🌐 Domains Quiz</h1>
+
+        <p>
+            Match countries, flags, and internet domains.
+        </p>
+
+    </header>
+
+    <!-- QUIZ SETTINGS -->
+
+    <section class="controls domain-controls">
+
+        <label>
             Difficulty
+
             <select id="difficulty">
-                <option>Easy</option>
-                <option>Medium</option>
-                <option>Hard</option>
-            </select>
-        </div>
+                <option value="Easy">
+                    Easy
+                </option>
 
-        <div class="stat-box">
+                <option value="Medium">
+                    Medium
+                </option>
+
+                <option value="Hard">
+                    Hard
+                </option>
+            </select>
+        </label>
+
+        <label>
             Region
+
             <select id="region">
-                <option value="All">All Regions</option>
-                <option value="Europe">Europe</option>
-                <option value="Asia">Asia</option>
-                <option value="Africa">Africa</option>
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Oceania">Oceania</option>
-            </select>
-        </div>
+                <option value="All">
+                    All Regions
+                </option>
 
-        <div class="stat-box">
+                <option value="Europe">
+                    Europe
+                </option>
+
+                <option value="Asia">
+                    Asia
+                </option>
+
+                <option value="Africa">
+                    Africa
+                </option>
+
+                <option value="North America">
+                    North America
+                </option>
+
+                <option value="South America">
+                    South America
+                </option>
+
+                <option value="Oceania">
+                    Oceania
+                </option>
+            </select>
+        </label>
+
+        <label>
             Quiz Mode
+
             <select id="quizMode">
-                <option value="domain-country">Domain → Country</option>
-                <option value="country-domain">Country → Domain</option>
-                <option value="flag-country">Flag → Country</option>
-                <option value="flag-domain">Flag → Domain</option>
-                <option value="mixed">Mixed Mode</option>
+                <option value="domain-country">
+                    Domain → Country
+                </option>
+
+                <option value="country-domain">
+                    Country → Domain
+                </option>
+
+                <option value="flag-country">
+                    Flag → Country
+                </option>
+
+                <option value="flag-domain">
+                    Flag → Domain
+                </option>
+
+                <option value="mixed">
+                    Mixed Mode
+                </option>
             </select>
+        </label>
+
+        <label>
+            Game Mode
+
+            <select id="gameMode">
+                <option value="normal">
+                    Normal
+                </option>
+
+                <option value="timed">
+                    60 Second Challenge
+                </option>
+
+                <option value="suddendeath">
+                    Sudden Death
+                </option>
+            </select>
+        </label>
+
+    </section>
+
+    <!-- STATS -->
+
+    <section class="stats domain-stats">
+
+        <div>
+            <span>Time</span>
+            <strong id="timer">60</strong>
         </div>
 
-        <div class="stat-box">
-    Mode
-    <select id="gameMode">
-        <option value="normal">Normal</option>
-        <option value="timed">60 Second Challenge</option>
-        <option value="suddendeath">Sudden Death</option>
-    </select>
-</div>
-
-<div class="stat-box">
-    Time
-    <div id="timer">60</div>
-</div>
-
-        <div class="stat-box">
-            Score
-            <div id="score">0</div>
+        <div>
+            <span>Score</span>
+            <strong id="score">0</strong>
         </div>
 
-        <div class="stat-box">
-            Streak
-            <div id="streak">0</div>
+        <div>
+            <span>Streak</span>
+            <strong id="streak">0</strong>
         </div>
 
-        <div class="stat-box">
-            Best
-            <div id="best">0</div>
+        <div>
+            <span>Best</span>
+            <strong id="best">0</strong>
         </div>
 
-        <div class="stat-box">
-            Accuracy
-            <div id="accuracy">0%</div>
+        <div>
+            <span>Accuracy</span>
+            <strong id="accuracy">0%</strong>
         </div>
 
-    </div>
+    </section>
 
-    <!-- QUESTION INFO -->
-    <div class="question-info">
+    <!-- QUESTION PROGRESS -->
+
+    <section class="question-progress">
 
         <div id="questionCounter">
-            Question 1 / 250
+            Question 1
         </div>
 
         <div class="progress-container">
             <div id="progressBar"></div>
         </div>
 
-    </div>
+    </section>
 
-    <!-- QUIZ CARD -->
-    <div class="quiz-card">
+    <!-- MAIN QUIZ CARD -->
+
+    <main class="quiz-card">
+
+        <p class="question-label">
+            Choose the correct answer.
+        </p>
 
         <img
             id="flag"
             src=""
-            alt="Country Flag"
-            style="
-                display:none;
-                width:180px;
-                max-width:90%;
-                margin:0 auto 20px;
-                border-radius:12px;
-                box-shadow:0 0 20px rgba(0,0,0,.3);
-            "
+            alt="Country flag"
         >
 
-        <h2 id="domain"></h2>
+        <div id="domain" class="domain-question">
+            Loading...
+        </div>
 
-        <div id="answers"></div>
+        <div id="answers" class="answers"></div>
 
-        <button id="next">
-            Next Question →
-        </button>
-        <button id="restartQuiz">
-    Restart Quiz
-</button>
+        <div class="quiz-actions">
 
-    </div>
+            <button id="next" class="next-button">
+                Next Question
+            </button>
 
-    <!-- DOMAIN INFO -->
-    <div class="info-card">
+            <button
+                id="restartQuiz"
+                class="restart-button"
+            >
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- DOMAIN INFORMATION -->
+
+    <section class="info-card">
 
         <h2>📖 Domain Information</h2>
 
@@ -151,126 +259,86 @@
             Answer a question to learn more about the domain.
         </div>
 
-    </div>
+    </section>
 
-    <!-- MASTERY -->
-    <div class="mastery-card">
+</div>
 
-        <h2>🌎 Mastery Progress</h2>
+<!-- COMPLETION SCREEN -->
 
-        <div class="mastery-grid">
+<div id="completionScreen" class="completion-screen">
 
-            <div class="mastery-item">
-                Europe
-                <span id="europeMastery">0 / 0</span>
+    <div class="completion-card">
+
+        <h2>🎉 Domain Quiz Complete!</h2>
+
+        <p id="completionTitle">
+            Excellent Work!
+        </p>
+
+        <div class="completion-stats">
+
+            <div>
+                <span>Score</span>
+
+                <strong id="completeScore">
+                    0 / 0
+                </strong>
             </div>
 
-            <div class="mastery-item">
-                Asia
-                <span id="asiaMastery">0 / 0</span>
+            <div>
+                <span>Accuracy</span>
+
+                <strong id="completeAccuracy">
+                    0%
+                </strong>
             </div>
 
-            <div class="mastery-item">
-                Africa
-                <span id="africaMastery">0 / 0</span>
+            <div>
+                <span>Best Streak</span>
+
+                <strong id="completeBest">
+                    0
+                </strong>
             </div>
 
-            <div class="mastery-item">
-                North America
-                <span id="northAmericaMastery">0 / 0</span>
-            </div>
+            <div>
+                <span>XP Earned</span>
 
-            <div class="mastery-item">
-                South America
-                <span id="southAmericaMastery">0 / 0</span>
-            </div>
-
-            <div class="mastery-item">
-                Oceania
-                <span id="oceaniaMastery">0 / 0</span>
+                <strong id="completeXP">
+                    +0 XP
+                </strong>
             </div>
 
         </div>
 
-    </div>
+        <p id="completionAchievement">
+            🌐 Domain Quiz Completed!
+        </p>
 
-    <!-- ACHIEVEMENTS -->
-    <div class="achievement-card">
+        <div class="completion-buttons">
 
-        <h2>🏆 Achievements</h2>
+            <button id="playAgain">
+                Play Again
+            </button>
 
-        <ul id="achievements"></ul>
+            <button
+                type="button"
+                onclick="window.location.href='../index.html'"
+            >
+                Home
+            </button>
 
-    </div>
+            <button id="nextQuiz">
+                Next Quiz
+            </button>
 
-    <!-- LEADERBOARD -->
-    <div class="leaderboard-card">
-
-        <h2>🏆 Leaderboard</h2>
-
-        <ol id="leaderboard"></ol>
+        </div>
 
     </div>
 
 </div>
 
 <script src="script.js"></script>
-
-<div id="completionScreen" class="completion-overlay">
-
-    <div class="completion-card">
-
-        <h1>🎉 Quiz Complete!</h1>
-
-        <h2 id="completionTitle">
-            Excellent Work!
-        </h2>
-
-        <div class="completion-stats">
-
-            <p>
-                ⭐ Score:
-                <span id="completeScore"></span>
-            </p>
-
-            <p>
-                🎯 Accuracy:
-                <span id="completeAccuracy"></span>
-            </p>
-
-            <p>
-                🔥 Best Streak:
-                <span id="completeBest"></span>
-            </p>
-
-            <p>
-                💎 XP Earned:
-                <span id="completeXP"></span>
-            </p>
-
-        </div>
-
-        <div id="completionAchievement"></div>
-
-        <div class="completion-buttons">
-
-            <button id="playAgain">
-                🔄 Play Again
-            </button>
-
-            <button onclick="window.location='../index.html'">
-                🏠 Home
-            </button>
-
-            <button id="nextQuiz">
-                ➡ Next Quiz
-            </button>
-
-        </div>
-
-    </div>
-
-</div>
 
 </body>
 </html>
