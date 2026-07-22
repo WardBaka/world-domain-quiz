@@ -1,14 +1,13 @@
-
 [
   {
     "country": "Netherlands",
     "capital": "Amsterdam",
     "cities": [
-      "Amsterdam", 
-      "Rotterdam", 
-      "The Hague", 
-      "Utrecht", 
-      "Eindhoven", 
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
       "Groningen"
     ],
     "continent": "Europe",
@@ -18,11 +17,11 @@
     "country": "Germany",
     "capital": "Berlin",
     "cities": [
-      "Berlin", 
-      "Hamburg", 
-      "Munich", 
-      "Cologne", 
-      "Frankfurt am Main", 
+      "Berlin",
+      "Hamburg",
+      "Munich",
+      "Cologne",
+      "Frankfurt am Main",
       "Stuttgart"
     ],
     "continent": "Europe",
@@ -32,11 +31,11 @@
     "country": "France",
     "capital": "Paris",
     "cities": [
-      "Paris", 
-      "Marseille", 
-      "Lyon", 
-      "Toulouse", 
-      "Nice", 
+      "Paris",
+      "Marseille",
+      "Lyon",
+      "Toulouse",
+      "Nice",
       "Nantes"
     ],
     "continent": "Europe",
@@ -46,11 +45,11 @@
     "country": "Belgium",
     "capital": "Brussels",
     "cities": [
-      "Brussels", 
-      "Antwerp", 
-      "Ghent", 
-      "Charleroi", 
-      "Liège", 
+      "Brussels",
+      "Antwerp",
+      "Ghent",
+      "Charleroi",
+      "Liège",
       "Bruges"
     ],
     "continent": "Europe",
@@ -60,11 +59,11 @@
     "country": "United Kingdom",
     "capital": "London",
     "cities": [
-      "London", 
-      "Birmingham", 
-      "Manchester", 
-      "Glasgow", 
-      "Liverpool", 
+      "London",
+      "Birmingham",
+      "Manchester",
+      "Glasgow",
+      "Liverpool",
       "Leeds"
     ],
     "continent": "Europe",
@@ -74,11 +73,11 @@
     "country": "United States",
     "capital": "Washington, D.C.",
     "cities": [
-      "New York City", 
-      "Los Angeles", 
-      "Chicago", 
-      "Houston", 
-      "Phoenix", 
+      "New York City",
+      "Los Angeles",
+      "Chicago",
+      "Houston",
+      "Phoenix",
       "Philadelphia"
     ],
     "continent": "North America",
@@ -88,11 +87,11 @@
     "country": "Canada",
     "capital": "Ottawa",
     "cities": [
-      "Ottawa", 
-      "Toronto", 
-      "Montreal", 
-      "Vancouver", 
-      "Calgary", 
+      "Ottawa",
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Calgary",
       "Edmonton"
     ],
     "continent": "North America",
@@ -102,11 +101,11 @@
     "country": "Japan",
     "capital": "Tokyo",
     "cities": [
-      "Tokyo", 
-      "Yokohama", 
-      "Osaka", 
-      "Nagoya", 
-      "Sapporo", 
+      "Tokyo",
+      "Yokohama",
+      "Osaka",
+      "Nagoya",
+      "Sapporo",
       "Fukuoka"
     ],
     "continent": "Asia",
@@ -116,11 +115,11 @@
     "country": "China",
     "capital": "Beijing",
     "cities": [
-      "Shanghai", 
-      "Beijing", 
-      "Chongqing", 
-      "Chengdu", 
-      "Guangzhou", 
+      "Shanghai",
+      "Beijing",
+      "Chongqing",
+      "Chengdu",
+      "Guangzhou",
       "Shenzhen"
     ],
     "continent": "Asia",
@@ -130,11 +129,11 @@
     "country": "Australia",
     "capital": "Canberra",
     "cities": [
-      "Sydney", 
-      "Melbourne", 
-      "Brisbane", 
-      "Perth", 
-      "Adelaide", 
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Adelaide",
       "Gold Coast"
     ],
     "continent": "Oceania",
@@ -144,11 +143,11 @@
     "country": "New Zealand",
     "capital": "Wellington",
     "cities": [
-      "Auckland", 
-      "Christchurch", 
-      "Wellington", 
-      "Hamilton", 
-      "Tauranga", 
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Hamilton",
+      "Tauranga",
       "Dunedin"
     ],
     "continent": "Oceania",
@@ -158,11 +157,11 @@
     "country": "Brazil",
     "capital": "Brasília",
     "cities": [
-      "São Paulo", 
-      "Rio de Janeiro", 
-      "Brasília", 
-      "Fortaleza", 
-      "Salvador", 
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Fortaleza",
+      "Salvador",
       "Belo Horizonte"
     ],
     "continent": "South America",
@@ -172,11 +171,11 @@
     "country": "South Africa",
     "capital": "Pretoria",
     "cities": [
-      "Johannesburg", 
-      "Cape Town", 
-      "Durban", 
-      "Pretoria", 
-      "Soweto", 
+      "Johannesburg",
+      "Cape Town",
+      "Durban",
+      "Pretoria",
+      "Soweto",
       "Gqeberha"
     ],
     "continent": "Africa",
@@ -186,11 +185,11 @@
     "country": "India",
     "capital": "New Delhi",
     "cities": [
-      "New Delhi", 
-      "Mumbai", 
-      "Kolkata", 
-      "Bengaluru", 
-      "Chennai", 
+      "New Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Bengaluru",
+      "Chennai",
       "Hyderabad"
     ],
     "continent": "Asia",
@@ -200,11 +199,11 @@
     "country": "Mexico",
     "capital": "Mexico City",
     "cities": [
-      "Mexico City", 
-      "Oaxaca City", 
-      "Guadalajara", 
-      "Mérida", 
-      "San Miguel de Allende", 
+      "Mexico City",
+      "Oaxaca City",
+      "Guadalajara",
+      "Mérida",
+      "San Miguel de Allende",
       "Puebla"
     ],
     "continent": "North America",
@@ -214,11 +213,11 @@
     "country": "Italy",
     "capital": "Rome",
     "cities": [
-      "Rome", 
-      "Florence", 
-      "Venice", 
-      "Milan", 
-      "Naples", 
+      "Rome",
+      "Florence",
+      "Venice",
+      "Milan",
+      "Naples",
       "Bologna"
     ],
     "continent": "Europe",
@@ -228,11 +227,11 @@
     "country": "Spain",
     "capital": "Madrid",
     "cities": [
-      "Madrid", 
-      "Barcelona", 
-      "Seville", 
-      "Valencia", 
-      "Granada", 
+      "Madrid",
+      "Barcelona",
+      "Seville",
+      "Valencia",
+      "Granada",
       "San Sebastián"
     ],
     "continent": "Europe",
@@ -242,11 +241,11 @@
     "country": "Portugal",
     "capital": "Lisbon",
     "cities": [
-      "Lisbon", 
-      "Porto", 
-      "Coimbra", 
-      "Braga", 
-      "Aveiro", 
+      "Lisbon",
+      "Porto",
+      "Coimbra",
+      "Braga",
+      "Aveiro",
       "Funchal"
     ],
     "continent": "Europe",
@@ -256,11 +255,11 @@
     "country": "Ireland",
     "capital": "Dublin",
     "cities": [
-      "Dublin", 
-      "Belfast", 
-      "Cork", 
-      "Galway", 
-      "Limerick", 
+      "Dublin",
+      "Belfast",
+      "Cork",
+      "Galway",
+      "Limerick",
       "Derry"
     ],
     "continent": "Europe",
@@ -270,11 +269,11 @@
     "country": "Poland",
     "capital": "Warsaw",
     "cities": [
-      "Warsaw", 
-      "Kraków", 
-      "Łódź", 
-      "Wrocław", 
-      "Poznań", 
+      "Warsaw",
+      "Kraków",
+      "Łódź",
+      "Wrocław",
+      "Poznań",
       "Gdańsk"
     ],
     "continent": "Europe",
@@ -284,11 +283,11 @@
     "country": "British Indian Ocean Territory",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -298,11 +297,11 @@
     "country": "Tuvalu",
     "capital": "Funafuti",
     "cities": [
-      "Funafuti", 
-      "Savave Village", 
-      "Motufoua", 
-      "Teava Village", 
-      "Tanrake Village", 
+      "Funafuti",
+      "Savave Village",
+      "Motufoua",
+      "Teava Village",
+      "Tanrake Village",
       "Tokelau Village"
     ],
     "continent": "Oceania",
@@ -312,11 +311,11 @@
     "country": "Micronesia",
     "capital": "Palikir",
     "cities": [
-      "Weno", 
-      "Palikir", 
-      "Colonia", 
-      "Tofol", 
-      "Kolonia", 
+      "Weno",
+      "Palikir",
+      "Colonia",
+      "Tofol",
+      "Kolonia",
       "Lelu"
     ],
     "continent": "Oceania",
@@ -326,11 +325,11 @@
     "country": "Guernsey",
     "capital": "Saint Peter Port",
     "cities": [
-      "Saint Peter Port", 
-      "Vale", 
-      "Saint Sampson", 
-      "Castel", 
-      "Saint Martin", 
+      "Saint Peter Port",
+      "Vale",
+      "Saint Sampson",
+      "Castel",
+      "Saint Martin",
       "Saint Andrew"
     ],
     "continent": "Europe",
@@ -340,11 +339,11 @@
     "country": "Jersey",
     "capital": "St Helier",
     "cities": [
-      "St. Helier", 
-      "St. Brelade", 
-      "St. Saviour", 
-      "St. Clement", 
-      "Grouville", 
+      "St. Helier",
+      "St. Brelade",
+      "St. Saviour",
+      "St. Clement",
+      "Grouville",
       "St. Aubin"
     ],
     "continent": "Europe",
@@ -354,11 +353,11 @@
     "country": "Albania",
     "capital": "Tirana",
     "cities": [
-      "Tirana", 
-      "Durrës", 
-      "Shkodër", 
-      "Vlorë", 
-      "Berat", 
+      "Tirana",
+      "Durrës",
+      "Shkodër",
+      "Vlorë",
+      "Berat",
       "Gjirokastër"
     ],
     "continent": "Europe",
@@ -368,11 +367,11 @@
     "country": "Andorra",
     "capital": "Andorra la Vella",
     "cities": [
-      "Andorra la Vella", 
-      "Escaldes-Engordany", 
-      "Encamp", 
-      "Sant Julià de Lòria", 
-      "La Massana", 
+      "Andorra la Vella",
+      "Escaldes-Engordany",
+      "Encamp",
+      "Sant Julià de Lòria",
+      "La Massana",
       "Ordino"
     ],
     "continent": "Europe",
@@ -382,11 +381,11 @@
     "country": "Austria",
     "capital": "Vienna",
     "cities": [
-      "Vienna", 
-      "Graz", 
-      "Linz", 
-      "Salzburg", 
-      "Innsbruck", 
+      "Vienna",
+      "Graz",
+      "Linz",
+      "Salzburg",
+      "Innsbruck",
       "Klagenfurt"
     ],
     "continent": "Europe",
@@ -396,11 +395,11 @@
     "country": "Bosnia and Herzegovina",
     "capital": "Sarajevo",
     "cities": [
-      "Sarajevo", 
-      "Banja Luka", 
-      "Tuzla", 
-      "Zenica", 
-      "Mostar", 
+      "Sarajevo",
+      "Banja Luka",
+      "Tuzla",
+      "Zenica",
+      "Mostar",
       "Bihać"
     ],
     "continent": "Europe",
@@ -410,11 +409,11 @@
     "country": "Bulgaria",
     "capital": "Sofia",
     "cities": [
-      "Sofia", 
-      "Plovdiv", 
-      "Varna", 
-      "Burgas", 
-      "Ruse", 
+      "Sofia",
+      "Plovdiv",
+      "Varna",
+      "Burgas",
+      "Ruse",
       "Stara Zagora"
     ],
     "continent": "Europe",
@@ -424,11 +423,11 @@
     "country": "Belarus",
     "capital": "Minsk",
     "cities": [
-      "Minsk", 
-      "Gomel", 
-      "Mogilev", 
-      "Grodno", 
-      "Brest", 
+      "Minsk",
+      "Gomel",
+      "Mogilev",
+      "Grodno",
+      "Brest",
       "Vitebsk"
     ],
     "continent": "Europe",
@@ -438,11 +437,11 @@
     "country": "Croatia",
     "capital": "Zagreb",
     "cities": [
-      "Dubrovnik", 
-      "Split", 
-      "Zagreb", 
-      "Zadar", 
-      "Rijeka", 
+      "Dubrovnik",
+      "Split",
+      "Zagreb",
+      "Zadar",
+      "Rijeka",
       "Pula"
     ],
     "continent": "Europe",
@@ -452,11 +451,11 @@
     "country": "Cyprus",
     "capital": "Nicosia",
     "cities": [
-      "Nicosia", 
-      "Limassol", 
-      "Larnaca", 
-      "Paphos", 
-      "Famagusta", 
+      "Nicosia",
+      "Limassol",
+      "Larnaca",
+      "Paphos",
+      "Famagusta",
       "Kyrenia"
     ],
     "continent": "Europe",
@@ -466,11 +465,11 @@
     "country": "Czech Republic",
     "capital": "Prague",
     "cities": [
-      "Prague", 
-      "Brno", 
-      "Ostrava", 
-      "Plzeň", 
-      "Liberec", 
+      "Prague",
+      "Brno",
+      "Ostrava",
+      "Plzeň",
+      "Liberec",
       "Olomouc"
     ],
     "continent": "Europe",
@@ -480,11 +479,11 @@
     "country": "Denmark",
     "capital": "Copenhagen",
     "cities": [
-      "Copenhagen", 
-      "Aarhus", 
-      "Odense", 
-      "Aalborg", 
-      "Esbjerg", 
+      "Copenhagen",
+      "Aarhus",
+      "Odense",
+      "Aalborg",
+      "Esbjerg",
       "Randers"
     ],
     "continent": "Europe",
@@ -494,11 +493,11 @@
     "country": "Estonia",
     "capital": "Tallinn",
     "cities": [
-      "Tallinn", 
-      "Tartu", 
-      "Narva", 
-      "Pärnu", 
-      "Kohtla-Järve", 
+      "Tallinn",
+      "Tartu",
+      "Narva",
+      "Pärnu",
+      "Kohtla-Järve",
       "Viljandi"
     ],
     "continent": "Europe",
@@ -508,11 +507,11 @@
     "country": "Finland",
     "capital": "Helsinki",
     "cities": [
-      "Helsinki", 
-      "Espoo", 
-      "Tampere", 
-      "Vantaa", 
-      "Oulu", 
+      "Helsinki",
+      "Espoo",
+      "Tampere",
+      "Vantaa",
+      "Oulu",
       "Turku"
     ],
     "continent": "Europe",
@@ -522,11 +521,11 @@
     "country": "Greece",
     "capital": "Athens",
     "cities": [
-      "Athens", 
-      "Thessaloniki", 
-      "Patras", 
-      "Heraklion", 
-      "Larissa", 
+      "Athens",
+      "Thessaloniki",
+      "Patras",
+      "Heraklion",
+      "Larissa",
       "Chania"
     ],
     "continent": "Europe",
@@ -536,11 +535,11 @@
     "country": "Hungary",
     "capital": "Budapest",
     "cities": [
-      "Budapest", 
-      "Debrecen", 
-      "Szeged", 
-      "Miskolc", 
-      "Pécs", 
+      "Budapest",
+      "Debrecen",
+      "Szeged",
+      "Miskolc",
+      "Pécs",
       "Győr"
     ],
     "continent": "Europe",
@@ -550,11 +549,11 @@
     "country": "Iceland",
     "capital": "Reykjavík",
     "cities": [
-      "Reykjavík", 
-      "Kópavogur", 
-      "Hafnarfjörður", 
-      "Akureyri", 
-      "Reykjanesbær", 
+      "Reykjavík",
+      "Kópavogur",
+      "Hafnarfjörður",
+      "Akureyri",
+      "Reykjanesbær",
       "Garðabær"
     ],
     "continent": "Europe",
@@ -564,11 +563,11 @@
     "country": "Latvia",
     "capital": "Riga",
     "cities": [
-      "Riga", 
-      "Daugavpils", 
-      "Liepāja", 
-      "Jelgava", 
-      "Jūrmala", 
+      "Riga",
+      "Daugavpils",
+      "Liepāja",
+      "Jelgava",
+      "Jūrmala",
       "Ventspils"
     ],
     "continent": "Europe",
@@ -578,11 +577,11 @@
     "country": "Liechtenstein",
     "capital": "Vaduz",
     "cities": [
-      "Schaan", 
-      "Vaduz", 
-      "Triesen", 
-      "Balzers", 
-      "Eschen", 
+      "Schaan",
+      "Vaduz",
+      "Triesen",
+      "Balzers",
+      "Eschen",
       "Mauren"
     ],
     "continent": "Europe",
@@ -592,11 +591,11 @@
     "country": "Lithuania",
     "capital": "Vilnius",
     "cities": [
-      "Vilnius", 
-      "Kaunas", 
-      "Klaipėda", 
-      "Šiauliai", 
-      "Panevėžys", 
+      "Vilnius",
+      "Kaunas",
+      "Klaipėda",
+      "Šiauliai",
+      "Panevėžys",
       "Alytus"
     ],
     "continent": "Europe",
@@ -606,11 +605,11 @@
     "country": "Luxembourg",
     "capital": "Luxembourg City",
     "cities": [
-      "Luxembourg City", 
-      "Esch-sur-Alzette", 
-      "Differdange", 
-      "Dudelange", 
-      "Ettelbruck", 
+      "Luxembourg City",
+      "Esch-sur-Alzette",
+      "Differdange",
+      "Dudelange",
+      "Ettelbruck",
       "Diekirch"
     ],
     "continent": "Europe",
@@ -620,11 +619,11 @@
     "country": "Monaco",
     "capital": "Monaco",
     "cities": [
-      "Monte-Carlo", 
-      "Monaco-Ville", 
-      "La Condamine", 
-      "Fontvieille", 
-      "Larvotto", 
+      "Monte-Carlo",
+      "Monaco-Ville",
+      "La Condamine",
+      "Fontvieille",
+      "Larvotto",
       "La Rousse"
     ],
     "continent": "Europe",
@@ -634,11 +633,11 @@
     "country": "Moldova",
     "capital": "Chișinău",
     "cities": [
-      "Chișinău", 
-      "Tiraspol", 
-      "Bălți", 
-      "Bender", 
-      "Cahul", 
+      "Chișinău",
+      "Tiraspol",
+      "Bălți",
+      "Bender",
+      "Cahul",
       "Soroca"
     ],
     "continent": "Europe",
@@ -648,11 +647,11 @@
     "country": "Montenegro",
     "capital": "Podgorica",
     "cities": [
-      "Podgorica", 
-      "Budva", 
-      "Kotor", 
-      "Nikšić", 
-      "Herceg Novi", 
+      "Podgorica",
+      "Budva",
+      "Kotor",
+      "Nikšić",
+      "Herceg Novi",
       "Cetinje"
     ],
     "continent": "Europe",
@@ -662,11 +661,11 @@
     "country": "Norway",
     "capital": "Oslo",
     "cities": [
-      "Oslo", 
-      "Bergen", 
-      "Stavanger/Sandnes", 
-      "Trondheim", 
-      "Drammen", 
+      "Oslo",
+      "Bergen",
+      "Stavanger/Sandnes",
+      "Trondheim",
+      "Drammen",
       "Fredrikstad/Sarpsborg"
     ],
     "continent": "Europe",
@@ -676,11 +675,11 @@
     "country": "Romania",
     "capital": "Bucharest",
     "cities": [
-      "Bucharest", 
-      "Cluj-Napoca", 
-      "Timișoara", 
-      "Iași", 
-      "Constanța", 
+      "Bucharest",
+      "Cluj-Napoca",
+      "Timișoara",
+      "Iași",
+      "Constanța",
       "Brașov"
     ],
     "continent": "Europe",
@@ -690,11 +689,11 @@
     "country": "Russia",
     "capital": "Moscow",
     "cities": [
-      "Moscow", 
-      "Saint Petersburg", 
-      "Novosibirsk", 
-      "Yekaterinburg", 
-      "Kazan", 
+      "Moscow",
+      "Saint Petersburg",
+      "Novosibirsk",
+      "Yekaterinburg",
+      "Kazan",
       "Nizhny Novgorod"
     ],
     "continent": "Europe",
@@ -704,11 +703,11 @@
     "country": "Serbia",
     "capital": "Belgrade",
     "cities": [
-      "Belgrade", 
-      "Novi Sad", 
-      "Niš", 
-      "Kragujevac", 
-      "Subotica", 
+      "Belgrade",
+      "Novi Sad",
+      "Niš",
+      "Kragujevac",
+      "Subotica",
       "Novi Pazar"
     ],
     "continent": "Europe",
@@ -718,11 +717,11 @@
     "country": "Slovakia",
     "capital": "Bratislava",
     "cities": [
-      "Bratislava", 
-      "Košice", 
-      "Prešov", 
-      "Žilina", 
-      "Banská Bystrica", 
+      "Bratislava",
+      "Košice",
+      "Prešov",
+      "Žilina",
+      "Banská Bystrica",
       "Trnava"
     ],
     "continent": "Europe",
@@ -732,11 +731,11 @@
     "country": "Slovenia",
     "capital": "Ljubljana",
     "cities": [
-      "Ljubljana", 
-      "Maribor", 
-      "Celje", 
-      "Kranj", 
-      "Koper", 
+      "Ljubljana",
+      "Maribor",
+      "Celje",
+      "Kranj",
+      "Koper",
       "Velenje"
     ],
     "continent": "Europe",
@@ -746,11 +745,11 @@
     "country": "Sweden",
     "capital": "Stockholm",
     "cities": [
-      "Stockholm", 
-      "Gothenburg", 
-      "Malmö", 
-      "Uppsala", 
-      "Linköping", 
+      "Stockholm",
+      "Gothenburg",
+      "Malmö",
+      "Uppsala",
+      "Linköping",
       "Västerås"
     ],
     "continent": "Europe",
@@ -760,11 +759,11 @@
     "country": "Switzerland",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Europe",
@@ -774,11 +773,11 @@
     "country": "Ukraine",
     "capital": "Kyiv",
     "cities": [
-      "Kyiv", 
-      "Kharkiv", 
-      "Odesa", 
-      "Dnipro", 
-      "Lviv", 
+      "Kyiv",
+      "Kharkiv",
+      "Odesa",
+      "Dnipro",
+      "Lviv",
       "Donetsk"
     ],
     "continent": "Europe",
@@ -788,11 +787,11 @@
     "country": "Vatican City",
     "capital": "Vatican City",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Europe",
@@ -802,11 +801,11 @@
     "country": "Afghanistan",
     "capital": "Kabul",
     "cities": [
-      "Kabul", 
-      "Herat", 
-      "Kandahar", 
-      "Mazar-i-Sharif", 
-      "Jalalabad", 
+      "Kabul",
+      "Herat",
+      "Kandahar",
+      "Mazar-i-Sharif",
+      "Jalalabad",
       "Kunduz"
     ],
     "continent": "Asia",
@@ -816,11 +815,11 @@
     "country": "Armenia",
     "capital": "Yerevan",
     "cities": [
-      "Yerevan", 
-      "Gyumri", 
-      "Vanadzor", 
-      "Vagharshapat", 
-      "Dilijan", 
+      "Yerevan",
+      "Gyumri",
+      "Vanadzor",
+      "Vagharshapat",
+      "Dilijan",
       "Goris"
     ],
     "continent": "Asia",
@@ -830,11 +829,11 @@
     "country": "Azerbaijan",
     "capital": "Baku",
     "cities": [
-      "Baku", 
-      "Ganja", 
-      "Sheki", 
-      "Gabala", 
-      "Lankaran", 
+      "Baku",
+      "Ganja",
+      "Sheki",
+      "Gabala",
+      "Lankaran",
       "Guba"
     ],
     "continent": "Asia",
@@ -844,11 +843,11 @@
     "country": "Bahrain",
     "capital": "Manama",
     "cities": [
-      "Manama", 
-      "Hamad Town", 
-      "A'ali", 
-      "Muharraq", 
-      "Riffa", 
+      "Manama",
+      "Hamad Town",
+      "A'ali",
+      "Muharraq",
+      "Riffa",
       "Isa Town"
     ],
     "continent": "Asia",
@@ -858,11 +857,11 @@
     "country": "Bangladesh",
     "capital": "Dhaka",
     "cities": [
-      "Dhaka", 
-      "Chattogram", 
-      "Khulna", 
-      "Sylhet", 
-      "Rajshahi", 
+      "Dhaka",
+      "Chattogram",
+      "Khulna",
+      "Sylhet",
+      "Rajshahi",
       "Cox's Bazar"
     ],
     "continent": "Asia",
@@ -872,11 +871,11 @@
     "country": "Bhutan",
     "capital": "Thimphu",
     "cities": [
-      "Thimphu", 
-      "Paro", 
-      "Punakha", 
-      "Phuentsholing", 
-      "Jakar", 
+      "Thimphu",
+      "Paro",
+      "Punakha",
+      "Phuentsholing",
+      "Jakar",
       "Wangdue Phodrang"
     ],
     "continent": "Asia",
@@ -886,11 +885,11 @@
     "country": "Brunei",
     "capital": "Bandar Seri Begawan",
     "cities": [
-      "Bandar Seri Begawan", 
-      "Bangar", 
-      "Sengkurong", 
-      "Kuala Belait", 
-      "Seria", 
+      "Bandar Seri Begawan",
+      "Bangar",
+      "Sengkurong",
+      "Kuala Belait",
+      "Seria",
       "Tutong"
     ],
     "continent": "Asia",
@@ -900,11 +899,11 @@
     "country": "Cambodia",
     "capital": "Phnom Penh",
     "cities": [
-      "Phnom Penh", 
-      "Kampot", 
-      "Kep", 
-      "Sihanoukville", 
-      "Siem Reap", 
+      "Phnom Penh",
+      "Kampot",
+      "Kep",
+      "Sihanoukville",
+      "Siem Reap",
       "Battambang"
     ],
     "continent": "Asia",
@@ -914,11 +913,11 @@
     "country": "Georgia",
     "capital": "Tbilisi",
     "cities": [
-      "Tbilisi", 
-      "Mtskheta", 
-      "Sighnaghi", 
-      "Kutaisi", 
-      "Batumi", 
+      "Tbilisi",
+      "Mtskheta",
+      "Sighnaghi",
+      "Kutaisi",
+      "Batumi",
       "Rustavi"
     ],
     "continent": "Asia",
@@ -928,11 +927,11 @@
     "country": "Hong Kong",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -942,11 +941,11 @@
     "country": "Indonesia",
     "capital": "Jakarta",
     "cities": [
-      "Jakarta", 
-      "Bali", 
-      "Yogyakarta", 
-      "Surabaya", 
-      "Bandung", 
+      "Jakarta",
+      "Bali",
+      "Yogyakarta",
+      "Surabaya",
+      "Bandung",
       "Medan"
     ],
     "continent": "Asia",
@@ -956,11 +955,11 @@
     "country": "Iran",
     "capital": "Tehran",
     "cities": [
-      "Tehran", 
-      "Isfahan", 
-      "Shiraz", 
-      "Yazd", 
-      "Tabriz", 
+      "Tehran",
+      "Isfahan",
+      "Shiraz",
+      "Yazd",
+      "Tabriz",
       "Kashan"
     ],
     "continent": "Asia",
@@ -970,11 +969,11 @@
     "country": "Iraq",
     "capital": "Baghdad",
     "cities": [
-      "Baghdad", 
-      "Basra", 
-      "Mosul", 
-      "Erbil", 
-      "Najaf", 
+      "Baghdad",
+      "Basra",
+      "Mosul",
+      "Erbil",
+      "Najaf",
       "Karbala"
     ],
     "continent": "Asia",
@@ -984,11 +983,11 @@
     "country": "Israel",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -998,11 +997,11 @@
     "country": "Jordan",
     "capital": "Amman",
     "cities": [
-      "Amman", 
-      "Zarqa", 
-      "Rusayfah", 
-      "Irbid", 
-      "Aqaba", 
+      "Amman",
+      "Zarqa",
+      "Rusayfah",
+      "Irbid",
+      "Aqaba",
       "Madaba"
     ],
     "continent": "Asia",
@@ -1012,11 +1011,11 @@
     "country": "Kazakhstan",
     "capital": "Astana",
     "cities": [
-      "Astana", 
-      "Almaty", 
-      "Shymkent", 
-      "Aktobe", 
-      "Karaganda", 
+      "Astana",
+      "Almaty",
+      "Shymkent",
+      "Aktobe",
+      "Karaganda",
       "Aktau"
     ],
     "continent": "Asia",
@@ -1026,11 +1025,11 @@
     "country": "Kuwait",
     "capital": "Kuwait City",
     "cities": [
-      "Kuwait City", 
-      "Salmiya", 
-      "Hawally", 
-      "Al Jahra", 
-      "Al Ahmadi", 
+      "Kuwait City",
+      "Salmiya",
+      "Hawally",
+      "Al Jahra",
+      "Al Ahmadi",
       "Farwaniyah"
     ],
     "continent": "Asia",
@@ -1040,11 +1039,11 @@
     "country": "Kyrgyzstan",
     "capital": "Bishkek",
     "cities": [
-      "Bishkek", 
-      "Cholpon-Ata", 
-      "Naryn", 
-      "Osh", 
-      "Jalal-Abad", 
+      "Bishkek",
+      "Cholpon-Ata",
+      "Naryn",
+      "Osh",
+      "Jalal-Abad",
       "Karakol"
     ],
     "continent": "Asia",
@@ -1054,11 +1053,11 @@
     "country": "Laos",
     "capital": "Vientiane",
     "cities": [
-      "Vientiane", 
-      "Pakse", 
-      "Phonsavan", 
-      "Vang Vieng", 
-      "Luang Prabang", 
+      "Vientiane",
+      "Pakse",
+      "Phonsavan",
+      "Vang Vieng",
+      "Luang Prabang",
       "Thakhek"
     ],
     "continent": "Asia",
@@ -1068,11 +1067,11 @@
     "country": "Lebanon",
     "capital": "Beirut",
     "cities": [
-      "Tripoli", 
-      "Tyre", 
-      "Jounieh", 
-      "Beirut", 
-      "Byblos", 
+      "Tripoli",
+      "Tyre",
+      "Jounieh",
+      "Beirut",
+      "Byblos",
       "Sidon"
     ],
     "continent": "Asia",
@@ -1082,11 +1081,11 @@
     "country": "Macau",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -1096,11 +1095,11 @@
     "country": "Malaysia",
     "capital": "Kuala Lumpur",
     "cities": [
-      "Kuala Lumpur", 
-      "George Town", 
-      "Malacca", 
-      "Kota Kinabalu", 
-      "Ipoh", 
+      "Kuala Lumpur",
+      "George Town",
+      "Malacca",
+      "Kota Kinabalu",
+      "Ipoh",
       "Johor Bahru"
     ],
     "continent": "Asia",
@@ -1110,11 +1109,11 @@
     "country": "Maldives",
     "capital": "Malé",
     "cities": [
-      "Malé", 
-      "Hulhumale", 
-      "Maafushi", 
-      "Fuvahmulah", 
-      "Naifaru", 
+      "Malé",
+      "Hulhumale",
+      "Maafushi",
+      "Fuvahmulah",
+      "Naifaru",
       "Dhidhdhoo"
     ],
     "continent": "Asia",
@@ -1124,11 +1123,11 @@
     "country": "Mongolia",
     "capital": "Ulaanbaatar",
     "cities": [
-      "Ulaanbaatar", 
-      "Darkhan", 
-      "Erdenet", 
-      "Murun", 
-      "Khovd", 
+      "Ulaanbaatar",
+      "Darkhan",
+      "Erdenet",
+      "Murun",
+      "Khovd",
       "Ölgii"
     ],
     "continent": "Asia",
@@ -1138,11 +1137,11 @@
     "country": "Myanmar",
     "capital": "Naypyidaw",
     "cities": [
-      "Naypyidaw", 
-      "Yangon", 
-      "Mandalay", 
-      "Bagan", 
-      "Inle Lake", 
+      "Naypyidaw",
+      "Yangon",
+      "Mandalay",
+      "Bagan",
+      "Inle Lake",
       "Kalaw"
     ],
     "continent": "Asia",
@@ -1152,11 +1151,11 @@
     "country": "Nepal",
     "capital": "Kathmandu",
     "cities": [
-      "Kathmandu", 
-      "Pokhara", 
-      "Lalitpur", 
-      "Bhaktapur", 
-      "Lumbini", 
+      "Kathmandu",
+      "Pokhara",
+      "Lalitpur",
+      "Bhaktapur",
+      "Lumbini",
       "Bharatpur"
     ],
     "continent": "Asia",
@@ -1166,11 +1165,11 @@
     "country": "North Korea",
     "capital": "Pyongyang",
     "cities": [
-      "Pyongyang", 
-      "Hamhung", 
-      "Chongjin", 
-      "Wonsan", 
-      "Kaesong", 
+      "Pyongyang",
+      "Hamhung",
+      "Chongjin",
+      "Wonsan",
+      "Kaesong",
       "Sinuiju"
     ],
     "continent": "Asia",
@@ -1180,11 +1179,11 @@
     "country": "Oman",
     "capital": "Muscat",
     "cities": [
-      "Muscat", 
-      "Nizwa", 
-      "Sur", 
-      "Khasab", 
-      "Salalah", 
+      "Muscat",
+      "Nizwa",
+      "Sur",
+      "Khasab",
+      "Salalah",
       "Sohar"
     ],
     "continent": "Asia",
@@ -1194,11 +1193,11 @@
     "country": "Pakistan",
     "capital": "Islamabad",
     "cities": [
-      "Islamabad", 
-      "Rawalpindi", 
-      "Multan", 
-      "Karachi", 
-      "Lahore", 
+      "Islamabad",
+      "Rawalpindi",
+      "Multan",
+      "Karachi",
+      "Lahore",
       "Faisalabad"
     ],
     "continent": "Asia",
@@ -1208,11 +1207,11 @@
     "country": "Palestine",
     "capital": "Jerusalem",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -1222,11 +1221,11 @@
     "country": "Philippines",
     "capital": "Manila",
     "cities": [
-      "Manila", 
-      "Davao City", 
-      "Quezon City", 
-      "Cebu City", 
-      "Makati City", 
+      "Manila",
+      "Davao City",
+      "Quezon City",
+      "Cebu City",
+      "Makati City",
       "Puerto Princesa"
     ],
     "continent": "Asia",
@@ -1236,11 +1235,11 @@
     "country": "Qatar",
     "capital": "Doha",
     "cities": [
-      "Doha", 
-      "Ar-Rayyan", 
-      "Umm Salal Mohammed", 
-      "Al Wakrah", 
-      "Dukhan", 
+      "Doha",
+      "Ar-Rayyan",
+      "Umm Salal Mohammed",
+      "Al Wakrah",
+      "Dukhan",
       "Al Khor"
     ],
     "continent": "Asia",
@@ -1250,53 +1249,53 @@
     "country": "Saudi Arabia",
     "capital": "Riyadh",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Riyadh",
+      "Jeddah",
+      "Dammam",
+      "Mecca",
+      "Medina",
+      "AlUla"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Riyadh is the capital and largest city of Saudi Arabia and has a metropolitan area population of approximately 8.5 million people."
   },
   {
     "country": "Singapore",
     "capital": "Singapore",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "N/A."
   },
   {
     "country": "South Korea",
     "capital": "Seoul",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daegu",
+      "Daejeon",
+      "Gwangju"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Seoul is the capital and largest city of South Korea and has a metropolitan population of approximately 26 million people."
   },
   {
     "country": "Sri Lanka",
     "capital": "N/A",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -1306,11 +1305,11 @@
     "country": "Syria",
     "capital": "Damascus",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
     "continent": "Asia",
@@ -1320,1824 +1319,1820 @@
     "country": "Taiwan",
     "capital": "Taipei",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Taipei",
+      "New Taipei City",
+      "Kaohsiung",
+      "Taoyuan",
+      "Tainan",
+      "Taichung"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Taipei is the capital of Taiwan and has a population of approximately 2.5 million people."
   },
   {
     "country": "Tajikistan",
     "capital": "Dushanbe",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Dushanbe",
+      "Khujand",
+      "Kulob",
+      "Bokhtar",
+      "Istaravshan",
+      "Vahdat"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Dushanbe is the capital and largest city of Tajikistan and has a metropolitan population of approximately 1.27 million people."
   },
   {
     "country": "Thailand",
     "capital": "Bangkok",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Bangkok",
+      "Chiang Mai",
+      "Phuket",
+      "Pattaya",
+      "Krabi",
+      "Chiang Rai"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Bangkok is the capital and largest city of Thailand and has a metropolitan population of approximately 11.5 million people."
   },
   {
     "country": "Timor-Leste",
     "capital": "Dili",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Dili",
+      "Baucau",
+      "Lospalos",
+      "Pante Macassar",
+      "Maliana",
+      "Gleno"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Dili is the capital and largest city of Timor-Leste and has a metropolitan population of approximately 285,000 people."
   },
   {
     "country": "Turkmenistan",
     "capital": "Ashgabat",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Ashgabat",
+      "Türkmenabat",
+      "Daşoguz",
+      "Mary",
+      "Balkanabat",
+      "Turkmenbashy"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Ashgabat is the capital and largest city of Turkmenistan and has a metropolitan population of approximately 1.1 million people."
   },
   {
     "country": "United Arab Emirates",
     "capital": "Abu Dhabi",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Abu Dhabi",
+      "Dubai",
+      "Sharjah",
+      "Al Ain",
+      "Ajman",
+      "Ras Al Khaimah"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Abu Dhabi is the capital of the United Arab Emirates and has a metropolitan population of approximately 3.2 million people."
   },
   {
     "country": "Uzbekistan",
     "capital": "Tashkent",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Tashkent",
+      "Samarkand",
+      "Namangan",
+      "Andijan",
+      "Bukhara",
+      "Fergana"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Tashkent is the capital and largest city of Uzbekistan and has a metropolitan population of approximately 2.6 million people."
   },
   {
     "country": "Vietnam",
     "capital": "Hanoi",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Da Nang",
+      "Hải Phòng",
+      "Hoi An",
+      "Can Tho"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Hanoi is the capital of Vietnam and has a metropolitan population of approximately 9.17 million people."
   },
   {
     "country": "Yemen",
-    "capital": "Sanaa",
+    "capital": "Sana'a",
     "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
+      "Sana'a",
+      "Aden",
+      "Taiz",
+      "Al Hudaydah",
+      "Ibb",
+      "Mukalla"
     ],
     "continent": "Asia",
+    "info": "Sana'a is the capital and largest city of Yemen and has a metropolitan population of approximately 5.2 million people."
+  },
+  {
+    "country": "Algeria",
+    "capital": "Algiers",
+    "cities": [
+      "Algiers",
+      "Oran",
+      "Blida",
+      "Constantine",
+      "Annaba",
+      "Batna"
+    ],
+    "continent": "Africa",
+    "info": "Algiers is the capital and largest city of Algeria and has a metropolitan population of approximately 4.3 million people."
+  },
+  {
+    "country": "Angola",
+    "capital": "Luanda",
+    "cities": [
+      "Luanda",
+      "Lubango",
+      "Cabinda",
+      "Malanje",
+      "Luena",
+      "Cuito"
+    ],
+    "continent": "Africa",
+    "info": "Luanda is the capital and largest city of Angola and has a metropolitan population of approximately 10.4 million people."
+  },
+  {
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "cities": [
+      "Porto-Novo",
+      "Cotonou",
+      "Abomey-Calavi",
+      "Parakou",
+      "Godomè",
+      "Abomey"
+    ],
+    "continent": "Africa",
+    "info": "Porto-Novo is the capital of Benin and has a population of approximately 314,000 people."
+  },
+  {
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "cities": [
+      "Gaborone",
+      "Francistown",
+      "Molepolole",
+      "Mogoditshane",
+      "Maun",
+      "Selebi-Phikwe"
+    ],
+    "continent": "Africa",
+    "info": "Gaborone is the capital and largest city of Botswana and has a population of approximately 535,000 people."
+  },
+  {
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "cities": [
+      "Ouagadougou",
+      "Bobo-Dioulasso",
+      "Kaya",
+      "Banfora",
+      "Koudougou",
+      "Fada N'Gourma"
+    ],
+    "continent": "Africa",
+    "info": "Ouagadougou is the capital and largest city of Burkina Faso and has a metropolitan population of approximately 3.15 million people."
+  },
+  {
+    "country": "Burundi",
+    "capital": "N/A",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
     "info": "."
   },
-
   {
-  "country": "Algeria",
-  "capital": "Algiers",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "country": "Cameroon",
+    "capital": "Yaoundé",
+    "cities": [
+      "Yaoundé",
+      "Douala",
+      "Garoua",
+      "Bafoussam",
+      "Maroua",
+      "Bamenda"
+    ],
+    "continent": "Africa",
+    "info": "Yaoundé is the capital of Cameroon and has a metropolitan population of approximately 4.7 million people."
+  },
+  {
+    "country": "Cape Verde",
+    "capital": "Praia",
+    "cities": [
+      "Praia",
+      "Mindelo",
+      "Santa Maria",
+      "Espargos",
+      "Assomada",
+      "Pedra Badejo"
+    ],
+    "continent": "Africa",
+    "info": "Praia is the capital of Cape Verde and has a metropolitan population of approximately 185,000 people."
+  },
+  {
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "cities": [
+      "Bangui",
+      "Bimbo",
+      "Bégoua",
+      "Carnot",
+      "Berbérati",
+      "Bambari"
+    ],
+    "continent": "Africa",
+    "info": "Bangui is the capital and largest city of the Central African Republic and has a population of approximately 942,000 people."
+  },
+  {
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "cities": [
+      "N'Djamena",
+      "Abéché",
+      "Moundou",
+      "Sarh",
+      "Mongo",
+      "Am Timan"
+    ],
+    "continent": "Africa",
+    "info": "N'Djamena is the capital and largest city of Chad and has a population of approximately 1.8 million people."
+  },
+  {
+    "country": "Comoros",
+    "capital": "Moroni",
+    "cities": [
+      "Moroni",
+      "Mutsamudu",
+      "Fomboni",
+      "Domoni",
+      "Ouani",
+      "Sima"
+    ],
+    "continent": "Africa",
+    "info": "Moroni is the capital and largest city of Comoros and has a population of approximately 90,000 people."
+  },
+  {
+    "country": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "cities": [
+      "Brazzaville",
+      "Pointe-Noire",
+      "Dolisie",
+      "Nkayi",
+      "Ouésso",
+      "Kintélé"
+    ],
+    "continent": "Africa",
+    "info": "Brazzaville is the capital and largest city of the Republic of the Congo and has a population of approximately 2.32 million people."
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "cities": [
+      "Kinshasa",
+      "Lubumbashi",
+      "Beni",
+      "Kananga",
+      "Tshikapa",
+      "Bukavu"
+    ],
+    "continent": "Africa",
+    "info": "Kinshasa is the capital and largest city of the Democratic Republic of the Congo and has a population of approximately 21.9 million people."
+  },
+  {
+    "country": "Djibouti",
+    "capital": "Djibouti City",
+    "cities": [
+      "Djibouti City",
+      "Ali Sabieh",
+      "Tadjourah",
+      "Dikhil",
+      "Arta",
+      "Obock"
+    ],
+    "continent": "Africa",
+    "info": "Djibouti City is the capital and largest city of Djibouti and has a population of approximately 800,000 people."
+  },
+  {
+    "country": "Egypt",
+    "capital": "Cairo",
+    "cities": [
+      "Cairo",
+      "Luxor",
+      "Alexandria",
+      "Giza",
+      "Aswan",
+      "Sharm El Sheikh"
+    ],
+    "continent": "Africa",
+    "info": "Cairo is the capital and largest city of Egypt and has a metropolitan population of approximately 21.9 million people."
+  },
+  {
+    "country": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "cities": [
+      "Ciudad de la Paz",
+      "Bata",
+      "Malabo",
+      "Mongomo",
+      "Ebebiyín",
+      "Evinayong"
+    ],
+    "continent": "Africa",
+    "info": "Ciudad de la Paz is the capital of Equatorial Guinea and has a population of approximately 330,000 people."
+  },
+  {
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "cities": [
+      "Asmara",
+      "Massawa",
+      "Keren",
+      "Assab",
+      "Mendefera",
+      "Dekemhare"
+    ],
+    "continent": "Africa",
+    "info": "Asmara is the capital and largest city of Eritrea and has a population of approximately 783,000 people."
+  },
+  {
+    "country": "Eswatini",
+    "capital": "N/A",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Angola",
-  "capital": "Luanda",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Benin",
-  "capital": "Porto-Novo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Gabon",
+    "capital": "Libreville",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Botswana",
-  "capital": "Gaborone",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Gambia",
+    "capital": "Banjul",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Burkina Faso",
-  "capital": "Ouagadougou",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Ghana",
+    "capital": "Accra",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Burundi",
-  "capital": "N/A",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Guinea",
+    "capital": "Conakry",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Cameroon",
-  "capital": "Yaoundé",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
       " "
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Cape Verde",
-  "capital": "Praia",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Central African Republic",
-  "capital": "Bangui",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Chad",
-  "capital": "N'Djamena",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Comoros",
-  "capital": "Moroni",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Republic of the Congo",
-  "capital": "Brazzaville",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Democratic Republic of the Congo",
-  "capital": "Kinshasa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Djibouti",
-  "capital": "Djibouti City",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Egypt",
-  "capital": "Cairo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Equatorial Guinea",
-  "capital": "Ciudad de la Paz",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Eritrea",
-  "capital": "Asmara",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Eswatini",
-  "capital": "N/A",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Ethiopia",
-  "capital": "Addis Ababa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Gabon",
-  "capital": "Libreville",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Gambia",
-  "capital": "Banjul",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Ghana",
-  "capital": "Accra",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Guinea",
-  "capital": "Conakry",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Guinea-Bissau",
-  "capital": "Bissau",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Ivory Coast",
-  "capital": "Yamoussoukro",
-  "cities": [
-      "", 
-      "", 
-      "", 
-      "", 
-      "", 
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "cities": [
+      "",
+      "",
+      "",
+      "",
+      "",
       ""
     ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Kenya",
-  "capital": "Nairobi",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Lesotho",
-  "capital": "Maseru",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Liberia",
-  "capital": "Monrovia",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Libya",
-  "capital": "Tripoli",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Madagascar",
-  "capital": "Antananarivo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Malawi",
-  "capital": "Lilongwe",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Mali",
-  "capital": "Bamako",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Mauritania",
-  "capital": "Nouakchott",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Mauritius",
-  "capital": "Port Louis",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Morocco",
-  "capital": "Rabat",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Mozambique",
-  "capital": "Maputo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Namibia",
-  "capital": "Windhoek",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Niger",
-  "capital": "Niamey",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Nigeria",
-  "capital": "Abuja",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Rwanda",
-  "capital": "Kigali",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Senegal",
-  "capital": "Dakar",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Seychelles",
-  "capital": "Victoria",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Sierra Leone",
-  "capital": "Freetown",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Somalia",
-  "capital": "Mogadishu",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "South Sudan",
-  "capital": "Juba",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Sudan",
-  "capital": "Khartoum",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Tanzania",
-  "capital": "Dodoma",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Togo",
-  "capital": "Lomé",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Tunisia",
-  "capital": "Tunis",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Uganda",
-  "capital": "Kampala",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Zambia",
-  "capital": "Lusaka",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Zimbabwe",
-  "capital": "Harare",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Africa",
-  "info": "."
-},
-{
-  "country": "Antigua and Barbuda",
-  "capital": "St. John's",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Bahamas",
-  "capital": "Nassau",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Barbados",
-  "capital": "Bridgetown",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Belize",
-  "capital": "Belmopan",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Costa Rica",
-  "capital": "San José",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Cuba",
-  "capital": "Havana",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Dominica",
-  "capital": "Roseau",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Dominican Republic",
-  "capital": "Santo Domingo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "El Salvador",
-  "capital": "San Salvador",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Grenada",
-  "capital": "St. George's",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Guatemala",
-  "capital": "Guatemala City",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Haiti",
-  "capital": "Port-au-Prince",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Honduras",
-  "capital": "Tegucigalpa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Jamaica",
-  "capital": "Kingston",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Nicaragua",
-  "capital": "Managua",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Panama",
-  "capital": "Panama City",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Saint Kitts and Nevis",
-  "capital": "Basseterre",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Saint Lucia",
-  "capital": "Castries",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Saint Vincent and the Grenadines",
-  "capital": "Kingstown",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Trinidad and Tobago",
-  "capital": "Port of Spain",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Anguilla",
-  "capital": "The Valley",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Aruba",
-  "capital": "Oranjestad",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Bermuda",
-  "capital": "Hamilton",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Cayman Islands",
-  "capital": "George Town",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Curaçao",
-  "capital": "Willemstad",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Greenland",
-  "capital": "Nuuk",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Guadeloupe",
-  "capital": "Basse-Terre",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Martinique",
-  "capital": "Fort-de-France",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Montserrat",
-  "capital": "Plymouth",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Puerto Rico",
-  "capital": "San Juan",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Sint Maarten",
-  "capital": "Philipsburg",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Turks and Caicos Islands",
-  "capital": "Cockburn Town",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "British Virgin Islands",
-  "capital": "Road Town",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "U.S. Virgin Islands",
-  "capital": "Charlotte Amalie",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "North America",
-  "info": "."
-},
-{
-  "country": "Argentina",
-  "capital": "Buenos Aires",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Bolivia",
-  "capital": "Sucre",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Chile",
-  "capital": "Santiago",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Colombia",
-  "capital": "Bogotá",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Ecuador",
-  "capital": "Quito",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Falkland Islands",
-  "capital": "Stanley",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "The Falkland Islands' official language is English."
-},
-{
-  "country": "French Guiana",
-  "capital": "Cayenne",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Guyana",
-  "capital": "Georgetown",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Paraguay",
-  "capital": "Asunción",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Peru",
-  "capital": "Lima",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Suriname",
-  "capital": "Paramaribo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Uruguay",
-  "capital": "Montevideo",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-{
-  "country": "Venezuela",
-  "capital": "Caracas",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "South America",
-  "info": "."
-},
-
-{
-  "country": "American Samoa",
-  "capital": "Pago Pago",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Cook Islands",
-  "capital": "Avarua",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Fiji",
-  "capital": "Suva",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Guam",
-  "capital": "Hagåtña",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Kiribati",
-  "capital": "Tarawa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Marshall Islands",
-  "capital": "Majuro",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Northern Mariana Islands",
-  "capital": "Saipan",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Nauru",
-  "capital": "Yaren",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Norfolk Island",
-  "capital": "Kingston",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "New Caledonia",
-  "capital": "Nouméa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Niue",
-  "capital": "Alofi",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "French Polynesia",
-  "capital": "Papeete",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Papua New Guinea",
-  "capital": "Port Moresby",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Pitcairn Islands",
-  "capital": "Adamstown",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Palau",
-  "capital": "Ngerulmud",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Solomon Islands",
-  "capital": "Honiara",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Tokelau",
-  "capital": "N/A",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Tonga",
-  "capital": "Nukuʻalofa",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Tuvalu",
-  "capital": "Funafuti",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Vanuatu",
-  "capital": "Port Vila",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Wallis and Futuna",
-  "capital": "Mata Utu",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-},
-{
-  "country": "Samoa",
-  "capital": "Apia",
-  "cities": [
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " ", 
-      " "
-    ],
-  "continent": "Oceania",
-  "info": "."
-}
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Libya",
+    "capital": "Tripoli",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Mali",
+    "capital": "Bamako",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Morocco",
+    "capital": "Rabat",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Niger",
+    "capital": "Niamey",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Senegal",
+    "capital": "Dakar",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "South Sudan",
+    "capital": "Juba",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Togo",
+    "capital": "Lomé",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Tunisia",
+    "capital": "Tunis",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Uganda",
+    "capital": "Kampala",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Africa",
+    "info": "."
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Belize",
+    "capital": "Belmopan",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Costa Rica",
+    "capital": "San José",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Cuba",
+    "capital": "Havana",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Dominica",
+    "capital": "Roseau",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "El Salvador",
+    "capital": "San Salvador",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Grenada",
+    "capital": "St. George's",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Panama",
+    "capital": "Panama City",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Anguilla",
+    "capital": "The Valley",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Aruba",
+    "capital": "Oranjestad",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Bermuda",
+    "capital": "Hamilton",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Cayman Islands",
+    "capital": "George Town",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Curaçao",
+    "capital": "Willemstad",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Greenland",
+    "capital": "Nuuk",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Martinique",
+    "capital": "Fort-de-France",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Montserrat",
+    "capital": "Plymouth",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Puerto Rico",
+    "capital": "San Juan",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Sint Maarten",
+    "capital": "Philipsburg",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "British Virgin Islands",
+    "capital": "Road Town",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "North America",
+    "info": "."
+  },
+  {
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Bolivia",
+    "capital": "Sucre",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Chile",
+    "capital": "Santiago",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Colombia",
+    "capital": "Bogotá",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Ecuador",
+    "capital": "Quito",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Falkland Islands",
+    "capital": "Stanley",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "The Falkland Islands' official language is English."
+  },
+  {
+    "country": "French Guiana",
+    "capital": "Cayenne",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Peru",
+    "capital": "Lima",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "South America",
+    "info": "."
+  },
+  {
+    "country": "American Samoa",
+    "capital": "Pago Pago",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Cook Islands",
+    "capital": "Avarua",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Fiji",
+    "capital": "Suva",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Guam",
+    "capital": "Hagåtña",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Kiribati",
+    "capital": "Tarawa",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Nauru",
+    "capital": "Yaren",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Norfolk Island",
+    "capital": "Kingston",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "New Caledonia",
+    "capital": "Nouméa",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Niue",
+    "capital": "Alofi",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "French Polynesia",
+    "capital": "Papeete",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Palau",
+    "capital": "Ngerulmud",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Tokelau",
+    "capital": "N/A",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Tonga",
+    "capital": "Nukuʻalofa",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Wallis and Futuna",
+    "capital": "Mata Utu",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  },
+  {
+    "country": "Samoa",
+    "capital": "Apia",
+    "cities": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "continent": "Oceania",
+    "info": "."
+  }
 ]
-
-
