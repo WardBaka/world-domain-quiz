@@ -179,7 +179,7 @@
       "Gqeberha"
     ],
     "continent": "Africa",
-    "info": "South Africa has 3 capitals: Pretoria, Cape Town, and Bloemfontein but they all host a different branch of government N/A."
+    "info": "South Africa has 3 capitals: Pretoria, Cape Town, and Bloemfontein but they all host a different branch of government. Pretoria serves as the main capital and has a population of 3.29 million people."
   },
   {
     "country": "India",
@@ -623,11 +623,11 @@
       "Monaco-Ville",
       "La Condamine",
       "Fontvieille",
-      "Larvotto",
+      "Monaco",
       "La Rousse"
     ],
     "continent": "Europe",
-    "info": "N/A."
+    "info": "Monaco has no true capital city, but Monaco-Ville is the oldest part of the city and serves as the governmental center. The population of Monaco is approximately 40,000."
   },
   {
     "country": "Moldova",
@@ -757,17 +757,17 @@
   },
   {
     "country": "Switzerland",
-    "capital": "N/A",
+    "capital": "Bern",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Zürich",
+      "Geneva",
+      "Bern",
+      "Basel",
+      "Lausanne",
+      "Lugano"
     ],
     "continent": "Europe",
-    "info": "."
+    "info": "Bern is the de facto capital of Switzerland and has a population of approximately 147,000 people."
   },
   {
     "country": "Ukraine",
@@ -795,7 +795,7 @@
       " "
     ],
     "continent": "Europe",
-    "info": "N/A."
+    "info": "."
   },
   {
     "country": "Afghanistan",
@@ -1207,12 +1207,12 @@
     "country": "Palestine",
     "capital": "Jerusalem",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Jerusalem",
+      "Ramallah",
+      "Gaza City",
+      "Khan Yunis",
+      "Hebron",
+      "Nablus"
     ],
     "continent": "Asia",
     "info": "N/A."
@@ -1263,15 +1263,15 @@
     "country": "Singapore",
     "capital": "Singapore",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Marina Bay",
+      "Orchard Road",
+      "Chinatown",
+      "Sentosa",
+      "Bugis",
+      "Clarke Quay"
     ],
     "continent": "Asia",
-    "info": "N/A."
+    "info": "Singpore is the capital of Singapore and has a population of approximately 5.9 million people."
   },
   {
     "country": "South Korea",
