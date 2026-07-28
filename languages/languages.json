@@ -1,0 +1,1575 @@
+
+[
+  {
+    "language": "Waar kom je vandaan?",
+    "country": "Netherlands",
+    "flag": "../flagsImg/nl.png",
+    "continent": "Europe",
+    "info": "This means 'Where are you from' in Dutch, the official language of the Netherlands."
+  },
+  {
+    "language": "Es freut mich, Sie kennenzulernen.",
+    "country": "Germany",
+    "flag": "../flagsImg/de.png",
+    "continent": "Europe",
+    "info": "This means 'It's nice to meet you' in German, the official language of Germany."
+  },
+  {
+    "language": "Parlez-vous français ?",
+    "country": "France",
+    "flag": "../flagsImg/fr.png",
+    "continent": "Europe",
+    "info": "This means 'Do you speak French?' in French, the official language of France."
+  },
+  {
+    "language": "België staat bekend om zijn wafels",
+    "country": "Belgium",
+    "flag": "../flagsImg/be.png",
+    "continent": "Europe",
+    "info": "Belgium has 3 official languages: Dutch (Flemish), French, and German, but the most spoken language is Dutch. This phrase means 'Belgium is known for its waffles' in Dutch."
+  },
+  {
+    "language": "This English speaking country capital is London.",
+    "country": "United Kingdom",
+    "flag": "../flagsImg/uk.png",
+    "continent": "Europe",
+    "info": "English is the most widely spoken language in the United Kingdom."
+  },
+  {
+    "language": "This English speaking country is celebrating its 250th anniversary of independence in 2026.",
+    "country": "United States",
+    "flag": "../flagsImg/us.png",
+    "continent": "North America",
+    "info": "The official language of the United States is English."
+  },
+  {
+    "language": "This English speaking country's capital is Ottawa and its largest city is Toronto.",
+    "country": "Canada",
+    "flag": "../flagsImg/ca.png",
+    "continent": "North America",
+    "info": "Canada's official languages are English and French."
+  },
+  {
+    "language": "こんにちは",
+    "country": "Japan",
+    "flag": "../flagsImg/jp.png",
+    "continent": "Asia",
+    "info": "Japan does not have an official language but Japanese is the national language. Pronounced 'konnichiwa', this phrase means 'Hello' in Japanese."
+  },
+  {
+    "language": "你好吗",
+    "country": "China",
+    "flag": "../flagsImg/cn.png",
+    "continent": "Asia",
+    "info": "China's official language is Standard Chinese (Mandarin). Pronounced 'nǐ hǎo ma?', this phrase means 'How are you?' in Mandarin."
+  },
+  {
+    "language": "This English speaking country's capital is Canberra.",
+    "country": "Australia",
+    "flag": "../flagsImg/au.png",
+    "continent": "Oceania",
+    "info": "Australia's official language is English."
+  },
+  {
+    "language": "This English speaking country's capital is Wellington and its largest city is Auckland.",
+    "country": "New Zealand",
+    "flag": "../flagsImg/nz.png",
+    "continent": "Oceania",
+    "info": "New Zealand has three official languages: English, Māori, and New Zealand Sign Language."
+  },
+  {
+    "language": "Prazer em conhecê-lo",
+    "country": "Brazil",
+    "flag": "../flagsImg/br.png",
+    "continent": "South America",
+    "info": "Brazil's official language is Portuguese. This phrase means 'Nice to meet you' in Portuguese."
+  },
+  {
+    "language": "Jy is welkom",
+    "country": "South Africa",
+    "flag": "../flagsImg/za.png",
+    "continent": "Africa",
+    "info": "South Africa has 12 official languages including Zulu, Xhosa, Afrikaans and English. This phrase means 'You are welcome' in Afrikaans."
+  },
+  {
+    "language": "धन्यवाद",
+    "country": "India",
+    "flag": "../flagsImg/in.png",
+    "continent": "Asia",
+    "info": "India's official languages are Hindi and English. Pronounced 'Dhanya-vaad', this common expression means 'Thank you' in Hindi."
+  },
+  {
+    "language": "Ayúdame, por favor.",
+    "country": "Mexico",
+    "flag": "../flagsImg/mx.png",
+    "continent": "North America",
+    "info": "Mexico's official language is Spanish. This phrase means 'Help me, please.' in Spanish."
+  },
+  {
+    "language": "Buongiorno, come stai?",
+    "country": "Italy",
+    "flag": "../flagsImg/it.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?' in Italian, the official language of Italy."
+  },
+  {
+    "language": "¡Buenos días!",
+    "country": "Spain",
+    "flag": "../flagsImg/es.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?' in Spanish, the official language of Spain."
+  },
+  {
+    "language": "Não sei.",
+    "country": "Portugal",
+    "flag": "../flagsImg/pt.png",
+    "continent": "Europe",
+    "info": "This means 'I don't know' in Portuguese, the official language of Portugal."
+  },
+  {
+    "language": "Ba mhaith liom beoir.",
+    "country": "Ireland",
+    "flag": "../flagsImg/ie.png",
+    "continent": "Europe",
+    "info": "This means 'I would like a beer' in Irish, the official language of Ireland."
+  },
+  {
+    "language": "Pierogi to znane danie w Polsce.",
+    "country": "Poland",
+    "flag": "../flagsImg/pl.png",
+    "continent": "Europe",
+    "info": "This means 'Pierogi are a well-known dish in Poland' in Polish, the official language of Poland."
+  },
+  {
+    "language": "Diego Garcia island is the largest island in this territory and it's among over 1,000 other islands.",
+    "country": "British Indian Ocean Territory",
+    "flag": "../flagsImg/io.png",
+    "continent": "Asia",
+    "info": "The British Indian Ocean Territory's official language is English."
+  },
+  {
+    "language": "Ko oi tou igoa?",
+    "country": "Tuvalu",
+    "flag": "../flagsImg/tv.png",
+    "continent": "Oceania",
+    "info": "Tuvalu has two official languages: Tuvaluan and English. This phrase means 'What is your name?' in Tuvaluan."
+  },
+  {
+    "language": "Guam is the largest island on this english speaking territory.",
+    "country": "Micronesia",
+    "flag": "../flagsImg/fm.png",
+    "continent": "Oceania",
+    "info": "Micronesia's official language is English."
+  },
+  {
+    "language": "This English speaking island is the second largest of the Channel Islands.",
+    "country": "Guernsey",
+    "flag": "../flagsImg/gg.png",
+    "continent": "Europe",
+    "info": "English is the primary language spoken in Guernsey, but Guernésiais is also widely used."
+  },
+  {
+    "language": "This english speaking island is the largest of the Channel Islands.",
+    "country": "Jersey",
+    "flag": "../flagsImg/je.png",
+    "continent": "Europe",
+    "info": "English is the primary language spoken in Jersey, but Jèrriais is also widely used."
+  },
+  {
+    "language": "Mirë se vini në Tiranë.",
+    "country": "Albania",
+    "flag": "../flagsImg/al.png",
+    "continent": "Europe",
+    "info": "This means 'Welcome to Tirana' in Albanian, the official language of Albania."
+  },
+  {
+    "language": "Moltes gràcies.",
+    "country": "Andorra",
+    "flag": "../flagsImg/ad.png",
+    "continent": "Europe",
+    "info": "This means 'Thank you very much' in Catalan, the official language of Andorra, although Spanish, French, and Portuguese are also widely spoken."
+  },
+  {
+    "language": "Grüß Gott",
+    "country": "Austria",
+    "flag": "../flagsImg/at.png",
+    "continent": "Europe",
+    "info": "This is a greeting in German, the official language of Austria."
+  },
+  {
+    "language": "Možete li mi pomoći?",
+    "country": "Bosnia and Herzegovina",
+    "flag": "../flagsImg/ba.png",
+    "continent": "Europe",
+    "info": "Bosnia and Herzegovina has three national languages: Bosnian, Croatian, and Serbian. This phrase means 'Can you help me?' in Bosnian."
+  },
+  {
+    "language": "Най-дългата река в България е Дунав.",
+    "country": "Bulgaria",
+    "flag": "../flagsImg/bg.png",
+    "continent": "Europe",
+    "info": "This means 'The longest river in Bulgaria is the Danube' in Bulgarian, the official language of Bulgaria."
+  },
+  {
+    "language": "Як вы сёння?",
+    "country": "Belarus",
+    "flag": "../flagsImg/by.png",
+    "continent": "Europe",
+    "info": "Belarus has two official languages: Belarusian and Russian. This phrase means 'How are you today?' in Belarusian."
+  },
+  {
+    "language": "Hrvatska ima više od tisuću otoka.",
+    "country": "Croatia",
+    "flag": "../flagsImg/hr.png",
+    "continent": "Europe",
+    "info": "This means 'Croatia has more than a thousand islands' in Croatian, the official language of Croatia."
+  },
+  {
+    "language": "Μπορείς να με βοηθήσεις να βρω το κατάστημα;",
+    "country": "Cyprus",
+    "flag": "../flagsImg/cy.png",
+    "continent": "Europe",
+    "info": "Cyprus has two official languages: Greek and Turkish. This phrase means 'Can you help me find the store?' in Greek."
+  },
+  {
+    "language": "Dobré ráno, kde je ten vlak?",
+    "country": "Czech Republic",
+    "flag": "../flagsImg/cz.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, where is the train?' in Czech, the official language of the Czech Republic."
+  },
+  {
+    "language": "Hvornår kører bussen?",
+    "country": "Denmark",
+    "flag": "../flagsImg/dk.png",
+    "continent": "Europe",
+    "info": "This phrase means 'When does the bus leave?' in Danish, Denmark's official language. "
+  },
+  {
+    "language": "Tere hommikust, kuidas läheb?",
+    "country": "Estonia",
+    "flag": "../flagsImg/ee.png",
+    "continent": "Europe",
+    "info": "This phrase means 'Good morning, how are you?' in Estonian, the official language of Estonia."
+  },
+  {
+    "language": "Hyvää päivää!",
+    "country": "Finland",
+    "flag": "../flagsImg/fi.png",
+    "continent": "Europe",
+    "info": "Finland has two official languages: Finnish and Swedish. This means 'Have a good day!' in Finnish."
+  },
+  {
+    "language": "Παρακαλώ.",
+    "country": "Greece",
+    "flag": "../flagsImg/gr.png",
+    "continent": "Europe",
+    "info": "This means 'You're welcome' in Greek."
+  },
+  {
+    "language": "Jó reggelt, hogy vagy?",
+    "country": "Hungary",
+    "flag": "../flagsImg/hu.png",
+    "continent": "Europe",
+    "info": "This means 'Good morning, how are you?', which is a common greeting in Hungarian."
+  },
+  {
+    "language": "Hvernig hefurðu það?",
+    "country": "Iceland",
+    "flag": "../flagsImg/is.png",
+    "continent": "Europe",
+    "info": "This means 'How are you doing?' in Icelandic, Iceland's official language."
+  },
+  {
+    "language": "Lielākā pilsēta Latvijā ir Rīga, kas ir arī valsts galvaspilsēta.",
+    "country": "Latvia",
+    "flag": "../flagsImg/lv.png",
+    "continent": "Europe",
+    "info": "This means 'The largest city in Latvia is Riga, which is also the capital city.' in Latvian, Latvia's official language."
+  },
+  {
+    "language": "Willkommen!",
+    "country": "Liechtenstein",
+    "flag": "../flagsImg/li.png",
+    "continent": "Europe",
+    "info": "This means 'Welcome' in German, the official language of Liechtenstein."
+  },
+  {
+    "language": "Malonu susipažinti",
+    "country": "Lithuania",
+    "flag": "../flagsImg/lt.png",
+    "continent": "Europe",
+    "info": "This means 'it's nice to meet you' in Lithuanian, Lithuania's official language."
+  },
+  {
+    "language": "Hallo, wéi geet et Iech haut?",
+    "country": "Luxembourg",
+    "flag": "../flagsImg/lu.png",
+    "continent": "Europe",
+    "info": "This means 'Hello, how are you today?' in Luxembourgish, Luxembourg's official language, although French and German are also widely spoken as well."
+  },
+  {
+    "language": "Le Grand Prix de Formule 1 se déroule à Monaco.",
+    "country": "Monaco",
+    "flag": "../flagsImg/mc.png",
+    "continent": "Europe",
+    "info": "This means 'The Formula 1 Grand Prix is held in Monaco.' in French, Monaco's official languages."
+  },
+  {
+    "language": "Cu mare plăcere!",
+    "country": "Moldova",
+    "flag": "../flagsImg/md.png",
+    "continent": "Europe",
+    "info": "In Romanian, Moldova's official language, this phrase means 'You're very welcome'."
+  },
+  {
+    "language": "Hvala puno",
+    "country": "Montenegro",
+    "flag": "../flagsImg/me.png",
+    "continent": "Europe",
+    "info": "This phrase means 'Thank you very much' in Montenegrin, Montenegro's official language, although Serbian, Bosnian, Albanian, and Croatian are also widely spoken."
+  },
+  {
+    "language": "Vær så snill og takk.",
+    "country": "Norway",
+    "flag": "../flagsImg/no.png",
+    "continent": "Europe",
+    "info": "Norway has two official languages, Norwegian and Sámi. This translates to 'Please and thank you' in Norwegian."
+  },
+  {
+    "language": "România are graniță cu alte cinci țări și cu Marea Neagră.",
+    "country": "Romania",
+    "flag": "../flagsImg/ro.png",
+    "continent": "Europe",
+    "info": "Romania's official language is Romanian. This translates to 'Romania borders five other countries and the Black Sea.'"
+  },
+  {
+    "language": "Москва — столица России и крупнейший город страны.",
+    "country": "Russia",
+    "flag": "../flagsImg/ru.png",
+    "continent": "Europe",
+    "info": "Russia's official language is Russian. This translates to 'Moscow is the capital of Russia and its' largest city.'"
+  },
+  {
+    "language": "Добро вече",
+    "country": "Serbia",
+    "flag": "../flagsImg/rs.png",
+    "continent": "Europe",
+    "info": "This greeting means 'Good evening' in Serbian, Serbia's official language."
+  },
+  {
+    "language": "Dobrú chuť",
+    "country": "Slovakia",
+    "flag": "../flagsImg/sk.png",
+    "continent": "Europe",
+    "info": "Slovakia's official language is Slovak. This phrase means 'Enjoy your meal'."
+  },
+  {
+    "language": "Ni za kaj.",
+    "country": "Slovenia",
+    "flag": "../flagsImg/si.png",
+    "continent": "Europe",
+    "info": "This phrase means 'You're welcome' in Slovene, Slovenia's official language."
+  },
+  {
+    "language": "Sveriges flaggas färger är blått och gult.",
+    "country": "Sweden",
+    "flag": "../flagsImg/se.png",
+    "continent": "Europe",
+    "info": "Sweden's official language is Swedish. This translates to 'The colors of Sweden's flag are blue and yellow.'"
+  },
+  {
+    "language": "Die Schweiz hat die beste Milchschokolade der Welt.",
+    "country": "Switzerland",
+    "flag": "../flagsImg/ch.png",
+    "continent": "Europe",
+    "info": "This translates to 'Switzerland has the best milk chocolate in the world.' in German, one of Switzerland's four official languages. The other three are French, Italian, and Romansh."
+  },
+  {
+    "language": "Де знаходиться залізничний вокзал?",
+    "country": "Ukraine",
+    "flag": "../flagsImg/ua.png",
+    "continent": "Europe",
+    "info": "This translates to 'Where is the train station?' in Ukrainian, Ukraine's official language."
+  },
+  {
+    "language": "La Città del Vaticano è il paese più piccolo del mondo.",
+    "country": "Vatican City",
+    "flag": "../flagsImg/va.png",
+    "continent": "Europe",
+    "info": "This translates to 'Vatican City is the smallest country in the world.' in Italian, the official language of Vatican City, although Latin is also used."
+  },
+  {
+    "language": "مهرباني او شکر",
+    "country": "Afghanistan",
+    "flag": "../flagsImg/af.png",
+    "continent": "Asia",
+    "info": "Afghanistan has two official languages: Pashto and Dari. Pronounced 'mehrbani aw shukr', this phrase means 'Please and thank you' in Pashto."
+  },
+  {
+    "language": "Խոսո՞ւմ եք անգլերեն",
+    "country": "Armenia",
+    "flag": "../flagsImg/am.png",
+    "continent": "Asia",
+    "info": "Armenia's official language is Armenian. Pronounced 'khosum ek angleren', this phrase means 'Do you speak English?' in Armenian."
+  },
+  {
+    "language": "Mənə dəmiryolu stansiyasını tapmağa kömək edə bilərsinizmi?",
+    "country": "Azerbaijan",
+    "flag": "../flagsImg/az.png",
+    "continent": "Asia",
+    "info": "Azerbaijan's official language is Azerbaijani. This phrase means 'Can you help me find the train station?' in Azerbaijani."
+  },
+  {
+    "language": " أنا بخير، شكرا ",
+    "country": "Bahrain",
+    "flag": "../flagsImg/bh.png",
+    "continent": "Asia",
+    "info": "Bahrain's official language is Arabic. Pronounced 'ana bikhair, shukra', this phrase means 'I am fine, thank you' in Arabic."
+  },
+  {
+    "language": "আপনি স্বাগত জানাই।",
+    "country": "Bangladesh",
+    "flag": "../flagsImg/bd.png",
+    "continent": "Asia",
+    "info": "Bangladesh's official language is Bengali. This phrase means 'You are welcome' in Bengali."
+  },
+  {
+    "language": "ཁྱོད་ག་ཏེ་ལས་མོ?",
+    "country": "Bhutan",
+    "flag": "../flagsImg/bt.png",
+    "continent": "Asia",
+    "info": "Bhutan's official language is Dzongkha. Pronounced 'Chhoe gatey lay mo', this phrase means 'Where are you from?' in Dzongkha."
+  },
+  {
+    "language": "Selamat tinggal",
+    "country": "Brunei",
+    "flag": "../flagsImg/bn.png",
+    "continent": "Asia",
+    "info": "Brunei's official language is Malay. This phrase means 'Goodbye' in Malay."
+  },
+  {
+    "language": "អរគុណ",
+    "country": "Cambodia",
+    "flag": "../flagsImg/kh.png",
+    "continent": "Asia",
+    "info": "Cambodia's official language is Khmer. Pronounced 'arkun', this phrase means 'Thank you' in Khmer."
+  },
+  {
+    "language": "დიახ / არა",
+    "country": "Georgia",
+    "flag": "../flagsImg/ge.png",
+    "continent": "Asia",
+    "info": "Georgia's official language is Georgian. Pronounced 'dee-ahkh' and 'ara', these phrases mean 'Yes' and 'No' in Georgian."
+  },
+  {
+    "language": "我不懂",
+    "country": "Hong Kong",
+    "flag": "../flagsImg/hk.png",
+    "continent": "Asia",
+    "info": "Hong Kong's official languages are Chinese and English but Cantonese is also widely spoken. Pronounced 'wǒ bù dǒng', this phrase means 'I don't understand' in Chinese."
+  },
+  {
+    "language": "Saya lapar.",
+    "country": "Indonesia",
+    "flag": "../flagsImg/id.png",
+    "continent": "Asia",
+    "info": "Indonesia's official language is Indonesian. This phrase means 'I am hungry' in Indonesian."
+  },
+  {
+    "language": "نگلیسی بلدی؟ ",
+    "country": "Iran",
+    "flag": "../flagsImg/ir.png",
+    "continent": "Asia",
+    "info": "Iran's official language is Persian. This phrase means 'Do you speak English?' in Persian."
+  },
+  {
+    "language": "أهلاً، كيف حالك اليوم؟",
+    "country": "Iraq",
+    "flag": "../flagsImg/iq.png",
+    "continent": "Asia",
+    "info": "Iraq has two official languages: Arabic and Kurdish. Pronounced 'ahlan, kayfa haluka alyawm?', this phrase means 'Hello, how are you today?' in Arabic."
+  },
+  {
+    "language": "מה שלומך?",
+    "country": "Israel",
+    "flag": "../flagsImg/il.png",
+    "continent": "Asia",
+    "info": "Israel's official language is Hebrew. This phrase means 'How are you doing?' in Hebrew."
+  },
+  {
+    "language": "السلام عليكم",
+    "country": "Jordan",
+    "flag": "../flagsImg/jo.png",
+    "continent": "Asia",
+    "info": "Jordan's official language is Arabic. Pronounced 'assalamu alaykum', this phrase means 'Peace be upon you' in Arabic."
+  },
+  {
+    "language": "Көп рахмет",
+    "country": "Kazakhstan",
+    "flag": "../flagsImg/kz.png",
+    "continent": "Asia",
+    "info": "Kazakhstan has two official languages: Kazakh and Russian. Pronounced 'kop rahmet', this phrase means 'Thank you very much' in Kazakh."
+  },
+  {
+    "language": "صباح الخير",
+    "country": "Kuwait",
+    "flag": "../flagsImg/kw.png",
+    "continent": "Asia",
+    "info": "Kuwait's official language is Arabic. Pronounced 'sabah al-khair', this phrase means 'Good morning' in Arabic."
+  },
+  {
+    "language": "Каанча турат?",
+    "country": "Kyrgyzstan",
+    "flag": "../flagsImg/kg.png",
+    "continent": "Asia",
+    "info": "Kyrgyzstan's official languages are Kyrgyz and Russian. Pronounced 'kancha turat?', this phrase means 'How much does it cost?' in Kyrgyz."
+  },
+  {
+    "language": "ສະບາຍດີ / ລາກ່ອນ",
+    "country": "Laos",
+    "flag": "../flagsImg/la.png",
+    "continent": "Asia",
+    "info": "Laos' official language is Lao. Pronounced 'saibaidee' and 'la kon', these phrases mean 'Hello' and 'Goodbye' in Lao."
+  },
+  {
+    "language": "هل تتكلم الإنجليزية؟",
+    "country": "Lebanon",
+    "flag": "../flagsImg/lb.png",
+    "continent": "Asia",
+    "info": "Lebanon's official language is Arabic. Pronounced 'hal taqulu al-inglizhiya?', this phrase means 'Do you speak English?' in Arabic."
+  },
+  {
+    "language": "谢谢",
+    "country": "Macau",
+    "flag": "../flagsImg/mo.png",
+    "continent": "Asia",
+    "info": "Macau's official languages are Chinese and Portuguese. Pronounced 'shyeh shyeh', this phrase means 'Thank you' in Chinese."
+  },
+  {
+    "language": "Berapa harga ini?",
+    "country": "Malaysia",
+    "flag": "../flagsImg/my.png",
+    "continent": "Asia",
+    "info": "Malaysia's official language is Malay. This phrase means 'How much is this?' in Malay."
+  },
+  {
+    "language": "Maruhabaa",
+    "country": "Maldives",
+    "flag": "../flagsImg/mv.png",
+    "continent": "Asia",
+    "info": "The Maldives official language is Dhivehi. This phrase means 'You're welcome' in Dhivehi."
+  },
+  {
+    "language": "Сайн байна",
+    "country": "Mongolia",
+    "flag": "../flagsImg/mn.png",
+    "continent": "Asia",
+    "info": "Mongolia's official language is Mongolian. Pronounced 'sain bainaa', this phrase means 'Hello' in Mongolian."
+  },
+  {
+    "language": "ဟုတ်တယ် / မဟုတ်ဘူး",
+    "country": "Myanmar",
+    "flag": "../flagsImg/mm.png",
+    "continent": "Asia",
+    "info": "Myanmar's official language is Burmese. Pronounced 'ho de' and 'ma ho bu', these phrases mean 'Yes' and 'No' in Burmese."
+  },
+  {
+    "language": "तपाईको नाम के हो?",
+    "country": "Nepal",
+    "flag": "../flagsImg/np.png",
+    "continent": "Asia",
+    "info": "Nepal's official language is Nepali. Pronounced 'tapai ko naam ke ho?', this phrase means 'What is your name?' in Nepali."
+  },
+  {
+    "language": "좋은 아침입니다",
+    "country": "North Korea",
+    "flag": "../flagsImg/kp.png",
+    "continent": "Asia",
+    "info": "North Korea's official language is Korean. Pronounced 'joheun achimimnida', this phrase means 'Good morning' in Korean."
+  },
+  {
+    "language": "إن شاء الله",
+    "country": "Oman",
+    "flag": "../flagsImg/om.png",
+    "continent": "Asia",
+    "info": "Oman's official language is Arabic. Pronounced 'inshallah', this phrase means 'If God wills' or 'God willing' in Arabic."
+  },
+  {
+    "language": "معاف کیجیے",
+    "country": "Pakistan",
+    "flag": "../flagsImg/pk.png",
+    "continent": "Asia",
+    "info": "Pakistan's official languages are Urdu and English. Pronounced 'maaf kijiye', this phrase means 'Excuse me' or 'Sorry' in Urdu."
+  },
+  {
+    "language": "أحبك",
+    "country": "Palestine",
+    "flag": "../flagsImg/ps.png",
+    "continent": "Asia",
+    "info": "Palestine's official language is Arabic. Pronounced 'uhibuk', this phrase means 'I love you' in Arabic."
+  },
+  {
+    "language": "Ipinagdiriwang ng Pilipinas ang pinakamahabang panahon ng Pasko sa buong mundo.",
+    "country": "Philippines",
+    "flag": "../flagsImg/ph.png",
+    "continent": "Asia",
+    "info": "The Philippines has two official languages: Filipino and English. This translates to 'The Philippines celebrate the longest Christmas season in the world.' in Filipino."
+  },
+  {
+    "language": "بسم الله",
+    "country": "Qatar",
+    "flag": "../flagsImg/qa.png",
+    "continent": "Asia",
+    "info": "Qatar's official language is Arabic. Pronounced 'bismillah', this phrase means 'In the name of Allah / In the name of God' in Arabic."
+  },
+  {
+    "language": "مرحبًا",
+    "country": "Saudi Arabia",
+    "flag": "../flagsImg/sa.png",
+    "continent": "Asia",
+    "info": "Saudi Arabia's official language is Arabic. Pronounced 'marhaba', this phrase means 'Hello' in  Arabic."
+  },
+  {
+    "language": "வணக்கம்",
+    "country": "Singapore",
+    "flag": "../flagsImg/sg.png",
+    "continent": "Asia",
+    "info": "Singapore has 4 official languages: English, Malay, Mandarin, and Tamil. Pronounced 'vanakkam', this phrase means 'Hello / Welcome' in Tamil."
+  },
+  {
+    "language": "좋은 하루 되",
+    "country": "South Korea",
+    "flag": "../flagsImg/kr.png",
+    "continent": "Asia",
+    "info": "South Korea has two official languages: Korean and Korean Sign Language. Pronounced 'joheun haru doe', this phrase means 'Have a great day' in Korean."
+  },
+  {
+    "language": "බොහෝම ස්තූතියි",
+    "country": "Sri Lanka",
+    "flag": "../flagsImg/lk.png",
+    "continent": "Asia",
+    "info": "Sri Lanka has two official languages: Sinhala and Tamil. Pronounced 'bohoma Sthuthi', this phrase means 'Thank you very much' in Sinhala."
+  },
+  {
+    "language": "الحمد لله",
+    "country": "Syria",
+    "flag": "../flagsImg/sy.png",
+    "continent": "Asia",
+    "info": "Syria's official language is Arabic. Pronounced 'alhamdulillah', this phrase means 'Praise be to God' in Arabic."
+  },
+  {
+    "language": "你会说英语吗？",
+    "country": "Taiwan",
+    "flag": "../flagsImg/tw.png",
+    "continent": "Asia",
+    "info": "Taiwan's official language is Standard Chinese (Mandarin). Pronounced 'Nǐ huì shuō Yīngyǔ ma?', this phrase means 'Do you speak English?' in Mandarin."
+  },
+  {
+    "language": "Илтимос",
+    "country": "Tajikistan",
+    "flag": "../flagsImg/tj.png",
+    "continent": "Asia",
+    "info": "Tajikistan has two official languages: Tajik and Russian. Pronounced 'iltimos', this phrase means 'Please / You're Welcome' in Tajik."
+  },
+  {
+    "language": "ขอให้โชคดี",
+    "country": "Thailand",
+    "flag": "../flagsImg/th.png",
+    "continent": "Asia",
+    "info": "Thailand's official language is Thai. Pronounced 'chok dee', this phrase means 'good luck' in Thai."
+  },
+  {
+    "language": "Di'ak ka lae?",
+    "country": "Timor-Leste",
+    "flag": "../flagsImg/tl.png",
+    "continent": "Asia",
+    "info": "Timor-Leste has two official languages: Tetum and Portuguese. This phrase means 'How are you?' in Tetum."
+  },
+  {
+    "language": "Ertiriňiz haýyrly bolsun!",
+    "country": "Turkmenistan",
+    "flag": "../flagsImg/tm.png",
+    "continent": "Asia",
+    "info": "Turkmenistan's official language is Turkmen. This phrase means 'Good morning!' in Turkmen."
+  },
+  {
+    "language": "هل تتكلم اللغة العربية؟",
+    "country": "United Arab Emirates",
+    "flag": "../flagsImg/ae.png",
+    "continent": "Asia",
+    "info": "The United Arab Emirates official language is Arabic. Pronounced 'hal tatakallam al-lughah al-'arabīyah?', this phrase means 'Do you speak Arabic?' in Arabic."
+  },
+  {
+    "language": "Hayrli kun",
+    "country": "Uzbekistan",
+    "flag": "../flagsImg/uz.png",
+    "continent": "Asia",
+    "info": "Uzbekistan's official language is Uzbek. This phrase means 'Good day!' in Uzbek."
+  },
+  {
+    "language": "Cảm ơn / Không sao đâu",
+    "country": "Vietnam",
+    "flag": "../flagsImg/vn.png",
+    "continent": "Asia",
+    "info": "Vietnam's official language is Vietnamese. This phrase means 'Thank you / You're welcome' in Vietnamese."
+  },
+  {
+    "language": "هذا جميل",
+    "country": "Yemen",
+    "flag": "../flagsImg/ye.png",
+    "continent": "Asia",
+    "info": "Yemen's official language is Arabic. Pronounced 'hatha jameel', this phrase means 'This is beautiful' in Arabic."
+  },
+
+  {
+  "language": "Tenmirt.",
+  "country": "Algeria",
+  "flag": "../flagsImg/dz.png",
+  "continent": "Africa",
+  "info": "Algeria's official languages are Arabic and Tamazight or Berber. Pronounced 'tan-meert', this phrase means 'Thank you' in Arabic."
+},
+{
+  "language": "Olá!",
+  "country": "Angola",
+  "flag": "../flagsImg/ao.png",
+  "continent": "Africa",
+  "info": "Angola's official language is Portuguese. This phrase means 'Hello!' in Portuguese."
+},
+{
+  "language": "C'est bientôt l'été !",
+  "country": "Benin",
+  "flag": "../flagsImg/bj.png",
+  "continent": "Africa",
+  "info": "Benin's official language is French. This phrase means 'It's almost summertime!' in French."
+},
+{
+  "language": "Ke tsogile sentle, wena o tsogile jang ?",
+  "country": "Botswana",
+  "flag": "../flagsImg/bw.png",
+  "continent": "Africa",
+  "info": "Botswana's official language is English with its' national language being Setswana. This translates to 'I am fine, how are you?' in Setswana."
+},
+{
+  "language": "Ne yibeogo!",
+  "country": "Burkina Faso",
+  "flag": "../flagsImg/bf.png",
+  "continent": "Africa",
+  "info": "Burkina Faso has multiple official languages with Mooré being the most widely spoken. This traditional greeting means 'Good morning!' in Mooré."
+},
+{
+  "language": "Uri mwiza",
+  "country": "Burundi",
+  "flag": "../flagsImg/bi.png",
+  "continent": "Africa",
+  "info": "Burundi has three official languages: Kirundi, French, and English. This translates to 'You are beautiful.' in Kirundi."
+},
+{
+  "language": "La capitale du Cameroun est Yaoundé.",
+  "country": "Cameroon",
+  "flag": "../flagsImg/cm.png",
+  "continent": "Africa",
+  "info": "Cameroon has two official languages: French and English with over 10 regional languages. This translates to 'The capital of Cameroon is Yaoundé.' in French."
+},
+{
+  "language": "Bom dia!",
+  "country": "Cape Verde",
+  "flag": "../flagsImg/cv.png",
+  "continent": "Africa",
+  "info": "Cape Verde's official language is Portuguese with Cape Verdean and Creole being national languages. This translates to 'Good morning!' in Portuguese."
+},
+{
+  "language": "Tongana nyen laso?",
+  "country": "Central African Republic",
+  "flag": "../flagsImg/cf.png",
+  "continent": "Africa",
+  "info": "The Central African Republic has two official languages: French and Sango. This is a common greeting in Sango which translates to 'How are you?'"
+},
+{
+  "language": "Je suis désolé, je ne sais pas.",
+  "country": "Chad",
+  "flag": "../flagsImg/td.png",
+  "continent": "Africa",
+  "info": "Chad has two official languages: French and Arabic. This translates to 'I am sorry, I do not know.' in French."
+},
+{
+  "language": "Marahaba!",
+  "country": "Comoros",
+  "flag": "../flagsImg/km.png",
+  "continent": "Africa",
+  "info": "Comoros has three official languages: Comorian, Arabic, and French. This expression translates to 'Thank you!' in Comorian."
+},
+{
+  "language": "Parlez-vous anglais ?",
+  "country": "Republic of the Congo",
+  "flag": "../flagsImg/cg.png",
+  "continent": "Africa",
+  "info": "The Republic of the Congo's official language is French but Kituba and Lingala are also national languages. This translates to 'Do you speak English?' in French."
+},
+{
+  "language": "Tu peux m'aider ?",
+  "country": "Democratic Republic of the Congo",
+  "flag": "../flagsImg/cd.png",
+  "continent": "Africa",
+  "info": "The DR Congo's official language is French but Lingala, Swahili, Luba-Kasai and Kikongo are also national languages. This translates to 'Can you help me?' in French."
+},
+{
+  "language": "شكرًا لك",
+  "country": "Djibouti",
+  "flag": "../flagsImg/dj.png",
+  "continent": "Africa",
+  "info": "Djibouti's official languages are Arabic and French. Pronounced 'shukran', this phrase means 'Thank you' in Arabic."
+},
+{
+  "language": "أراك قريبًا",
+  "country": "Egypt",
+  "flag": "../flagsImg/eg.png",
+  "continent": "Africa",
+  "info": "Egypt's official language is Arabic. Pronounced 'araak qariban', this phrase means 'See you soon' in Arabic."
+},
+{
+  "language": "¿Hablas español?",
+  "country": "Equatorial Guinea",
+  "flag": "../flagsImg/gq.png",
+  "continent": "Africa",
+  "info": "Equatorial Guinea's official languages are Spanish, French and Portuguese. This translates to 'Do you speak Spanish?' in Spanish."
+},
+{
+  "language": "መርሓባ",
+  "country": "Eritrea",
+  "flag": "../flagsImg/er.png",
+  "continent": "Africa",
+  "info": "Eritrea does not have an official language but Tigrinya, Tigre and Arabic as well as others are widely spoken. Pronounced 'merhaba', this phrase means 'Welcome' in Tigrinya."
+},
+{
+  "language": "Ngiyajabula kukwati",
+  "country": "Eswatini",
+  "flag": "../flagsImg/sz.png",
+  "continent": "Africa",
+  "info": "Eswatini's official languages are Swazi and English. This translates to 'It's nice to meet you' in Swazi."
+},
+{
+  "language": "ይቅርታ",
+  "country": "Ethiopia",
+  "flag": "../flagsImg/et.png",
+  "continent": "Africa",
+  "info": "Ethiopia's official languages are Amharic, Oromo, Somali, Tigrinya and Afar. This translates to 'Excuse me / I'm sorry' in Amharic."
+},
+{
+  "language": "Et toi, tu viens d'où ?",
+  "country": "Gabon",
+  "flag": "../flagsImg/ga.png",
+  "continent": "Africa",
+  "info": "Gabon's official language is French."
+},
+{
+  "language": "This English country is the smallest country in mainland Africa.",
+  "country": "Gambia",
+  "flag": "../flagsImg/gm.png",
+  "continent": "Africa",
+  "info": "The Gambia's official language is English although there are many national languages."
+},
+{
+  "language": "This English speaking country is the world's second largest producer of cocoa.",
+  "country": "Ghana",
+  "flag": "../flagsImg/gh.png",
+  "continent": "Africa",
+  "info": "Ghana's official language is English."
+},
+{
+  "language": "J'ai faim.",
+  "country": "Guinea",
+  "flag": "../flagsImg/gn.png",
+  "continent": "Africa",
+  "info": "Guinea's official language is French although there are many spoken languages. This translates to 'I'm hungry' in French."
+},
+{
+  "language": "Obrigado, tenha um bom dia.",
+  "country": "Guinea-Bissau",
+  "flag": "../flagsImg/gw.png",
+  "continent": "Africa",
+  "info": "Guinea-Bissau's official language is Portuguese although there are many spoken languages. This translates to 'Thank you, have a good day.' in Portuguese."
+},
+{
+  "language": "Bonne soirée.",
+  "country": "Ivory Coast",
+  "flag": "../flagsImg/ci.png",
+  "continent": "Africa",
+  "info": "Ivory Coast's official language is French but many other languages are also spoken. This translates to 'Have a good evening.' in French."
+},
+{
+  "language": "Asante sana",
+  "country": "Kenya",
+  "flag": "../flagsImg/ke.png",
+  "continent": "Africa",
+  "info": "Kenya's has two official languages: Swahili and English. This translates to 'Thank you very much' in Swahili."
+},
+{
+  "language": "Ke letsatsi le letle.",
+  "country": "Lesotho",
+  "flag": "../flagsImg/ls.png",
+  "continent": "Africa",
+  "info": "Lesotho's official languages are Sesotho and English. This translates to 'It's a beautiful day.' in Sesotho."
+},
+{
+  "language": "This English country is Africa's oldest republic.",
+  "country": "Liberia",
+  "flag": "../flagsImg/lr.png",
+  "continent": "Africa",
+  "info": "Liberia's official language is English."
+},
+{
+  "language": "تبدين جميلة اليوم.",
+  "country": "Libya",
+  "flag": "../flagsImg/ly.png",
+  "continent": "Africa",
+  "info": "Libya's official language is Arabic. Pronounced 'Tab-deen ja-mee-la al-yawm', this translates to 'You look beautiful today.' in Arabic."
+},
+{
+  "language": "Tsara ny toetr'andro anio.",
+  "country": "Madagascar",
+  "flag": "../flagsImg/mg.png",
+  "continent": "Africa",
+  "info": "Madagascar's official languages are Malagasy and French. This translates to 'The weather is nice today.' in Malagasy."
+},
+{
+  "language": "This English countries national bird is the African fish eagle.",
+  "country": "Malawi",
+  "flag": "../flagsImg/mw.png",
+  "continent": "Africa",
+  "info": "Malawi's official language is English although, Chewa and Chitumbuka are also spoken."
+},
+{
+  "language": "I ni sɔgɔma.",
+  "country": "Mali",
+  "flag": "../flagsImg/ml.png",
+  "continent": "Africa",
+  "info": "Mali has over 10 national languages including Bambara which is most widely spoken. This translates to 'Good morning' in Bambara."
+},
+{
+  "language": "عفواً",
+  "country": "Mauritania",
+  "flag": "../flagsImg/mr.png",
+  "continent": "Africa",
+  "info": "Mauritania's official language is Arabic. Pronounced 'afwan', this phrase means 'You're welcome' in Arabic."
+},
+{
+  "language": "This English speaking country was created by volcanic activity and is home to the extinct dodo bird.",
+  "country": "Mauritius",
+  "flag": "../flagsImg/mu.png",
+  "continent": "Africa",
+  "info": "Mauritius does not have an official language although Mauritian Creole and English are widely spoken."
+},
+{
+  "language": "يالا",
+  "country": "Morocco",
+  "flag": "../flagsImg/ma.png",
+  "continent": "Africa",
+  "info": "Morocco's official languages are Arabic and Tamazight. Pronounced 'yalla', this phrase means 'Let's go! / Come on!' in Arabic."
+},
+{
+  "language": "Peço imenso desculpa",
+  "country": "Mozambique",
+  "flag": "../flagsImg/mz.png",
+  "continent": "Africa",
+  "info": "Mozambique's official language is Portuguese but Tsonga, Makhuwa, Sena and many more are also widely spoken. This translates to 'I'm very sorry' in Portuguese."
+},
+{
+  "language": "Walelepo",
+  "country": "Namibia",
+  "flag": "../flagsImg/na.png",
+  "continent": "Africa",
+  "info": "Namibia's official language is English but Oshiwambo is the most commonly spoken language. This translates to 'Good morning' in Oshiwambo."
+},
+{
+  "language": "Barka da yamma",
+  "country": "Niger",
+  "flag": "../flagsImg/ne.png",
+  "continent": "Africa",
+  "info": "Niger's official language is Hausa. This translates to 'Good evening' in Hausa."
+},
+{
+  "language": "Kedu ka ihu igwe si dị?",
+  "country": "Nigeria",
+  "flag": "../flagsImg/ng.png",
+  "continent": "Africa",
+  "info": "Nigeria's official language is English but Yoruba, Igbo and Hausa are also widely spoken. This translates to 'How is the weather?' in Igbo."
+},
+{
+  "language": "Mwaramutse",
+  "country": "Rwanda",
+  "flag": "../flagsImg/rw.png",
+  "continent": "Africa",
+  "info": "Rwanda has four official languages: Kinyarwanda, English, French, and Swahili. This translates to 'Good morning' in Kinyarwanda."
+},
+{
+  "language": "Excusez-moi",
+  "country": "Senegal",
+  "flag": "../flagsImg/sn.png",
+  "continent": "Africa",
+  "info": "Senegal's official language is French. This translates to 'Excuse me' in French."
+},
+{
+  "language": "Konman sava?",
+  "country": "Seychelles",
+  "flag": "../flagsImg/sc.png",
+  "continent": "Africa",
+  "info": "Seychelles has three official languages: Creole, English, and French. This translates to 'How are you?' in Seychellois Creole."
+},
+{
+  "language": "This English speaking country's capital and largest city is Freetown.",
+  "country": "Sierra Leone",
+  "flag": "../flagsImg/sl.png",
+  "continent": "Africa",
+  "info": "Sierra Leone's official language is English but Krio is also spoken."
+},
+{
+  "language": "Waan fiicanahay, mahadsanid",
+  "country": "Somalia",
+  "flag": "../flagsImg/so.png",
+  "continent": "Africa",
+  "info": "Somalia's official languages are Somali and Arabic. This translates to 'I'm good, thank you' in Somali."
+},
+{
+  "language": "This English speaking country's largest ethnic group is the Dinka.",
+  "country": "South Sudan",
+  "flag": "../flagsImg/ss.png",
+  "continent": "Africa",
+  "info": "South Sudan's official language is English but there are several other languages spoken including Dinka and Bari."
+},
+{
+  "language": "الخرطوم هي عاصمة السودان وأكبر مدنه.",
+  "country": "Sudan",
+  "flag": "../flagsImg/sd.png",
+  "continent": "Africa",
+  "info": "Sudan's official languages are Arabic and English. This translates to 'Khartoum is the capital of Sudan and its' largest city.' in Arabic."
+},
+{
+  "language": "Unaweza kunisaidia tafadhali?",
+  "country": "Tanzania",
+  "flag": "../flagsImg/tz.png",
+  "continent": "Africa",
+  "info": "Tanzania's official languages are Swahili and English. This translates to 'Can you help me please?' in Swahili."
+},
+{
+  "language": "Que me conseilles-tu ?",
+  "country": "Togo",
+  "flag": "../flagsImg/tg.png",
+  "continent": "Africa",
+  "info": "Togo's official language is French although there are many other spoken languages. This translates to 'What do you recommend?' in French."
+},
+{
+  "language": "كيف حالك؟",
+  "country": "Tunisia",
+  "flag": "../flagsImg/tn.png",
+  "continent": "Africa",
+  "info": "Tunisia's official language is Arabic. Pronounced 'Kayfa haluk?', this phrase means 'How are you?' in Arabic."
+},
+{
+  "language": "This English speaking country is one of the top bird watching destinations in Africa. Its national bird is the Grey Crowned Crane, which is also featured on the country's flag.",
+  "country": "Uganda",
+  "flag": "../flagsImg/ug.png",
+  "continent": "Africa",
+  "info": "Uganda's official languages are English and Swahili."
+},
+{
+  "language": "This English speaking country is home to Victoria Falls, one of the world's largest waterfalls and one of the Seven Natural Wonders of the World.",
+  "country": "Zambia",
+  "flag": "../flagsImg/zm.png",
+  "continent": "Africa",
+  "info": "Zambia's official language is English although there are several other regional languages spoken."
+},
+{
+  "language": "Mwadzuka bwanji?",
+  "country": "Zimbabwe",
+  "flag": "../flagsImg/zw.png",
+  "continent": "Africa",
+  "info": "Zimbabwe has 16 official languages including Chewa (Chichewa), Shona, Khoisan, etc. This translates to 'Good morning' in Chichewa."
+},
+{
+  "language": "This English speaking country has 365 beaches, one for every day of the year.",
+  "country": "Antigua and Barbuda",
+  "flag": "../flagsImg/ag.png",
+  "continent": "North America",
+  "info": "Antigua and Barbuda's official languages are English and Spanish."
+},
+{
+  "language": "This English speaking country consists of 700 islands and more than 2,500 cays.",
+  "country": "Bahamas",
+  "flag": "../flagsImg/bs.png",
+  "continent": "North America",
+  "info": "The official language of the Bahamas is English."
+},
+{
+  "language": "This English speaking country is the birthplace of rum and home to the world's oldest running rum distillery, Mount Gay.",
+  "country": "Barbados",
+  "flag": "../flagsImg/bb.png",
+  "continent": "North America",
+  "info": "Barbados' official language is English although, Bajan Creole is also widely spoken."
+},
+{
+  "language": "This English speaking country is the capital of the ancient Mayan Empire, has over 900 Mayan ruins and 400 cayes (islands).",
+  "country": "Belize",
+  "flag": "../flagsImg/bz.png",
+  "continent": "North America",
+  "info": "Belize's official language is English."
+},
+{
+  "language": "¿Cómo está?",
+  "country": "Costa Rica",
+  "flag": "../flagsImg/cr.png",
+  "continent": "North America",
+  "info": "Costa Rica's official language is Spanish. This translates to 'How are you?' in Spanish."
+},
+{
+  "language": "Por favor / Gracias",
+  "country": "Cuba",
+  "flag": "../flagsImg/cu.png",
+  "continent": "North America",
+  "info": "Cuba's official language is Spanish. These phrases translate to 'Please / Thank you' in Spanish."
+},
+{
+  "language": "This English speaking country has the world's highest concentration of active volcanoes and the world's second largest hot spring, Boiling Lake.",
+  "country": "Dominica",
+  "flag": "../flagsImg/dm.png",
+  "continent": "North America",
+  "info": "Dominica's official language is English."
+},
+{
+  "language": "Es un lugar encantador hoy.",
+  "country": "Dominican Republic",
+  "flag": "../flagsImg/do.png",
+  "continent": "North America",
+  "info": "Dominican Republic's official language is Spanish."
+},
+{
+  "language": "¿Dónde estás?",
+  "country": "El Salvador",
+  "flag": "../flagsImg/sv.png",
+  "continent": "North America",
+  "info": "El Salvador's official language is Spanish. This translates to 'Where are you?' in Spanish."
+},
+{
+  "language": "This English speaking country is known as the Island of Spice.",
+  "country": "Grenada",
+  "flag": "../flagsImg/gd.png",
+  "continent": "North America",
+  "info": "Grenada's official language is English."
+},
+{
+  "language": "¿Qué hora es?",
+  "country": "Guatemala",
+  "flag": "../flagsImg/gt.png",
+  "continent": "North America",
+  "info": "Guatemala's official language is Spanish. This translates to 'What time is it?' in Spanish."
+},
+{
+  "language": "Mwen bezwen èd",
+  "country": "Haiti",
+  "flag": "../flagsImg/ht.png",
+  "continent": "North America",
+  "info": "Haiti's official languages are French and Haitian Creole. This translates to 'I need help' in Haitian Creole."
+},
+{
+  "language": "¡Qué gracioso!",
+  "country": "Honduras",
+  "flag": "../flagsImg/hn.png",
+  "continent": "North America",
+  "info": "Honduras' official language is Spanish. This translates to 'How funny!' in Spanish."
+},
+{
+  "language": "This English speaking country sits on top of a large underwater mountain called Jamaica Ridge.",
+  "country": "Jamaica",
+  "flag": "../flagsImg/jm.png",
+  "continent": "North America",
+  "info": "Jamaica's official language is English but Jamaican Patois is widely spoken."
+},
+{
+  "language": "Me gusta / No me gusta",
+  "country": "Nicaragua",
+  "flag": "../flagsImg/ni.png",
+  "continent": "North America",
+  "info": "Nicaragua's official language is Spanish. These phrases translate to 'I like... / I don't like...' in Spanish."
+},
+{
+  "language": "Hasta luego",
+  "country": "Panama",
+  "flag": "../flagsImg/pa.png",
+  "continent": "North America",
+  "info": "Panama's official language is Spanish. This translates to 'See you later' in Spanish."
+},
+{
+  "language": "This English speaking country is the smallest in the Americas.",
+  "country": "Saint Kitts and Nevis",
+  "flag": "../flagsImg/kn.png",
+  "continent": "North America",
+  "info": "Saint Kitts and Nevis' official language is English."
+},
+{
+  "language": "This English speaking country was the first in the world to be named after a woman.",
+  "country": "Saint Lucia",
+  "flag": "../flagsImg/lc.png",
+  "continent": "North America",
+  "info": "Saint Lucia's official language is English."
+},
+{
+  "language": "This English speaking country is home to the Western Hemisphere's oldest botanical garden.",
+  "country": "Saint Vincent and the Grenadines",
+  "flag": "../flagsImg/vc.png",
+  "continent": "North America",
+  "info": "Saint Vincent and the Grenadines' official language is English."
+},
+{
+  "language": "This English speaking country's flag colors symbolize fire, earth and water.",
+  "country": "Trinidad and Tobago",
+  "flag": "../flagsImg/tt.png",
+  "continent": "North America",
+  "info": "Trinidad and Tobago's official language is English."
+},
+{
+  "language": "This English speaking country has no chain restaurants or fast food franchises.",
+  "country": "Anguilla",
+  "flag": "../flagsImg/ai.png",
+  "continent": "North America",
+  "info": "Anguilla's official language is English."
+},
+{
+  "language": "Bon bini!",
+  "country": "Aruba",
+  "flag": "../flagsImg/aw.png",
+  "continent": "North America",
+  "info": "Aruba's official languages are Papiamento and Dutch. This translates to 'Welcome!' in Papiamento."
+},
+{
+  "language": "This English speaking country is known for its pink sand beaches and crystal clear waters.",
+  "country": "Bermuda",
+  "flag": "../flagsImg/bm.png",
+  "continent": "North America",
+  "info": "Bermuda's official language is English."
+},
+{
+  "language": "This English speaking country is made up of three islands: Grand Cayman, Cayman Brac and Little Cayman.",
+  "country": "Cayman Islands",
+  "flag": "../flagsImg/ky.png",
+  "continent": "North America",
+  "info": "The Cayman Islands official language is English."
+},
+{
+  "language": "Hallo / Tot ziens",
+  "country": "Curaçao",
+  "flag": "../flagsImg/cw.png",
+  "continent": "North America",
+  "info": "Curaçao's official languages are Papiamento, Dutch and English. This translates to 'Hello / Goodbye' in Dutch."
+},
+{
+  "language": "Haluu, qanoq ippit? ",
+  "country": "Greenland",
+  "flag": "../flagsImg/gl.png",
+  "continent": "North America",
+  "info": "Greenland's official language is Greenlandic. This translates to 'Hello, how are you?' in Greenlandic."
+},
+{
+  "language": "Sa ka maché",
+  "country": "Guadeloupe",
+  "flag": "../flagsImg/gp.png",
+  "continent": "North America",
+  "info": "Guadeloupe's official languages are French, Guadeloupean Creole and Les Saintes Creole. This translates to 'Everything is going well' in Guadeloupean Creole."
+},
+{
+  "language": "Oui / Non",
+  "country": "Martinique",
+  "flag": "../flagsImg/mq.png",
+  "continent": "North America",
+  "info": "Martinique's official language is French. This translates to 'Yes / No' in French."
+},
+{
+  "language": "This English speaking country is nicknamed 'The Emerald Isle of the Caribbean' because of its lush green landscape, close in resemblance to Ireland.",
+  "country": "Montserrat",
+  "flag": "../flagsImg/ms.png",
+  "continent": "North America",
+  "info": "Montserrat's official language is English."
+},
+{
+  "language": "¿Cuánto cuesta?",
+  "country": "Puerto Rico",
+  "flag": "../flagsImg/pr.png",
+  "continent": "North America",
+  "info": "Puerto Rico's official languages are Spanish and English. This translates to 'How much does it cost?' in Spanish."
+},
+{
+  "language": "Waar is de bushalte?",
+  "country": "Sint Maarten",
+  "flag": "../flagsImg/sx.png",
+  "continent": "North America",
+  "info": "Sint Maarten's official languages are English and Dutch. This translates to 'Where is the bus stop?' in Dutch."
+},
+{
+  "language": "This English speaking country has dozens of underwater cave systems.",
+  "country": "Turks and Caicos Islands",
+  "flag": "../flagsImg/tc.png",
+  "continent": "North America",
+  "info": "Turks and Caicos Islands' official language is English."
+},
+{
+  "language": "This English speaking country is made up of over 60 islands, but only 16 are inhabited.",
+  "country": "British Virgin Islands",
+  "flag": "../flagsImg/vg.png",
+  "continent": "North America",
+  "info": "The British Virgin Islands' official language is English."
+},
+{
+  "language": "This English speaking country consist of three main islands: Saint Croix, Saint John, and Saint Thomas and there are 50 other surrounding minor islands and cays.",
+  "country": "U.S. Virgin Islands",
+  "flag": "../flagsImg/vi.png",
+  "continent": "North America",
+  "info": "The U.S. Virgin Islands' official language is English."
+},
+{
+  "language": "Hasta mañana.",
+  "country": "Argentina",
+  "flag": "../flagsImg/ar.png",
+  "continent": "South America",
+  "info": "Argentina's official language is Spanish. This translates to 'See you tomorrow.' in Spanish."
+},
+{
+  "language": "Yanapawasqaykimanta, añay.",
+  "country": "Bolivia",
+  "flag": "../flagsImg/bo.png",
+  "continent": "South America",
+  "info": "Bolivia has 37 official languages including Spanish, Quechua, and Aymara. This translates to 'Thank you for your help.' in Quechua."
+},
+{
+  "language": "¿Cuántos años tienes?",
+  "country": "Chile",
+  "flag": "../flagsImg/cl.png",
+  "continent": "South America",
+  "info": "Chile's official and national language is Spanish. This translates to 'How old are you?' in Spanish."
+},
+{
+  "language": "¿Quieres algo de comer?",
+  "country": "Colombia",
+  "flag": "../flagsImg/co.png",
+  "continent": "South America",
+  "info": "Colombia's official language is Spanish. This translates to 'Do you want something to eat?' in Spanish."
+},
+{
+  "language": "¿A dónde vamos?",
+  "country": "Ecuador",
+  "flag": "../flagsImg/ec.png",
+  "continent": "South America",
+  "info": "Ecuador's official language is Spanish. This translates to 'Where are we going?' in Spanish."
+},
+{
+  "language": "This English speaking country is a British Overseas Territory and an amazing destination for wildlife enthusiasts, with a variety of species including penguins, seals, and albatrosses.",
+  "country": "Falkland Islands",
+  "flag": "../flagsImg/fk.png",
+  "continent": "South America",
+  "info": "The Falkland Islands' official language is English."
+},
+{
+  "language": "Salut, ça va ?",
+  "country": "French Guiana",
+  "flag": "../flagsImg/gf.png",
+  "continent": "South America",
+  "info": "French Guiana's official language is French. This translates to 'Hi, how are you?' in French."
+},
+{
+  "language": "This English speaking country is the only country in South America where English is the official language.",
+  "country": "Guyana",
+  "flag": "../flagsImg/gy.png",
+  "continent": "South America",
+  "info": "Guyana's official language is English."
+},
+{
+  "language": "Mba'éichapa",
+  "country": "Paraguay",
+  "flag": "../flagsImg/py.png",
+  "continent": "South America",
+  "info": "Paraguay's official languages are Spanish and Guarani. Pronounced 'mba-EH-ee-cha-pah', this phrase means 'Hello' or 'How are you?' in Guarani."
+},
+{
+  "language": "Que tengas un buen viaje.",
+  "country": "Peru",
+  "flag": "../flagsImg/pe.png",
+  "continent": "South America",
+  "info": "Peru's official language is Spanish. This translates to 'Have a good trip.' in Spanish."
+},
+{
+  "language": "Ik begrijp het niet.",
+  "country": "Suriname",
+  "flag": "../flagsImg/sr.png",
+  "continent": "South America",
+  "info": "Suriname's official language is Dutch. This translates to 'I don't understand.' in Dutch."
+},
+{
+  "language": "¿Qué haces en tu tiempo libre?",
+  "country": "Uruguay",
+  "flag": "../flagsImg/uy.png",
+  "continent": "South America",
+  "info": "Uruguay's official language is Spanish and Uruguayan Sign Language. This translates to 'What do you do in your free time?' in Spanish."
+},
+{
+  "language": "¿En qué trabajas?",
+  "country": "Venezuela",
+  "flag": "../flagsImg/ve.png",
+  "continent": "South America",
+  "info": "Venezuela's official language is Spanish. This translates to 'What do you do for work?' in Spanish."
+},
+
+{
+  "language": "Tōfā!",
+  "country": "American Samoa",
+  "flag": "../flagsImg/as.png",
+  "continent": "Oceania",
+  "info": "American Samoa has two official languages: Samoan and English. This is the Samoan greeting, meaning 'Goodbye!'"
+},
+{
+  "language": "This English speaking country, Rarotonga, its largest island, only has one main road.",
+  "country": "Cook Islands",
+  "flag": "../flagsImg/ck.png",
+  "continent": "Oceania",
+  "info": "The Cook Islands have three official languages: English, Cook Islands Maori, and Pukapukan."
+},
+{
+  "language": "This English speaking country, has over 300 islands, but only about 100 are inhabited.",
+  "country": "Fiji",
+  "flag": "../flagsImg/fj.png",
+  "continent": "Oceania",
+  "info": "Fiji has three official languages: English, Fijian, and Fiji Hindi."
+},
+{
+  "language": "This English speaking country, is a United States territory and its' capital is Hagåtña.",
+  "country": "Guam",
+  "flag": "../flagsImg/gu.png",
+  "continent": "Oceania",
+  "info": "Guam has two official languages: English and Chamorro."
+},
+{
+  "language": "Ko na mauri",
+  "country": "Kiribati",
+  "flag": "../flagsImg/ki.png",
+  "continent": "Oceania",
+  "info": "Kiribati has two official languages: English and Gilbertese. This translates to 'Hello' in Gilbertese."
+},
+{
+  "language": "Eṃṃan mour?",
+  "country": "Marshall Islands",
+  "flag": "../flagsImg/mh.png",
+  "continent": "Oceania",
+  "info": "The Marshall Islands have two official languages: English and Marshallese. This phrase translates to 'How are you?' in Marshallese."
+},
+{
+  "language": "This English speaking country, are a United States territory and its' capital and largest city is Saipan.",
+  "country": "Northern Mariana Islands",
+  "flag": "../flagsImg/mp.png",
+  "continent": "Oceania",
+  "info": "The Northern Mariana Islands have three official languages: English, Carolinian, and Chamorro. Tagalog is also spoken."
+},
+{
+  "language": "This English speaking country, is the third smallest country in the world by land area, after Vatican City and Monaco.",
+  "country": "Nauru",
+  "flag": "../flagsImg/nr.png",
+  "continent": "Oceania",
+  "info": "Nauru has two official languages: English and Nauruan."
+},
+{
+  "language": "This English speaking country, is an Australian territory.",
+  "country": "Norfolk Island",
+  "flag": "../flagsImg/nf.png",
+  "continent": "Oceania",
+  "info": "Norfolk Island has two official languages: English and Norfuk."
+},
+{
+  "language": "Allons au parc.",
+  "country": "New Caledonia",
+  "flag": "../flagsImg/nc.png",
+  "continent": "Oceania",
+  "info": "New Caledonia's official language is French, although 35 other languages are also spoken. This phrase means 'Let's go to the park!' in French."
+},
+{
+  "language": "Monuina e aho",
+  "country": "Niue",
+  "flag": "../flagsImg/nu.png",
+  "continent": "Oceania",
+  "info": "Niue has two official languages: English and Niuean. This phrase translates to 'Have a nice day' in Niuean."
+},
+{
+  "language": "Au revoir!",
+  "country": "French Polynesia",
+  "flag": "../flagsImg/pf.png",
+  "continent": "Oceania",
+  "info": "French Polynesia has two official languages: French and Tahitian. This phrase means 'Goodbye!' in French."
+},
+{
+  "language": "This English speaking country, shares a land border with Indonesia.",
+  "country": "Papua New Guinea",
+  "flag": "../flagsImg/pg.png",
+  "continent": "Oceania",
+  "info": "Papua New Guinea has four official languages: English, Tok Pisin, Hiri Motu, PNG Sign Language and many indigenous languages."
+},
+{
+  "language": "This English speaking country, are a group of 4 volcanic islands in the southern Pacific Ocean that form the last British Overseas Territory in the Pacific.",
+  "country": "Pitcairn Islands",
+  "flag": "../flagsImg/pn.png",
+  "continent": "Oceania",
+  "info": "The Pitcairn Islands have two official languages: English and Pitkern."
+},
+{
+  "language": "This English speaking country, has a population of about 20,000 and most of its' people live on Koror island.",
+  "country": "Palau",
+  "flag": "../flagsImg/pw.png",
+  "continent": "Oceania",
+  "info": "Palau's official languages are English and Palauan but Sonsorolese, Tobian and Japanese are also recognized."
+},
+{
+  "language": "This English speaking country, are made up of over over 1,000 islands.",
+  "country": "Solomon Islands",
+  "flag": "../flagsImg/sb.png",
+  "continent": "Oceania",
+  "info": "The official language of the Solomon Islands is English."
+},
+{
+  "language": "Ko ai tō igoa?",
+  "country": "Tokelau",
+  "flag": "../flagsImg/tk.png",
+  "continent": "Oceania",
+  "info": "Tokelau has two official languages: English and Tokelauan. This translates to 'What is your name?' in Tokelauan."
+},
+{
+  "language": "Mālō ‘aupito",
+  "country": "Tonga",
+  "flag": "../flagsImg/to.png",
+  "continent": "Oceania",
+  "info": "Tonga has two official languages: English and Tongan. This translates to 'Thank you very much' in Tongan."
+},
+{
+  "language": "Manuia te aso!",
+  "country": "Tuvalu",
+  "flag": "../flagsImg/tv.png",
+  "continent": "Oceania",
+  "info": "Tuvalu has two official languages: English and Tuvaluan. This translates to 'Have a good day!' in Tuvaluan."
+},
+{
+  "language": "Gud mitim yu",
+  "country": "Vanuatu",
+  "flag": "../flagsImg/vu.png",
+  "continent": "Oceania",
+  "info": "Vanuatu has three official languages: Bislama, English and French. This translates to 'Nice to meet you' in Bislama."
+},
+{
+  "language": "This English speaking country, has the CFP franc as its currency.",
+  "country": "Wallis and Futuna",
+  "flag": "../flagsImg/wf.png",
+  "continent": "Oceania",
+  "info": "The official language of Wallis and Futuna is French but Wallisian and Futunana are also spoken."
+},
+{
+  "language": "Faʻafetai!",
+  "country": "Samoa",
+  "flag": "../flagsImg/ws.png",
+  "continent": "Oceania",
+  "info": "Samoa's official languages are Samoan and English. This phrase means 'Thank you!' in Samoan."
+}
+]
+
+

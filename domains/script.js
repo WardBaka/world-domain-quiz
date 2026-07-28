@@ -222,7 +222,6 @@ function showCompletionScreen(){
 }
 
 function nextQuestion() {
-
     if (!gameActive) return;
 
     filteredData = getFilteredData();
@@ -241,9 +240,7 @@ function nextQuestion() {
 
     current =
         filteredData[
-            Math.floor(
-                Math.random() * filteredData.length
-            )
+            Math.floor(Math.random() * filteredData.length)
         ];
 
     let mode =
@@ -252,14 +249,14 @@ function nextQuestion() {
     if (mode === "mixed") {
         const modes = [
             "domain-country",
-            "country-domain"
+            "country-domain",
+            "flag-country",
+            "flag-domain"
         ];
 
         mode =
             modes[
-                Math.floor(
-                    Math.random() * modes.length
-                )
+                Math.floor(Math.random() * modes.length)
             ];
     }
 
@@ -271,67 +268,81 @@ function nextQuestion() {
     const question =
         document.getElementById("domain");
 
+    const difficulty =
+        document.getElementById("difficulty").value;
+
     flag.style.display = "none";
+    question.textContent = "";
 
     let answerCount =
-        document.getElementById("difficulty").value === "Hard"
-            ? 6
-            : 4;
+        difficulty === "Hard" ? 6 : 4;
 
-    answerCount =
-        Math.min(answerCount, optionsPool.length);
+    let optionValues = [];
 
-    let options = [];
-
+    // DOMAIN → COUNTRY
     if (mode === "domain-country") {
-
         question.textContent = current.domain;
+        correctAnswer = current.country;
 
-        if (
-            document.getElementById("difficulty").value === "Easy"
-        ) {
+        if (difficulty === "Easy") {
             flag.src = current.flag;
             flag.style.display = "block";
         }
 
-        correctAnswer = current.country;
-        options.push(correctAnswer);
-
-        while (options.length < answerCount) {
-            let random =
-                optionsPool[
-                    Math.floor(
-                        Math.random() * optionsPool.length
-                    )
-                ].country;
-
-            if (!options.includes(random)) {
-                options.push(random);
-            }
-        }
-
+        optionValues =
+            optionsPool.map(item => item.country);
     }
 
+    // COUNTRY → DOMAIN
     else if (mode === "country-domain") {
-
         question.textContent = current.country;
+        correctAnswer = current.domain;
+
+        optionValues =
+            optionsPool.map(item => item.domain);
+    }
+
+    // FLAG → COUNTRY
+    else if (mode === "flag-country") {
+        flag.src = current.flag;
+        flag.style.display = "block";
+
+        correctAnswer = current.country;
+
+        optionValues =
+            optionsPool.map(item => item.country);
+    }
+
+    // FLAG → DOMAIN
+    else if (mode === "flag-domain") {
+        flag.src = current.flag;
+        flag.style.display = "block";
 
         correctAnswer = current.domain;
-        options.push(correctAnswer);
 
-        while (options.length < answerCount) {
-            let random =
-                optionsPool[
-                    Math.floor(
-                        Math.random() * optionsPool.length
-                    )
-                ].domain;
+        optionValues =
+            optionsPool.map(item => item.domain);
+    }
 
-            if (!options.includes(random)) {
-                options.push(random);
-            }
+    const uniqueOptions =
+        [...new Set(optionValues)];
+
+    answerCount =
+        Math.min(answerCount, uniqueOptions.length);
+
+    const options = [correctAnswer];
+
+    while (options.length < answerCount) {
+        const randomOption =
+            uniqueOptions[
+                Math.floor(
+                    Math.random() * uniqueOptions.length
+                )
+            ];
+
+        if (!options.includes(randomOption)) {
+            options.push(randomOption);
         }
-
     }
 
     options.sort(() => Math.random() - 0.5);
@@ -347,11 +358,12 @@ function nextQuestion() {
 
         button.textContent = option;
 
-        button.onclick = () =>
+        button.addEventListener("click", () => {
             answer(
                 button,
                 option === correctAnswer
             );
+        });
 
         box.appendChild(button);
     });
@@ -732,6 +744,6 @@ const nextQuizButton = document.getElementById("nextQuiz");
 
 if (nextQuizButton) {
     nextQuizButton.addEventListener("click", () => {
-        window.location.href = "../quizFlags/index.html";
+        window.location.href = "../flags/";
     });
 }

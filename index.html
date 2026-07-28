@@ -329,13 +329,16 @@ function animateNumber(element, start, end, duration = 600){
             Number(localStorage.getItem("guessrFlagCorrect") || 0);
         const phonesLearned =
             Number(localStorage.getItem("guessrPhoneCorrect") || 0);
-
+        const languagesLearned =
+            Number(localStorage.getItem("guessrLanguageCorrect") || 0);
         document.getElementById("homeDomainProgress").textContent =
-            "🌐 Domains: " + Math.round((domainsLearned / 249) * 100) + "%";
+            "🌐 Domains: " + Math.min(100, Math.round((domainsLearned / 249) * 100)) + "%";
         document.getElementById("homeFlagProgress").textContent =
-            "🏳️ Flags: " + Math.round((flagsLearned / 224) * 100) + "%";
+            "🏳️ Flags: " + Math.min(100, Math.round((flagsLearned / 224) * 100)) + "%";
         document.getElementById("homePhoneProgress").textContent =
-            "📞 Phones: " + Math.round((phonesLearned / 224) * 100) + "%";
+            "📞 Phones: " + Math.min(100, Math.round((phonesLearned / 224) * 100)) + "%";
+        document.getElementById("homeLanguageProgress").textContent =
+            "🗣️ Languages: " + Math.min(100, Math.round((languagesLearned / 224) * 100)) + "%";
 
         const latestAchievement =
     getLatestAchievement();
@@ -406,7 +409,7 @@ else {
         </button>
     </div>
 </div>
-<a href="profile.html" class="profile-card">
+<a href="profile/" class="profile-card">
 
     <div id="profileName">👤 Guest</div>
     <div id="profileTitle">New Explorer</div>
@@ -484,19 +487,21 @@ else {
         <h3>Continue Playing</h3>
 
         <div class="quick-buttons">
-            <a href="domains/domains.html">🌐 Domains</a>
-            <a href="quizFlags/index.html">🏳️ Flags</a>
-            <a href="quizPhones/index.html">📞 Phones</a>
-        </div>
+    <a href="domains/">🌐 Domains</a>
+    <a href="flag-quiz/">🏳️ Flags</a>
+    <a href="phones/">📞 Phones</a>
+    <a href="languages/">🗣️ Languages</a>
+</div>
     </div>
 
     <div class="progress-panel">
-        <h3>Your Progress</h3>
+    <h3>Your Progress</h3>
 
-        <p id="homeDomainProgress">🌐 Domains: 0%</p>
-        <p id="homeFlagProgress">🏳️ Flags: 0%</p>
-        <p id="homePhoneProgress">📞 Phones: 0%</p>
-    </div>
+    <p id="homeDomainProgress">🌐 Domains: 0%</p>
+    <p id="homeFlagProgress">🏳️ Flags: 0%</p>
+    <p id="homePhoneProgress">📞 Phones: 0%</p>
+    <p id="homeLanguageProgress">🗣️ Languages: 0%</p>
+</div>
 
     <div class="achievement-panel">
     <h3>🏆 Latest Achievement</h3>
@@ -518,7 +523,7 @@ else {
 
         <!-- Domains -->
 
-        <a href="domains/domains.html" class="game-card">
+        <a href="domains/" class="game-card">
 
             <img src="homeImg/DomainsQuiz.png" alt="Domains Quiz">
 
@@ -531,7 +536,7 @@ else {
 
         <!-- Flags -->
 
-        <a href="quizFlags/index.html" class="game-card">
+        <a href="flags/" class="game-card">
 
             <img src="homeImg/flagsQuiz.png" alt="Flags Quiz">
 
@@ -546,7 +551,7 @@ else {
 
         <!-- Phone Codes -->
 
-        <a href="quizPhones/index.html" class="game-card">
+        <a href="phones/" class="game-card">
 
             <img src="homeImg/phoneNumbers.png" alt="Phone Quiz">
 
@@ -559,7 +564,7 @@ else {
 
         <!-- Languages -->
 
-        <a href="quizLanguages/index.html" class="game-card">
+        <a href="languages/" class="game-card">
 
             <img src="homeImg/languagesQuiz.png" alt="Languages Quiz">
 
