@@ -73,11 +73,11 @@
     "country": "United States",
     "capital": "Washington, D.C.",
     "cities": [
+      "Washington, D.C.",
       "New York City",
       "Los Angeles",
       "Chicago",
       "Houston",
-      "Phoenix",
       "Philadelphia"
     ],
     "continent": "North America",
@@ -129,12 +129,12 @@
     "country": "Australia",
     "capital": "Canberra",
     "cities": [
+      "Canberra",
       "Sydney",
       "Melbourne",
       "Brisbane",
       "Perth",
-      "Adelaide",
-      "Gold Coast"
+      "Adelaide"
     ],
     "continent": "Oceania",
     "info": "Canberra is the capital of Australia and it has an estimated metro area population of over 523,000 people."
@@ -279,20 +279,7 @@
     "continent": "Europe",
     "info": "Warsaw is the capital and largest city of Poland and its' metropolitian area is approximately 1.8 million people."
   },
-  {
-    "country": "British Indian Ocean Territory",
-    "capital": "N/A",
-    "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
-    "continent": "Asia",
-    "info": "."
-  },
+
   {
     "country": "Tuvalu",
     "capital": "Funafuti",
@@ -337,7 +324,7 @@
   },
   {
     "country": "Jersey",
-    "capital": "St Helier",
+    "capital": "St. Helier",
     "cities": [
       "St. Helier",
       "St. Brelade",
@@ -786,16 +773,17 @@
   {
     "country": "Vatican City",
     "capital": "Vatican City",
-    "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+"cities": [
+    "Vatican City",
+    "St. Peter's Square",
+    "Apostolic Palace",
+    "Vatican Gardens",
+    "Governatorate Palace",
+    "Campo Santo Teutonico"
+],
     "continent": "Europe",
-    "info": "."
+    "info": "Vatican City is the world's smallest sovereign state. Vatican City serves as both the country and its capital."
+
   },
   {
     "country": "Afghanistan",
@@ -925,17 +913,17 @@
   },
   {
     "country": "Hong Kong",
-    "capital": "N/A",
+    "capital": "Hong Kong",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+    "Hong Kong",
+    "Kowloon",
+    "Sha Tin",
+    "Tsuen Wan",
+    "Tuen Mun",
+    "Yuen Long"
+],
     "continent": "Asia",
-    "info": "."
+    "info": "Hong Kong is a special administrative region of China and serves as its capital."
   },
   {
     "country": "Indonesia",
@@ -981,17 +969,17 @@
   },
   {
     "country": "Israel",
-    "capital": "N/A",
+    "capital": "Jerusalem",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Jerusalem",
+      "Tel Aviv",
+      "Haifa",
+      "Ramat Gan",
+      "Bnei Brak",
+      "Ashdod"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Jerusalem is the capital and largest city of Israel and has a metropolitan population of approximately 900,000 people."
   },
   {
     "country": "Jordan",
@@ -1079,17 +1067,17 @@
   },
   {
     "country": "Macau",
-    "capital": "N/A",
+    "capital": "Macau",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Macau",
+      "Taipa",
+      "Coloane",
+      "Cotai",
+      "Nossa Senhora de Fátima",
+      "São Lourenço"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Macau is a special administrative region of China and serves as its capital."
   },
   {
     "country": "Malaysia",
@@ -1215,7 +1203,7 @@
       "Nablus"
     ],
     "continent": "Asia",
-    "info": "N/A."
+    "info": "Jerusalem is claimed as the capital by both Israel and Palestine. The population of Jerusalem is approximately 900,000 people."
   },
   {
     "country": "Philippines",
@@ -1263,11 +1251,11 @@
     "country": "Singapore",
     "capital": "Singapore",
     "cities": [
+      "Singapore",
       "Marina Bay",
       "Orchard Road",
       "Chinatown",
       "Sentosa",
-      "Bugis",
       "Clarke Quay"
     ],
     "continent": "Asia",
@@ -1289,17 +1277,17 @@
   },
   {
     "country": "Sri Lanka",
-    "capital": "N/A",
+    "capital": "Sri Jayawardenepura Kotte",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Sri Jayawardenepura Kotte",
+      "Colombo",
+      "Kandy",
+      "Galle",
+      "Jaffna",
+      "Negombo"
     ],
     "continent": "Asia",
-    "info": "."
+    "info": "Sri Jayawardenepura Kotte is the capital of Sri Lanka and has a population of approximately 150,000 people."
   },
   {
     "country": "Syria",
@@ -1513,17 +1501,17 @@
   },
   {
     "country": "Burundi",
-    "capital": "N/A",
+    "capital": "Gitega",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Gitega",
+      "Bujumbura",
+      "Ngozi",
+      "Muyinga",
+      "Ruyigi",
+      "Rumonge"
     ],
     "continent": "Africa",
-    "info": "."
+    "info": "Gitega is the capital of Burundi and has a population of approximately 100,000 people."
   },
   {
     "country": "Cameroon",
@@ -1681,17 +1669,17 @@
   },
   {
     "country": "Eswatini",
-    "capital": "N/A",
+    "capital": "Mbabane",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
+      "Mbabane",
+      "Lobamba",
+      "Manzini",
+      "Siteki",
+      "Nhlangano",
+      "Piggs Peak"
     ],
     "continent": "Africa",
-    "info": "."
+    "info": "Mbabane is the capital and largest city of Eswatini and has a population of approximately 100,000 people."
   },
   {
     "country": "Ethiopia",
@@ -1921,9 +1909,9 @@
     "country": "Morocco",
     "capital": "Rabat",
     "cities": [
+      "Rabat",
       "Essaouira",
       "Marrakech",
-      "Fes",
       "Casablanca",
       "Chefchaouen",
       "Tangier"
@@ -2563,17 +2551,17 @@
   },
   {
     "country": "Montserrat",
-    "capital": "Plymouth",
+    "capital": "Brades",
     "cities": [
+      "Brades",
+      "Little Bay",
       "Plymouth",
-      "N/A",
-      " ",
-      " ",
-      " ",
-      " "
+      "Salem",
+      "St. Peter's",
+      "Old Towne"
     ],
     "continent": "North America",
-    "info": "Plymouth."
+    "info": "Brades is the de facto capital of Montserrat and has a population of approximately 1,000 people."
   },
   {
     "country": "Puerto Rico",
@@ -3014,11 +3002,11 @@
     "capital": "Adamstown",
     "cities": [
       "Adamstown",
-      "N/A",
-      " ",
-      " ",
-      " ",
-      " "
+      "The Square",
+      "Tedside",
+      "Down Rope",
+      "Rocky Point",
+      "Bounty Bay"
     ],
     "continent": "Oceania",
     "info": "Adamstown."
@@ -3053,17 +3041,17 @@
   },
   {
     "country": "Tokelau",
-    "capital": "N/A",
+    "capital": "Nukunonu",
     "cities": [
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " "
-    ],
+    "Nukunonu",
+    "Atafu",
+    "Fakaofo",
+    "Malae",
+    "Fale",
+    "Matangi"
+],
     "continent": "Oceania",
-    "info": "."
+    "info": "Tokelau has no official capital, but Nukunonu is the largest village and administrative center of the territory."
   },
   {
     "country": "Tonga",
@@ -3078,20 +3066,6 @@
     ],
     "continent": "Oceania",
     "info": "Nukuʻalofa is the capital and largest city of Tonga and has a population of approximately 30,000 people."
-  },
-  {
-    "country": "Tuvalu",
-    "capital": "Funafuti",
-    "cities": [
-      "Funafuti",
-      "Savave",
-      "Motufoua",
-      "Teava Village",
-      "Tanrake Village",
-      "Tumaseu Village"
-    ],
-    "continent": "Oceania",
-    "info": "Funafuti is the capital and largest city of Tuvalu and has a population of approximately 9,000 people."
   },
   {
     "country": "Vanuatu",
@@ -3111,7 +3085,7 @@
     "country": "Wallis and Futuna",
     "capital": "Mata Utu",
     "cities": [
-      "Mata-Utu",
+      "Mata Utu",
       "Leava",
       "Liku",
       "Utufua",
