@@ -1,0 +1,13 @@
+[
+    {
+        "iso2": "US",
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "languages": ["English"],
+        "population": null,
+        "phoneCode": "+1",
+        "continent": "North America",
+        "flag": "../flagsImg/us.png",
+        "fact": "The United States consists of 50 states and a federal district."
+    }
+]

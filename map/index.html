@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>GuessrQuiz - Interactive Map</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../homeImg/guessrQuizLogo.png"
+    >
+
+    <!-- MapTiler SDK -->
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v4.0.2/maptiler-sdk.umd.min.js"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.maptiler.com/maptiler-sdk-js/v4.0.2/maptiler-sdk.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FULL-SCREEN MAP -->
+
+<div
+    id="map"
+    aria-label="Interactive world map"
+></div>
+
+<!-- TOP LEFT CONTROLS -->
+
+<nav class="map-controls">
+
+    <a
+        href="../"
+        class="map-button home-button"
+    >
+        <img
+            src="../homeImg/guessrQuizLogo.png"
+            alt=""
+        >
+
+        Home
+    </a>
+
+    <button
+        id="backButton"
+        class="map-button back-button"
+        type="button"
+        hidden
+    >
+        ← Back
+    </button>
+
+</nav>
+
+<!-- SEARCH -->
+
+<div class="search-panel">
+
+    <label
+        for="mapSearch"
+        class="visually-hidden"
+    >
+        Search for a country or province
+    </label>
+
+    <input
+        id="mapSearch"
+        type="search"
+        placeholder="Search country or province..."
+        autocomplete="off"
+    >
+
+    <button
+        id="clearSearch"
+        type="button"
+        aria-label="Clear search"
+        hidden
+    >
+        ×
+    </button>
+
+    <div
+        id="searchResults"
+        class="search-results"
+        hidden
+    ></div>
+
+</div>
+
+<!-- BREADCRUMB -->
+
+<div
+    id="mapBreadcrumb"
+    class="map-breadcrumb"
+>
+    <button
+        type="button"
+        data-level="world"
+    >
+        World
+    </button>
+
+    <span id="countryBreadcrumb" hidden>
+        ›
+        <button
+            id="countryBreadcrumbButton"
+            type="button"
+        ></button>
+    </span>
+
+    <span id="regionBreadcrumb" hidden>
+        ›
+        <span id="regionBreadcrumbText"></span>
+    </span>
+</div>
+
+<!-- SIDEBAR -->
+
+<aside
+    id="mapSidebar"
+    class="map-sidebar"
+    aria-live="polite"
+    aria-hidden="true"
+>
+
+    <button
+        id="closeSidebar"
+        class="sidebar-close"
+        type="button"
+        aria-label="Close information panel"
+    >
+        ×
+    </button>
+
+    <!-- EMPTY STATE -->
+
+    <div
+        id="sidebarEmpty"
+        class="sidebar-state sidebar-empty"
+    >
+        <div class="sidebar-empty-icon">
+            🌍
+        </div>
+
+        <h1>Explore the World</h1>
+
+        <p>
+            Select a country to view its capital,
+            languages, population, phone code,
+            flag, and facts.
+        </p>
+    </div>
+
+    <!-- LOADING STATE -->
+
+    <div
+        id="sidebarLoading"
+        class="sidebar-state"
+        hidden
+    >
+        <div class="sidebar-loader"></div>
+
+        <p>
+            Loading location information...
+        </p>
+    </div>
+
+    <!-- COUNTRY CONTENT -->
+
+    <div
+        id="countrySidebar"
+        class="sidebar-content"
+        hidden
+    >
+
+        <div class="sidebar-hero">
+
+            <img
+                id="countryFlag"
+                class="sidebar-flag"
+                src=""
+                alt=""
+            >
+
+            <div>
+                <p class="sidebar-label">
+                    COUNTRY
+                </p>
+
+                <h1 id="countryName"></h1>
+
+                <p id="countryContinent"></p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-details">
+
+            <article class="detail-card">
+                <span>🏛️</span>
+
+                <div>
+                    <small>Capital</small>
+                    <strong id="countryCapital"></strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
+                <span>🗣️</span>
+
+                <div>
+                    <small>Languages</small>
+                    <strong id="countryLanguages"></strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
+                <span>👥</span>
+
+                <div>
+                    <small>Population</small>
+                    <strong id="countryPopulation"></strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
+                <span>📞</span>
+
+                <div>
+                    <small>Calling code</small>
+                    <strong id="countryPhoneCode"></strong>
+                </div>
+            </article>
+
+        </div>
+
+        <section class="fact-card">
+
+            <p class="sidebar-label">
+                COUNTRY FACT
+            </p>
+
+            <p id="countryFact"></p>
+
+        </section>
+
+        <p
+            id="countrySubdivisionMessage"
+            class="subdivision-message"
+        >
+            Select a province or state on the map
+            to explore it further.
+        </p>
+
+    </div>
+
+    <!-- PROVINCE / STATE CONTENT -->
+
+    <div
+        id="regionSidebar"
+        class="sidebar-content"
+        hidden
+    >
+
+        <div class="sidebar-hero">
+
+            <div
+                id="regionFlagFallback"
+                class="region-flag-fallback"
+            >
+                🏴
+            </div>
+
+            <img
+                id="regionFlag"
+                class="sidebar-flag"
+                src=""
+                alt=""
+                hidden
+            >
+
+            <div>
+                <p
+                    id="regionType"
+                    class="sidebar-label"
+                >
+                    REGION
+                </p>
+
+                <h1 id="regionName"></h1>
+
+                <p id="regionCountry"></p>
+            </div>
+
+        </div>
+
+        <div class="sidebar-details">
+
+            <article class="detail-card">
+                <span>🏛️</span>
+
+                <div>
+                    <small>Administrative capital</small>
+                    <strong id="regionCapital"></strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
+                <span>🏙️</span>
+
+                <div>
+                    <small>Major city</small>
+                    <strong id="regionMajorCity"></strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
+                <span>📞</span>
+
+                <div>
+                    <small>Country calling code</small>
+                    <strong id="regionCountryPhone"></strong>
+                </div>
+            </article>
+
+            <article
+                id="regionAreaCodeCard"
+                class="detail-card"
+                hidden
+            >
+                <span>☎️</span>
+
+                <div>
+                    <small>Regional area code</small>
+                    <strong id="regionAreaCode"></strong>
+                </div>
+            </article>
+
+        </div>
+
+        <section class="fact-card">
+
+            <p class="sidebar-label">
+                REGIONAL FACT
+            </p>
+
+            <p id="regionFact"></p>
+
+        </section>
+
+        <p
+            id="regionMissingFlag"
+            class="subdivision-message"
+            hidden
+        >
+            No official regional flag is available.
+        </p>
+
+    </div>
+
+</aside>
+
+<!-- MAP STATUS -->
+
+<div
+    id="mapStatus"
+    class="map-status"
+    role="status"
+>
+    Select a country
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

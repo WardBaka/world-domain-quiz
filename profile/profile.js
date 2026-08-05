@@ -11,7 +11,8 @@ const QUIZ_TOTALS = {
     domains: 249,
     flags: 224,
     phones: 224,
-    languages: 224
+    languages: 224,
+    capitals: 223
 };
 
 /* =========================
@@ -432,6 +433,13 @@ const languagesLearned =
         "guessrLanguageCorrect"
     );
 
+    const capitalsLearned =
+    new Set(
+        getStoredArray(
+            "masteredCapitals"
+        )
+    ).size;
+
 const domainPercent =
     updateProgressBar(
         "domainProgressText",
@@ -468,14 +476,24 @@ const languagePercent =
         QUIZ_TOTALS.languages
     );
 
+    const capitalPercent =
+    updateProgressBar(
+        "capitalProgressText",
+        "capitalProgressFill",
+        "capitalProgressPercent",
+        capitalsLearned,
+        QUIZ_TOTALS.capitals
+    );
+
 const overallProgress =
     Math.round(
         (
             domainPercent +
             flagPercent +
             phonePercent +
-            languagePercent
-        ) / 4
+            languagePercent +
+            capitalPercent
+        ) / 5
     );
 
 document.getElementById(
@@ -502,6 +520,10 @@ const unlockedAchievements = [
 
     ...getStoredArray(
         "languageAchievements"
+    ),
+
+    ...getStoredArray(
+    "capitalAchievements"
     )
 ];
 
@@ -591,7 +613,32 @@ const achievementData = [
         name:"Language Expert",
         desc:"Get 50 correct answers during a Languages Quiz session.",
         category:"LANGUAGES"
-    }
+    },
+    {
+    name:"First Capital Correct",
+    desc:"Identify your first capital city correctly.",
+    category:"CAPITALS"
+},
+{
+    name:"10 Capital Streak",
+    desc:"Reach a 10-answer streak in the Capitals Quiz.",
+    category:"CAPITALS"
+},
+{
+    name:"25 Capitals Correct",
+    desc:"Get 25 correct answers during a Capitals Quiz session.",
+    category:"CAPITALS"
+},
+{
+    name:"Capital Expert",
+    desc:"Get 50 correct answers during a Capitals Quiz session.",
+    category:"CAPITALS"
+},
+{
+    name:"Learn 100 Capitals",
+    desc:"Master 100 different capital cities.",
+    category:"CAPITALS"
+}
 ];
 
 document.getElementById(

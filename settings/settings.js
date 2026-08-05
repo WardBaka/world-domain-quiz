@@ -47,5 +47,5 @@ resetProgressButton.addEventListener("click", () => {
 
     alert("Progress reset.");
 
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
