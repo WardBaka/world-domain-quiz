@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>GuessrQuiz - Create Account</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../homeImg/guessrQuizLogo.png"
+    >
+
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+<main class="auth-page">
+
+    <a href="../" class="home-button">
+        <img
+            src="../homeImg/guessrQuizLogo.png"
+            alt=""
+        >
+
+        Home
+    </a>
+
+    <section class="auth-card">
+
+        <div class="auth-heading">
+            <div class="auth-icon">
+                🌍
+            </div>
+
+            <p class="auth-label">
+                GUESSRQUIZ ACCOUNT
+            </p>
+
+            <h1>Create your account</h1>
+
+            <p>
+                Save your XP, achievements, quiz progress,
+                and profile across devices.
+            </p>
+        </div>
+
+        <form id="registerForm" novalidate>
+
+            <label for="username">
+                Username
+            </label>
+
+            <input
+                id="username"
+                name="username"
+                type="text"
+                autocomplete="username"
+                minlength="3"
+                maxlength="24"
+                placeholder="Choose a username"
+                required
+            >
+
+            <p class="field-help">
+                Use 3–24 letters, numbers, spaces, underscores, or hyphens.
+            </p>
+
+            <label for="email">
+                Email address
+            </label>
+
+            <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+            >
+
+            <label for="password">
+                Password
+            </label>
+
+            <div class="password-field">
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    autocomplete="new-password"
+                    minlength="8"
+                    placeholder="At least 8 characters"
+                    required
+                >
+
+                <button
+                    id="togglePassword"
+                    class="password-toggle"
+                    type="button"
+                    aria-label="Show password"
+                >
+                    Show
+                </button>
+            </div>
+
+            <label for="confirmPassword">
+                Confirm password
+            </label>
+
+            <div class="password-field">
+                <input
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    type="password"
+                    autocomplete="new-password"
+                    minlength="8"
+                    placeholder="Enter the password again"
+                    required
+                >
+
+                <button
+                    id="toggleConfirmPassword"
+                    class="password-toggle"
+                    type="button"
+                    aria-label="Show confirmed password"
+                >
+                    Show
+                </button>
+            </div>
+
+            <label class="checkbox-row">
+                <input
+                    id="terms"
+                    type="checkbox"
+                    required
+                >
+
+                <span>
+                    I agree to the Terms and Privacy Policy.
+                </span>
+            </label>
+
+            <div
+                id="formMessage"
+                class="form-message"
+                role="status"
+                aria-live="polite"
+                hidden
+            ></div>
+
+            <button
+                id="registerButton"
+                class="primary-button"
+                type="submit"
+            >
+                Create Account
+            </button>
+
+        </form>
+
+        <p class="auth-switch">
+            Already have an account?
+
+            <a href="login.html">
+                Log in
+            </a>
+        </p>
+
+    </section>
+
+</main>
+
+<script
+    type="module"
+    src="register.js"
+></script>
+
+</body>
+</html>

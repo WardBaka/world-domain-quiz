@@ -1,18 +1,9 @@
 
-
-// =========================
-// MAPTILER CONFIGURATION
-// =========================
-
 const MAPTILER_KEY = "MkP4zsc7wuOVKFVNZhP5";
 
 maptilersdk.config.apiKey =
     MAPTILER_KEY;
 
-
-// =========================
-// PAGE ELEMENTS
-// =========================
 
 const mapSidebar =
     document.getElementById(
@@ -59,11 +50,6 @@ const regionBreadcrumb =
         "regionBreadcrumb"
     );
 
-
-// =========================
-// MAP STATE
-// =========================
-
 const WORLD_CENTER = [
     10,
     20
@@ -76,6 +62,7 @@ let selectedRegion = null;
 
 
 let countryData = [];
+let subdivisionData = [];
 
 async function loadCountryData() {
     try {
@@ -109,10 +96,37 @@ async function loadCountryData() {
     }
 }
 
+async function loadSubdivisionData() {
+    try {
+        const response =
+            await fetch("subdivisions.json");
 
-// =========================
-// CREATE MAP
-// =========================
+        if (!response.ok) {
+            throw new Error(
+                "Could not load subdivisions.json"
+            );
+        }
+
+        const result =
+            await response.json();
+
+        if (!Array.isArray(result)) {
+            throw new Error(
+                "subdivisions.json must contain an array."
+            );
+        }
+
+        subdivisionData = result;
+    }
+    catch (error) {
+        console.error(
+            "Subdivision data error:",
+            error
+        );
+
+        subdivisionData = [];
+    }
+}
 
 const map =
     new maptilersdk.Map({
@@ -142,15 +156,14 @@ const map =
     });
 
 
-// =========================
-// MAP EVENTS
-// =========================
-
 map.on("load", async () => {
     mapStatus.textContent =
         "Loading country data...";
 
-    await loadCountryData();
+    await Promise.all([
+    loadCountryData(),
+    loadSubdivisionData()
+]);
 
     addCountryLayers();
 
@@ -171,9 +184,6 @@ map.on("error", event => {
         "The map could not be loaded.";
 });
 
-// =========================
-// COUNTRY MAP LAYERS
-// =========================
 
 const COUNTRY_SOURCE_ID =
     "countryBoundaries";
@@ -228,8 +238,6 @@ function addCountryLayers() {
             : undefined;
 
 
-
-    // Invisible clickable country polygons
     map.addLayer(
         {
             id: COUNTRY_FILL_LAYER,
@@ -257,7 +265,6 @@ function addCountryLayers() {
         layerBefore
     );
 
-    // Hovered-country fill
     map.addLayer(
         {
             id: COUNTRY_HOVER_LAYER,
@@ -296,7 +303,6 @@ function addCountryLayers() {
         layerBefore
     );
 
-    // Subtle border over the hovered country
     map.addLayer(
         {
             id: COUNTRY_BORDER_LAYER,
@@ -334,7 +340,6 @@ function addCountryLayers() {
         layerBefore
     );
 
-    // Darkens every country except the selected one
 map.addLayer(
     {
         id: "countryDim",
@@ -370,7 +375,6 @@ map.addLayer(
     layerBefore
 );
 
-// Strong selected-country outline
 map.addLayer(
     {
         id: "countrySelected",
@@ -406,11 +410,6 @@ map.addLayer(
     layerBefore
 );
 
-// =========================
-// PROVINCE / STATE LAYERS
-// =========================
-
-// Transparent clickable regions
 map.addLayer(
     {
         id: REGION_FILL_LAYER,
@@ -450,7 +449,6 @@ map.addLayer(
 );
 
 
-// Region hover colour
 map.addLayer(
     {
         id: REGION_HOVER_LAYER,
@@ -490,7 +488,6 @@ map.addLayer(
 );
 
 
-// Visible borders between regions
 map.addLayer(
     {
         id: REGION_BORDER_LAYER,
@@ -530,8 +527,6 @@ map.addLayer(
     layerBefore
 );
 
-
-// Strong outline for selected region
 map.addLayer(
     {
         id: REGION_SELECTED_LAYER,
@@ -1012,6 +1007,20 @@ function addRegionEvents() {
     feature
 };
 
+const regionDetails =
+    findSubdivisionData(
+        selectedCountry.name,
+        selectedRegion.name
+    );
+
+selectedRegion.data =
+    regionDetails;
+
+if (regionDetails?.type) {
+    selectedRegion.type =
+        regionDetails.type;
+}
+
             const selectedFilter =
                 selectedRegion.gid
                     ? [
@@ -1060,8 +1069,9 @@ function addRegionEvents() {
             backButton.hidden =
                 false;
 
-            openTemporaryRegionSidebar(
-    selectedRegion
+            openRegionSidebar(
+    selectedRegion,
+    regionDetails
 );
 
 zoomToRegion(
@@ -1078,9 +1088,6 @@ console.log(
     );
 }
 
-// =========================
-// SIDEBAR
-// =========================
 
 function openSidebar() {
     mapSidebar.classList.add(
@@ -1111,10 +1118,6 @@ closeSidebarButton.addEventListener(
     closeSidebar
 );
 
-
-// =========================
-// WORLD VIEW
-// =========================
 
 function returnToWorld() {
     selectedCountry = null;
@@ -1147,10 +1150,6 @@ function returnToWorld() {
     updateURL();
 }
 
-
-// =========================
-// BACK NAVIGATION
-// =========================
 
 function goBackOneLevel() {
     if (selectedRegion) {
@@ -1209,8 +1208,6 @@ backButton.addEventListener(
 );
 
 
-// World breadcrumb
-
 document
     .querySelector(
         '[data-level="world"]'
@@ -1220,10 +1217,6 @@ document
         returnToWorld
     );
 
-
-// =========================
-// ESCAPE KEY
-// =========================
 
 document.addEventListener(
     "keydown",
@@ -1254,10 +1247,6 @@ document.addEventListener(
 );
 
 
-// =========================
-// SEARCH SHELL
-// =========================
-
 mapSearch.addEventListener(
     "input",
     () => {
@@ -1278,12 +1267,6 @@ mapSearch.addEventListener(
             return;
         }
 
-        /*
-         * Country and province search
-         * results will be added after
-         * countries.json and
-         * subdivisions.json are loaded.
-         */
 
         searchResults.innerHTML = `
             <div class="search-placeholder">
@@ -1321,8 +1304,6 @@ clearSearchButton.addEventListener(
 );
 
 
-// Close results when clicking elsewhere
-
 document.addEventListener(
     "click",
     event => {
@@ -1342,10 +1323,6 @@ document.addEventListener(
     }
 );
 
-
-// =========================
-// URL STATE
-// =========================
 
 function updateURL() {
     const url =
@@ -1405,12 +1382,6 @@ function restoreURLState() {
         return;
     }
 
-    /*
-     * Once countries.json is connected,
-     * this will find the matching country
-     * and automatically open it.
-     */
-
     console.log(
         "Requested country:",
         country
@@ -1462,6 +1433,94 @@ function findCountryData(
     );
 }
 
+function normalizeLocationName(value) {
+    return String(value || "")
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[’']/g, "")
+        .replace(/[-_]/g, " ")
+        .replace(/\s+/g, " ");
+}
+
+
+function normalizeLocationName(value) {
+    return String(value || "")
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[’']/g, "")
+        .replace(/[-_]/g, " ")
+        .replace(/\s+/g, " ");
+}
+
+
+function normalizeCountryName(value) {
+    const normalized =
+        normalizeLocationName(value);
+
+    const countryAliases = {
+        "united states of america":
+            "united states",
+
+        "usa":
+            "united states",
+
+        "u s a":
+            "united states",
+
+        "russian federation":
+            "russia",
+
+        "republic of korea":
+            "south korea",
+
+        "korea republic of":
+            "south korea",
+
+        "democratic peoples republic of korea":
+            "north korea",
+
+        "czechia":
+            "czech republic"
+    };
+
+    return (
+        countryAliases[normalized] ||
+        normalized
+    );
+}
+
+
+function findSubdivisionData(
+    countryName,
+    regionName
+) {
+    const normalizedCountry =
+        normalizeCountryName(
+            countryName
+        );
+
+    const normalizedRegion =
+        normalizeLocationName(
+            regionName
+        );
+
+    return (
+        subdivisionData.find(item =>
+            normalizeCountryName(
+                item.country
+            ) === normalizedCountry
+            &&
+            normalizeLocationName(
+                item.name
+            ) === normalizedRegion
+        ) ||
+        null
+    );
+}
 function formatPopulation(value) {
     if (
         value === null ||
@@ -1526,10 +1585,6 @@ function clearSelectedCountryHighlight() {
 
 async function zoomToCountry(country) {
     try {
-        /*
-         * Search using the full country name,
-         * not the two-letter ISO code.
-         */
         const searchValue =
             country.data?.name ||
             country.name;
@@ -1569,9 +1624,6 @@ async function zoomToCountry(country) {
                 .trim()
                 .toLowerCase();
 
-        /*
-         * Prefer an exact ISO-code match.
-         */
         let feature =
             result.features?.find(item => {
                 const resultCode =
@@ -1586,10 +1638,6 @@ async function zoomToCountry(country) {
                     resultCode === expectedCode
                 );
             });
-
-        /*
-         * Otherwise use an exact country-name match.
-         */
         if (!feature) {
             feature =
                 result.features?.find(item => {
@@ -1613,10 +1661,6 @@ async function zoomToCountry(country) {
                     );
                 });
         }
-
-        /*
-         * Last fallback: first country result.
-         */
         if (!feature) {
             feature =
                 result.features?.[0];
@@ -1817,10 +1861,6 @@ function zoomToRegion(region) {
     );
 }
 
-// =========================
-// MAP THEME
-// =========================
-
 
 function openCountrySidebar(
     mapCountry,
@@ -1955,8 +1995,10 @@ function formatRegionType(type) {
     return typeNames[value] || value;
 }
 
-
-function openTemporaryRegionSidebar(region) {
+function openRegionSidebar(
+    region,
+    details
+) {
     document.getElementById(
         "sidebarEmpty"
     ).hidden = true;
@@ -1973,66 +2015,186 @@ function openTemporaryRegionSidebar(region) {
         "regionSidebar"
     ).hidden = false;
 
+
+    // Administrative type
+
     document.getElementById(
-    "regionType"
-).textContent =
-    formatRegionType(
-        region.type
-    );
+        "regionType"
+    ).textContent =
+        formatRegionType(
+            details?.type ||
+            region.type ||
+            "Region"
+        );
+
+
+    // Name and country
 
     document.getElementById(
         "regionName"
     ).textContent =
-        region.name;
+        details?.name ||
+        region.name ||
+        "Unknown region";
 
     document.getElementById(
         "regionCountry"
     ).textContent =
+        details?.country ||
         selectedCountry?.name ||
         region.countryCode ||
         "Unknown country";
 
+
+    // Capital
+
     document.getElementById(
         "regionCapital"
     ).textContent =
-        "Not connected yet";
+        details?.capital ||
+        "Not added yet";
+
+
+    // Largest city
 
     document.getElementById(
         "regionMajorCity"
     ).textContent =
-        "Not connected yet";
+        details?.largestCity ||
+        "Not added yet";
+
+
+    // Population
+
+    document.getElementById(
+        "regionPopulation"
+    ).textContent =
+        formatPopulation(
+            details?.population
+        );
+
+
+    // Country calling code
 
     document.getElementById(
         "regionCountryPhone"
     ).textContent =
         selectedCountry?.data?.phoneCode ||
-        "Not connected yet";
+        "Not added yet";
 
-    document.getElementById(
-        "regionAreaCodeCard"
-    ).hidden = true;
+
+    // Regional area code
+
+    const areaCodeCard =
+        document.getElementById(
+            "regionAreaCodeCard"
+        );
+
+    const areaCode =
+        document.getElementById(
+            "regionAreaCode"
+        );
+
+    if (
+        details?.phoneAreaCode !== null &&
+        details?.phoneAreaCode !== undefined &&
+        String(
+            details.phoneAreaCode
+        ).trim() !== ""
+    ) {
+        areaCode.textContent =
+            details.phoneAreaCode;
+
+        areaCodeCard.hidden =
+            false;
+    }
+    else {
+        areaCode.textContent =
+            "";
+
+        areaCodeCard.hidden =
+            true;
+    }
+
+
+    // Fact
 
     document.getElementById(
         "regionFact"
     ).textContent =
-        region.area
-            ? "Map area: " +
-                Number(region.area)
-                    .toLocaleString() +
-                " km²"
-            : "Regional information is not connected yet.";
+        details?.fact ||
+        "Detailed regional information has not been added yet.";
 
-    document.getElementById(
-        "regionFlag"
-    ).hidden = true;
 
-    document.getElementById(
-        "regionFlagFallback"
-    ).hidden = false;
+    // Flag
 
-    document.getElementById(
-        "regionMissingFlag"
-    ).hidden = false;
+    const flag =
+        document.getElementById(
+            "regionFlag"
+        );
+
+    const flagFallback =
+        document.getElementById(
+            "regionFlagFallback"
+        );
+
+    const missingFlagMessage =
+        document.getElementById(
+            "regionMissingFlag"
+        );
+
+    flag.onerror = null;
+
+    if (details?.flag) {
+        flag.src =
+            details.flag;
+
+        flag.alt =
+            (
+                details.name ||
+                region.name ||
+                "Regional"
+            ) +
+            " flag";
+
+        flag.hidden =
+            false;
+
+        flagFallback.hidden =
+            true;
+
+        missingFlagMessage.hidden =
+            true;
+
+        flag.onerror = () => {
+            flag.hidden =
+                true;
+
+            flagFallback.hidden =
+                false;
+
+            missingFlagMessage.hidden =
+                false;
+        };
+    }
+    else {
+        flag.removeAttribute(
+            "src"
+        );
+
+        flag.alt =
+            "";
+
+        flag.hidden =
+            true;
+
+        flagFallback.hidden =
+            false;
+
+        missingFlagMessage.hidden =
+            false;
+    }
+
 
     openSidebar();
 }

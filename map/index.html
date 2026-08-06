@@ -16,7 +16,7 @@
         href="../homeImg/guessrQuizLogo.png"
     >
 
-    <!-- MapTiler SDK -->
+    
     <script src="https://cdn.maptiler.com/maptiler-sdk-js/v4.0.2/maptiler-sdk.umd.min.js"></script>
 
     <link
@@ -29,14 +29,10 @@
 
 <body>
 
-<!-- FULL-SCREEN MAP -->
-
 <div
     id="map"
     aria-label="Interactive world map"
 ></div>
-
-<!-- TOP LEFT CONTROLS -->
 
 <nav class="map-controls">
 
@@ -62,8 +58,6 @@
     </button>
 
 </nav>
-
-<!-- SEARCH -->
 
 <div class="search-panel">
 
@@ -98,7 +92,6 @@
 
 </div>
 
-<!-- BREADCRUMB -->
 
 <div
     id="mapBreadcrumb"
@@ -125,7 +118,6 @@
     </span>
 </div>
 
-<!-- SIDEBAR -->
 
 <aside
     id="mapSidebar"
@@ -143,7 +135,7 @@
         ×
     </button>
 
-    <!-- EMPTY STATE -->
+    
 
     <div
         id="sidebarEmpty"
@@ -162,7 +154,7 @@
         </p>
     </div>
 
-    <!-- LOADING STATE -->
+    
 
     <div
         id="sidebarLoading"
@@ -176,7 +168,7 @@
         </p>
     </div>
 
-    <!-- COUNTRY CONTENT -->
+    
 
     <div
         id="countrySidebar"
@@ -265,7 +257,7 @@
 
     </div>
 
-    <!-- PROVINCE / STATE CONTENT -->
+    
 
     <div
         id="regionSidebar"
@@ -326,6 +318,17 @@
             </article>
 
             <article class="detail-card">
+            <span>👥</span>
+
+                <div>
+                    <small>Population</small>
+                    <strong id="regionPopulation">
+                         Not added yet
+                    </strong>
+                </div>
+            </article>
+
+            <article class="detail-card">
                 <span>📞</span>
 
                 <div>
@@ -371,7 +374,7 @@
 
 </aside>
 
-<!-- MAP STATUS -->
+
 
 <div
     id="mapStatus"

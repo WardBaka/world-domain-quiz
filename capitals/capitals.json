@@ -1,0 +1,3112 @@
+[
+  {
+    "country": "Netherlands",
+    "capital": "Amsterdam",
+    "cities": [
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen"
+    ],
+    "continent": "Europe",
+    "info": "Amsterdam is the capital and largest city of the Netherlands and its metropolitian area population is over 2.4 million people."
+  },
+  {
+    "country": "Germany",
+    "capital": "Berlin",
+    "cities": [
+      "Berlin",
+      "Hamburg",
+      "Munich",
+      "Cologne",
+      "Frankfurt am Main",
+      "Stuttgart"
+    ],
+    "continent": "Europe",
+    "info": "Berlin is the capital and largest city of Germany with a metropolitian population of over 3.6 million people."
+  },
+  {
+    "country": "France",
+    "capital": "Paris",
+    "cities": [
+      "Paris",
+      "Marseille",
+      "Lyon",
+      "Toulouse",
+      "Nice",
+      "Nantes"
+    ],
+    "continent": "Europe",
+    "info": "France's capital is Paris. It is the largest city in France with a metropolitian population of over 13.2 million people."
+  },
+  {
+    "country": "Belgium",
+    "capital": "Brussels",
+    "cities": [
+      "Brussels",
+      "Antwerp",
+      "Ghent",
+      "Charleroi",
+      "Liège",
+      "Bruges"
+    ],
+    "continent": "Europe",
+    "info": "Brussels is the capital and largest city of Belgium with a metropolitian population of around 2.15 million people."
+  },
+  {
+    "country": "United Kingdom",
+    "capital": "London",
+    "cities": [
+      "London",
+      "Birmingham",
+      "Manchester",
+      "Glasgow",
+      "Liverpool",
+      "Leeds"
+    ],
+    "continent": "Europe",
+    "info": "London is the capital and largest city of the United Kingdom with a metropolitian population of approximately 15.4 million people."
+  },
+  {
+    "country": "United States",
+    "capital": "Washington, D.C.",
+    "cities": [
+      "Washington, D.C.",
+      "New York City",
+      "Los Angeles",
+      "Chicago",
+      "Houston",
+      "Philadelphia"
+    ],
+    "continent": "North America",
+    "info": "Washington D.C. is the capital of the United States with a metro area population of approximately 6.4 million people."
+  },
+  {
+    "country": "Canada",
+    "capital": "Ottawa",
+    "cities": [
+      "Ottawa",
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Calgary",
+      "Edmonton"
+    ],
+    "continent": "North America",
+    "info": "Ottawa is the capital of Canada with a metro area population of about 1.48 million people."
+  },
+  {
+    "country": "Japan",
+    "capital": "Tokyo",
+    "cities": [
+      "Tokyo",
+      "Yokohama",
+      "Osaka",
+      "Nagoya",
+      "Sapporo",
+      "Fukuoka"
+    ],
+    "continent": "Asia",
+    "info": "Tokyo is the capital and most populous city of Japan with an estimated metro area population of over 36.9 million people."
+  },
+  {
+    "country": "China",
+    "capital": "Beijing",
+    "cities": [
+      "Shanghai",
+      "Beijing",
+      "Chongqing",
+      "Chengdu",
+      "Guangzhou",
+      "Shenzhen"
+    ],
+    "continent": "Asia",
+    "info": "Beijing is the capital of China and its metropolitan population is estimated to be 22.9 million people."
+  },
+  {
+    "country": "Australia",
+    "capital": "Canberra",
+    "cities": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Adelaide"
+    ],
+    "continent": "Oceania",
+    "info": "Canberra is the capital of Australia and it has an estimated metro area population of over 523,000 people."
+  },
+  {
+    "country": "New Zealand",
+    "capital": "Wellington",
+    "cities": [
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Hamilton",
+      "Tauranga",
+      "Dunedin"
+    ],
+    "continent": "Oceania",
+    "info": "Wellington is the capital of New Zealand and has an estimated metro area population of over 434,000 people."
+  },
+  {
+    "country": "Brazil",
+    "capital": "Brasília",
+    "cities": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Fortaleza",
+      "Salvador",
+      "Belo Horizonte"
+    ],
+    "continent": "South America",
+    "info": "Brasília is Brazil's capital and boasts a metro area population of over 5 million people."
+  },
+  {
+    "country": "South Africa",
+    "capital": "Pretoria",
+    "cities": [
+      "Johannesburg",
+      "Cape Town",
+      "Durban",
+      "Pretoria",
+      "Soweto",
+      "Gqeberha"
+    ],
+    "continent": "Africa",
+    "info": "South Africa has 3 capitals: Pretoria, Cape Town, and Bloemfontein but they all host a different branch of government. Pretoria serves as the main capital and has a population of 3.29 million people."
+  },
+  {
+    "country": "India",
+    "capital": "New Delhi",
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Kolkata",
+      "Bengaluru",
+      "Chennai",
+      "Hyderabad"
+    ],
+    "continent": "Asia",
+    "info": "New Delhi is India's capital and its' metropolitian population is over 35 million people."
+  },
+  {
+    "country": "Mexico",
+    "capital": "Mexico City",
+    "cities": [
+      "Mexico City",
+      "Oaxaca City",
+      "Guadalajara",
+      "Mérida",
+      "San Miguel de Allende",
+      "Puebla"
+    ],
+    "continent": "North America",
+    "info": "Mexico City is the capital and largest city of Mexico and its metropolition population is around 23 million people."
+  },
+  {
+    "country": "Italy",
+    "capital": "Rome",
+    "cities": [
+      "Rome",
+      "Florence",
+      "Venice",
+      "Milan",
+      "Naples",
+      "Bologna"
+    ],
+    "continent": "Europe",
+    "info": "Rome is the capital and largest city of Italy and its' metropolitian area population is approximately 4.2 million people."
+  },
+  {
+    "country": "Spain",
+    "capital": "Madrid",
+    "cities": [
+      "Madrid",
+      "Barcelona",
+      "Seville",
+      "Valencia",
+      "Granada",
+      "San Sebastián"
+    ],
+    "continent": "Europe",
+    "info": "Madrid is the capital and largest city of Spain and its' metropolitian area is estimated to be about 6.7 million people."
+  },
+  {
+    "country": "Portugal",
+    "capital": "Lisbon",
+    "cities": [
+      "Lisbon",
+      "Porto",
+      "Coimbra",
+      "Braga",
+      "Aveiro",
+      "Funchal"
+    ],
+    "continent": "Europe",
+    "info": "Lisbon is the capital and largest city of Portugal and its' metropolitian area population is over 3 million people."
+  },
+  {
+    "country": "Ireland",
+    "capital": "Dublin",
+    "cities": [
+      "Dublin",
+      "Belfast",
+      "Cork",
+      "Galway",
+      "Limerick",
+      "Derry"
+    ],
+    "continent": "Europe",
+    "info": "Dublin is the capital and largest city of Ireland and its' metropolitian population is about 1.3 million."
+  },
+  {
+    "country": "Poland",
+    "capital": "Warsaw",
+    "cities": [
+      "Warsaw",
+      "Kraków",
+      "Łódź",
+      "Wrocław",
+      "Poznań",
+      "Gdańsk"
+    ],
+    "continent": "Europe",
+    "info": "Warsaw is the capital and largest city of Poland and its' metropolitian area is approximately 1.8 million people."
+  },
+
+  {
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "cities": [
+      "Funafuti",
+      "Savave Village",
+      "Motufoua",
+      "Teava Village",
+      "Tanrake Village",
+      "Tokelau Village"
+    ],
+    "continent": "Oceania",
+    "info": "Funafuti is the capital and largest settlement of Tuvalu with an estimated population of 8,100 people."
+  },
+  {
+    "country": "Micronesia",
+    "capital": "Palikir",
+    "cities": [
+      "Weno",
+      "Palikir",
+      "Colonia",
+      "Tofol",
+      "Kolonia",
+      "Lelu"
+    ],
+    "continent": "Oceania",
+    "info": "Palikir is the capital of Micronesia and its' estimated population is 6,985 people."
+  },
+  {
+    "country": "Guernsey",
+    "capital": "Saint Peter Port",
+    "cities": [
+      "Saint Peter Port",
+      "Vale",
+      "Saint Sampson",
+      "Castel",
+      "Saint Martin",
+      "Saint Andrew"
+    ],
+    "continent": "Europe",
+    "info": "The capital and largest city of Guernsey is Saint Peter Port and its' population is approximately 20,065 people."
+  },
+  {
+    "country": "Jersey",
+    "capital": "St. Helier",
+    "cities": [
+      "St. Helier",
+      "St. Brelade",
+      "St. Saviour",
+      "St. Clement",
+      "Grouville",
+      "St. Aubin"
+    ],
+    "continent": "Europe",
+    "info": "St Helier is the capital and largest parish of Jersey and its' population is approximately 30,000 residents."
+  },
+  {
+    "country": "Albania",
+    "capital": "Tirana",
+    "cities": [
+      "Tirana",
+      "Durrës",
+      "Shkodër",
+      "Vlorë",
+      "Berat",
+      "Gjirokastër"
+    ],
+    "continent": "Europe",
+    "info": "Tirana is the capital and largest city of Albania and its' metropolitian area has an estimated 800,000 residents."
+  },
+  {
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "cities": [
+      "Andorra la Vella",
+      "Escaldes-Engordany",
+      "Encamp",
+      "Sant Julià de Lòria",
+      "La Massana",
+      "Ordino"
+    ],
+    "continent": "Europe",
+    "info": "Andorra la Vella is the capital and largest city of Andorra with a population of approximately 26,658 residents."
+  },
+  {
+    "country": "Austria",
+    "capital": "Vienna",
+    "cities": [
+      "Vienna",
+      "Graz",
+      "Linz",
+      "Salzburg",
+      "Innsbruck",
+      "Klagenfurt"
+    ],
+    "continent": "Europe",
+    "info": "Vienna is the capital and largest city of Austria with an estimated metro area population of 2.02 million people."
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "cities": [
+      "Sarajevo",
+      "Banja Luka",
+      "Tuzla",
+      "Zenica",
+      "Mostar",
+      "Bihać"
+    ],
+    "continent": "Europe",
+    "info": "Sarajevo is the capital and largest city of Bosnia and Herzegovina with an estimated metro area population of ."
+  },
+  {
+    "country": "Bulgaria",
+    "capital": "Sofia",
+    "cities": [
+      "Sofia",
+      "Plovdiv",
+      "Varna",
+      "Burgas",
+      "Ruse",
+      "Stara Zagora"
+    ],
+    "continent": "Europe",
+    "info": "Sofia is the capital and largest city of Bulgaria and its' estimated metropolitian area population is 1.3 million people."
+  },
+  {
+    "country": "Belarus",
+    "capital": "Minsk",
+    "cities": [
+      "Minsk",
+      "Gomel",
+      "Mogilev",
+      "Grodno",
+      "Brest",
+      "Vitebsk"
+    ],
+    "continent": "Europe",
+    "info": "Minsk is the capital and largest city of Belarus and its' metropolitian area population is 2.07 million people."
+  },
+  {
+    "country": "Croatia",
+    "capital": "Zagreb",
+    "cities": [
+      "Dubrovnik",
+      "Split",
+      "Zagreb",
+      "Zadar",
+      "Rijeka",
+      "Pula"
+    ],
+    "continent": "Europe",
+    "info": "Zagreb is the capital and largest city of Croatia and its' metro area population is approximately 1.08 million people."
+  },
+  {
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "cities": [
+      "Nicosia",
+      "Limassol",
+      "Larnaca",
+      "Paphos",
+      "Famagusta",
+      "Kyrenia"
+    ],
+    "continent": "Europe",
+    "info": "Nicosia is the capital and largest city of Cyprus with a metro area population of approximately 330,000 people."
+  },
+  {
+    "country": "Czech Republic",
+    "capital": "Prague",
+    "cities": [
+      "Prague",
+      "Brno",
+      "Ostrava",
+      "Plzeň",
+      "Liberec",
+      "Olomouc"
+    ],
+    "continent": "Europe",
+    "info": "Prague is the capital and largest city of the Czech Republic and its metro area population is an estimated 2.3 million people."
+  },
+  {
+    "country": "Denmark",
+    "capital": "Copenhagen",
+    "cities": [
+      "Copenhagen",
+      "Aarhus",
+      "Odense",
+      "Aalborg",
+      "Esbjerg",
+      "Randers"
+    ],
+    "continent": "Europe",
+    "info": "Copenhagen is the capital and largest city of Denmark and its metropolitian population is 1.4 million people."
+  },
+  {
+    "country": "Estonia",
+    "capital": "Tallinn",
+    "cities": [
+      "Tallinn",
+      "Tartu",
+      "Narva",
+      "Pärnu",
+      "Kohtla-Järve",
+      "Viljandi"
+    ],
+    "continent": "Europe",
+    "info": "Tallinn is the capital and largest city of Estonia and its' metropolitian area population is approximately 460,000 residents."
+  },
+  {
+    "country": "Finland",
+    "capital": "Helsinki",
+    "cities": [
+      "Helsinki",
+      "Espoo",
+      "Tampere",
+      "Vantaa",
+      "Oulu",
+      "Turku"
+    ],
+    "continent": "Europe",
+    "info": "Helsinki is the capital and largest city of Finland with an estimated metropolitian area population of 1.5 million people."
+  },
+  {
+    "country": "Greece",
+    "capital": "Athens",
+    "cities": [
+      "Athens",
+      "Thessaloniki",
+      "Patras",
+      "Heraklion",
+      "Larissa",
+      "Chania"
+    ],
+    "continent": "Europe",
+    "info": "Athens is the capital and largest city of Greece with an estimated metro area population of 3.15 million people."
+  },
+  {
+    "country": "Hungary",
+    "capital": "Budapest",
+    "cities": [
+      "Budapest",
+      "Debrecen",
+      "Szeged",
+      "Miskolc",
+      "Pécs",
+      "Győr"
+    ],
+    "continent": "Europe",
+    "info": "Budapest is the capital and the largest city of Hungary with an estimated metro area population of 2.6 million people."
+  },
+  {
+    "country": "Iceland",
+    "capital": "Reykjavík",
+    "cities": [
+      "Reykjavík",
+      "Kópavogur",
+      "Hafnarfjörður",
+      "Akureyri",
+      "Reykjanesbær",
+      "Garðabær"
+    ],
+    "continent": "Europe",
+    "info": "Reykjavík is the capital and largest city of Iceland and boasts an estimated metropolitian area of 252,000 people."
+  },
+  {
+    "country": "Latvia",
+    "capital": "Riga",
+    "cities": [
+      "Riga",
+      "Daugavpils",
+      "Liepāja",
+      "Jelgava",
+      "Jūrmala",
+      "Ventspils"
+    ],
+    "continent": "Europe",
+    "info": "Riga is the capital and largest city of Latvia and has a approximately 850,000 residents in its metropolitian area."
+  },
+  {
+    "country": "Liechtenstein",
+    "capital": "Vaduz",
+    "cities": [
+      "Schaan",
+      "Vaduz",
+      "Triesen",
+      "Balzers",
+      "Eschen",
+      "Mauren"
+    ],
+    "continent": "Europe",
+    "info": "Vaduz is the capital of Liechtenstein and it has an estimated population of 6,100."
+  },
+  {
+    "country": "Lithuania",
+    "capital": "Vilnius",
+    "cities": [
+      "Vilnius",
+      "Kaunas",
+      "Klaipėda",
+      "Šiauliai",
+      "Panevėžys",
+      "Alytus"
+    ],
+    "continent": "Europe",
+    "info": "Vilnius is the capital and largest city of Lithuania and has an estimated metropolitian area population of 767,907."
+  },
+  {
+    "country": "Luxembourg",
+    "capital": "Luxembourg City",
+    "cities": [
+      "Luxembourg City",
+      "Esch-sur-Alzette",
+      "Differdange",
+      "Dudelange",
+      "Ettelbruck",
+      "Diekirch"
+    ],
+    "continent": "Europe",
+    "info": "Luxembourg City is the capital and largest city of Luxembourg with an estimated population of roughly 137,000."
+  },
+  {
+    "country": "Monaco",
+    "capital": "Monaco",
+    "cities": [
+      "Monte-Carlo",
+      "Monaco-Ville",
+      "La Condamine",
+      "Fontvieille",
+      "Monaco",
+      "La Rousse"
+    ],
+    "continent": "Europe",
+    "info": "Monaco has no true capital city, but Monaco-Ville is the oldest part of the city and serves as the governmental center. The population of Monaco is approximately 40,000."
+  },
+  {
+    "country": "Moldova",
+    "capital": "Chișinău",
+    "cities": [
+      "Chișinău",
+      "Tiraspol",
+      "Bălți",
+      "Bender",
+      "Cahul",
+      "Soroca"
+    ],
+    "continent": "Europe",
+    "info": "Chișinău is the capital and largest city of Moldova and its metropolitian area population is an estimated 720,000."
+  },
+  {
+    "country": "Montenegro",
+    "capital": "Podgorica",
+    "cities": [
+      "Podgorica",
+      "Budva",
+      "Kotor",
+      "Nikšić",
+      "Herceg Novi",
+      "Cetinje"
+    ],
+    "continent": "Europe",
+    "info": "Podgorica is the capital and largest city in Montenegro and has a metropolitian population of approximately 179,000."
+  },
+  {
+    "country": "Norway",
+    "capital": "Oslo",
+    "cities": [
+      "Oslo",
+      "Bergen",
+      "Stavanger/Sandnes",
+      "Trondheim",
+      "Drammen",
+      "Fredrikstad/Sarpsborg"
+    ],
+    "continent": "Europe",
+    "info": "Oslo is the capital and largest city of Norway and has a metropolitian area population of around 1.58 million people."
+  },
+  {
+    "country": "Romania",
+    "capital": "Bucharest",
+    "cities": [
+      "Bucharest",
+      "Cluj-Napoca",
+      "Timișoara",
+      "Iași",
+      "Constanța",
+      "Brașov"
+    ],
+    "continent": "Europe",
+    "info": "Bucharest is the capital and largest city of Romania and has an estimated metropolitian area population of 2.3 million people."
+  },
+  {
+    "country": "Russia",
+    "capital": "Moscow",
+    "cities": [
+      "Moscow",
+      "Saint Petersburg",
+      "Novosibirsk",
+      "Yekaterinburg",
+      "Kazan",
+      "Nizhny Novgorod"
+    ],
+    "continent": "Europe",
+    "info": "Moscow is the capital and largest city of Russia and its metropolitian area population is 21.5 million people."
+  },
+  {
+    "country": "Serbia",
+    "capital": "Belgrade",
+    "cities": [
+      "Belgrade",
+      "Novi Sad",
+      "Niš",
+      "Kragujevac",
+      "Subotica",
+      "Novi Pazar"
+    ],
+    "continent": "Europe",
+    "info": "Belgrade is the capital and largest city of Serbia and its metropolitian area population is 1.68 million people."
+  },
+  {
+    "country": "Slovakia",
+    "capital": "Bratislava",
+    "cities": [
+      "Bratislava",
+      "Košice",
+      "Prešov",
+      "Žilina",
+      "Banská Bystrica",
+      "Trnava"
+    ],
+    "continent": "Europe",
+    "info": "Bratislava is the capital and largest city of Slovakia and boasts a metropolitian area population of approximately 1.3 million people."
+  },
+  {
+    "country": "Slovenia",
+    "capital": "Ljubljana",
+    "cities": [
+      "Ljubljana",
+      "Maribor",
+      "Celje",
+      "Kranj",
+      "Koper",
+      "Velenje"
+    ],
+    "continent": "Europe",
+    "info": "Ljubljana is the capital and largest city of Slovenia and has a metropolitian area population of approximately 290,000 people."
+  },
+  {
+    "country": "Sweden",
+    "capital": "Stockholm",
+    "cities": [
+      "Stockholm",
+      "Gothenburg",
+      "Malmö",
+      "Uppsala",
+      "Linköping",
+      "Västerås"
+    ],
+    "continent": "Europe",
+    "info": "Stockholm is the capital and largest city of Sweden and has a metropolitian area population of approximately 2.48 million people."
+  },
+  {
+    "country": "Switzerland",
+    "capital": "Bern",
+    "cities": [
+      "Zürich",
+      "Geneva",
+      "Bern",
+      "Basel",
+      "Lausanne",
+      "Lugano"
+    ],
+    "continent": "Europe",
+    "info": "Bern is the de facto capital of Switzerland and has a population of approximately 147,000 people."
+  },
+  {
+    "country": "Ukraine",
+    "capital": "Kyiv",
+    "cities": [
+      "Kyiv",
+      "Kharkiv",
+      "Odesa",
+      "Dnipro",
+      "Lviv",
+      "Donetsk"
+    ],
+    "continent": "Europe",
+    "info": "Kyiv is the capital and largest city of Ukraine and has a metropolitian area population of approximately 3.47 million people."
+  },
+  {
+    "country": "Vatican City",
+    "capital": "Vatican City",
+"cities": [
+    "Vatican City",
+    "St. Peter's Square",
+    "Apostolic Palace",
+    "Vatican Gardens",
+    "Governatorate Palace",
+    "Campo Santo Teutonico"
+],
+    "continent": "Europe",
+    "info": "Vatican City is the world's smallest sovereign state. Vatican City serves as both the country and its capital."
+
+  },
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "cities": [
+      "Kabul",
+      "Herat",
+      "Kandahar",
+      "Mazar-i-Sharif",
+      "Jalalabad",
+      "Kunduz"
+    ],
+    "continent": "Asia",
+    "info": "Kabul is the capital and largest city of Afghanistan and has a metropolitian area population of approximately 5.3 million people."
+  },
+  {
+    "country": "Armenia",
+    "capital": "Yerevan",
+    "cities": [
+      "Yerevan",
+      "Gyumri",
+      "Vanadzor",
+      "Vagharshapat",
+      "Dilijan",
+      "Goris"
+    ],
+    "continent": "Asia",
+    "info": "Yerevan is the capital and largest city of Armenia and has a metropolitian area population of approximately 1.1 million people."
+  },
+  {
+    "country": "Azerbaijan",
+    "capital": "Baku",
+    "cities": [
+      "Baku",
+      "Ganja",
+      "Sheki",
+      "Gabala",
+      "Lankaran",
+      "Guba"
+    ],
+    "continent": "Asia",
+    "info": "Baku is the capital and largest city of Azerbaijan and has a metropolitian area population of approximately 2.53 million people."
+  },
+  {
+    "country": "Bahrain",
+    "capital": "Manama",
+    "cities": [
+      "Manama",
+      "Hamad Town",
+      "A'ali",
+      "Muharraq",
+      "Riffa",
+      "Isa Town"
+    ],
+    "continent": "Asia",
+    "info": "Manama is the capital and largest city of Bahrain and has a metropolitian area population of approximately 750,000 people."
+  },
+  {
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "cities": [
+      "Dhaka",
+      "Chattogram",
+      "Khulna",
+      "Sylhet",
+      "Rajshahi",
+      "Cox's Bazar"
+    ],
+    "continent": "Asia",
+    "info": "Dhaka is the capital and largest city of Bangladesh and has a metropolitian area population of approximately 36.6 million people."
+  },
+  {
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "cities": [
+      "Thimphu",
+      "Paro",
+      "Punakha",
+      "Phuentsholing",
+      "Jakar",
+      "Wangdue Phodrang"
+    ],
+    "continent": "Asia",
+    "info": "Thimphu is the capital and largest city of Bhutan and has a population of approximately 141,000 people."
+  },
+  {
+    "country": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "cities": [
+      "Bandar Seri Begawan",
+      "Bangar",
+      "Sengkurong",
+      "Kuala Belait",
+      "Seria",
+      "Tutong"
+    ],
+    "continent": "Asia",
+    "info": "Bandar Seri Begawan is the capital and largest city of Brunei and has a metropolitian population of approximately 318,000 people."
+  },
+  {
+    "country": "Cambodia",
+    "capital": "Phnom Penh",
+    "cities": [
+      "Phnom Penh",
+      "Kampot",
+      "Kep",
+      "Sihanoukville",
+      "Siem Reap",
+      "Battambang"
+    ],
+    "continent": "Asia",
+    "info": "Phnom Penh is the capital and largest city of Cambodia and has a metropolitian population of approximately 2.54 million people."
+  },
+  {
+    "country": "Georgia",
+    "capital": "Tbilisi",
+    "cities": [
+      "Tbilisi",
+      "Mtskheta",
+      "Sighnaghi",
+      "Kutaisi",
+      "Batumi",
+      "Rustavi"
+    ],
+    "continent": "Asia",
+    "info": "Tbilisi is the capital and largest city of Georgia and has a population of approximately 1.37 million people."
+  },
+  {
+    "country": "Hong Kong",
+    "capital": "Hong Kong",
+    "cities": [
+    "Hong Kong",
+    "Kowloon",
+    "Sha Tin",
+    "Tsuen Wan",
+    "Tuen Mun",
+    "Yuen Long"
+],
+    "continent": "Asia",
+    "info": "Hong Kong is a special administrative region of China and serves as its capital."
+  },
+  {
+    "country": "Indonesia",
+    "capital": "Jakarta",
+    "cities": [
+      "Jakarta",
+      "Bali",
+      "Yogyakarta",
+      "Surabaya",
+      "Bandung",
+      "Medan"
+    ],
+    "continent": "Asia",
+    "info": "Jakarta is the capital and largest city of Indonesia and has a metropolitian population of approximately 41.9 million people."
+  },
+  {
+    "country": "Iran",
+    "capital": "Tehran",
+    "cities": [
+      "Tehran",
+      "Isfahan",
+      "Shiraz",
+      "Yazd",
+      "Tabriz",
+      "Kashan"
+    ],
+    "continent": "Asia",
+    "info": "Tehran is the capital and largest city of Iran and has a metropolitian population of approximately 14.5 million people."
+  },
+  {
+    "country": "Iraq",
+    "capital": "Baghdad",
+    "cities": [
+      "Baghdad",
+      "Basra",
+      "Mosul",
+      "Erbil",
+      "Najaf",
+      "Karbala"
+    ],
+    "continent": "Asia",
+    "info": "Baghdad is the capital and largest city of Iraq and has a metropolitian population of approximately 10.1 million people."
+  },
+  {
+    "country": "Israel",
+    "capital": "Jerusalem",
+    "cities": [
+      "Jerusalem",
+      "Tel Aviv",
+      "Haifa",
+      "Ramat Gan",
+      "Bnei Brak",
+      "Ashdod"
+    ],
+    "continent": "Asia",
+    "info": "Jerusalem is the capital and largest city of Israel and has a metropolitan population of approximately 900,000 people."
+  },
+  {
+    "country": "Jordan",
+    "capital": "Amman",
+    "cities": [
+      "Amman",
+      "Zarqa",
+      "Rusayfah",
+      "Irbid",
+      "Aqaba",
+      "Madaba"
+    ],
+    "continent": "Asia",
+    "info": "Amman is the capital and largest city of Jordan and has a population of approximately 3.14 million people."
+  },
+  {
+    "country": "Kazakhstan",
+    "capital": "Astana",
+    "cities": [
+      "Astana",
+      "Almaty",
+      "Shymkent",
+      "Aktobe",
+      "Karaganda",
+      "Aktau"
+    ],
+    "continent": "Asia",
+    "info": "Astana is the capital of Kazakhstan and has a metropolitian population of approximately 1.38 million people."
+  },
+  {
+    "country": "Kuwait",
+    "capital": "Kuwait City",
+    "cities": [
+      "Kuwait City",
+      "Salmiya",
+      "Hawally",
+      "Al Jahra",
+      "Al Ahmadi",
+      "Farwaniyah"
+    ],
+    "continent": "Asia",
+    "info": "Kuwait City is the capital and largest city of Kuwait and has a population of approximately 3.4 million people."
+  },
+  {
+    "country": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "cities": [
+      "Bishkek",
+      "Cholpon-Ata",
+      "Naryn",
+      "Osh",
+      "Jalal-Abad",
+      "Karakol"
+    ],
+    "continent": "Asia",
+    "info": "Bishkek is the capital and largest city of Kyrgyzstan and has a population of approximately 1.3 million people."
+  },
+  {
+    "country": "Laos",
+    "capital": "Vientiane",
+    "cities": [
+      "Vientiane",
+      "Pakse",
+      "Phonsavan",
+      "Vang Vieng",
+      "Luang Prabang",
+      "Thakhek"
+    ],
+    "continent": "Asia",
+    "info": "Vientiane is the capital and largest city of Laos and has a metropolitan area population of approximately 775,000 people."
+  },
+  {
+    "country": "Lebanon",
+    "capital": "Beirut",
+    "cities": [
+      "Tripoli",
+      "Tyre",
+      "Jounieh",
+      "Beirut",
+      "Byblos",
+      "Sidon"
+    ],
+    "continent": "Asia",
+    "info": "Beirut is the capital and largest city of Lebanon and has a metropolitan area population of approximately 2.36 million people."
+  },
+  {
+    "country": "Macau",
+    "capital": "Macau",
+    "cities": [
+      "Macau",
+      "Taipa",
+      "Coloane",
+      "Cotai",
+      "Nossa Senhora de Fátima",
+      "São Lourenço"
+    ],
+    "continent": "Asia",
+    "info": "Macau is a special administrative region of China and serves as its capital."
+  },
+  {
+    "country": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "cities": [
+      "Kuala Lumpur",
+      "George Town",
+      "Malacca",
+      "Kota Kinabalu",
+      "Ipoh",
+      "Johor Bahru"
+    ],
+    "continent": "Asia",
+    "info": "Kuala Lumpur is the capital and largest city of Malaysia and has a metropolitan area population of approximately 8.4 million people."
+  },
+  {
+    "country": "Maldives",
+    "capital": "Malé",
+    "cities": [
+      "Malé",
+      "Hulhumale",
+      "Maafushi",
+      "Fuvahmulah",
+      "Naifaru",
+      "Dhidhdhoo"
+    ],
+    "continent": "Asia",
+    "info": "Malé is the capital and largest city of the Maldives and has a population of approximately 250,000 people."
+  },
+  {
+    "country": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "cities": [
+      "Ulaanbaatar",
+      "Darkhan",
+      "Erdenet",
+      "Murun",
+      "Khovd",
+      "Ölgii"
+    ],
+    "continent": "Asia",
+    "info": "Ulaanbaatar is the capital and largest city of Mongolia and has a metropolitan population of approximately 1.74 million people."
+  },
+  {
+    "country": "Myanmar",
+    "capital": "Naypyidaw",
+    "cities": [
+      "Naypyidaw",
+      "Yangon",
+      "Mandalay",
+      "Bagan",
+      "Inle Lake",
+      "Kalaw"
+    ],
+    "continent": "Asia",
+    "info": "Naypyidaw is the capital of Myanmar and has a population of approximately 1.2 million people."
+  },
+  {
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "cities": [
+      "Kathmandu",
+      "Pokhara",
+      "Lalitpur",
+      "Bhaktapur",
+      "Lumbini",
+      "Bharatpur"
+    ],
+    "continent": "Asia",
+    "info": "Kathmandu is the capital and largest city of Nepal and has a metropolitan population of approximately 1.72 million people."
+  },
+  {
+    "country": "North Korea",
+    "capital": "Pyongyang",
+    "cities": [
+      "Pyongyang",
+      "Hamhung",
+      "Chongjin",
+      "Wonsan",
+      "Kaesong",
+      "Sinuiju"
+    ],
+    "continent": "Asia",
+    "info": "Pyongyang is the capital and largest city of North Korea and has a metropolitan area population of approximately 3.4 million people."
+  },
+  {
+    "country": "Oman",
+    "capital": "Muscat",
+    "cities": [
+      "Muscat",
+      "Nizwa",
+      "Sur",
+      "Khasab",
+      "Salalah",
+      "Sohar"
+    ],
+    "continent": "Asia",
+    "info": "Muscat is the capital and largest city of Oman and has a metropolitan population of approximately 1.54 million people."
+  },
+  {
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "cities": [
+      "Islamabad",
+      "Rawalpindi",
+      "Multan",
+      "Karachi",
+      "Lahore",
+      "Faisalabad"
+    ],
+    "continent": "Asia",
+    "info": "Islamabad is the capital and largest city of Pakistan and has a metropolitan population of approximately 1.23 million people."
+  },
+  {
+    "country": "Palestine",
+    "capital": "Jerusalem",
+    "cities": [
+      "Jerusalem",
+      "Ramallah",
+      "Gaza City",
+      "Khan Yunis",
+      "Hebron",
+      "Nablus"
+    ],
+    "continent": "Asia",
+    "info": "Jerusalem is claimed as the capital by both Israel and Palestine. The population of Jerusalem is approximately 900,000 people."
+  },
+  {
+    "country": "Philippines",
+    "capital": "Manila",
+    "cities": [
+      "Manila",
+      "Davao City",
+      "Quezon City",
+      "Cebu City",
+      "Makati City",
+      "Puerto Princesa"
+    ],
+    "continent": "Asia",
+    "info": "Manila is the capital and largest city of the Philippines and has a metropolitan population of approximately 15.5 million people."
+  },
+  {
+    "country": "Qatar",
+    "capital": "Doha",
+    "cities": [
+      "Doha",
+      "Ar-Rayyan",
+      "Umm Salal Mohammed",
+      "Al Wakrah",
+      "Dukhan",
+      "Al Khor"
+    ],
+    "continent": "Asia",
+    "info": "Doha is the capital and largest city of Qatar and has a metropolitian area population of approximately 1.17 million people."
+  },
+  {
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
+    "cities": [
+      "Riyadh",
+      "Jeddah",
+      "Dammam",
+      "Mecca",
+      "Medina",
+      "AlUla"
+    ],
+    "continent": "Asia",
+    "info": "Riyadh is the capital and largest city of Saudi Arabia and has a metropolitan area population of approximately 8.5 million people."
+  },
+  {
+    "country": "Singapore",
+    "capital": "Singapore",
+    "cities": [
+      "Singapore",
+      "Marina Bay",
+      "Orchard Road",
+      "Chinatown",
+      "Sentosa",
+      "Clarke Quay"
+    ],
+    "continent": "Asia",
+    "info": "Singpore is the capital of Singapore and has a population of approximately 5.9 million people."
+  },
+  {
+    "country": "South Korea",
+    "capital": "Seoul",
+    "cities": [
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daegu",
+      "Daejeon",
+      "Gwangju"
+    ],
+    "continent": "Asia",
+    "info": "Seoul is the capital and largest city of South Korea and has a metropolitan population of approximately 26 million people."
+  },
+  {
+    "country": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "cities": [
+      "Sri Jayawardenepura Kotte",
+      "Colombo",
+      "Kandy",
+      "Galle",
+      "Jaffna",
+      "Negombo"
+    ],
+    "continent": "Asia",
+    "info": "Sri Jayawardenepura Kotte is the capital of Sri Lanka and has a population of approximately 150,000 people."
+  },
+  {
+    "country": "Syria",
+    "capital": "Damascus",
+    "cities": [
+      "Damascus",
+      "Aleppo",
+      "Homs",
+      "Latakia",
+      "Hama",
+      "Palmyra"
+    ],
+    "continent": "Asia",
+    "info": "Damascus is the capital and largest city of Syria and has a metropolitan population of approximately 1.46 million people."
+  },
+  {
+    "country": "Taiwan",
+    "capital": "Taipei",
+    "cities": [
+      "Taipei",
+      "New Taipei City",
+      "Kaohsiung",
+      "Taoyuan",
+      "Tainan",
+      "Taichung"
+    ],
+    "continent": "Asia",
+    "info": "Taipei is the capital of Taiwan and has a population of approximately 2.5 million people."
+  },
+  {
+    "country": "Tajikistan",
+    "capital": "Dushanbe",
+    "cities": [
+      "Dushanbe",
+      "Khujand",
+      "Kulob",
+      "Bokhtar",
+      "Istaravshan",
+      "Vahdat"
+    ],
+    "continent": "Asia",
+    "info": "Dushanbe is the capital and largest city of Tajikistan and has a metropolitan population of approximately 1.27 million people."
+  },
+  {
+    "country": "Thailand",
+    "capital": "Bangkok",
+    "cities": [
+      "Bangkok",
+      "Chiang Mai",
+      "Phuket",
+      "Pattaya",
+      "Krabi",
+      "Chiang Rai"
+    ],
+    "continent": "Asia",
+    "info": "Bangkok is the capital and largest city of Thailand and has a metropolitan population of approximately 11.5 million people."
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "cities": [
+      "Dili",
+      "Baucau",
+      "Lospalos",
+      "Pante Macassar",
+      "Maliana",
+      "Gleno"
+    ],
+    "continent": "Asia",
+    "info": "Dili is the capital and largest city of Timor-Leste and has a metropolitan population of approximately 285,000 people."
+  },
+  {
+    "country": "Turkmenistan",
+    "capital": "Ashgabat",
+    "cities": [
+      "Ashgabat",
+      "Türkmenabat",
+      "Daşoguz",
+      "Mary",
+      "Balkanabat",
+      "Turkmenbashy"
+    ],
+    "continent": "Asia",
+    "info": "Ashgabat is the capital and largest city of Turkmenistan and has a metropolitan population of approximately 1.1 million people."
+  },
+  {
+    "country": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "cities": [
+      "Abu Dhabi",
+      "Dubai",
+      "Sharjah",
+      "Al Ain",
+      "Ajman",
+      "Ras Al Khaimah"
+    ],
+    "continent": "Asia",
+    "info": "Abu Dhabi is the capital of the United Arab Emirates and has a metropolitan population of approximately 3.2 million people."
+  },
+  {
+    "country": "Uzbekistan",
+    "capital": "Tashkent",
+    "cities": [
+      "Tashkent",
+      "Samarkand",
+      "Namangan",
+      "Andijan",
+      "Bukhara",
+      "Fergana"
+    ],
+    "continent": "Asia",
+    "info": "Tashkent is the capital and largest city of Uzbekistan and has a metropolitan population of approximately 2.6 million people."
+  },
+  {
+    "country": "Vietnam",
+    "capital": "Hanoi",
+    "cities": [
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Da Nang",
+      "Hải Phòng",
+      "Hoi An",
+      "Can Tho"
+    ],
+    "continent": "Asia",
+    "info": "Hanoi is the capital of Vietnam and has a metropolitan population of approximately 9.17 million people."
+  },
+  {
+    "country": "Yemen",
+    "capital": "Sana'a",
+    "cities": [
+      "Sana'a",
+      "Aden",
+      "Taiz",
+      "Al Hudaydah",
+      "Ibb",
+      "Mukalla"
+    ],
+    "continent": "Asia",
+    "info": "Sana'a is the capital and largest city of Yemen and has a metropolitan population of approximately 5.2 million people."
+  },
+  {
+    "country": "Algeria",
+    "capital": "Algiers",
+    "cities": [
+      "Algiers",
+      "Oran",
+      "Blida",
+      "Constantine",
+      "Annaba",
+      "Batna"
+    ],
+    "continent": "Africa",
+    "info": "Algiers is the capital and largest city of Algeria and has a metropolitan population of approximately 4.3 million people."
+  },
+  {
+    "country": "Angola",
+    "capital": "Luanda",
+    "cities": [
+      "Luanda",
+      "Lubango",
+      "Cabinda",
+      "Malanje",
+      "Luena",
+      "Cuito"
+    ],
+    "continent": "Africa",
+    "info": "Luanda is the capital and largest city of Angola and has a metropolitan population of approximately 10.4 million people."
+  },
+  {
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "cities": [
+      "Porto-Novo",
+      "Cotonou",
+      "Abomey-Calavi",
+      "Parakou",
+      "Godomè",
+      "Abomey"
+    ],
+    "continent": "Africa",
+    "info": "Porto-Novo is the capital of Benin and has a population of approximately 314,000 people."
+  },
+  {
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "cities": [
+      "Gaborone",
+      "Francistown",
+      "Molepolole",
+      "Mogoditshane",
+      "Maun",
+      "Selebi-Phikwe"
+    ],
+    "continent": "Africa",
+    "info": "Gaborone is the capital and largest city of Botswana and has a population of approximately 535,000 people."
+  },
+  {
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "cities": [
+      "Ouagadougou",
+      "Bobo-Dioulasso",
+      "Kaya",
+      "Banfora",
+      "Koudougou",
+      "Fada N'Gourma"
+    ],
+    "continent": "Africa",
+    "info": "Ouagadougou is the capital and largest city of Burkina Faso and has a metropolitan population of approximately 3.15 million people."
+  },
+  {
+    "country": "Burundi",
+    "capital": "Gitega",
+    "cities": [
+      "Gitega",
+      "Bujumbura",
+      "Ngozi",
+      "Muyinga",
+      "Ruyigi",
+      "Rumonge"
+    ],
+    "continent": "Africa",
+    "info": "Gitega is the capital of Burundi and has a population of approximately 100,000 people."
+  },
+  {
+    "country": "Cameroon",
+    "capital": "Yaoundé",
+    "cities": [
+      "Yaoundé",
+      "Douala",
+      "Garoua",
+      "Bafoussam",
+      "Maroua",
+      "Bamenda"
+    ],
+    "continent": "Africa",
+    "info": "Yaoundé is the capital of Cameroon and has a metropolitan population of approximately 4.7 million people."
+  },
+  {
+    "country": "Cape Verde",
+    "capital": "Praia",
+    "cities": [
+      "Praia",
+      "Mindelo",
+      "Santa Maria",
+      "Espargos",
+      "Assomada",
+      "Pedra Badejo"
+    ],
+    "continent": "Africa",
+    "info": "Praia is the capital of Cape Verde and has a metropolitan population of approximately 185,000 people."
+  },
+  {
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "cities": [
+      "Bangui",
+      "Bimbo",
+      "Bégoua",
+      "Carnot",
+      "Berbérati",
+      "Bambari"
+    ],
+    "continent": "Africa",
+    "info": "Bangui is the capital and largest city of the Central African Republic and has a population of approximately 942,000 people."
+  },
+  {
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "cities": [
+      "N'Djamena",
+      "Abéché",
+      "Moundou",
+      "Sarh",
+      "Mongo",
+      "Am Timan"
+    ],
+    "continent": "Africa",
+    "info": "N'Djamena is the capital and largest city of Chad and has a population of approximately 1.8 million people."
+  },
+  {
+    "country": "Comoros",
+    "capital": "Moroni",
+    "cities": [
+      "Moroni",
+      "Mutsamudu",
+      "Fomboni",
+      "Domoni",
+      "Ouani",
+      "Sima"
+    ],
+    "continent": "Africa",
+    "info": "Moroni is the capital and largest city of Comoros and has a population of approximately 90,000 people."
+  },
+  {
+    "country": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "cities": [
+      "Brazzaville",
+      "Pointe-Noire",
+      "Dolisie",
+      "Nkayi",
+      "Ouésso",
+      "Kintélé"
+    ],
+    "continent": "Africa",
+    "info": "Brazzaville is the capital and largest city of the Republic of the Congo and has a population of approximately 2.32 million people."
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "cities": [
+      "Kinshasa",
+      "Lubumbashi",
+      "Beni",
+      "Kananga",
+      "Tshikapa",
+      "Bukavu"
+    ],
+    "continent": "Africa",
+    "info": "Kinshasa is the capital and largest city of the Democratic Republic of the Congo and has a population of approximately 21.9 million people."
+  },
+  {
+    "country": "Djibouti",
+    "capital": "Djibouti City",
+    "cities": [
+      "Djibouti City",
+      "Ali Sabieh",
+      "Tadjourah",
+      "Dikhil",
+      "Arta",
+      "Obock"
+    ],
+    "continent": "Africa",
+    "info": "Djibouti City is the capital and largest city of Djibouti and has a population of approximately 800,000 people."
+  },
+  {
+    "country": "Egypt",
+    "capital": "Cairo",
+    "cities": [
+      "Cairo",
+      "Luxor",
+      "Alexandria",
+      "Giza",
+      "Aswan",
+      "Sharm El Sheikh"
+    ],
+    "continent": "Africa",
+    "info": "Cairo is the capital and largest city of Egypt and has a metropolitan population of approximately 21.9 million people."
+  },
+  {
+    "country": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "cities": [
+      "Ciudad de la Paz",
+      "Bata",
+      "Malabo",
+      "Mongomo",
+      "Ebebiyín",
+      "Evinayong"
+    ],
+    "continent": "Africa",
+    "info": "Ciudad de la Paz is the capital of Equatorial Guinea and has a population of approximately 330,000 people."
+  },
+  {
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "cities": [
+      "Asmara",
+      "Massawa",
+      "Keren",
+      "Assab",
+      "Mendefera",
+      "Dekemhare"
+    ],
+    "continent": "Africa",
+    "info": "Asmara is the capital and largest city of Eritrea and has a population of approximately 783,000 people."
+  },
+  {
+    "country": "Eswatini",
+    "capital": "Mbabane",
+    "cities": [
+      "Mbabane",
+      "Lobamba",
+      "Manzini",
+      "Siteki",
+      "Nhlangano",
+      "Piggs Peak"
+    ],
+    "continent": "Africa",
+    "info": "Mbabane is the capital and largest city of Eswatini and has a population of approximately 100,000 people."
+  },
+  {
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "cities": [
+      "Addis Ababa",
+      "Gondar",
+      "Bahir Dar",
+      "Harar",
+      "Dire Dawa",
+      "Hawassa"
+    ],
+    "continent": "Africa",
+    "info": "Addis Ababa is the capital and largest city of Ethiopia and has a population of approximately 4.22 million people."
+  },
+  {
+    "country": "Gabon",
+    "capital": "Libreville",
+    "cities": [
+      "Libreville",
+      "Port-Gentil",
+      "Franceville",
+      "Oyem",
+      "Moanda",
+      "Lambaréné"
+    ],
+    "continent": "Africa",
+    "info": "Libreville is the capital and largest city of Gabon and has a population of approximately 920,000 people."
+  },
+  {
+    "country": "The Gambia",
+    "capital": "Banjul",
+    "cities": [
+      "Banjul",
+      "Serekunda",
+      "Brikama",
+      "Farafenni",
+      "Bakau",
+      "Janjanbureh"
+    ],
+    "continent": "Africa",
+    "info": "Banjul is the capital of The Gambia and has a metropolitan area population of approximately 527,000 people."
+  },
+  {
+    "country": "Ghana",
+    "capital": "Accra",
+    "cities": [
+      "Accra",
+      "Kumasi",
+      "Tamale",
+      "Sekondi-Takoradi",
+      "Cape Coast",
+      "Tema"
+    ],
+    "continent": "Africa",
+    "info": "Accra is the capital and largest city of Ghana and has a population of approximately 2.95 million people."
+  },
+  {
+    "country": "Guinea",
+    "capital": "Conakry",
+    "cities": [
+      "Conakry",
+      "Coyah",
+      "Siguiri",
+      "Kankan",
+      "Nzérékoré",
+      "Labé"
+    ],
+    "continent": "Africa",
+    "info": "Conakry is the capital and largest city of Guinea and has a population of approximately 2.2 million people."
+  },
+  {
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "cities": [
+      "Bissau",
+      "Gabú",
+      "Bafatá",
+      "Bissorã",
+      "Farim",
+      "Canchungo"
+    ],
+    "continent": "Africa",
+    "info": "Bissau is the capital and largest city of Guinea-Bissau and has a population of approximately 795,000 people."
+  },
+  {
+    "country": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "cities": [
+      "Yamoussoukro",
+      "Abidjan",
+      "Bouaké",
+      "Daloa",
+      "Korhogo",
+      "San-Pédro"
+    ],
+    "continent": "Africa",
+    "info": "Yamoussoukro is the capital of Ivory Coast and has a population of approximately 270,000 people."
+  },
+  {
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "cities": [
+      "Nairobi",
+      "Mombasa",
+      "Kisumu",
+      "Nakuru",
+      "Eldoret",
+      "Ruiru"
+    ],
+    "continent": "Africa",
+    "info": "Nairobi is the capital and largest city of Kenya and has a population of approximately 5.6 million people."
+  },
+  {
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "cities": [
+      "Maseru",
+      "Teyateyaneng",
+      "Maputsoe",
+      "Hlotse (Leribe)",
+      "Mohale's Hoek",
+      "Mafeteng"
+    ],
+    "continent": "Africa",
+    "info": "Maseru is the capital and largest city of Lesotho and has a population of approximately 518,000 people."
+  },
+  {
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "cities": [
+      "Monrovia",
+      "Gbarnga",
+      "Buchanan",
+      "Ganta",
+      "Kakata",
+      "Zwedru"
+    ],
+    "continent": "Africa",
+    "info": "Monrovia is the capital and largest city of Liberia and has a population of approximately 2.4 million people."
+  },
+  {
+    "country": "Libya",
+    "capital": "Tripoli",
+    "cities": [
+      "Tripoli",
+      "Benghazi",
+      "Misrata",
+      "Al Bayda",
+      "Zliten",
+      "Az-Zāwiyah"
+    ],
+    "continent": "Africa",
+    "info": "Tripoli is the capital and largest city of Libya and has a population of approximately 1.51 million people."
+  },
+  {
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "cities": [
+      "Antananarivo",
+      "Toamasina",
+      "Antsirabe",
+      "Mahajanga",
+      "Fianarantsoa",
+      "Toliara"
+    ],
+    "continent": "Africa",
+    "info": "Antananarivo is the capital and largest city of Madagascar and has a population of approximately 2.56 million people."
+  },
+  {
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "cities": [
+      "Lilongwe",
+      "Blantyre",
+      "Mzuzu",
+      "Zomba",
+      "Karonga",
+      "Mangochi"
+    ],
+    "continent": "Africa",
+    "info": "Lilongwe is the capital and largest city of Malawi and has a population of approximately 1.34 million people."
+  },
+  {
+    "country": "Mali",
+    "capital": "Bamako",
+    "cities": [
+      "Bamako",
+      "Sikasso",
+      "Ségou",
+      "Koutiala",
+      "Kayes",
+      "Mopti"
+    ],
+    "continent": "Africa",
+    "info": "Bamako is the capital and largest city of Mali and has a population of approximately 4 million people."
+  },
+  {
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "cities": [
+      "Nouakchott",
+      "Nouadhibou",
+      "Chinguetti",
+      "Atar",
+      "Ouadane",
+      "Kaédi"
+    ],
+    "continent": "Africa",
+    "info": "Nouakchott is the capital and largest city of Mauritania and has a population of approximately 1.64 million people."
+  },
+  {
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "cities": [
+      "Port Louis",
+      "Grand Baie",
+      "Flic en Flac",
+      "Curepipe",
+      "Mahébourg",
+      "Beau Bassin-Rose Hill"
+    ],
+    "continent": "Africa",
+    "info": "Port Louis is the capital and largest city of Mauritius and has a population of approximately 145,000 people."
+  },
+  {
+    "country": "Morocco",
+    "capital": "Rabat",
+    "cities": [
+      "Rabat",
+      "Essaouira",
+      "Marrakech",
+      "Casablanca",
+      "Chefchaouen",
+      "Tangier"
+    ],
+    "continent": "Africa",
+    "info": "Rabat is the capital of Morocco and has a population of approximately 550,000 people."
+  },
+  {
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "cities": [
+      "Maputo",
+      "Matola",
+      "Nampula",
+      "Beira",
+      "Chimoio",
+      "Quelimane"
+    ],
+    "continent": "Africa",
+    "info": "Maputo is the capital and largest city of Mozambique and has a population of approximately 1.2 million people."
+  },
+  {
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "cities": [
+      "Windhoek",
+      "Swakopmund",
+      "Walvis Bay",
+      "Lüderitz",
+      "Rundu",
+      "Oshakati"
+    ],
+    "continent": "Africa",
+    "info": "Windhoek is the capital and largest city of Namibia and has a population of approximately 540,000 people."
+  },
+  {
+    "country": "Niger",
+    "capital": "Niamey",
+    "cities": [
+      "Niamey",
+      "Maradi",
+      "Zinder",
+      "Tahoua",
+      "Agadez",
+      "Arlit"
+    ],
+    "continent": "Africa",
+    "info": "Niamey is the capital and largest city of Niger and has a population of approximately 1.52 million people."
+  },
+  {
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "cities": [
+      "Abuja",
+      "Lagos",
+      "Ibadan",
+      "Kano",
+      "Port Harcourt",
+      "Benin City"
+    ],
+    "continent": "Africa",
+    "info": "Abuja is the capital of Nigeria and has a population of approximately 2.15 million people."
+  },
+  {
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "cities": [
+      "Kigali",
+      "Musanze",
+      "Gisenyi",
+      "Huye",
+      "Kibuye",
+      "Muhanga"
+    ],
+    "continent": "Africa",
+    "info": "Kigali is the capital and largest city of Rwanda and has a population of approximately 2.07 million people."
+  },
+  {
+    "country": "Senegal",
+    "capital": "Dakar",
+    "cities": [
+      "Dakar",
+      "Touba",
+      "Thiès",
+      "Saint-Louis",
+      "Kaolack",
+      "Ziguinchor"
+    ],
+    "continent": "Africa",
+    "info": "Dakar is the capital and largest city of Senegal and has a population of approximately 1.06 million people."
+  },
+  {
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "cities": [
+      "Victoria",
+      "Beau Vallon",
+      "Anse Royale",
+      "Grand Anse",
+      "Anse Volbert",
+      "La Passe"
+    ],
+    "continent": "Africa",
+    "info": "Victoria is the capital and largest city of Seychelles and has a population of approximately 5,000 people."
+  },
+  {
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "cities": [
+      "Freetown",
+      "Kenema",
+      "Bo",
+      "Koidu",
+      "Makeni",
+      "Waterloo"
+    ],
+    "continent": "Africa",
+    "info": "Freetown is the capital and largest city of Sierra Leone and has a population of approximately 1.3 million people."
+  },
+  {
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "cities": [
+      "Mogadishu",
+      "Hargeisa",
+      "Kismayo",
+      "Bosaso",
+      "Berbera",
+      "Galkayo"
+    ],
+    "continent": "Africa",
+    "info": "Mogadishu is the capital and largest city of Somalia and has a population of approximately 3.3 million people."
+  },
+  {
+    "country": "South Sudan",
+    "capital": "Juba",
+    "cities": [
+      "Juba",
+      "Wau",
+      "Malakal",
+      "Bor",
+      "Yambio",
+      "Aweil"
+    ],
+    "continent": "Africa",
+    "info": "Juba is the capital and largest city of South Sudan and has a population of approximately 500,000 people."
+  },
+  {
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "cities": [
+      "Khartoum",
+      "Omdurman",
+      "Khartoum North",
+      "Nyala",
+      "Port Sudan",
+      "Kassala"
+    ],
+    "continent": "Africa",
+    "info": "Khartoum is the capital and largest city of Sudan and has a population of approximately 2.27 million people."
+  },
+  {
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "cities": [
+      "Dodoma",
+      "Dar es Salaam",
+      "Mwanza",
+      "Arusha",
+      "Zanzibar City",
+      "Mbeya"
+    ],
+    "continent": "Africa",
+    "info": "Dodoma is the capital of Tanzania and has a population of approximately 930,000 people."
+  },
+  {
+    "country": "Togo",
+    "capital": "Lomé",
+    "cities": [
+      "Lomé",
+      "Sokodé",
+      "Kara",
+      "Kpalimé",
+      "Atakpamé",
+      "Dapaong"
+    ],
+    "continent": "Africa",
+    "info": "Lomé is the capital and largest city of Togo and has a population of approximately 840,000 people."
+  },
+  {
+    "country": "Tunisia",
+    "capital": "Tunis",
+    "cities": [
+      "Tunis",
+      "Sidi Bou Said",
+      "Sousse",
+      "Hammamet",
+      "Kairouan",
+      "Houmt Souk"
+    ],
+    "continent": "Africa",
+    "info": "Tunis is the capital and largest city of Tunisia and has a population of approximately 470,000 people."
+  },
+  {
+    "country": "Uganda",
+    "capital": "Kampala",
+    "cities": [
+      "Kampala",
+      "Entebbe",
+      "Jinja",
+      "Fort Portal",
+      "Mbarara",
+      "Gulu"
+    ],
+    "continent": "Africa",
+    "info": "Kampala is the capital and largest city of Uganda and has a population of approximately 1.86 million people."
+  },
+  {
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "cities": [
+      "Lusaka",
+      "Kitwe",
+      "Ndola",
+      "Livingstone",
+      "Chipata",
+      "Kabwe"
+    ],
+    "continent": "Africa",
+    "info": "Lusaka is the capital and largest city of Zambia and has a population of approximately 2.39 million people."
+  },
+  {
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "cities": [
+      "Harare",
+      "Bulawayo",
+      "Victoria Falls",
+      "Mutare",
+      "Masvingo",
+      "Gweru"
+    ],
+    "continent": "Africa",
+    "info": "Harare is the capital and largest city of Zimbabwe and has a population of approximately 1.5 million people."
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "cities": [
+      "St. John's",
+      "All Saints",
+      "English Harbour",
+      "Codrington",
+      "Jolly Harbour",
+      "Liberta"
+    ],
+    "continent": "North America",
+    "info": "St. John's is the capital and largest city of Antigua and Barbuda and has a population of approximately 25,000 people."
+  },
+  {
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "cities": [
+      "Nassau",
+      "Freeport",
+      "George Town",
+      "Alice Town",
+      "Marsh Harbour",
+      "Spanish Wells"
+    ],
+    "continent": "North America",
+    "info": "Nassau is the capital and largest city of the Bahamas and has a population of approximately 315,000 people."
+  },
+  {
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "cities": [
+      "Bridgetown",
+      "Holetown",
+      "Oistins",
+      "Speightstown",
+      "Bathsheba",
+      "St. Lawrence Gap"
+    ],
+    "continent": "North America",
+    "info": "Bridgetown is the capital and largest city of Barbados and has a population of approximately 75,000 people."
+  },
+  {
+    "country": "Belize",
+    "capital": "Belmopan",
+    "cities": [
+      "Belize City",
+      "San Pedro",
+      "San Ignacio",
+      "Placencia",
+      "Caye Caulker",
+      "Belmopan"
+    ],
+    "continent": "North America",
+    "info": "Belmopan is the capital of Belize and has a population of approximately 25,000 people."
+  },
+  {
+    "country": "Costa Rica",
+    "capital": "San José",
+    "cities": [
+      "San José",
+      "La Fortuna",
+      "Tamarindo",
+      "Quepos",
+      "Puerto Viejo de Talamanca",
+      "Liberia"
+    ],
+    "continent": "North America",
+    "info": "San José is the capital and largest city of Costa Rica and has a population of approximately 360,000 people."
+  },
+  {
+    "country": "Cuba",
+    "capital": "Havana",
+    "cities": [
+      "Havana",
+      "Trinidad",
+      "Santiago de Cuba",
+      "Cienfuegos",
+      "Camagüey",
+      "Santa Clara"
+    ],
+    "continent": "North America",
+    "info": "Havana is the capital and largest city of Cuba and has a population of approximately 1.58 million people."
+  },
+  {
+    "country": "Dominica",
+    "capital": "Roseau",
+    "cities": [
+      "Roseau",
+      "Portsmouth",
+      "Marigot",
+      "Berekua",
+      "Soufrière",
+      "Calibishie"
+    ],
+    "continent": "North America",
+    "info": "Roseau is the capital and largest city of Dominica and has a population of approximately 15,000 people."
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "cities": [
+      "Santo Domingo",
+      "Punta Cana",
+      "Puerto Plata",
+      "Samaná",
+      "La Romana",
+      "Jarabacoa"
+    ],
+    "continent": "North America",
+    "info": "Santo Domingo is the capital and largest city of the Dominican Republic and has a population of approximately 1.03 million people."
+  },
+  {
+    "country": "El Salvador",
+    "capital": "San Salvador",
+    "cities": [
+      "San Salvador",
+      "Santa Ana",
+      "Suchitoto",
+      "Concepción de Ataco",
+      "San Miguel",
+      "Santa Tecla"
+    ],
+    "continent": "North America",
+    "info": "San Salvador is the capital and largest city of El Salvador and has a population of approximately 340,000 people."
+  },
+  {
+    "country": "Grenada",
+    "capital": "St. George's",
+    "cities": [
+      "St. George's",
+      "Grenville",
+      "St. David's",
+      "Gouyave",
+      "Sauteurs",
+      "Hillsborough"
+    ],
+    "continent": "North America",
+    "info": "St. George's is the capital and largest city of Grenada and has a population of approximately 50,000 people."
+  },
+  {
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "cities": [
+      "Guatemala City",
+      "Antigua Guatemala",
+      "Flores",
+      "Quetzaltenango",
+      "Panajachel",
+      "Livingston"
+    ],
+    "continent": "North America",
+    "info": "Guatemala City is the capital and largest city of Guatemala and has a population of approximately 915,000 million people."
+  },
+  {
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "cities": [
+      "Port-au-Prince",
+      "Cap-Haïtien",
+      "Jacmel",
+      "Les Cayes",
+      "Gonaïves",
+      "Pétion-Ville"
+    ],
+    "continent": "North America",
+    "info": "Port-au-Prince is the capital and largest city of Haiti and has a population of approximately 1.63 million people."
+  },
+  {
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "cities": [
+      "Tegucigalpa",
+      "San Pedro Sula",
+      "Roatán",
+      "La Ceiba",
+      "Copán Ruinas",
+      "Comayagua"
+    ],
+    "continent": "North America",
+    "info": "Tegucigalpa is the capital and largest city of Honduras and has a population of approximately 1.17 million people."
+  },
+  {
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "cities": [
+      "Kingston",
+      "Montego Bay",
+      "Ocho Rios",
+      "Port Antonio",
+      "Negril",
+      "Falmouth"
+    ],
+    "continent": "North America",
+    "info": "Kingston is the capital and largest city of Jamaica and has a population of approximately 75,000 people."
+  },
+  {
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "cities": [
+      "Managua",
+      "Granada",
+      "León",
+      "San Juan del Sur",
+      "Masaya",
+      "Matagalpa"
+    ],
+    "continent": "North America",
+    "info": "Managua is the capital and largest city of Nicaragua and has a population of approximately 1.06 million people."
+  },
+  {
+    "country": "Panama",
+    "capital": "Panama City",
+    "cities": [
+      "Panama City",
+      "Boquete",
+      "Colón",
+      "David",
+      "Bocas Town",
+      "Pedasí"
+    ],
+    "continent": "North America",
+    "info": "Panama City is the capital and largest city of Panama and has a population of approximately 410,000 people."
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "cities": [
+      "Basseterre",
+      "Charlestown",
+      "Frigate Bay",
+      "Sandy Point Town",
+      "Dieppe Bay Town",
+      "Cayon"
+    ],
+    "continent": "North America",
+    "info": "Basseterre is the capital and largest city of Saint Kitts and Nevis and has a population of approximately 15,000 people."
+  },
+  {
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "cities": [
+      "Castries",
+      "Gros Islet",
+      "Soufrière",
+      "Rodney Bay",
+      "Marigot Bay",
+      "Vieux Fort"
+    ],
+    "continent": "North America",
+    "info": "Castries is the capital and largest city of Saint Lucia and has a population of approximately 60,000 people."
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "cities": [
+      "Kingstown",
+      "Calliaqua",
+      "Port Elizabeth",
+      "Georgetown",
+      "Barrouallie",
+      "Chateaubelair"
+    ],
+    "continent": "North America",
+    "info": "Kingstown is the capital and largest city of Saint Vincent and the Grenadines and has a population of approximately 12,000 people."
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "cities": [
+      "Port of Spain",
+      "San Fernando",
+      "Chaguanas",
+      "Scarborough",
+      "Arima",
+      "Crown Point"
+    ],
+    "continent": "North America",
+    "info": "Port of Spain is the capital of Trinidad and Tobago and has a population of approximately 26,000 people."
+  },
+  {
+    "country": "Anguilla",
+    "capital": "The Valley",
+    "cities": [
+      "The Valley",
+      "Shoal Bay Village",
+      "Sandy Ground Village",
+      "Island Harbour",
+      "Blowing Point Village",
+      "West End Village"
+    ],
+    "continent": "North America",
+    "info": "The Valley is the capital and largest city of Anguilla and has a population of approximately 1,500 people."
+  },
+  {
+    "country": "Aruba",
+    "capital": "Oranjestad",
+    "cities": [
+      "Oranjestad",
+      "Paradera",
+      "Noord",
+      "San Nicolas",
+      "Santa Cruz",
+      "Savaneta"
+    ],
+    "continent": "North America",
+    "info": "Oranjestad is the capital and largest city of Aruba and has a population of approximately 30,000 people."
+  },
+  {
+    "country": "Bermuda",
+    "capital": "Hamilton",
+    "cities": [
+      "Hamilton",
+      "St. George's",
+      "Royal Naval Dockyard",
+      "Flatts Village",
+      "Somerset Village",
+      "Tucker's Town"
+    ],
+    "continent": "North America",
+    "info": "Hamilton is the capital city of Bermuda and has a population of approximately 1,100 people."
+  },
+  {
+    "country": "Cayman Islands",
+    "capital": "George Town",
+    "cities": [
+      "George Town",
+      "Seven Mile Beach",
+      "Rum Point",
+      "West Bay",
+      "Bodden Town",
+      "East End"
+    ],
+    "continent": "North America",
+    "info": "George Town is the capital and largest city of the Cayman Islands and has a population of approximately 40,000 people."
+  },
+  {
+    "country": "Curaçao",
+    "capital": "Willemstad",
+    "cities": [
+      "Willemstad",
+      "Jan Thiel",
+      "Sabana Westpunt",
+      "Piscadera",
+      "Sint Michiel",
+      "Soto"
+    ],
+    "continent": "North America",
+    "info": "Willemstad is the capital and largest city of Curaçao and has a population of approximately 1,300 people."
+  },
+  {
+    "country": "Greenland",
+    "capital": "Nuuk",
+    "cities": [
+      "Nuuk",
+      "Sisimiut",
+      "Ilulissat",
+      "Qaqortoq",
+      "Aasiaat",
+      "Tasiilaq"
+    ],
+    "continent": "North America",
+    "info": "Nuuk is the capital and largest city of Greenland and has a population of approximately 21,000 people."
+  },
+  {
+    "country": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "cities": [
+      "Les Abymes",
+      "Pointe-à-Pitre",
+      "Baie-Mahault",
+      "Le Gosier",
+      "Sainte-Anne",
+      "Basse-Terre"
+    ],
+    "continent": "North America",
+    "info": "Basse-Terre is the capital city of Guadeloupe and has a population of approximately 9,500 people."
+  },
+  {
+    "country": "Martinique",
+    "capital": "Fort-de-France",
+    "cities": [
+      "Fort-de-France",
+      "Saint-Pierre",
+      "Les Trois-Îlets",
+      "Sainte-Anne",
+      "Le Diamant",
+      "Le Carbet"
+    ],
+    "continent": "North America",
+    "info": "Fort-de-France is the capital city of Martinique and has a population of approximately 75,000 people."
+  },
+  {
+    "country": "Montserrat",
+    "capital": "Brades",
+    "cities": [
+      "Brades",
+      "Little Bay",
+      "Plymouth",
+      "Salem",
+      "St. Peter's",
+      "Old Towne"
+    ],
+    "continent": "North America",
+    "info": "Brades is the de facto capital of Montserrat and has a population of approximately 1,000 people."
+  },
+  {
+    "country": "Puerto Rico",
+    "capital": "San Juan",
+    "cities": [
+      "San Juan",
+      "Ponce",
+      "Rincón",
+      "Fajardo",
+      "Cabo Rojo",
+      "Arecibo"
+    ],
+    "continent": "North America",
+    "info": "San Juan is the capital and largest municipality of Puerto Rico and has a population of approximately 300,000 people."
+  },
+  {
+    "country": "Sint Maarten",
+    "capital": "Philipsburg",
+    "cities": [
+      "Philipsburg",
+      "Simpson Bay",
+      "Maho Beach",
+      "Cupecoy Beach",
+      "Oyster Pond",
+      "Dawn Beach"
+    ],
+    "continent": "North America",
+    "info": "Philipsburg is the capital of Sint Maarten and has a population of approximately 2,500 people."
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "cities": [
+      "Cockburn Town",
+      "Grace Bay (Providenciales)",
+      "Cockburn Harbour",
+      "Five Cays Settlement",
+      "Bottle Creek",
+      "Salt Cay"
+    ],
+    "continent": "North America",
+    "info": "Cockburn Town is the capital of the Turks and Caicos Islands and has a population of approximately 6,200 people."
+  },
+  {
+    "country": "British Virgin Islands",
+    "capital": "Road Town",
+    "cities": [
+      "Road Town",
+      "Spanish Town",
+      "Cane Garden Bay",
+      "White Bay",
+      "Scrub Island",
+      "The Settlement"
+    ],
+    "continent": "North America",
+    "info": "Road Town is the capital and largest city of the British Virgin Islands and has a population of approximately 33,000 people."
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "cities": [
+      "Charlotte Amalie",
+      "Christiansted",
+      "Cruz Bay",
+      "Frederiksted",
+      "Red Hook",
+      "Smith Bay"
+    ],
+    "continent": "North America",
+    "info": "Charlotte Amalie is the capital and largest city of the U.S. Virgin Islands and has a population of approximately 18,000 people."
+  },
+  {
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "cities": [
+      "Buenos Aires",
+      "Mendoza",
+      "San Carlos de Bariloche",
+      "Salta",
+      "El Calafate",
+      "Ushuaia"
+    ],
+    "continent": "South America",
+    "info": "Buenos Aires is the capital and largest city of Argentina and has a population of approximately 3.17 million people."
+  },
+  {
+    "country": "Bolivia",
+    "capital": "Sucre",
+    "cities": [
+      "Sucre",
+      "La Paz",
+      "Santa Cruz de la Sierra",
+      "Cochabamba",
+      "Potosí",
+      "Copacabana"
+    ],
+    "continent": "South America",
+    "info": "Sucre is the capital city of Bolivia and has a population of approximately 305,000 people."
+  },
+  {
+    "country": "Chile",
+    "capital": "Santiago",
+    "cities": [
+      "Santiago",
+      "Valparaíso",
+      "San Pedro de Atacama",
+      "Pucón",
+      "La Serena",
+      "Punta Arenas"
+    ],
+    "continent": "South America",
+    "info": "Santiago is the capital and largest city of Chile and has a population of approximately 6.9 million people."
+  },
+  {
+    "country": "Colombia",
+    "capital": "Bogotá",
+    "cities": [
+      "Bogotá",
+      "Medellín",
+      "Cartagena",
+      "Cali",
+      "Santa Marta",
+      "Barranquilla"
+    ],
+    "continent": "South America",
+    "info": "Bogotá is the capital and largest city of Colombia and has a population of approximately 7.7 million people."
+  },
+  {
+    "country": "Ecuador",
+    "capital": "Quito",
+    "cities": [
+      "Quito",
+      "Guayaquil",
+      "Cuenca",
+      "Baños de Agua Santa",
+      "Manta",
+      "Otavalo"
+    ],
+    "continent": "South America",
+    "info": "Quito is the capital of Ecuador and has a population of approximately 2.8 million people."
+  },
+  {
+    "country": "Falkland Islands",
+    "capital": "Stanley",
+    "cities": [
+      "Stanley",
+      "Mount Pleasant Complex",
+      "Douglas Settlement",
+      "Goose Green Settlement",
+      "Port Howard",
+      "North Arm Settlement"
+    ],
+    "continent": "South America",
+    "info": "Stanley is the capital and largest settlement of the Falkland Islands and has a population of approximately 2,700 people."
+  },
+  {
+    "country": "French Guiana",
+    "capital": "Cayenne",
+    "cities": [
+      "Cayenne",
+      "Saint-Laurent-du-Maroni",
+      "Matoury",
+      "Kourou",
+      "Rémire-Montjoly",
+      "Maripasoula"
+    ],
+    "continent": "South America",
+    "info": "Cayenne is the capital and largest city of French Guiana and has a population of approximately 65,000 people."
+  },
+  {
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "cities": [
+      "Georgetown",
+      "Linden",
+      "New Amsterdam",
+      "Bartica",
+      "Lethem",
+      "Anna Regina"
+    ],
+    "continent": "South America",
+    "info": "Georgetown is the capital and largest city of Guyana and has a population of approximately 130,000 people."
+  },
+  {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "cities": [
+      "Asunción",
+      "Ciudad del Este",
+      "Encarnación",
+      "San Lorenzo",
+      "Luque",
+      "San Bernardino"
+    ],
+    "continent": "South America",
+    "info": "Asunción is the capital and largest city of Paraguay and has a population of approximately 452,000 people."
+  },
+  {
+    "country": "Peru",
+    "capital": "Lima",
+    "cities": [
+      "Lima",
+      "Cusco",
+      "Arequipa",
+      "Puno",
+      "Iquitos",
+      "Trujillo"
+    ],
+    "continent": "South America",
+    "info": "Lima is the capital and largest city of Peru and has a metropolitian population of approximately 12 million people."
+  },
+  {
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "cities": [
+      "Paramaribo",
+      "Lelydorp",
+      "Nieuw Nickerie",
+      "Brokopondo",
+      "Albina",
+      "Nieuw Amsterdam"
+    ],
+    "continent": "South America",
+    "info": "Paramaribo is the capital and largest city of Suriname and has a population of approximately 250,000 people."
+  },
+  {
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "cities": [
+      "Montevideo",
+      "Punta del Este",
+      "Colonia del Sacramento",
+      "Piriápolis",
+      "Salto",
+      "Cabo Polonio"
+    ],
+    "continent": "South America",
+    "info": "Montevideo is the capital and largest city of Uruguay and has a population of approximately 1.3 million people."
+  },
+  {
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "cities": [
+      "Caracas",
+      "Maracaibo",
+      "Valencia",
+      "Barquisimeto",
+      "Maracay",
+      "Guayana City"
+    ],
+    "continent": "South America",
+    "info": "Caracas is the capital and largest city of Venezuela and has a population of approximately 2.22 million people."
+  },
+  {
+    "country": "American Samoa",
+    "capital": "Pago Pago",
+    "cities": [
+      "Pago Pago",
+      "Tafuna",
+      "Nu'uuli",
+      "Leone",
+      "Fagatogo",
+      "'Ili'ili"
+    ],
+    "continent": "Oceania",
+    "info": "Pago Pago is the capital of American Samoa and has a population of approximately 3,000 people."
+  },
+  {
+    "country": "Cook Islands",
+    "capital": "Avarua",
+    "cities": [
+      "Avarua",
+      "Muri",
+      "Arorangi",
+      "Arutanga",
+      "Titikaveka Tapere",
+      "Matavera District"
+    ],
+    "continent": "Oceania",
+    "info": "Avarua is the capital and largest city of the Cook Islands and has a population of approximately 1,000 people."
+  },
+  {
+    "country": "Fiji",
+    "capital": "Suva",
+    "cities": [
+      "Suva",
+      "Nadi",
+      "Lautoka",
+      "Sigatoka",
+      "Savusavu",
+      "Levuka"
+    ],
+    "continent": "Oceania",
+    "info": "Suva is the capital and largest city of Fiji and has a population of approximately 102,000 people."
+  },
+  {
+    "country": "Guam",
+    "capital": "Hagåtña",
+    "cities": [
+      "Hagåtña",
+      "Dededo",
+      "Yigo",
+      "Tamuning",
+      "Mangilao",
+      "Barrigada"
+    ],
+    "continent": "Oceania",
+    "info": "Hagåtña is the capital of Guam and has a population of approximately 1,000 people."
+  },
+  {
+    "country": "Kiribati",
+    "capital": "Tarawa",
+    "cities": [
+      "Tarawa",
+      "Betio",
+      "Kiritimati",
+      "Bikenibeu",
+      "North Tarawa",
+      "London Village"
+    ],
+    "continent": "Oceania",
+    "info": "Tarawa is the capital and largest city of Kiribati and has a population of approximately 80,000 people."
+  },
+  {
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "cities": [
+      "Majuro",
+      "Delap-Uliga-Djarrit",
+      "Ebeye",
+      "Laura",
+      "Arno Atoll",
+      "Jabor"
+    ],
+    "continent": "Oceania",
+    "info": "Majuro is the capital and largest city of the Marshall Islands and has a population of approximately 20,000 people."
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "cities": [
+      "Saipan",
+      "Rota",
+      "Garapan",
+      "San Antonio",
+      "Tinian",
+      "San Jose"
+    ],
+    "continent": "Oceania",
+    "info": "Saipan is the capital and largest city of the Northern Mariana Islands and has a population of approximately 32,000 people."
+  },
+  {
+    "country": "Nauru",
+    "capital": "Yaren",
+    "cities": [
+      "Yaren",
+      "Boe",
+      "Buada",
+      "Aiwo",
+      "Meneng",
+      "Denigomodu"
+    ],
+    "continent": "Oceania",
+    "info": "Yaren is the capital of Nauru and has a population of approximately 800 people."
+  },
+  {
+    "country": "Norfolk Island",
+    "capital": "Kingston",
+    "cities": [
+      "Kingston",
+      "Burnt Pine",
+      "Cascade",
+      "Anson Bay",
+      "Middlegate",
+      "Rocky Point"
+    ],
+    "continent": "Oceania",
+    "info": "Kingston is the capital of Norfolk Island and has a population of approximately 700 people."
+  },
+  {
+    "country": "New Caledonia",
+    "capital": "Nouméa",
+    "cities": [
+      "Nouméa",
+      "Bourail",
+      "Isle Of Pines",
+      "Dumbea",
+      "Lifou",
+      "Hienghene"
+    ],
+    "continent": "Oceania",
+    "info": "Nouméa is the capital and largest city of New Caledonia and has a population of approximately 85,000 people."
+  },
+  {
+    "country": "Niue",
+    "capital": "Alofi",
+    "cities": [
+      "Alofi",
+      "Hakupu",
+      "Tamakautoga",
+      "Avatele",
+      "Vaiea",
+      "Tuapa"
+    ],
+    "continent": "Oceania",
+    "info": "Alofi is the capital and largest city of Niue and has a population of approximately 600 people."
+  },
+  {
+    "country": "French Polynesia",
+    "capital": "Papeete",
+    "cities": [
+      "Papeete",
+      "Fa'a'ā",
+      "Puna'auia",
+      "Māhina",
+      "Pīra'e",
+      "Vaitape"
+    ],
+    "continent": "Oceania",
+    "info": "Papeete is the capital of French Polynesia and has a population of approximately 27,000 people."
+  },
+  {
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "cities": [
+      "Port Moresby",
+      "Lae",
+      "Mount Hagen",
+      "Madang",
+      "Goroka",
+      "Kokopo"
+    ],
+    "continent": "Oceania",
+    "info": "Port Moresby is the capital and largest city of Papua New Guinea and has a population of approximately 600,000 people."
+  },
+  {
+    "country": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "cities": [
+      "Adamstown",
+      "The Square",
+      "Tedside",
+      "Down Rope",
+      "Rocky Point",
+      "Bounty Bay"
+    ],
+    "continent": "Oceania",
+    "info": "Adamstown."
+  },
+  {
+    "country": "Palau",
+    "capital": "Ngerulmud",
+    "cities": [
+      "Ngerulmud",
+      "Koror Town",
+      "Airai",
+      "Meyuns",
+      "Peleliu",
+      "Angaur"
+    ],
+    "continent": "Oceania",
+    "info": "Ngerulmud N/A."
+  },
+  {
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "cities": [
+      "Honiara",
+      "Gizo",
+      "Auki",
+      "Noro",
+      "Munda",
+      "Tulagi"
+    ],
+    "continent": "Oceania",
+    "info": "Honiara is the capital and largest city of the Solomon Islands and has a population of approximately 100,000 people."
+  },
+  {
+    "country": "Tokelau",
+    "capital": "Nukunonu",
+    "cities": [
+    "Nukunonu",
+    "Atafu",
+    "Fakaofo",
+    "Malae",
+    "Fale",
+    "Matangi"
+],
+    "continent": "Oceania",
+    "info": "Tokelau has no official capital, but Nukunonu is the largest village and administrative center of the territory."
+  },
+  {
+    "country": "Tonga",
+    "capital": "Nukuʻalofa",
+    "cities": [
+      "Nukuʻalofa",
+      "Neiafu",
+      "Mu'a",
+      "Pangai",
+      "Vaini",
+      "'Ohonua"
+    ],
+    "continent": "Oceania",
+    "info": "Nukuʻalofa is the capital and largest city of Tonga and has a population of approximately 30,000 people."
+  },
+  {
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "cities": [
+      "Port Vila",
+      "Luganville",
+      "Norsup",
+      "Pango",
+      "Isangel",
+      "Port Olry"
+    ],
+    "continent": "Oceania",
+    "info": "Port Vila is the capital and largest city of Vanuatu and has a population of approximately 60,000 people."
+  },
+  {
+    "country": "Wallis and Futuna",
+    "capital": "Mata Utu",
+    "cities": [
+      "Mata Utu",
+      "Leava",
+      "Liku",
+      "Utufua",
+      "Alele",
+      "Ono"
+    ],
+    "continent": "Oceania",
+    "info": "Mata Utu is the capital and largest city of Wallis and Futuna and has a population of approximately 3,300 people."
+  },
+  {
+    "country": "Samoa",
+    "capital": "Apia",
+    "cities": [
+      "Apia",
+      "Salelologa",
+      "Asau",
+      "Vaitele",
+      "Lalomanu",
+      "Mulifanua"
+    ],
+    "continent": "Oceania",
+    "info": "Apia is the capital and largest city of Samoa and has a population of approximately 114,000 people."
+  }
+]
