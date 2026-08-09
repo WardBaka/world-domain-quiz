@@ -1,13 +1,423 @@
 [
     {
+        "iso2": "AG",
+        "name": "Antigua and Barbuda",
+        "capital": "St. John's",
+        "languages": ["English, Spanish"],
+        "population": "94,685",
+        "phoneCode": "+1-268",
+        "continent": "North America",
+        "flag": "flags/ag.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BS",
+        "name": "Bahamas",
+        "capital": "Nassau",
+        "languages": ["English"],
+        "population": "404,957",
+        "phoneCode": "+1-242",
+        "continent": "North America",
+        "flag": "flags/bs.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BB",
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "languages": ["English"],
+        "population": "282,794",
+        "phoneCode": "+1-246",
+        "continent": "North America",
+        "flag": "flags/bb.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BZ",
+        "name": "Belize",
+        "capital": "Belmopan",
+        "languages": ["English"],
+        "population": "429,268",
+        "phoneCode": "+501",
+        "continent": "North America",
+        "flag": "flags/bz.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CA",
+        "name": "Canada",
+        "capital": "Ottawa",
+        "languages": ["English"],
+        "population": "41,417,056",
+        "phoneCode": "+1",
+        "continent": "North America",
+        "flag": "flags/ca.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CR",
+        "name": "Costa Rica",
+        "capital": "San José",
+        "languages": ["Spanish"],
+        "population": "5,200,000",
+        "phoneCode": "+506",
+        "continent": "North America",
+        "flag": "flags/cr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CU",
+        "name": "Cuba",
+        "capital": "Havana",
+        "languages": ["Spanish"],
+        "population": "10,890,367",
+        "phoneCode": "+53",
+        "continent": "North America",
+        "flag": "flags/cu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "DM",
+        "name": "Dominica",
+        "capital": "Roseau",
+        "languages": ["English"],
+        "population": "65,500",
+        "phoneCode": "+1-767",
+        "continent": "North America",
+        "flag": "flags/dm.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "DR",
+        "name": "Dominican Republic",
+        "capital": "Santo Domingo",
+        "languages": ["Spanish"],
+        "population": "11,600,000",
+        "phoneCode": "+1-809",
+        "continent": "North America",
+        "flag": "flags/dr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SV",
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "languages": ["Spanish"],
+        "population": "6,390,000",
+        "phoneCode": "+503",
+        "continent": "North America",
+        "flag": "flags/sv.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GD",
+        "name": "Grenada",
+        "capital": "St. George's",
+        "languages": ["English"],
+        "population": "117,362",
+        "phoneCode": "+1-473",
+        "continent": "North America",
+        "flag": "flags/gd.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GT",
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "languages": ["Spanish"],
+        "population": "18,967,978",
+        "phoneCode": "+502",
+        "continent": "North America",
+        "flag": "flags/gt.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "HT",
+        "name": "Haiti",
+        "capital": "Port-au-Prince",
+        "languages": ["French, Haitian Creole"],
+        "population": "12,000,000",
+        "phoneCode": "+509",
+        "continent": "North America",
+        "flag": "flags/ht.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "HN",
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "languages": ["Spanish"],
+        "population": "11,200,000",
+        "phoneCode": "+504",
+        "continent": "North America",
+        "flag": "flags/hn.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "JM",
+        "name": "Jamaica",
+        "capital": "Kingston",
+        "languages": ["English"],
+        "population": "2,830,000",
+        "phoneCode": "+1-876",
+        "continent": "North America",
+        "flag": "flags/jm.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MX",
+        "name": "Mexico",
+        "capital": "Mexico City",
+        "languages": ["Spanish"],
+        "population": "133,136,443",
+        "phoneCode": "+52",
+        "continent": "North America",
+        "flag": "flags/mx.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NI",
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "languages": ["Spanish"],
+        "population": "7,100,000",
+        "phoneCode": "+505",
+        "continent": "North America",
+        "flag": "flags/ni.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PA",
+        "name": "Panama",
+        "capital": "Mexico City",
+        "languages": ["Spanish"],
+        "population": "4,630,000",
+        "phoneCode": "+507",
+        "continent": "North America",
+        "flag": "flags/pa.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "KN",
+        "name": "Saint Kitts and Nevis",
+        "capital": "Basseterre",
+        "languages": ["English"],
+        "population": "47,000",
+        "phoneCode": "+1-869",
+        "continent": "North America",
+        "flag": "flags/kn.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "LC",
+        "name": "Saint Lucia",
+        "capital": "Castries",
+        "languages": ["English"],
+        "population": "180,500",
+        "phoneCode": "+1-758",
+        "continent": "North America",
+        "flag": "flags/lc.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "VC",
+        "name": "Saint Vincent and the Grenadines",
+        "capital": "Kingstown",
+        "languages": ["English"],
+        "population": "100,000",
+        "phoneCode": "+1-784",
+        "continent": "North America",
+        "flag": "flags/vc.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "TT",
+        "name": "Trinidad and Tobago",
+        "capital": "Port of Spain",
+        "languages": ["English"],
+        "population": "1,513,268",
+        "phoneCode": "+1-868",
+        "continent": "North America",
+        "flag": "flags/tt.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "US",
         "name": "United States",
         "capital": "Washington, D.C.",
         "languages": ["English"],
-        "population": null,
+        "population": "341,784,857",
         "phoneCode": "+1",
         "continent": "North America",
-        "flag": "../flagsImg/us.png",
+        "flag": "flags/us.png",
         "fact": "The United States consists of 50 states and a federal district."
+    },
+
+    {
+        "iso2": "AR",
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "languages": ["Spanish"],
+        "population": "46,022,205",
+        "phoneCode": "+54",
+        "continent": "South America",
+        "flag": "flags/ar.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BO",
+        "name": "Bolivia",
+        "capital": "Sucre",
+        "languages": ["Spanish"],
+        "population": "12,700,000",
+        "phoneCode": "+591",
+        "continent": "South America",
+        "flag": "flags/bo.png",
+        "fact": ""
+    },
+
+    
+    {
+        "iso2": "BR",
+        "name": "Brazil",
+        "capital": "Brasília",
+        "languages": ["English"],
+        "population": "213,700,000",
+        "phoneCode": "+55",
+        "continent": "South America",
+        "flag": "flags/br.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CL",
+        "name": "Chile",
+        "capital": "Santiago",
+        "languages": ["Spanish"],
+        "population": "19,900,000",
+        "phoneCode": "+56",
+        "continent": "South America",
+        "flag": "flags/cl.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CO",
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "languages": ["Spanish"],
+        "population": "54,000,000",
+        "phoneCode": "+57",
+        "continent": "South America",
+        "flag": "flags/co.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "EC",
+        "name": "Ecuador",
+        "capital": "Quito",
+        "languages": ["Spanish"],
+        "population": "18,400,000",
+        "phoneCode": "+593",
+        "continent": "South America",
+        "flag": "flags/ec.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GY",
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "languages": ["English"],
+        "population": "1,025,334",
+        "phoneCode": "+592",
+        "continent": "South America",
+        "flag": "flags/gy.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PY",
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "languages": ["Spanish, Guarani"],
+        "population": "7,100,000",
+        "phoneCode": "+595",
+        "continent": "South America",
+        "flag": "flags/py.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PE",
+        "name": "Peru",
+        "capital": "Lima",
+        "languages": ["Spanish"],
+        "population": "34,900,000",
+        "phoneCode": "+51",
+        "continent": "South America",
+        "flag": "flags/pe.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SR",
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "languages": ["Dutch"],
+        "population": "645,000",
+        "phoneCode": "+597",
+        "continent": "South America",
+        "flag": "flags/sr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "UY",
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "languages": ["Spanish"],
+        "population": "3,400,000",
+        "phoneCode": "+598",
+        "continent": "South America",
+        "flag": "flags/uy.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "VE",
+        "name": "Venezuela",
+        "capital": "Caracas",
+        "languages": ["Spanish"],
+        "population": "28,600,000",
+        "phoneCode": "+58",
+        "continent": "South America",
+        "flag": "flags/ve.png",
+        "fact": ""
     }
+
 ]

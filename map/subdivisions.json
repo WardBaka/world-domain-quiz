@@ -4,11 +4,431 @@
     "name": "Alabama",
     "type": "State",
     "capital": "Montgomery",
-    "largestCity": "Birmingham",
-    "phoneAreaCode": "205",
+    "largestCity": "Huntsville",
+    "phoneAreaCode": "205, 251, 256, 334, 483, 659, 938",
     "population": "5,193,088",
     "flag": "flags/states/al.png",
-    "fact": ""
+    "fact": "CST, interstates?"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Alaska",
+    "type": "State",
+    "capital": "Juneau",
+    "largestCity": "Anchorage",
+    "phoneAreaCode": "907",
+    "population": "740,000",
+    "flag": "flags/states/ak.png",
+    "fact": "Alaska Time Zone"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Arizona",
+    "type": "State",
+    "capital": "Phoenix",
+    "largestCity": "Phoenix",
+    "phoneAreaCode": "602, 480, 623, 520, 928",
+    "population": "7,691,212",
+    "flag": "flags/states/az.png",
+    "fact": "Mountain Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Arkansas",
+    "type": "State",
+    "capital": "Little Rock",
+    "largestCity": "Little Rock",
+    "phoneAreaCode": "501, 870, 327, 479",
+    "population": "3,114,791",
+    "flag": "flags/states/ar.png",
+    "fact": "Central Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "California",
+    "type": "State",
+    "capital": "Sacramento",
+    "largestCity": "Los Angeles",
+    "phoneAreaCode": "N/A",
+    "population": "39,355,309",
+    "flag": "flags/states/ca.png",
+    "fact": "Pacific Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Colorado",
+    "type": "State",
+    "capital": "Denver",
+    "largestCity": "Denver",
+    "phoneAreaCode": "303, 720, 983, 719, 970, 748",
+    "population": "6,012,561",
+    "flag": "flags/states/co.png",
+    "fact": "Mountain Time Zone"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Connecticut",
+    "type": "State",
+    "capital": "Hartford",
+    "largestCity": "Bridgeport",
+    "phoneAreaCode": "203, 475, 860, 959",
+    "population": "3,688,496",
+    "flag": "flags/states/ct.png",
+    "fact": "Eastern Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Delaware",
+    "type": "State",
+    "capital": "Dover",
+    "largestCity": "Wilmington",
+    "phoneAreaCode": "302",
+    "population": "1,059,952",
+    "flag": "flags/states/de.png",
+    "fact": "Eastern Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Florida",
+    "type": "State",
+    "capital": "Tallahassee",
+    "largestCity": "Jacksonville",
+    "phoneAreaCode": "N/A",
+    "population": "23,462,518",
+    "flag": "flags/states/fl.png",
+    "fact": "Eastern Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Georgia",
+    "type": "State",
+    "capital": "Atlanta",
+    "largestCity": "Atlanta",
+    "phoneAreaCode": "N/A",
+    "population": "11,302,748",
+    "flag": "flags/states/ga.png",
+    "fact": "Eastern Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Hawaii",
+    "type": "State",
+    "capital": "Honolulu",
+    "largestCity": "Honolulu",
+    "phoneAreaCode": "808",
+    "population": "1,432,820",
+    "flag": "flags/states/hi.png",
+    "fact": "Hawaiian–Aleutian Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Idaho",
+    "type": "State",
+    "capital": "Boise",
+    "largestCity": "Boise",
+    "phoneAreaCode": "208, 986",
+    "population": "2,029,733",
+    "flag": "flags/states/id.png",
+    "fact": "Mountain Daylight Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Illinois",
+    "type": "State",
+    "capital": "Springfield",
+    "largestCity": "Chicago",
+    "phoneAreaCode": "N/A",
+    "population": "12,719,141",
+    "flag": "flags/states/il.png",
+    "fact": "Central Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Indiana",
+    "type": "State",
+    "capital": "Indianapolis",
+    "largestCity": "Indianapolis",
+    "phoneAreaCode": "317, 463, 812, 930, 219, 765, 260, 574",
+    "population": "6,973,333",
+    "flag": "flags/states/in.png",
+    "fact": "Eastern Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Iowa",
+    "type": "State",
+    "capital": "Des Moines",
+    "largestCity": "Des Moines",
+    "phoneAreaCode": "319, 515, 563, 641, 712",
+    "population": "3,207,004",
+    "flag": "flags/states/ia.png",
+    "fact": "Central Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Kansas",
+    "type": "State",
+    "capital": "Topeka",
+    "largestCity": "Wichita",
+    "phoneAreaCode": "316, 620, 785, 913",
+    "population": "2,977,220",
+    "flag": "flags/states/ks.png",
+    "fact": "Central Standard Time"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Kentucky",
+    "type": "State",
+    "capital": "Frankfort",
+    "largestCity": "Louisville",
+    "phoneAreaCode": "502, 270, 364, 859, 606",
+    "population": 20002427,
+    "flag": "flags/states/ky.png",
+    "fact": "Kentucky has two time zones: Eastern Time Zone (ET) & Central Time Zone (CT)."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Louisiana",
+    "type": "State",
+    "capital": "Baton Rouge",
+    "largestCity": "New Orleans",
+    "phoneAreaCode": "225, 318, 337, 457, 504, 985",
+    "population": "4,618,189",
+    "flag": "flags/states/la.png",
+    "fact": "Louisiana is the only state in the U.S. that has parishes instead of counties. Central Standard Time. N/A"
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Maine",
+    "type": "State",
+    "capital": "Augusta",
+    "largestCity": "Portland",
+    "phoneAreaCode": "207",
+    "population": "1,414,874",
+    "flag": "flags/states/me.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Maryland",
+    "type": "State",
+    "capital": "Annapolis",
+    "largestCity": "Baltimore",
+    "phoneAreaCode": "301, 240, 227, 410, 443, 667",
+    "population": "6,265,347",
+    "flag": "flags/states/md.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Massachusetts",
+    "type": "State",
+    "capital": "Boston",
+    "largestCity": "Boston",
+    "phoneAreaCode": "N/A",
+    "population": "7,154,084",
+    "flag": "flags/states/ma.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Michigan",
+    "type": "State",
+    "capital": "Lansing",
+    "largestCity": "Detroit",
+    "phoneAreaCode": "N/A",
+    "population": "10,127,884",
+    "flag": "flags/states/mi.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Minnesota",
+    "type": "State",
+    "capital": "Saint Paul",
+    "largestCity": "Minneapolis",
+    "phoneAreaCode": "N/A",
+    "population": "5,830,405",
+    "flag": "flags/states/mn.png",
+    "fact": "Central Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Mississippi",
+    "type": "State",
+    "capital": "Jackson",
+    "largestCity": "Jackson",
+    "phoneAreaCode": "601, 769, 228, 662, 471",
+    "population": "2,954,160",
+    "flag": "flags/states/ms.png",
+    "fact": "Central Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Missouri",
+    "type": "State",
+    "capital": "Jefferson City",
+    "largestCity": "Kansas City",
+    "phoneAreaCode": "N/A",
+    "population": "6,270,541",
+    "flag": "flags/states/mo.png",
+    "fact": "Central Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Montana",
+    "type": "State",
+    "capital": "Helena",
+    "largestCity": "Billings",
+    "phoneAreaCode": "406",
+    "population": "1,144,694",
+    "flag": "flags/states/mt.png",
+    "fact": "Mountain Time Zone."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Nebraska",
+    "type": "State",
+    "capital": "Lincoln",
+    "largestCity": "Omaha",
+    "phoneAreaCode": "402, 531, 308",
+    "population": "2,018,006",
+    "flag": "flags/states/ne.png",
+    "fact": "Central Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "Nevada",
+    "type": "State",
+    "capital": "Carson City",
+    "largestCity": "Las Vegas",
+    "phoneAreaCode": "702, 725, 775",
+    "population": "3,282,188",
+    "flag": "flags/states/nv.png",
+    "fact": "Pacific Time Zone."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "New Hampshire",
+    "type": "State",
+    "capital": "Concord",
+    "largestCity": "Manchester",
+    "phoneAreaCode": "603",
+    "population": "1,415,342",
+    "flag": "flags/states/nh.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "New Jersey",
+    "type": "State",
+    "capital": "Trenton",
+    "largestCity": "Newark",
+    "phoneAreaCode": "N/A",
+    "population": "9,548,215",
+    "flag": "flags/states/nj.png",
+    "fact": "Eastern Standard Time."
+},
+
+
+
+{
+    "country": "United States",
+    "name": "New Mexico",
+    "type": "State",
+    "capital": "Santa Fe",
+    "largestCity": "Albuquerque",
+    "phoneAreaCode": "505, 575",
+    "population": "2,125,498",
+    "flag": "flags/states/nm.png",
+    "fact": "Mountain Time Zone."
 },
 
 
@@ -17,685 +437,267 @@
     "country": "United States",
     "name": "New York",
     "type": "State",
-    "capital": "Washington D.C",
+    "capital": "Albany",
     "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "phoneAreaCode": "N/A",
+    "population": "20,002,427",
+    "flag": "flags/states/ny.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "North Carolina",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Raleigh",
+    "largestCity": "Charlotte",
+    "phoneAreaCode": "N/A",
+    "population": "11,197,968",
+    "flag": "flags/states/nc.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "North Dakota",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Bismarck",
+    "largestCity": "Fargo",
+    "phoneAreaCode": "701",
+    "population": "799,358",
+    "flag": "flags/states/nd.png",
+    "fact": "Central Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Ohio",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Columbus",
+    "largestCity": "Columbus",
+    "phoneAreaCode": "N/A",
+    "population": "11,900,510",
+    "flag": "flags/states/oh.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Oklahoma",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Oklahoma City",
+    "largestCity": "Oklahoma City",
+    "phoneAreaCode": "405, 572, 918, 539, 580",
+    "population": "4,123,288",
+    "flag": "flags/states/ok.png",
+    "fact": "Central Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Oregon",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Salem",
+    "largestCity": "Portland",
+    "phoneAreaCode": "503, 971, 541, 458",
+    "population": "4,273,586",
+    "flag": "flags/states/or.png",
+    "fact": "Pacific Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Pennsylvania",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Harrisburg",
+    "largestCity": "Philadelphia",
+    "phoneAreaCode": "N/A",
+    "population": "13,059,432",
+    "flag": "flags/states/pa.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Rhode Island",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Providence",
+    "largestCity": "Providence",
+    "phoneAreaCode": "401",
+    "population": "1,114,521",
+    "flag": "flags/states/ri.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "South Carolina",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Columbia",
+    "largestCity": "Charleston",
+    "phoneAreaCode": "803, 839, 843, 854, 864, 821",
+    "population": "5,570,274",
+    "flag": "flags/states/sc.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "South Dakota",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Pierre",
+    "largestCity": "Sioux Falls",
+    "phoneAreaCode": "605",
+    "population": "935,094",
+    "flag": "flags/states/sd.png",
+    "fact": "Central Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Tennessee",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Nashville",
+    "largestCity": "Nashville",
+    "phoneAreaCode": "N/A",
+    "population": "7,315,076",
+    "flag": "flags/states/tn.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Texas",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Austin",
+    "largestCity": "Houston",
+    "phoneAreaCode": "N/A",
+    "population": "31,709,821",
+    "flag": "flags/states/tx.png",
+    "fact": "Central Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Utah",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Salt Lake City",
+    "largestCity": "Salt Lake City",
+    "phoneAreaCode": "N/A",
+    "population": "3,538,904",
+    "flag": "flags/states/ut.png",
+    "fact": "Mountain Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Vermont",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Montpelier",
+    "largestCity": "Burlington",
+    "phoneAreaCode": "802",
+    "population": "644,663",
+    "flag": "flags/states/vt.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Virginia",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Richmond",
+    "largestCity": "Virginia Beach",
+    "phoneAreaCode": "N/A",
+    "population": "8,880,107",
+    "flag": "flags/states/va.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Washington",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Olympia",
+    "largestCity": "Seattle",
+    "phoneAreaCode": "206, 253, 360, 425, 509, 564",
+    "population": "8,001,020",
+    "flag": "flags/states/wa.png",
+    "fact": "Pacific Time Zone."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "West Virginia",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Charleston",
+    "largestCity": "Charleston",
+    "phoneAreaCode": "304, 681",
+    "population": "1,766,147",
+    "flag": "flags/states/wv.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Wisconsin",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Madison",
+    "largestCity": "Milwaukee",
+    "phoneAreaCode": "414, 608, 353, 920, 274, 262, 715, 534",
+    "population": "5,972,787",
+    "flag": "flags/states/wi.png",
+    "fact": "Eastern Standard Time."
 },
 
 
 
 {
     "country": "United States",
-    "name": "New York",
+    "name": "Wyoming",
     "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
-},
-
-
-
-{
-    "country": "United States",
-    "name": "New York",
-    "type": "State",
-    "capital": "Washington D.C",
-    "largestCity": "New York City",
-    "phoneAreaCode": "917",
-    "population": 20002427,
-    "flag": "../flags/state/usny.png",
-    "fact": ""
+    "capital": "Cheyenne",
+    "largestCity": "Cheyenne",
+    "phoneAreaCode": "307",
+    "population": "588,753",
+    "flag": "flags/states/wy.png",
+    "fact": "Mountain Time Zone."
 }
+
+
 
 ]
 
