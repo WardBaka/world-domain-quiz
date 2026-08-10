@@ -1,4 +1,18 @@
 [
+
+    {
+        "iso2": "AI",
+        "name": "Anguilla",
+        "capital": "The Valley",
+        "languages": ["English"],
+        "population": "14,900",
+        "phoneCode": "+1-264",
+        "continent": "North America",
+        "flag": "flags/ai.png",
+        "fact": ""
+    },
+
+
     {
         "iso2": "AG",
         "name": "Antigua and Barbuda",
@@ -8,6 +22,18 @@
         "phoneCode": "+1-268",
         "continent": "North America",
         "flag": "flags/ag.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AW",
+        "name": "Aruba",
+        "capital": "Oranjestad",
+        "languages": ["Papiamento, Dutch"],
+        "population": "108,000",
+        "phoneCode": "+297",
+        "continent": "North America",
+        "flag": "flags/aw.png",
         "fact": ""
     },
 
@@ -48,6 +74,42 @@
     },
 
     {
+        "iso2": "BM",
+        "name": "Bermuda",
+        "capital": "Hamilton",
+        "languages": ["English"],
+        "population": "64,000",
+        "phoneCode": "+1-441",
+        "continent": "North America",
+        "flag": "flags/bm.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BQ",
+        "name": "Bonaire",
+        "capital": "Kralendijk",
+        "languages": ["Papiamento, Dutch"],
+        "population": "27,000",
+        "phoneCode": "+599 7",
+        "continent": "North America",
+        "flag": "flags/bq.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "VG",
+        "name": "British Virgin Islands",
+        "capital": "Road Town",
+        "languages": ["English"],
+        "population": "35,000",
+        "phoneCode": "+1-284",
+        "continent": "North America",
+        "flag": "flags/vg.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "CA",
         "name": "Canada",
         "capital": "Ottawa",
@@ -58,6 +120,19 @@
         "flag": "flags/ca.png",
         "fact": ""
     },
+
+    {
+        "iso2": "KY",
+        "name": "Cayman Islands",
+        "capital": "George Town",
+        "languages": ["English"],
+        "population": "90,000",
+        "phoneCode": "+1-345",
+        "continent": "North America",
+        "flag": "flags/ky.png",
+        "fact": ""
+    },
+
 
     {
         "iso2": "CR",
@@ -80,6 +155,18 @@
         "phoneCode": "+53",
         "continent": "North America",
         "flag": "flags/cu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CW",
+        "name": "Curacao",
+        "capital": "Willemstad",
+        "languages": ["Papiamento, Dutch, English"],
+        "population": "160,000",
+        "phoneCode": "+599 9",
+        "continent": "North America",
+        "flag": "flags/cw.png",
         "fact": ""
     },
 
@@ -120,6 +207,18 @@
     },
 
     {
+        "iso2": "GL",
+        "name": "Greenland",
+        "capital": "Nuuk",
+        "languages": ["Greenlandic"],
+        "population": "57,000",
+        "phoneCode": "+299",
+        "continent": "North America",
+        "flag": "flags/gl.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "GD",
         "name": "Grenada",
         "capital": "St. George's",
@@ -128,6 +227,18 @@
         "phoneCode": "+1-473",
         "continent": "North America",
         "flag": "flags/gd.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GP",
+        "name": "Guadeloupe",
+        "capital": "Basse-Terre",
+        "languages": ["French"],
+        "population": "380,000",
+        "phoneCode": "+590",
+        "continent": "North America",
+        "flag": "flags/gp.png",
         "fact": ""
     },
 
@@ -180,6 +291,18 @@
     },
 
     {
+        "iso2": "MQ",
+        "name": "Martinique",
+        "capital": "Fort-de-France",
+        "languages": ["French"],
+        "population": "350,000",
+        "phoneCode": "+596",
+        "continent": "North America",
+        "flag": "flags/mq.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "MX",
         "name": "Mexico",
         "capital": "Mexico City",
@@ -188,6 +311,18 @@
         "phoneCode": "+52",
         "continent": "North America",
         "flag": "flags/mx.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MS",
+        "name": "Montserrat",
+        "capital": "Little Bay",
+        "languages": ["English"],
+        "population": "4,400",
+        "phoneCode": "+1-664",
+        "continent": "North America",
+        "flag": "flags/ms.png",
         "fact": ""
     },
 
@@ -216,6 +351,42 @@
     },
 
     {
+        "iso2": "PR",
+        "name": "Puerto Rico",
+        "capital": "San Juan",
+        "languages": ["Spanish, English"],
+        "population": "3,200,000",
+        "phoneCode": "+1-787, +1-939",
+        "continent": "North America",
+        "flag": "flags/pr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BQ",
+        "name": "Saba",
+        "capital": "The Bottom",
+        "languages": ["Dutch, English"],
+        "population": "2,100",
+        "phoneCode": "+599 4",
+        "continent": "North America",
+        "flag": "flags/bq.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BL",
+        "name": "Saint Barthélemy",
+        "capital": "Gustavia",
+        "languages": ["French"],
+        "population": "11,500",
+        "phoneCode": "+590",
+        "continent": "North America",
+        "flag": "flags/bl.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "KN",
         "name": "Saint Kitts and Nevis",
         "capital": "Basseterre",
@@ -240,6 +411,30 @@
     },
 
     {
+        "iso2": "MF",
+        "name": "Saint Martin",
+        "capital": "Philipsburg",
+        "languages": ["Dutch, English"],
+        "population": "74,000",
+        "phoneCode": "+590, +1-721",
+        "continent": "North America",
+        "flag": "flags/mf.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PM",
+        "name": "Saint Pierre and Miquelon",
+        "capital": "Saint-Pierre",
+        "languages": ["French"],
+        "population": "5,500",
+        "phoneCode": "+508",
+        "continent": "North America",
+        "flag": "flags/pm.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "VC",
         "name": "Saint Vincent and the Grenadines",
         "capital": "Kingstown",
@@ -248,6 +443,18 @@
         "phoneCode": "+1-784",
         "continent": "North America",
         "flag": "flags/vc.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BQ",
+        "name": "Sint Eustatius",
+        "capital": "Oranjestad",
+        "languages": ["English, Dutch"],
+        "population": "3,300",
+        "phoneCode": "+599 3",
+        "continent": "North America",
+        "flag": "flags/bq.png",
         "fact": ""
     },
 
@@ -264,6 +471,18 @@
     },
 
     {
+        "iso2": "TC",
+        "name": "Turks and Caicos Islands",
+        "capital": "Cockburn Town",
+        "languages": ["English"],
+        "population": "47,000",
+        "phoneCode": "+1-649",
+        "continent": "North America",
+        "flag": "flags/tc.png",
+        "fact": ""
+    },
+
+    {
         "iso2": "US",
         "name": "United States",
         "capital": "Washington, D.C.",
@@ -274,6 +493,19 @@
         "flag": "flags/us.png",
         "fact": "The United States consists of 50 states and a federal district."
     },
+
+    {
+        "iso2": "VI",
+        "name": "US Virgin Islands",
+        "capital": "Charlotte Amalie",
+        "languages": ["English"],
+        "population": "87,000",
+        "phoneCode": "+1-340",
+        "continent": "North America",
+        "flag": "flags/vi.png",
+        "fact": ""
+    },
+
 
     {
         "iso2": "AR",
@@ -418,6 +650,946 @@
         "continent": "South America",
         "flag": "flags/ve.png",
         "fact": ""
+    },
+
+    {
+        "iso2": "AQ",
+        "name": "Antarctica",
+        "capital": "N/A",
+        "languages": ["English"],
+        "population": "Zero permanent residents but approximately 1,000 to 5,000 scientists and support staff during the winter and summer months.",
+        "phoneCode": "+672",
+        "continent": "Antarctica",
+        "flag": "flags/aq.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AS",
+        "name": "American Samoa",
+        "capital": "Pago Pago",
+        "languages": ["Samoan, English"],
+        "population": "45,000",
+        "phoneCode": "+1-684",
+        "continent": "Oceania",
+        "flag": "flags/as.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AU",
+        "name": "Australia",
+        "capital": "Canberra",
+        "languages": ["English"],
+        "population": "28,000,000",
+        "phoneCode": "+61",
+        "continent": "Oceania",
+        "flag": "flags/au.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CK",
+        "name": "Cook Islands",
+        "capital": "Avarua",
+        "languages": ["English"],
+        "population": "17,000",
+        "phoneCode": "+682",
+        "continent": "Oceania",
+        "flag": "flags/ck.png",
+        "fact": ""
+    },
+
+
+    {
+        "iso2": "FJ",
+        "name": "Fiji",
+        "capital": "Suva",
+        "languages": ["English, Fijian"],
+        "population": "940,000",
+        "phoneCode": "+679",
+        "continent": "Oceania",
+        "flag": "flags/fj.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PF",
+        "name": "French Polynesia",
+        "capital": "Papeete",
+        "languages": ["French, Tahitian"],
+        "population": "280,000",
+        "phoneCode": "+689",
+        "continent": "Oceania",
+        "flag": "flags/pf.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GU",
+        "name": "Guam",
+        "capital": "Hagåtña",
+        "languages": ["English, Chamorro"],
+        "population": "170,000",
+        "phoneCode": "+1-671",
+        "continent": "Oceania",
+        "flag": "flags/gu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "KI",
+        "name": "Kiribati",
+        "capital": "Tarawa",
+        "languages": ["English, Gilbertese"],
+        "population": "138,000",
+        "phoneCode": "+686",
+        "continent": "Oceania",
+        "flag": "flags/ki.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MH",
+        "name": "Marshall Islands",
+        "capital": "Majuro",
+        "languages": ["Marshallese, English"],
+        "population": "37,000",
+        "phoneCode": "+692",
+        "continent": "Oceania",
+        "flag": "flags/mh.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "FM",
+        "name": "Micronesia",
+        "capital": "Palikir",
+        "languages": ["English"],
+        "population": "114,000",
+        "phoneCode": "+691",
+        "continent": "Oceania",
+        "flag": "flags/fm.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NR",
+        "name": "Nauru",
+        "capital": "Yaren",
+        "languages": ["Nauruan, English"],
+        "population": "12,000",
+        "phoneCode": "+674",
+        "continent": "Oceania",
+        "flag": "flags/nr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NC",
+        "name": "New Caledonia",
+        "capital": "Nouméa",
+        "languages": ["French"],
+        "population": "289,000",
+        "phoneCode": "+687",
+        "continent": "Oceania",
+        "flag": "flags/nc.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NZ",
+        "name": "New Zealand",
+        "capital": "Wellington",
+        "languages": ["English, Māori"],
+        "population": "5,290,000",
+        "phoneCode": "+64",
+        "continent": "Oceania",
+        "flag": "flags/nz.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NU",
+        "name": "Niue",
+        "capital": "Alofi",
+        "languages": ["Niuean, English"],
+        "population": "1,800",
+        "phoneCode": "+683",
+        "continent": "Oceania",
+        "flag": "flags/nu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NF",
+        "name": "Norfolk Island",
+        "capital": "Kingston",
+        "languages": ["English, Norfuk"],
+        "population": "2,100",
+        "phoneCode": "+672 3",
+        "continent": "Oceania",
+        "flag": "flags/nf.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MP",
+        "name": "Northern Mariana Islands",
+        "capital": "Saipan",
+        "languages": ["English, Chamorro"],
+        "population": "47,000",
+        "phoneCode": "+1-670",
+        "continent": "Oceania",
+        "flag": "flags/mp.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PW",
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "languages": ["Palauan, English"],
+        "population": "18,000",
+        "phoneCode": "+680",
+        "continent": "Oceania",
+        "flag": "flags/pw.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PG",
+        "name": "Papua New Guinea",
+        "capital": "Port Moresby",
+        "languages": ["English, Hiri Motu, Tok Pisin"],
+        "population": "10,900,000",
+        "phoneCode": "+675",
+        "continent": "Oceania",
+        "flag": "flags/pg.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PN",
+        "name": "Pitcairn Islands",
+        "capital": "Adamstown",
+        "languages": ["Pitkern, English"],
+        "population": "50",
+        "phoneCode": "+64",
+        "continent": "Oceania",
+        "flag": "flags/pn.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "WS",
+        "name": "Samoa",
+        "capital": "Apia",
+        "languages": ["Samoan, English"],
+        "population": "220,000",
+        "phoneCode": "+685",
+        "continent": "Oceania",
+        "flag": "flags/ws.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SB",
+        "name": "Solomon Islands",
+        "capital": "Honiara",
+        "languages": ["English"],
+        "population": "850,000",
+        "phoneCode": "+677",
+        "continent": "Oceania",
+        "flag": "flags/sb.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "TK",
+        "name": "Tokelau",
+        "capital": "Fakaofo",
+        "languages": ["Tokelauan, English"],
+        "population": "2,700",
+        "phoneCode": "+64",
+        "continent": "Oceania",
+        "flag": "flags/tk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "TO",
+        "name": "Tonga",
+        "capital": "Nukuʻalofa",
+        "languages": ["Tongan, English"],
+        "population": "105,000",
+        "phoneCode": "+676",
+        "continent": "Oceania",
+        "flag": "flags/to.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "TV",
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "languages": ["Tuvaluan, English"],
+        "population": "10,000",
+        "phoneCode": "+688",
+        "continent": "Oceania",
+        "flag": "flags/tv.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "VU",
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "languages": ["Bislama, English, French"],
+        "population": "343,000",
+        "phoneCode": "+678",
+        "continent": "Oceania",
+        "flag": "flags/vu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "UM",
+        "name": "Wake Island",
+        "capital": "N/A",
+        "languages": ["English"],
+        "population": "Wake Island has zero permanent residents and only about 100 to 300 U.S. military personnel and contractors are on the island at any given time.",
+        "phoneCode": "+1-808",
+        "continent": "Oceania",
+        "flag": "flags/um.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "WF",
+        "name": "Wallis and Futuna",
+        "capital": "Mata Utu",
+        "languages": ["French"],
+        "population": "11,000",
+        "phoneCode": "+681",
+        "continent": "Oceania",
+        "flag": "flags/wf.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AL",
+        "name": "Albania",
+        "capital": "Tirana",
+        "languages": ["Albanian"],
+        "population": "2,750,000",
+        "phoneCode": "+355",
+        "continent": "Europe",
+        "flag": "flags/al.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AD",
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "languages": ["Catalan"],
+        "population": "89,000",
+        "phoneCode": "+376",
+        "continent": "Europe",
+        "flag": "flags/ad.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AM",
+        "name": "Armenia",
+        "capital": "Yerevan",
+        "languages": ["Armenian"],
+        "population": "2,930,000",
+        "phoneCode": "+374",
+        "continent": "Europe",
+        "flag": "flags/am.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AT",
+        "name": "Austria",
+        "capital": "Vienna",
+        "languages": ["German"],
+        "population": "9,110,000",
+        "phoneCode": "+43",
+        "continent": "Europe",
+        "flag": "flags/at.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "AZ",
+        "name": "Azerbaijan",
+        "capital": "Baku",
+        "languages": ["Azerbaijani"],
+        "population": "10,410,000",
+        "phoneCode": "+994",
+        "continent": "Europe",
+        "flag": "flags/az.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BY",
+        "name": "Belarus",
+        "capital": "Minsk",
+        "languages": ["Belarusian, Russian"],
+        "population": "8,930,000",
+        "phoneCode": "+375",
+        "continent": "Europe",
+        "flag": "flags/by.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BE",
+        "name": "Belgium",
+        "capital": "Brussels",
+        "languages": ["Dutch, French, German"],
+        "population": "11,800,000",
+        "phoneCode": "+32",
+        "continent": "Europe",
+        "flag": "flags/be.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BA",
+        "name": "Bosnia and Herzegovina",
+        "capital": "Sarajevo",
+        "languages": ["Bosnian, Croatian, Serbian"],
+        "population": "3,110,000",
+        "phoneCode": "+387",
+        "continent": "Europe",
+        "flag": "flags/ba.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "BG",
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "languages": ["Bulgarian"],
+        "population": "6,749,000",
+        "phoneCode": "+359",
+        "continent": "Europe",
+        "flag": "flags/bg.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "HR",
+        "name": "Croatia",
+        "capital": "Zagreb",
+        "languages": ["Croatian"],
+        "population": "3,820,000",
+        "phoneCode": "+385",
+        "continent": "Europe",
+        "flag": "flags/hr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CY",
+        "name": "Cyprus",
+        "capital": "Nicosia",
+        "languages": ["Greek, Turkish"],
+        "population": "1,380,000",
+        "phoneCode": "+357",
+        "continent": "Europe",
+        "flag": "flags/cy.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CZ",
+        "name": "Czechia",
+        "capital": "Prague",
+        "languages": ["Czech"],
+        "population": "10,670,000",
+        "phoneCode": "+420",
+        "continent": "Europe",
+        "flag": "flags/cz.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "DK",
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "languages": ["Danish"],
+        "population": "6,030,000",
+        "phoneCode": "+45",
+        "continent": "Europe",
+        "flag": "flags/dk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "EE",
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "languages": ["Estonian"],
+        "population": "1,360,000",
+        "phoneCode": "+372",
+        "continent": "Europe",
+        "flag": "flags/ee.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "FI",
+        "name": "Finland",
+        "capital": "Helsinki",
+        "languages": ["Finnish, Swedish"],
+        "population": "5,660,000",
+        "phoneCode": "+358",
+        "continent": "Europe",
+        "flag": "flags/fi.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "FR",
+        "name": "France",
+        "capital": "Paris",
+        "languages": ["French"],
+        "population": "69,100,000",
+        "phoneCode": "+33",
+        "continent": "Europe",
+        "flag": "flags/fr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GE",
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "languages": ["Georgian"],
+        "population": "3,900,000",
+        "phoneCode": "+995",
+        "continent": "Europe",
+        "flag": "flags/ge.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "DE",
+        "name": "Germany",
+        "capital": "Berlin",
+        "languages": ["German"],
+        "population": "83,500,000",
+        "phoneCode": "+49",
+        "continent": "Europe",
+        "flag": "flags/de.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "GR",
+        "name": "Greece",
+        "capital": "Athens",
+        "languages": ["Greek"],
+        "population": "10,400,000",
+        "phoneCode": "+30",
+        "continent": "Europe",
+        "flag": "flags/gr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "HU",
+        "name": "Hungary",
+        "capital": "Budapest",
+        "languages": ["Hungarian"],
+        "population": "9,580,000",
+        "phoneCode": "+36",
+        "continent": "Europe",
+        "flag": "flags/al.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "IS",
+        "name": "Iceland",
+        "capital": "Reykjavik",
+        "languages": ["Icelandic"],
+        "population": "403,000",
+        "phoneCode": "+354",
+        "continent": "Europe",
+        "flag": "flags/is.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "IE",
+        "name": "Ireland",
+        "capital": "Dublin",
+        "languages": ["Irish, English"],
+        "population": "5,400,000",
+        "phoneCode": "+353",
+        "continent": "Europe",
+        "flag": "flags/ie.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "IT",
+        "name": "Italy",
+        "capital": "Rome",
+        "languages": ["Italian"],
+        "population": "58,980,000",
+        "phoneCode": "+39",
+        "continent": "Europe",
+        "flag": "flags/it.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "KZ",
+        "name": "Kazakhstan",
+        "capital": "Nur-Sultan",
+        "languages": ["Kazakh, Russian"],
+        "population": "21,000,000",
+        "phoneCode": "+7",
+        "continent": "Europe",
+        "flag": "flags/kz.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "XK",
+        "name": "Kosovo",
+        "capital": "Pristina",
+        "languages": ["Albanian, Serbian"],
+        "population": "1,585,000",
+        "phoneCode": "+383",
+        "continent": "Europe",
+        "flag": "flags/xk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "LV",
+        "name": "Latvia",
+        "capital": "Riga",
+        "languages": ["Latvian"],
+        "population": "1,840,000",
+        "phoneCode": "+371",
+        "continent": "Europe",
+        "flag": "flags/lv.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "LI",
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "languages": ["German"],
+        "population": "40,000",
+        "phoneCode": "+423",
+        "continent": "Europe",
+        "flag": "flags/li.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "LT",
+        "name": "Lithuania",
+        "capital": "Vilnius",
+        "languages": ["Lithuanian"],
+        "population": "2,800,000",
+        "phoneCode": "+370",
+        "continent": "Europe",
+        "flag": "flags/lt.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "LU",
+        "name": "Luxembourg",
+        "capital": "Luxembourg",
+        "languages": ["Luxembourgish"],
+        "population": "680,000",
+        "phoneCode": "+352",
+        "continent": "Europe",
+        "flag": "flags/lu.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MT",
+        "name": "Malta",
+        "capital": "Valletta",
+        "languages": ["Maltese, English"],
+        "population": "575,000",
+        "phoneCode": "+356",
+        "continent": "Europe",
+        "flag": "flags/mt.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MD",
+        "name": "Moldova",
+        "capital": "Chișinău",
+        "languages": ["Romanian"],
+        "population": "2,900,000",
+        "phoneCode": "+373",
+        "continent": "Europe",
+        "flag": "flags/md.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MC",
+        "name": "Monaco",
+        "capital": "Monaco",
+        "languages": ["French"],
+        "population": "38,000",
+        "phoneCode": "+377",
+        "continent": "Europe",
+        "flag": "flags/mc.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "ME",
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "languages": ["Montenegrin"],
+        "population": "628,000",
+        "phoneCode": "+382",
+        "continent": "Europe",
+        "flag": "flags/me.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NL",
+        "name": "Netherlands",
+        "capital": "Amsterdam",
+        "languages": ["Dutch"],
+        "population": "18,480,000",
+        "phoneCode": "+31",
+        "continent": "Europe",
+        "flag": "flags/nl.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "MK",
+        "name": "North Macedonia",
+        "capital": "Skopje",
+        "languages": ["Macedonian, Albanian"],
+        "population": "1,800,000",
+        "phoneCode": "+389",
+        "continent": "Europe",
+        "flag": "flags/mk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "NO",
+        "name": "Norway",
+        "capital": "Oslo",
+        "languages": ["Norwegian, Sámi"],
+        "population": "5,670,000",
+        "phoneCode": "+47",
+        "continent": "Europe",
+        "flag": "flags/no.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PL",
+        "name": "Poland",
+        "capital": "Warsaw",
+        "languages": ["Polish"],
+        "population": "37,800,000",
+        "phoneCode": "+48",
+        "continent": "Europe",
+        "flag": "flags/pl.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "PT",
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "languages": ["Portuguese"],
+        "population": "11,400,000",
+        "phoneCode": "+351",
+        "continent": "Europe",
+        "flag": "flags/pt.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "RO",
+        "name": "Romania",
+        "capital": "Bucharest",
+        "languages": ["Romanian"],
+        "population": "18,800,000",
+        "phoneCode": "+40",
+        "continent": "Europe",
+        "flag": "flags/ro.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "RU",
+        "name": "Russia",
+        "capital": "Moscow",
+        "languages": ["Russian"],
+        "population": "143,000,000",
+        "phoneCode": "+7",
+        "continent": "Europe",
+        "flag": "flags/ru.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SM",
+        "name": "San Marino",
+        "capital": "San Marino",
+        "languages": ["Italian"],
+        "population": "33,600",
+        "phoneCode": "+378",
+        "continent": "Europe",
+        "flag": "flags/sm.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "RS",
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "languages": ["Serbian"],
+        "population": "6,640,000",
+        "phoneCode": "+381",
+        "continent": "Europe",
+        "flag": "flags/rs.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SK",
+        "name": "Slovakia",
+        "capital": "Bratislava",
+        "languages": ["Slovak"],
+        "population": "5,440,000",
+        "phoneCode": "+421",
+        "continent": "Europe",
+        "flag": "flags/sk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SI",
+        "name": "Slovenia",
+        "capital": "Ljubljana",
+        "languages": ["Slovene"],
+        "population": "2,110,000",
+        "phoneCode": "+386",
+        "continent": "Europe",
+        "flag": "flags/si.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "ES",
+        "name": "Spain",
+        "capital": "Madrid",
+        "languages": ["Spanish"],
+        "population": "49,800,000",
+        "phoneCode": "+34",
+        "continent": "Europe",
+        "flag": "flags/es.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "SE",
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "languages": ["Swedish"],
+        "population": "10,700,000",
+        "phoneCode": "+46",
+        "continent": "Europe",
+        "flag": "flags/se.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "CH",
+        "name": "Switzerland",
+        "capital": "Bern",
+        "languages": ["German, French, Italian, Romansh"],
+        "population": "9,100,000",
+        "phoneCode": "+41",
+        "continent": "Europe",
+        "flag": "flags/ch.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "TR",
+        "name": "Turkey",
+        "capital": "Ankara",
+        "languages": ["Turkish"],
+        "population": "87,900,000",
+        "phoneCode": "+90",
+        "continent": "Europe",
+        "flag": "flags/tr.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "UA",
+        "name": "Ukraine",
+        "capital": "Kyiv",
+        "languages": ["Ukrainian"],
+        "population": "39,500,000",
+        "phoneCode": "+380",
+        "continent": "Europe",
+        "flag": "flags/ua.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "UK",
+        "name": "United Kingdom",
+        "capital": "London",
+        "languages": ["English"],
+        "population": "70,000,000",
+        "phoneCode": "+44",
+        "continent": "Europe",
+        "flag": "flags/uk.png",
+        "fact": ""
+    },
+
+    {
+        "iso2": "VA",
+        "name": "Vatican City",
+        "capital": "Vatican City",
+        "languages": ["Italian"],
+        "population": "800",
+        "phoneCode": "+39 06 698",
+        "continent": "Europe",
+        "flag": "flags/va.png",
+        "fact": ""
     }
+
+
+    
 
 ]
